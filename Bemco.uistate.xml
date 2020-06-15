@@ -10,11 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">mat_mode</layout>
-        <layout active="1" order="1">bhs_mode</layout>
+        <layout active="1" order="0">layout_intro</layout>
+        <layout order="1">mat_mode</layout>
         <layout order="2">ipa_mode</layout>
-        <layout order="3">layout_intro</layout>
-        <event-sheet order="4">event_intro</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -27,8 +25,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/system/" />
         <folder expanded="0" path="object-folder/buttons/" />
-        <folder expanded="1" path="object-folder/txt/" />
-        <folder expanded="1" path="object-folder/popup/" />
+        <folder expanded="0" path="object-folder/txt/" />
+        <folder expanded="0" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/matematika/" />
