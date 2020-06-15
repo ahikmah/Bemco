@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">layout_intro</layout>
+        <event-sheet active="1" order="1">event_intro</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/system/" />
+        <folder expanded="0" path="object-folder/buttons/" />
+        <folder expanded="0" path="object-folder/txt/" />
+        <folder expanded="1" path="object-folder/popup/" />
+        <folder expanded="0" path="object-folder/background/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/select mode/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/button_fullscreen/" />
+        <folder expanded="1" path="animation-folder/button_help/" />
+        <folder expanded="1" path="animation-folder/button_mute/" />
+        <folder expanded="1" path="animation-folder/button_play/" />
+        <folder expanded="1" path="animation-folder/button_quit/" />
+        <folder expanded="1" path="animation-folder/button_unmute/" />
+        <folder expanded="1" path="animation-folder/ok/" />
+        <folder expanded="1" path="animation-folder/ok2/" />
+        <folder expanded="1" path="animation-folder/ok3/" />
+        <folder expanded="1" path="animation-folder/button_info/" />
+        <folder expanded="1" path="animation-folder/txt_bantuan/" />
+        <folder expanded="1" path="animation-folder/txt_ind/" />
+        <folder expanded="1" path="animation-folder/txt_ipa/" />
+        <folder expanded="1" path="animation-folder/txt_mapel/" />
+        <folder expanded="1" path="animation-folder/txt_math/" />
+        <folder expanded="1" path="animation-folder/helpInfo/" />
+        <folder expanded="1" path="animation-folder/txt_about/" />
+        <folder expanded="1" path="animation-folder/tentang/" />
+        <folder expanded="1" path="animation-folder/JUDUL/" />
+        <folder expanded="1" path="animation-folder/select_mode/" />
+        <folder expanded="1" path="animation-folder/txt_sulit/" />
+        <folder expanded="1" path="animation-folder/txt_sedang/" />
+        <folder expanded="1" path="animation-folder/txt_mudah/" />
+        <folder expanded="1" path="animation-folder/story/" />
+        <folder expanded="1" path="animation-folder/popupBoard/" />
+        <folder expanded="1" path="animation-folder/popupBoard2/" />
+        <folder expanded="1" path="animation-folder/sub/" />
+        <folder expanded="1" path="animation-folder/popupBoard3/" />
+        <folder expanded="1" path="animation-folder/storyBoard/" />
+        <folder expanded="1" path="animation-folder/intro/" />
+        <folder expanded="1" path="animation-folder/bemco/" />
+    </folders-expanded>
+</c2uistate>
