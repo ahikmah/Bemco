@@ -2,7 +2,7 @@
 <c2layout>
     <name>bhs_mode</name>
     <sid>593391548836306</sid>
-    <event-sheet>event_bhsmode</event-sheet>
+    <event-sheet>event_bhs_mode</event-sheet>
     <size>
         <width>1920</width>
         <height>1080</height>

@@ -647,6 +647,48 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="lab_" sid="199608569223942">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402078333117859" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\lab_1.png">
+                            <collision-poly>
+                                <point x="0.20406" y="0.268677" />
+                                <point x="0.49974" y="0.291981" />
+                                <point x="0.807913" y="0.252913" />
+                                <point x="0.912025" y="0.499657" />
+                                <point x="0.890161" y="0.85538" />
+                                <point x="0.109839" y="0.85538" />
+                                <point x="0.0952629" y="0.499657" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite" sid="556336401298102">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363275694269583" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.794\1008.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite2" sid="220255406862561">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="809527738914512" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.707\1354.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite4" sid="234963306357018">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642045500645359" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.223\1926.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="bemco" sid="734447434288285">
             <plugin id="Sprite" />
@@ -690,76 +732,47 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="556336401298102">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363275694269583" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.794\1008.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite2" sid="220255406862561">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="809527738914512" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.707\1354.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite4" sid="234963306357018">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642045500645359" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.223\1926.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="lab_" sid="199608569223942">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402078333117859" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\lab_1.png">
-                        <collision-poly>
-                            <point x="0.20406" y="0.268677" />
-                            <point x="0.49974" y="0.291981" />
-                            <point x="0.807913" y="0.252913" />
-                            <point x="0.912025" y="0.499657" />
-                            <point x="0.890161" y="0.85538" />
-                            <point x="0.109839" y="0.85538" />
-                            <point x="0.0952629" y="0.499657" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout-folder name="matematika">
             <layout>mat_mode.xml</layout>
-            <layout>layout_matematika.xml</layout>
+            <layout>mat_mudah.xml</layout>
+            <layout>mat_sedang.xml</layout>
+            <layout>mat_sulit.xml</layout>
         </layout-folder>
         <layout-folder name="ipa">
             <layout>ipa_mode.xml</layout>
-            <layout>layout_ipa.xml</layout>
+            <layout>ipa_mudah.xml</layout>
+            <layout>ipa_sedang.xml</layout>
+            <layout>ipa_sulit.xml</layout>
         </layout-folder>
         <layout-folder name="bahasa">
-            <layout>layout_bahasa.xml</layout>
             <layout>bhs_mode.xml</layout>
+            <layout>bhs_mudah.xml</layout>
+            <layout>bhs_sedang.xml</layout>
+            <layout>bhs_sulit.xml</layout>
         </layout-folder>
         <layout>layout_intro.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="matematika">
-            <event-sheet>event_matmode.xml</event-sheet>
+            <event-sheet>event_mat_mode.xml</event-sheet>
+            <event-sheet>event_mat_mudah.xml</event-sheet>
+            <event-sheet>event_mat_sedang.xml</event-sheet>
+            <event-sheet>event_mat_sulit.xml</event-sheet>
         </event-folder>
         <event-folder name="ipa">
-            <event-sheet>event_ipa.xml</event-sheet>
-            <event-sheet>event_ipamode.xml</event-sheet>
+            <event-sheet>event_ipa_mode.xml</event-sheet>
+            <event-sheet>event_ipa_mudah.xml</event-sheet>
+            <event-sheet>event_ipa_sedang.xml</event-sheet>
+            <event-sheet>event_ipa_sulit.xml</event-sheet>
         </event-folder>
         <event-folder name="bahasa">
-            <event-sheet>event_bahasa.xml</event-sheet>
-            <event-sheet>event_bhsmode.xml</event-sheet>
+            <event-sheet>event_bhs_mode.xml</event-sheet>
+            <event-sheet>event_bhs_mudah.xml</event-sheet>
+            <event-sheet>event_bhs_sedang.xml</event-sheet>
+            <event-sheet>event_bhs_sulit.xml</event-sheet>
         </event-folder>
         <event-sheet>event_intro.xml</event-sheet>
     </event-folder>

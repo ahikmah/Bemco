@@ -2,7 +2,7 @@
 <c2layout>
     <name>mat_mode</name>
     <sid>152696935769806</sid>
-    <event-sheet>event_matmode</event-sheet>
+    <event-sheet>event_mat_mode</event-sheet>
     <size>
         <width>1920</width>
         <height>1080</height>

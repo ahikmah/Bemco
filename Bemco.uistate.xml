@@ -10,9 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">layout_intro</layout>
+        <layout order="0">layout_intro</layout>
         <layout order="1">mat_mode</layout>
         <layout order="2">ipa_mode</layout>
+        <event-sheet order="3">event_mat_mudah</event-sheet>
+        <event-sheet order="4">event_mat_sedang</event-sheet>
+        <event-sheet order="5">event_mat_sulit</event-sheet>
+        <event-sheet order="6">event_ipa_mudah</event-sheet>
+        <event-sheet order="7">event_ipa_sedang</event-sheet>
+        <event-sheet order="8">event_ipa_sulit</event-sheet>
+        <event-sheet order="9">event_bhs_mudah</event-sheet>
+        <event-sheet order="10">event_bhs_sedang</event-sheet>
+        <event-sheet active="1" order="11">event_bhs_sulit</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,11 +38,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/matematika/" />
-        <folder expanded="1" path="layout-folder/ipa/" />
-        <folder expanded="1" path="layout-folder/bahasa/" />
-        <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/matematika/" />
+        <folder expanded="0" path="layout-folder/matematika/" />
+        <folder expanded="0" path="layout-folder/ipa/" />
+        <folder expanded="0" path="layout-folder/bahasa/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="event-folder/matematika/" />
         <folder expanded="1" path="event-folder/ipa/" />
         <folder expanded="1" path="event-folder/bahasa/" />
         <folder expanded="1" path="file-folder/" />
@@ -70,10 +79,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/popupBoard3/" />
         <folder expanded="1" path="animation-folder/storyBoard/" />
         <folder expanded="1" path="animation-folder/intro/" />
-        <folder expanded="1" path="animation-folder/bemco/" />
+        <folder expanded="1" path="animation-folder/lab_/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
-        <folder expanded="1" path="animation-folder/lab_/" />
+        <folder expanded="1" path="animation-folder/bemco/" />
     </folders-expanded>
 </c2uistate>
