@@ -568,7 +568,7 @@
                     </conditions>
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="422500557160150" type="System">
-                            <param id="0" name="Layout">&quot;layout_ipa&quot;</param>
+                            <param id="0" name="Layout">&quot;ipa_mode&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -582,7 +582,7 @@
                     </conditions>
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="579516635169155" type="System">
-                            <param id="0" name="Layout">&quot;layout_bahasa&quot;</param>
+                            <param id="0" name="Layout">&quot;bhs_mode&quot;</param>
                         </action>
                     </actions>
                 </event-block>

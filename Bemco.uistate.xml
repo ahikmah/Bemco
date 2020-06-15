@@ -11,9 +11,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">mat_mode</layout>
-        <event-sheet order="1">event_matmode</event-sheet>
-        <event-sheet order="2">event_ipamode</event-sheet>
-        <event-sheet active="1" order="3">event_bhsmode</event-sheet>
+        <layout active="1" order="1">bhs_mode</layout>
+        <layout order="2">ipa_mode</layout>
+        <layout order="3">layout_intro</layout>
+        <event-sheet order="4">event_intro</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -73,5 +74,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/intro/" />
         <folder expanded="1" path="animation-folder/bemco/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/lab_/" />
     </folders-expanded>
 </c2uistate>

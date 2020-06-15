@@ -3,43 +3,103 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_ipamode</name>
     <events>
-        <event-block sid="216394032376411">
+        <event-block sid="739986592446499">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="739051734506028" type="System" />
+                <condition id="-2" name="On start of layout" sid="456830990852794" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="969404328638599" type="bemco">
+                <action id="4" name="Set animation" sid="371710709371157" type="bemco">
                     <param id="0" name="Animation">&quot;walk&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="404552746368636" type="bemco">
+                <action behavior="LiteTween" id="3" name="Set target" sid="297650839454806" type="bemco">
                     <param id="0" name="Target is">0</param>
                     <param id="1" name="Relativity">0</param>
-                    <param id="2" name="Value">700</param>
+                    <param id="2" name="Value">600</param>
                 </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="740409695804245" type="bemco">
+                <action behavior="LiteTween" id="3" name="Set target" sid="666042000370879" type="bemco">
                     <param id="0" name="Target is">1</param>
                     <param id="1" name="Relativity">0</param>
                     <param id="2" name="Value">Self.Y</param>
                 </action>
-                <action id="-4" name="Set layer visible" sid="675692584231309" type="System">
-                    <param id="0" name="Layer">4</param>
+                <action behavior="Pin" id="0" name="Pin to object" sid="345941982588077" type="select_mode">
+                    <param id="0" name="Pin to">popupBoard3</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="868115507327294" type="sub">
+                    <param id="0" name="Pin to">popupBoard3</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="694048712282756" type="txt_mudah">
+                    <param id="0" name="Pin to">popupBoard3</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="211034103044055" type="txt_sedang">
+                    <param id="0" name="Pin to">popupBoard3</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="207076976307978" type="txt_sulit">
+                    <param id="0" name="Pin to">popupBoard3</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="861947302413907" type="popupBoard3">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">-500</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="392838483589602" type="System">
+                    <param id="0" name="Layer">1</param>
                     <param id="1" name="Visibility">0</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="485824326652580">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="580846246256350" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="798132659299111" type="Audio">
+                            <param id="0" name="Audio file">intro_music</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
-        <event-block sid="778991746447625">
+        <event-block sid="534832363388968">
             <conditions>
-                <condition id="-7" name="Compare time" sid="366737118130204" type="System">
+                <condition id="-1" name="Compare X" sid="426763904594612" type="bemco">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Time (seconds)">3</param>
+                    <param id="1" name="X co-ordinate">600</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="2" name="Stop" sid="480414827154239" type="bemco" />
-                <action id="4" name="Set animation" sid="640785919436857" type="bemco">
+                <action id="2" name="Stop" sid="394495055306098" type="bemco" />
+                <action id="4" name="Set animation" sid="902745098929755" type="bemco">
                     <param id="0" name="Animation">&quot;idle&quot;</param>
                     <param id="1" name="From">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="265341435724536" type="popupBoard3">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="514645276049992" type="popupBoard3">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">1300</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="216725539935240" type="popupBoard3">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.Y</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="599767799456322" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
