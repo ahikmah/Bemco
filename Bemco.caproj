@@ -646,7 +646,7 @@
             <object-type name="popupBoard3" sid="961901161175767">
                 <plugin id="Sprite" />
                 <behaviors>
-                    <behavior-type name="LiteTween" sid="655949993083544">
+                    <behavior-type name="LiteTween" sid="870119728792544">
                         <behavior id="lunarray_LiteTween" />
                     </behavior-type>
                 </behaviors>
@@ -739,17 +739,44 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite" sid="556336401298102">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363275694269583" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.794\1008.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout-folder name="select mode">
+        <layout-folder name="matematika">
+            <layout>mat_mode.xml</layout>
             <layout>layout_matematika.xml</layout>
+        </layout-folder>
+        <layout-folder name="ipa">
+            <layout>ipa_mode.xml</layout>
+            <layout>layout_ipa.xml</layout>
+        </layout-folder>
+        <layout-folder name="bahasa">
+            <layout>layout_bahasa.xml</layout>
+            <layout>bhs_mode.xml</layout>
         </layout-folder>
         <layout>layout_intro.xml</layout>
     </layout-folder>
     <event-folder>
+        <event-folder name="matematika">
+            <event-sheet>event_matmode.xml</event-sheet>
+        </event-folder>
+        <event-folder name="ipa">
+            <event-sheet>event_ipa.xml</event-sheet>
+            <event-sheet>event_ipamode.xml</event-sheet>
+        </event-folder>
+        <event-folder name="bahasa">
+            <event-sheet>event_bahasa.xml</event-sheet>
+            <event-sheet>event_bhsmode.xml</event-sheet>
+        </event-folder>
         <event-sheet>event_intro.xml</event-sheet>
-        <event-sheet>event_matematika.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="5">
