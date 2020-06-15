@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
     <name>layout_matematika</name>
-    <sid>905965995275102</sid>
-    <event-sheet>event_intro</event-sheet>
+    <sid>718402708389053</sid>
+    <event-sheet>event_matematika</event-sheet>
     <size>
         <width>1920</width>
         <height>1080</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Background" sid="479935620755439">
+        <layer name="Layer 0" sid="172623582280064">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -28,55 +28,7 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="intro" uid="25">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                        <width>1920</width>
-                        <height>1080</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="txt_math" uid="26">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1463.930786133</x>
-                        <y>507</y>
-                        <z>0</z>
-                        <width>674</width>
-                        <height>135</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501084626</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
             <effects />
         </layer>
     </layers>

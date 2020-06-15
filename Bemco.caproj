@@ -744,17 +744,12 @@
     <layout-folder>
         <layout-folder name="select mode">
             <layout>layout_matematika.xml</layout>
-            <layout>layout_ipa.xml</layout>
-            <layout>layout_bahasa.xml</layout>
         </layout-folder>
         <layout>layout_intro.xml</layout>
-        <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event_intro.xml</event-sheet>
         <event-sheet>event_matematika.xml</event-sheet>
-        <event-sheet>event_ipa.xml</event-sheet>
-        <event-sheet>event_bahasa.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="5">
