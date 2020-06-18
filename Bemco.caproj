@@ -15,6 +15,8 @@
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
@@ -29,8 +31,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>1000</width>
-        <height>640</height>
+        <width>1920</width>
+        <height>1080</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -1448,6 +1450,106 @@
                             <point x="0.959391" y="0.956522" />
                             <point x="0.147208" y="0.842391" />
                             <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Life" sid="754273884246506">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="806084100865324" speed="5">
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.506667" original-source="C:\Users\Aam\Pictures\TG\TG\Life.png">
+                        <collision-poly>
+                            <point x="0.0873786" y="0.12" />
+                            <point x="0.495146" y="0.133333" />
+                            <point x="0.873786" y="0.173333" />
+                            <point x="1" y="0.493333" />
+                            <point x="0.737864" y="0.64" />
+                            <point x="0.495146" y="0.96" />
+                            <point x="0.106796" y="0.493333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Coin2" sid="190982764819666">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="265655902982700" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\Coin.png">
+                        <collision-poly>
+                            <point x="0.152778" y="0.152778" />
+                            <point x="0.5" y="0" />
+                            <point x="0.861111" y="0.138889" />
+                            <point x="1" y="0.5" />
+                            <point x="0.847222" y="0.847222" />
+                            <point x="0.5" y="0.986111" />
+                            <point x="0.152778" y="0.847222" />
+                            <point x="0.0138889" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="919435225938235">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="SpriteFont2" sid="859075292142700">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="Text" sid="858474879584303">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="image" sid="775166553961217">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="16" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="1" sid="107343698732830" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 1.png">
+                        <collision-poly>
+                            <point x="0.0703125" y="0.0703125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.929688" y="0.0703125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.929688" y="0.929688" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0703125" y="0.929688" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 15.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 16.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="21x" sid="108838973816915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593795061984480" speed="5">
+                    <frame duration="1" hotspotX="0.501945" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\box animation\brown\2-1x.png">
+                        <collision-poly>
+                            <point x="0.420233" y="0.421875" />
+                            <point x="0.579767" y="0.421875" />
+                            <point x="0.821012" y="0.5" />
+                            <point x="0.832685" y="0.832031" />
+                            <point x="0.498054" y="1" />
+                            <point x="0.167315" y="0.832031" />
+                            <point x="0.178988" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>

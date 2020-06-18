@@ -11,16 +11,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">layout_intro</layout>
-        <layout order="2">mat_mode</layout>
-        <layout active="1" order="3">mat_mudah</layout>
-        <layout order="4">mat_sedang</layout>
-        <layout order="5">mat_sulit</layout>
+        <layout active="1" order="2">mat_mudah</layout>
+        <layout order="3">mat_sedang</layout>
+        <layout order="4">mat_sulit</layout>
+        <layout order="5">mat_mode</layout>
         <event-sheet order="1">event_intro</event-sheet>
+        <event-sheet order="6">event_mat_mode</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
-        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1" />
@@ -28,8 +29,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="object-folder/system/" />
         <folder expanded="0" path="object-folder/buttons/" />
-        <folder expanded="0" path="object-folder/txt/" />
-        <folder expanded="0" path="object-folder/popup/" />
+        <folder expanded="1" path="object-folder/txt/" />
+        <folder expanded="1" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/matematika/" />
@@ -125,5 +126,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Food_9/" />
         <folder expanded="1" path="animation-folder/Food_10/" />
         <folder expanded="1" path="animation-folder/postman/" />
+        <folder expanded="1" path="animation-folder/Life/" />
+        <folder expanded="1" path="animation-folder/Coin2/" />
+        <folder expanded="1" path="animation-folder/image/" />
+        <folder expanded="1" path="animation-folder/21x/" />
     </folders-expanded>
 </c2uistate>
