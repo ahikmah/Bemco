@@ -15,8 +15,6 @@
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
@@ -112,6 +110,11 @@
             </object-type>
             <object-type name="button_mute" sid="578517337245293">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Pin" sid="724852090310723">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718553264725777" speed="5">
                         <frame duration="1" hotspotX="0.503067" hotspotY="0.503311" />
@@ -631,6 +634,25 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="918666096933620" speed="5">
+                        <frame duration="1" hotspotX="0.500521" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\story board.png">
+                            <collision-poly>
+                                <point x="0.124088" y="0.356287" />
+                                <point x="0.499479" y="0.0898204" />
+                                <point x="0.89781" y="0.293413" />
+                                <point x="0.996872" y="0.5" />
+                                <point x="0.954119" y="0.868263" />
+                                <point x="0.499479" y="0.997006" />
+                                <point x="0.10219" y="0.706587" />
+                                <point x="0.0104275" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="storyBoard2" sid="663117156737456">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="866485654487617" speed="5">
                         <frame duration="1" hotspotX="0.500521" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\story board.png">
                             <collision-poly>
                                 <point x="0.124088" y="0.356287" />
@@ -1492,17 +1514,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="SpriteFont" sid="919435225938235">
-            <plugin id="Spritefont2" />
-            <texture />
-        </object-type>
-        <object-type name="SpriteFont2" sid="859075292142700">
-            <plugin id="Spritefont2" />
-            <texture />
-        </object-type>
-        <object-type name="Text" sid="858474879584303">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="image" sid="775166553961217">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1555,6 +1566,467 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="level" sid="145625570296968">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760131408834051" speed="5">
+                    <frame duration="1" hotspotX="0.501706" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\level.png">
+                        <collision-poly>
+                            <point x="0.0375427" y="0.1375" />
+                            <point x="0.498294" y="0.4375" />
+                            <point x="0.887372" y="0.4125" />
+                            <point x="0.890785" y="0.5" />
+                            <point x="0.945392" y="0.8" />
+                            <point x="0.498294" y="0.825" />
+                            <point x="0.0511945" y="0.8125" />
+                            <point x="0.00341297" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="springlandscapewithmountainshouses_" sid="120602692224282">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195495749748758" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501199" original-source="C:\Users\Aam\Pictures\spring-landscape-with-mountains-houses_23-2148428569.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_back" sid="554482730110423">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317975044505320" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button_back.png">
+                        <collision-poly>
+                            <point x="0.155963" y="0.168317" />
+                            <point x="0.495413" y="0" />
+                            <point x="0.844037" y="0.168317" />
+                            <point x="0.963303" y="0.49505" />
+                            <point x="0.844037" y="0.831683" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.155963" y="0.831683" />
+                            <point x="0.0366972" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="377060671104411">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664118750093094" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\AppData\Local\Temp\Rar$DRa0.276\1427.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LEVEL1" sid="805130058851625">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="686368611652708">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="120050013914006" speed="5">
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\LEVEL 1.png">
+                        <collision-poly>
+                            <point x="0.0611664" y="0.0610795" />
+                            <point x="0.499289" y="0.0142045" />
+                            <point x="0.940256" y="0.0596591" />
+                            <point x="0.987198" y="0.5" />
+                            <point x="0.940256" y="0.940341" />
+                            <point x="0.499289" y="0.987216" />
+                            <point x="0.059744" y="0.940341" />
+                            <point x="0.0142248" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LEVEL2" sid="975837134134621">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="116854635128288" speed="5">
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Aam\Pictures\level 2.png">
+                        <collision-poly>
+                            <point x="0.0611664" y="0.0611664" />
+                            <point x="0.499289" y="0.0142248" />
+                            <point x="0.940256" y="0.059744" />
+                            <point x="0.987198" y="0.499289" />
+                            <point x="0.940256" y="0.940256" />
+                            <point x="0.499289" y="0.987198" />
+                            <point x="0.059744" y="0.940256" />
+                            <point x="0.0142248" y="0.499289" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LEVEL3" sid="217286475827161">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610670491613878" speed="5">
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Aam\Pictures\level 3.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pilihLevel" sid="613558901102409">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="330961825947529" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\pilih level.png">
+                        <collision-poly>
+                            <point x="0.0318302" y="0.184615" />
+                            <point x="0.5" y="0.184615" />
+                            <point x="0.932361" y="0.392308" />
+                            <point x="0.932361" y="0.5" />
+                            <point x="0.961538" y="0.776923" />
+                            <point x="0.0384615" y="0.776923" />
+                            <point x="0.0265252" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_menu" sid="942802892481058">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446033679647467" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button_menu.png">
+                        <collision-poly>
+                            <point x="0.155963" y="0.168317" />
+                            <point x="0.495413" y="0" />
+                            <point x="0.844037" y="0.168317" />
+                            <point x="0.963303" y="0.49505" />
+                            <point x="0.844037" y="0.831683" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.155963" y="0.831683" />
+                            <point x="0.0366972" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_pause" sid="948534135551277">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246901814391676" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button_pause.png">
+                        <collision-poly>
+                            <point x="0.157407" y="0.168317" />
+                            <point x="0.5" y="0" />
+                            <point x="0.842593" y="0.168317" />
+                            <point x="0.962963" y="0.49505" />
+                            <point x="0.842593" y="0.831683" />
+                            <point x="0.5" y="0.990099" />
+                            <point x="0.157407" y="0.831683" />
+                            <point x="0.037037" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bemco_run" sid="560495983693527">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="499141330702852" speed="5">
+                    <frame duration="1" hotspotX="0.65367" hotspotY="0.499099" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\run\bemco_run2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="coinBoard" sid="492592784087802">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="728403553039249" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504132" original-source="C:\Users\Aam\Pictures\coin board.png">
+                        <collision-poly>
+                            <point x="0.0428571" y="0.0991736" />
+                            <point x="0.5" y="0.0413223" />
+                            <point x="0.957143" y="0.0991736" />
+                            <point x="0.971429" y="0.495868" />
+                            <point x="0.946429" y="0.876033" />
+                            <point x="0.5" y="0.900826" />
+                            <point x="0.0535714" y="0.876033" />
+                            <point x="0.0321429" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Meds" sid="865451674827708">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437177323487708" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\items\Meds.png">
+                        <collision-poly>
+                            <point x="0.211538" y="0.152778" />
+                            <point x="0.5" y="0" />
+                            <point x="0.788462" y="0.152778" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="vegetable" sid="655979827831294">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="342494021051177" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\vegetable.png">
+                        <collision-poly>
+                            <point x="0.390625" y="0.390625" />
+                            <point x="0.5" y="0.199219" />
+                            <point x="0.654297" y="0.345703" />
+                            <point x="0.943359" y="0.5" />
+                            <point x="0.953125" y="0.953125" />
+                            <point x="0.046875" y="0.953125" />
+                            <point x="0.130859" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="image2" sid="596806907912507">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697080050126308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\coin animation\image 1.png">
+                        <collision-poly>
+                            <point x="0.0703125" y="0.0703125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.929688" y="0.0703125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.929688" y="0.929688" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0703125" y="0.929688" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="JEDA" sid="532073280155466">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="486257908649497" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\JEDA.png">
+                        <collision-poly>
+                            <point x="0.171569" y="0.426829" />
+                            <point x="0.5" y="0.121951" />
+                            <point x="0.906863" y="0.231707" />
+                            <point x="0.931373" y="0.5" />
+                            <point x="0.803922" y="0.512195" />
+                            <point x="0.5" y="0.597561" />
+                            <point x="0.156863" y="0.609756" />
+                            <point x="0.0588235" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jedaBoard" sid="273291398775440">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530994046292012" speed="5">
+                    <frame duration="1" hotspotX="0.500759" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\jeda board.png">
+                        <collision-poly>
+                            <point x="0.07739" y="0.056044" />
+                            <point x="0.499241" y="0" />
+                            <point x="0.92261" y="0.056044" />
+                            <point x="1" y="0.5" />
+                            <point x="0.996965" y="0.997802" />
+                            <point x="0.0030349" y="0.997802" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LANJUTKAN" sid="784332641186546">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327178545022235" speed="5">
+                    <frame duration="1" hotspotX="0.505824" hotspotY="0.521739" original-source="C:\Users\Aam\Pictures\LANJUTKAN.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ULANGI" sid="553108624106023">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940229562256459" speed="5">
+                    <frame duration="1" hotspotX="0.506631" hotspotY="0.525424" original-source="C:\Users\Aam\Pictures\ULANGI.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="keluar" sid="479684556317398">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="147538457024413" speed="5">
+                    <frame duration="1" hotspotX="0.507389" hotspotY="0.52459" original-source="C:\Users\Aam\Pictures\keluar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EDUBOARD" sid="959243801538954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="239632473435820" speed="5">
+                    <frame duration="1" hotspotX="0.500759" hotspotY="0.500559" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\EDU BOARD.png">
+                        <collision-poly>
+                            <point x="0.0531108" y="0.0391061" />
+                            <point x="0.499241" y="0.00111732" />
+                            <point x="0.946889" y="0.0391061" />
+                            <point x="1" y="0.499441" />
+                            <point x="0.996965" y="0.997765" />
+                            <point x="0.0030349" y="0.997765" />
+                            <point x="0" y="0.499441" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buttonRestart" sid="802591879018112">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="807606613577477">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543457509544725" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button restart.png">
+                        <collision-poly>
+                            <point x="0.155963" y="0.168317" />
+                            <point x="0.495413" y="0" />
+                            <point x="0.844037" y="0.168317" />
+                            <point x="0.963303" y="0.49505" />
+                            <point x="0.844037" y="0.831683" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.155963" y="0.831683" />
+                            <point x="0.0366972" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_fullscreen2" sid="281783350719970">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="802535238491402">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863936898419353" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button_fullscreen.png">
+                        <collision-poly>
+                            <point x="0.157407" y="0.168317" />
+                            <point x="0.5" y="0" />
+                            <point x="0.842593" y="0.168317" />
+                            <point x="0.962963" y="0.49505" />
+                            <point x="0.842593" y="0.831683" />
+                            <point x="0.5" y="1" />
+                            <point x="0.157407" y="0.831683" />
+                            <point x="0.037037" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buttonBoard" sid="702403924704871">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="224498262735694">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="782794157471607" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504132" original-source="C:\Users\Aam\Pictures\coin board.png">
+                        <collision-poly>
+                            <point x="0.0428571" y="0.0991736" />
+                            <point x="0.5" y="0.0413223" />
+                            <point x="0.957143" y="0.0991736" />
+                            <point x="0.971429" y="0.495868" />
+                            <point x="0.946429" y="0.876033" />
+                            <point x="0.5" y="0.900826" />
+                            <point x="0.0535714" y="0.876033" />
+                            <point x="0.0321429" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buttonInfo" sid="951329443337819">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="160677470243136">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520102159385572" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button info.png">
+                        <collision-poly>
+                            <point x="0.155963" y="0.168317" />
+                            <point x="0.495413" y="0.00990099" />
+                            <point x="0.844037" y="0.168317" />
+                            <point x="0.954128" y="0.49505" />
+                            <point x="0.844037" y="0.831683" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.155963" y="0.831683" />
+                            <point x="0.0366972" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buttonHome" sid="390407435808612">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="461933946014565">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149797535198709" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button home.png">
+                        <collision-poly>
+                            <point x="0.155963" y="0.168317" />
+                            <point x="0.495413" y="0" />
+                            <point x="0.844037" y="0.168317" />
+                            <point x="0.954128" y="0.49505" />
+                            <point x="0.844037" y="0.831683" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.155963" y="0.831683" />
+                            <point x="0.0366972" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bemco_idle" sid="162496240615376">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="150195180867696" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\bemco_idle.png">
+                        <collision-poly>
+                            <point x="0.229642" y="0.25" />
+                            <point x="0.5" y="0.0301418" />
+                            <point x="0.662866" y="0.367021" />
+                            <point x="0.609121" y="0.5" />
+                            <point x="0.599349" y="0.56383" />
+                            <point x="0.5" y="0.992908" />
+                            <point x="0.252443" y="0.725177" />
+                            <point x="0.177524" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1577,6 +2049,7 @@
             <layout>bhs_sulit.xml</layout>
         </layout-folder>
         <layout>layout_intro.xml</layout>
+        <layout>home.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="matematika">
@@ -1598,6 +2071,7 @@
             <event-sheet>event_bhs_sulit.xml</event-sheet>
         </event-folder>
         <event-sheet>event_intro.xml</event-sheet>
+        <event-sheet>event_home.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="5">
