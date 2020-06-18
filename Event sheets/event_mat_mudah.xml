@@ -3,9 +3,14 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_mat_mudah</name>
     <events>
+        <variable constant="0" name="buttonclicked" sid="804122276109058" static="0" type="number">0</variable>
         <event-block sid="255492826945124">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="122644709915946" type="System" />
+                <condition id="-14" name="Compare variable" sid="107947420668577" type="System">
+                    <param id="0" name="Variable">buttonclicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-4" name="Set layer visible" sid="719915534262184" type="System">
@@ -13,6 +18,57 @@
                     <param id="1" name="Visibility">0</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="928677711897915">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="855275728904521" type="System">
+                    <param id="0" name="Variable">buttonclicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="385335972418484" type="System">
+                    <param id="0" name="Layer">&quot;hidden button&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="212878201068251">
+            <conditions>
+                <condition id="17" name="On tap object" sid="320321948781317" type="Touch">
+                    <param id="0" name="Object">button_menu</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="670623399068407">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="361789477317054" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="327818194518324" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="505277708802666">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="366456944478608" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="900417630442997" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
