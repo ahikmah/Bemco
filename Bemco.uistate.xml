@@ -11,17 +11,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">layout_intro</layout>
-        <layout order="1">mat_mode</layout>
-        <layout order="2">ipa_mode</layout>
-        <event-sheet order="3">event_mat_mudah</event-sheet>
-        <event-sheet order="4">event_mat_sedang</event-sheet>
-        <event-sheet order="5">event_mat_sulit</event-sheet>
-        <event-sheet order="6">event_ipa_mudah</event-sheet>
-        <event-sheet order="7">event_ipa_sedang</event-sheet>
-        <event-sheet order="8">event_ipa_sulit</event-sheet>
-        <event-sheet order="9">event_bhs_mudah</event-sheet>
-        <event-sheet order="10">event_bhs_sedang</event-sheet>
-        <event-sheet active="1" order="11">event_bhs_sulit</event-sheet>
+        <event-sheet active="1" order="1">event_intro</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -32,7 +22,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="object-folder/system/" />
+        <folder expanded="1" path="object-folder/system/" />
         <folder expanded="0" path="object-folder/buttons/" />
         <folder expanded="0" path="object-folder/txt/" />
         <folder expanded="0" path="object-folder/popup/" />
@@ -41,10 +31,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="layout-folder/matematika/" />
         <folder expanded="0" path="layout-folder/ipa/" />
         <folder expanded="0" path="layout-folder/bahasa/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/matematika/" />
-        <folder expanded="1" path="event-folder/ipa/" />
-        <folder expanded="1" path="event-folder/bahasa/" />
+        <folder expanded="0" path="event-folder/ipa/" />
+        <folder expanded="0" path="event-folder/bahasa/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />

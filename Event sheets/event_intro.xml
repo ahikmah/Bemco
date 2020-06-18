@@ -190,10 +190,8 @@
                     <sub-events>
                         <event-block sid="976099939909828">
                             <conditions>
-                                <condition id="6" name="On object clicked" sid="528566010941175" type="Mouse">
-                                    <param id="0" name="Mouse button">0</param>
-                                    <param id="1" name="Click type">0</param>
-                                    <param id="2" name="Object clicked">ok</param>
+                                <condition id="17" name="On tap object" sid="528566010941175" type="Touch">
+                                    <param id="0" name="Object">ok</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -318,10 +316,8 @@
                     <sub-events>
                         <event-block sid="820142886033423">
                             <conditions>
-                                <condition id="6" name="On object clicked" sid="662829963458843" type="Mouse">
-                                    <param id="0" name="Mouse button">0</param>
-                                    <param id="1" name="Click type">0</param>
-                                    <param id="2" name="Object clicked">ok2</param>
+                                <condition id="17" name="On tap object" sid="662829963458843" type="Touch">
+                                    <param id="0" name="Object">ok2</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -416,10 +412,8 @@
             <sub-events>
                 <event-block sid="446675029913417">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="329366103320926" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">button_help</param>
+                        <condition id="17" name="On tap object" sid="329366103320926" type="Touch">
+                            <param id="0" name="Object">button_help</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -435,10 +429,8 @@
                 </event-block>
                 <event-block sid="417876158393175">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="247748070822842" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">button_play</param>
+                        <condition id="17" name="On tap object" sid="247748070822842" type="Touch">
+                            <param id="0" name="Object">button_play</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -454,10 +446,8 @@
                 </event-block>
                 <event-block sid="438679550532642">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="668153043570815" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">button_mute</param>
+                        <condition id="17" name="On tap object" sid="668153043570815" type="Touch">
+                            <param id="0" name="Object">button_mute</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -492,10 +482,8 @@
                 </event-block>
                 <event-block sid="544298699191717">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="357993938247369" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">button_quit</param>
+                        <condition id="17" name="On tap object" sid="357993938247369" type="Touch">
+                            <param id="0" name="Object">button_quit</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -504,10 +492,8 @@
                 </event-block>
                 <event-block sid="908365041744852">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="845945259226008" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">button_fullscreen</param>
+                        <condition id="17" name="On tap object" sid="845945259226008" type="Touch">
+                            <param id="0" name="Object">button_fullscreen</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -546,10 +532,8 @@
             <sub-events>
                 <event-block sid="491103903206677">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="936856175283488" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">txt_math</param>
+                        <condition id="17" name="On tap object" sid="936856175283488" type="Touch">
+                            <param id="0" name="Object">txt_math</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -560,10 +544,8 @@
                 </event-block>
                 <event-block sid="295336121516205">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="749457729136208" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">txt_ipa</param>
+                        <condition id="17" name="On tap object" sid="749457729136208" type="Touch">
+                            <param id="0" name="Object">txt_ipa</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -574,10 +556,8 @@
                 </event-block>
                 <event-block sid="683875034391749">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="315559628447277" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">txt_ind</param>
+                        <condition id="17" name="On tap object" sid="315559628447277" type="Touch">
+                            <param id="0" name="Object">txt_ind</param>
                         </condition>
                     </conditions>
                     <actions>

@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
@@ -31,6 +32,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>layout_intro</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -60,6 +62,9 @@
             </object-type>
             <object-type name="Mouse" sid="520886903409374">
                 <plugin id="Mouse" />
+            </object-type>
+            <object-type name="Touch" sid="939908989092604">
+                <plugin id="Touch" />
             </object-type>
         </object-folder>
         <object-folder name="buttons">
@@ -794,6 +799,11 @@
         <global-instance type="Mouse" uid="7" />
         <global-instance type="Browser" uid="6" />
         <global-instance type="Function" uid="14" />
+        <global-instance type="Touch" uid="47">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder>
