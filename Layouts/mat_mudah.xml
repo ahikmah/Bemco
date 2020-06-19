@@ -54,6 +54,47 @@
             </instances>
             <effects />
         </layer>
+        <layer name="mission info" sid="962298708344872">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="MISSIONBOARD" uid="248">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-333</x>
+                        <y>346</y>
+                        <z>0</z>
+                        <width>659</width>
+                        <height>894</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500758708</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
         <layer name="game" sid="172664919631589">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -2575,8 +2616,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6795</x>
-                        <y>639</y>
+                        <x>6750</x>
+                        <y>675</y>
                         <z>0</z>
                         <width>119</width>
                         <height>65</height>
@@ -5061,8 +5102,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6655</x>
-                        <y>738</y>
+                        <x>6610</x>
+                        <y>774</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5090,8 +5131,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6775</x>
-                        <y>738</y>
+                        <x>6730</x>
+                        <y>774</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5119,8 +5160,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6950</x>
-                        <y>582</y>
+                        <x>6898</x>
+                        <y>637</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5148,8 +5189,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>7070</x>
-                        <y>582</y>
+                        <x>7018</x>
+                        <y>637</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5177,8 +5218,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6692</x>
-                        <y>384</y>
+                        <x>6623</x>
+                        <y>406</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5206,8 +5247,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6812</x>
-                        <y>384</y>
+                        <x>6743</x>
+                        <y>406</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5228,8 +5269,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6710</x>
-                        <y>262</y>
+                        <x>6641</x>
+                        <y>284</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -5250,8 +5291,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6794</x>
-                        <y>262</y>
+                        <x>6725</x>
+                        <y>284</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -6287,6 +6328,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="challenge_" uid="246">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>7001</x>
+                        <y>521</y>
+                        <z>0</z>
+                        <width>102</width>
+                        <height>95</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50526315</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -6510,7 +6573,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="popup" sid="147173944531569">
+        <layer name="pp : edu box" sid="147173944531569">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -6541,6 +6604,47 @@
                         <z>0</z>
                         <width>688</width>
                         <height>942</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500758708</hotspotX>
+                        <hotspotY>0.500558674</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="pp : quiz" sid="188962726880808">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="QUIZBOARD" uid="247">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-357</x>
+                        <y>918</y>
+                        <z>0</z>
+                        <width>659</width>
+                        <height>895</height>
                         <depth>0</depth>
                         <hotspotX>0.500758708</hotspotX>
                         <hotspotY>0.500558674</hotspotY>

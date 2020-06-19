@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">layout_intro</layout>
-        <layout order="2">mat_mudah</layout>
+        <layout active="1" order="2">mat_mudah</layout>
         <event-sheet order="1">event_intro</event-sheet>
-        <event-sheet active="1" order="3">event_mat_mudah</event-sheet>
+        <event-sheet order="3">event_mat_mudah</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -155,5 +155,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/buttonInfo/" />
         <folder expanded="1" path="animation-folder/buttonHome/" />
         <folder expanded="1" path="animation-folder/bemco_idle/" />
+        <folder expanded="1" path="animation-folder/challenge_/" />
+        <folder expanded="1" path="animation-folder/QUIZBOARD/" />
+        <folder expanded="1" path="animation-folder/MISSIONBOARD/" />
     </folders-expanded>
 </c2uistate>
