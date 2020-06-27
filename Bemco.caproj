@@ -2117,6 +2117,396 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="BG3" sid="614775081317599">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="871547936670347" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\BG\BG.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="149854891252797">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="817272202541275">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291697737092523" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\14.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.0430108" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.806452" />
+                            <point x="0.304688" y="0.580645" />
+                            <point x="0" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="845888709226173">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="648959057984296">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="253091826669797" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\16.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.0430108" />
+                            <point x="1" y="0.494624" />
+                            <point x="0.695313" y="0.580645" />
+                            <point x="0.5" y="0.806452" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="346269433826991">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="836786367982905">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503391746307794" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\1.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="574114514780943">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="335287631169357">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358767075790302" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\4.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="146540629945238">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="841402944997940">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="545044034436354" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\3.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite24" sid="642427945577724">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331320131776343" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\10.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="925640098742476">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="159107666076343">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689198673337543" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\9.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.953125" y="0.953125" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0390625" y="0.960938" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite26" sid="978171760019466">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="394912423124019" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\9.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.953125" y="0.953125" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0390625" y="0.960938" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite27" sid="861926621954868">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="199914832209291">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="150034474526390" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\11.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite28" sid="561873374478415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="235490681667286" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite29" sid="295304225199266">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402354936624570" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\11.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite30" sid="317684431709965">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101414776696811" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite31" sid="500469645529303">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="123922545129485">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683560446606966" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\10.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32" sid="562180212292517">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="334313331774508" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite33" sid="666754524481713">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="989345171561333">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428613456488037" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\17.png">
+                        <collision-poly>
+                            <point x="0.046875" y="0.046875" />
+                            <point x="0.5" y="0" />
+                            <point x="0.960938" y="0.0390625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite34" sid="461290736180675">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="478513918889505">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358930662436226" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite35" sid="162425763351402">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="601783964256968">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568320368718164" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite36" sid="242211829012823">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="866836710078774">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="869157717171917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\8.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite37" sid="265019112554666">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="114971060126838">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="902951284891394" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\6.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite38" sid="375973706228906">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="252014381268401">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663419427166525" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\13.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.976563" y="0.5" />
+                            <point x="0.921875" y="0.921875" />
+                            <point x="0.5" y="0.984375" />
+                            <point x="0.0546875" y="0.945313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite39" sid="985409857217241">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="346333434064224">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="202441082738734" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\15.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite40" sid="721784415426206">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="863635239218417">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922216684764160" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite41" sid="253894597360578">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="736252586181446">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848315091455965" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\6.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite42" sid="965210707977979">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="978864441875956">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="414031133169255" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 2 - Desa_New\Tile\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
