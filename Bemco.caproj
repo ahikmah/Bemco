@@ -809,6 +809,11 @@
         </object-type>
         <object-type name="Sprite15" sid="771412061394191">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="790461842575059">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686355165328923" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 1 - Kebun\png\Tiles\10.png" />
@@ -817,6 +822,11 @@
         </object-type>
         <object-type name="Sprite16" sid="555999790972970">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="376896590234289">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543664745693911" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 1 - Kebun\png\Tiles\11.png" />
@@ -825,6 +835,11 @@
         </object-type>
         <object-type name="Sprite19" sid="590995333879391">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="455181392757172">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434236724928118" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 1 - Kebun\png\Tiles\7.png" />
@@ -910,6 +925,11 @@
         </object-type>
         <object-type name="Sprite20" sid="448564059644635">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="738389265345894">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="594956884987266" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 1 - Kebun\png\Tiles\8.png" />
@@ -918,6 +938,11 @@
         </object-type>
         <object-type name="Sprite21" sid="186708805115782">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="318883471037246">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="102363448675217" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 1 - Kebun\png\Tiles\14.png" />
@@ -955,6 +980,11 @@
         </object-type>
         <object-type name="Sprite5" sid="458204069385232">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="641517597615227">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="170083163808174" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 1 - Kebun\png\Tiles\1.png">
@@ -970,6 +1000,11 @@
         </object-type>
         <object-type name="Sprite6" sid="751707964489760">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="215296296594858">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399247249333755" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 1 - Kebun\png\Tiles\8.png" />
