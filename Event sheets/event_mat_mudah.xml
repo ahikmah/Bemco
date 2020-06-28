@@ -70,5 +70,94 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="503866900050798">
+            <conditions>
+                <condition id="2" inverted="1" name="Is playing" sid="107113383534685" type="bemco_idle">
+                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="649575468542683">
+                    <conditions>
+                        <condition behavior="Platform" id="0" name="Is moving" sid="760067219646901" type="bemco_idle" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="445283983722846" type="bemco_idle">
+                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="426734919443561">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="522403173576144" type="bemco_idle" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="942009504735539" type="bemco_idle">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="564991333183825">
+                    <conditions>
+                        <condition behavior="Platform" id="9" name="On landed" sid="761839598634838" type="bemco_idle" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="512915308399934" type="bemco_idle">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="881446218941022">
+                    <conditions>
+                        <condition behavior="Platform" id="3" name="Is jumping" sid="692329241802604" type="bemco_idle" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="310455351593490" type="bemco_idle">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="964685448085284">
+                    <conditions>
+                        <condition behavior="Platform" id="4" name="Is falling" sid="490795529843806" type="bemco_idle" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="540696325509115" type="bemco_idle">
+                            <param id="0" name="Animation">&quot;Fall&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="660439777335183">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="421008389402627" type="Keyboard">
+                            <param id="0" name="Key">39</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="973087085717255" type="bemco_idle">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="408710680348764">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="475373368136700" type="Keyboard">
+                            <param id="0" name="Key">37</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="965925139224936" type="bemco_idle">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>
