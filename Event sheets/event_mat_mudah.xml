@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_mat_mudah</name>
     <events>
+        <variable constant="0" name="item" sid="366908815277734" static="0" type="number">0</variable>
+        <variable constant="0" name="coin" sid="985368868190058" static="0" type="number">0</variable>
         <variable constant="0" name="buttonclicked" sid="804122276109058" static="0" type="number">0</variable>
         <event-block sid="255492826945124">
             <conditions>
@@ -158,6 +160,271 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="430576013002721">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="825865811754159" type="Virus_" />
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="766191714527093" type="Virus_">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Sine2" id="0" name="Set active" sid="300562099034090" type="Virus_">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="553773962149623">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="668860469542756" type="Virus_2" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="120696166412627">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="248205520361950" type="Virus_2">
+                            <param id="0" name="Instance variable">move</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;right&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="517168655093998" type="Virus_2">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="764153696014760">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="714865700654124" type="Virus_2">
+                            <param id="0" name="Instance variable">move</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;left&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="706178062502969" type="Virus_2">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="463174653506818">
+                    <conditions>
+                        <condition behavior="Platform" id="10" name="Is by wall" sid="938204036575638" type="Virus_2">
+                            <param id="0" name="Side">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="752185730204626" type="Virus_2">
+                            <param id="0" name="Instance variable">move</param>
+                            <param id="1" name="Value">&quot;left&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="391916930931871">
+                    <conditions>
+                        <condition behavior="Platform" id="10" name="Is by wall" sid="864103244573387" type="Virus_2">
+                            <param id="0" name="Side">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="390682038970981" type="Virus_2">
+                            <param id="0" name="Instance variable">move</param>
+                            <param id="1" name="Value">&quot;right&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="191331110690642">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="677964638043024" type="bemco_idle">
+                    <param id="0" name="Object">Coin</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="978466391727868" type="Coin" />
+                <action id="-10" name="Add to" sid="170942056593634" type="System">
+                    <param id="0" name="Variable">coin</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="193273468513411">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="477217681426810" type="bemco_idle">
+                    <param id="0" name="Object">Food_</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="811717347709470" type="Food_" />
+                <action id="-10" name="Add to" sid="643112919181742" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="419345855490720">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="580038423794747" type="bemco_idle">
+                    <param id="0" name="Object">Food_10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="935092935483656" type="Food_10" />
+                <action id="-10" name="Add to" sid="288188349273851" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="572681741278685">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="888900692421138" type="bemco_idle">
+                    <param id="0" name="Object">Food_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="405966588831466" type="Food_2" />
+                <action id="-10" name="Add to" sid="238831810858305" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="755523596897013">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="240509209131872" type="bemco_idle">
+                    <param id="0" name="Object">Food_3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="734294447274991" type="Food_3" />
+                <action id="-10" name="Add to" sid="113757264307418" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="317343770809173">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="593168269248013" type="bemco_idle">
+                    <param id="0" name="Object">Food_4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="606660169910267" type="Food_4" />
+                <action id="-10" name="Add to" sid="453149941886388" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="377398445274776">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="829026747572577" type="bemco_idle">
+                    <param id="0" name="Object">Food_5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="950435626821342" type="Food_5" />
+                <action id="-10" name="Add to" sid="870595771958003" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="647271040576690">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="497658270258912" type="bemco_idle">
+                    <param id="0" name="Object">Food_6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="714586960458883" type="Food_6" />
+                <action id="-10" name="Add to" sid="308037774228561" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="927223103328583">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="356371653311488" type="bemco_idle">
+                    <param id="0" name="Object">Food_7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="251281165413175" type="Food_7" />
+                <action id="-10" name="Add to" sid="435483357208615" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="171818308156681">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="718384273561755" type="bemco_idle">
+                    <param id="0" name="Object">Food_8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="354966720732038" type="Food_8" />
+                <action id="-10" name="Add to" sid="981447166302833" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="549409065292777">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="630464128973078" type="bemco_idle">
+                    <param id="0" name="Object">Food_9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="183633716352713" type="Food_9" />
+                <action id="-10" name="Add to" sid="831806614637676" type="System">
+                    <param id="0" name="Variable">item</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="748179356633241">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="183393727795359" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="728046923892936">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="826605875378392" type="SpriteFont">
+                            <param id="0" name="Instance variable">type</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;coin&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="688846396044657" type="SpriteFont">
+                            <param id="0" name="Text">coin</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="783433165822155">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="970290456707503" type="SpriteFont">
+                    <param id="0" name="Instance variable">type</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;item&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="586898542633108" type="SpriteFont">
+                    <param id="0" name="Text">item</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

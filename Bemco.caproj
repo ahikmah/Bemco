@@ -16,9 +16,12 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -1272,6 +1275,17 @@
         </object-type>
         <object-type name="Virus_" sid="974572590954895">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="760278542162674">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="370117757439304">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="357522936156468">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133418778421671" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\virus\Virus_1.png">
@@ -1291,6 +1305,17 @@
         </object-type>
         <object-type name="Virus_2" sid="155749896374793">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="908446209819874" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="189231728484462">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="113663958631251">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="536005844333746" speed="5">
                     <frame duration="1" hotspotX="0.508772" hotspotY="0.509091" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\virus\Virus_4.png">
@@ -1499,6 +1524,14 @@
         </object-type>
         <object-type name="postman" sid="594690271255153">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="160885635292267" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="383619557986402">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363276289295143" speed="5">
                     <frame duration="1" hotspotX="0.502538" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\postman.png">
@@ -2604,6 +2637,34 @@
         </object-type>
         <object-type name="Keyboard" sid="184145846746483">
             <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="SpriteFont" sid="259606691129476">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="type" sid="582180397548467" type="string" />
+            </instance-variables>
+            <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
+        </object-type>
+        <object-type name="SpriteFont2" sid="388482964141196">
+            <plugin id="Spritefont2" />
+            <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
+        </object-type>
+        <object-type name="batas_samping" sid="226741032673502">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="332264783648910">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="batas_bawah" sid="757447665349984">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="gass_postman" sid="587216115408541">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\asset\Level 1 - Kebun\png\BG\BG.png" />
         </object-type>
     </object-folder>
     <families />
