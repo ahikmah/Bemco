@@ -8,20 +8,6 @@
                 <condition id="-2" name="On start of layout" sid="644204522591250" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="750004712327813" type="bemco">
-                    <param id="0" name="Animation">&quot;walk&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="196651400309961" type="bemco">
-                    <param id="0" name="Target is">0</param>
-                    <param id="1" name="Relativity">0</param>
-                    <param id="2" name="Value">600</param>
-                </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="348585494598007" type="bemco">
-                    <param id="0" name="Target is">1</param>
-                    <param id="1" name="Relativity">0</param>
-                    <param id="2" name="Value">Self.Y</param>
-                </action>
                 <action behavior="Pin" id="0" name="Pin to object" sid="957421501303059" type="select_mode">
                     <param id="0" name="Pin to">popupBoard3</param>
                     <param id="1" name="Mode">0</param>
@@ -71,18 +57,8 @@
             </sub-events>
         </event-block>
         <event-block sid="957636960582612">
-            <conditions>
-                <condition id="-1" name="Compare X" sid="253429081490147" type="bemco">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">600</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
-                <action id="2" name="Stop" sid="906944898240431" type="bemco" />
-                <action id="4" name="Set animation" sid="327451072738946" type="bemco">
-                    <param id="0" name="Animation">&quot;idle&quot;</param>
-                    <param id="1" name="From">0</param>
-                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="376583167339152" type="popupBoard3">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>

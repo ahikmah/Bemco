@@ -21,7 +21,9 @@
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -73,6 +75,9 @@
             </object-type>
             <object-type name="Touch" sid="939908989092604">
                 <plugin id="Touch" />
+            </object-type>
+            <object-type name="Keyboard" sid="184145846746483">
+                <plugin id="Keyboard" />
             </object-type>
         </object-folder>
         <object-folder name="buttons">
@@ -727,48 +732,6 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-type name="bemco" sid="734447434288285">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="293119482519865">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="373905561995422" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\bemco_idle.png" />
-                </animation>
-                <animation framecount="5" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" sid="783687275973567" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\walk\bemco_walk1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\walk\bemco_walk2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\walk\bemco_walk3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\walk\bemco_walk4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\walk\bemco_walk5.png" />
-                </animation>
-                <animation framecount="5" loop="0" name="jump" pingpong="1" repeatcount="1" repeatto="0" sid="104261200004090" speed="4">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\jump\bemco_jump1.png">
-                        <collision-poly>
-                            <point x="0.23127" y="0.251773" />
-                            <point x="0.5" y="0.0106383" />
-                            <point x="0.631922" y="0.400709" />
-                            <point x="0.584691" y="0.5" />
-                            <point x="0.739414" y="0.716312" />
-                            <point x="0.5" y="0.751773" />
-                            <point x="0.214984" y="0.765957" />
-                            <point x="0.20684" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\jump\bemco_jump2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\jump\bemco_jump3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\jump\bemco_jump4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\jump\bemco_jump5.png" />
-                </animation>
-                <animation framecount="2" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="163724849192288" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\bemco_dead1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\BEMCOO-20200614T202645Z-001\BEMCOO\bemco_dead2.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite13" sid="280924464330184">
             <plugin id="Sprite" />
             <behaviors>
@@ -1290,14 +1253,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133418778421671" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\virus\Virus_1.png">
                         <collision-poly>
-                            <point x="0.275862" y="0.266667" />
+                            <point x="0" y="0" />
                             <point x="0.5" y="0" />
-                            <point x="0.758621" y="0.233333" />
-                            <point x="0.896552" y="0.5" />
-                            <point x="0.87931" y="0.883333" />
-                            <point x="0.5" y="0.866667" />
-                            <point x="0.206897" y="0.8" />
-                            <point x="0.172414" y="0.5" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.25" />
+                            <point x="1" y="1" />
+                            <point x="0.965517" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.75" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1320,14 +1283,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="536005844333746" speed="5">
                     <frame duration="1" hotspotX="0.508772" hotspotY="0.509091" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\virus\Virus_4.png">
                         <collision-poly>
-                            <point x="0.298246" y="0.309091" />
-                            <point x="0.491228" y="0.2" />
-                            <point x="0.842105" y="0.163636" />
-                            <point x="0.982456" y="0.490909" />
-                            <point x="0.736842" y="0.727273" />
-                            <point x="0.491228" y="0.836364" />
-                            <point x="0.280702" y="0.709091" />
-                            <point x="0.210526" y="0.490909" />
+                            <point x="0.368421" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.0363633" />
+                            <point x="1" y="0.6" />
+                            <point x="0.947368" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="0.963636" />
+                            <point x="0" y="0" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1619,7 +1582,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="21x" sid="108838973816915">
+        <object-type name="kotak_ilmu" sid="108838973816915">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593795061984480" speed="5">
@@ -2079,14 +2042,23 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bemco_idle" sid="162496240615376">
+        <object-type name="bemco" sid="162496240615376">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="nyawa" sid="530728111286504" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="850824393133683">
                     <behavior id="Platform" />
                 </behavior-type>
                 <behavior-type name="ScrollTo" sid="369813034912250">
                     <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="656809298597869">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="491043203631530">
+                    <behavior id="Flash" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -2229,6 +2201,11 @@
         </object-type>
         <object-type name="MISSIONBOARD" sid="966811402388626">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="798939967790639">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="967581267151939" speed="5">
                     <frame duration="1" hotspotX="0.500759" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\MISSION BOARD.png">
@@ -2635,18 +2612,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Keyboard" sid="184145846746483">
-            <plugin id="Keyboard" />
-        </object-type>
         <object-type name="SpriteFont" sid="259606691129476">
             <plugin id="Spritefont2" />
             <instance-variables>
                 <instance-variable name="type" sid="582180397548467" type="string" />
             </instance-variables>
-            <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
-        </object-type>
-        <object-type name="SpriteFont2" sid="388482964141196">
-            <plugin id="Spritefont2" />
             <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
         </object-type>
         <object-type name="batas_samping" sid="226741032673502">
@@ -2665,6 +2635,385 @@
         <object-type name="gass_postman" sid="587216115408541">
             <plugin id="TiledBg" />
             <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\asset\Level 1 - Kebun\png\BG\BG.png" />
+        </object-type>
+        <object-type name="icon_nyawa" sid="463190580835608">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="120112666083590" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500901" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bemco_run\Default\000.png">
+                        <collision-poly>
+                            <point x="0.291284" y="0.228829" />
+                            <point x="0.5" y="0.14955" />
+                            <point x="0.905963" y="0.0738739" />
+                            <point x="0.805046" y="0.499099" />
+                            <point x="0.5" y="0.994595" />
+                            <point x="0.16055" y="0.873874" />
+                            <point x="0.199541" y="0.499099" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="peluru" sid="544286155978193">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="382728620212739">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551108553563906" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
+                        <collision-poly>
+                            <point x="0.181034" y="0.181034" />
+                            <point x="0.5" y="0.0517241" />
+                            <point x="0.818965" y="0.181034" />
+                            <point x="0.974138" y="0.5" />
+                            <point x="0.801724" y="0.801724" />
+                            <point x="0.5" y="0.922414" />
+                            <point x="0.181034" y="0.818965" />
+                            <point x="0.163793" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bonus" sid="357919050636285">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="640739422869124">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="959693205934111">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666441340042679" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bonus\bonus.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ok_mulai" sid="492860226112879">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="661423100161809">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="457590751128046" speed="5">
+                    <frame duration="1" hotspotX="0.503067" hotspotY="0.503311" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\ok\Default\000.png">
+                        <collision-poly>
+                            <point x="0.153374" y="0.165563" />
+                            <point x="0.496933" y="0" />
+                            <point x="0.840491" y="0.172185" />
+                            <point x="0.96319" y="0.496689" />
+                            <point x="0.846626" y="0.834437" />
+                            <point x="0.496933" y="1" />
+                            <point x="0.153374" y="0.834437" />
+                            <point x="0.0368098" y="0.496689" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="i_nyawa" sid="534435633033266">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="476962419424776" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\Nyawa\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\Nyawa\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\Nyawa\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\Nyawa\1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.686667" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ok_kotak" sid="661240402982347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651201141746676" speed="5">
+                    <frame duration="1" hotspotX="0.503067" hotspotY="0.503311" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\ok\Default\000.png">
+                        <collision-poly>
+                            <point x="0.153374" y="0.165563" />
+                            <point x="0.496933" y="0" />
+                            <point x="0.840491" y="0.172185" />
+                            <point x="0.96319" y="0.496689" />
+                            <point x="0.846626" y="0.834437" />
+                            <point x="0.496933" y="1" />
+                            <point x="0.153374" y="0.834437" />
+                            <point x="0.0368098" y="0.496689" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="end_board" sid="179482192794120">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="888918822269033" speed="5">
+                    <frame duration="1" hotspotX="0.500759" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\jedaBoard\Default\000.png">
+                        <collision-poly>
+                            <point x="0.07739" y="0.056044" />
+                            <point x="0.499241" y="0" />
+                            <point x="0.92261" y="0.056044" />
+                            <point x="1" y="0.5" />
+                            <point x="0.996965" y="0.997802" />
+                            <point x="0.0030349" y="0.997802" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="123464952628970">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="tombol_ulang" sid="363642033643401">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="168847376345632" speed="5">
+                    <frame duration="1" hotspotX="0.501326" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\ULANGI\Default\000.png">
+                        <collision-poly>
+                            <point x="0.0450928" y="0.144068" />
+                            <point x="0.498674" y="0.262712" />
+                            <point x="0.915119" y="0.271186" />
+                            <point x="0.909814" y="0.711864" />
+                            <point x="0.0848806" y="0.728814" />
+                            <point x="0.0371353" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kotak_ilmu2" sid="718328596608386">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363925263729318" speed="5">
+                    <frame duration="1" hotspotX="0.501945" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\box animation\brown\2-1x.png">
+                        <collision-poly>
+                            <point x="0.420233" y="0.421875" />
+                            <point x="0.579767" y="0.421875" />
+                            <point x="0.821012" y="0.5" />
+                            <point x="0.832685" y="0.832031" />
+                            <point x="0.498054" y="1" />
+                            <point x="0.167315" y="0.832031" />
+                            <point x="0.178988" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kotak_ilmu3" sid="585623349279329">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="584753223492472" speed="5">
+                    <frame duration="1" hotspotX="0.501945" hotspotY="0.5" original-source="C:\Users\Aam\Pictures\TG\TG\box animation\brown\2-1x.png">
+                        <collision-poly>
+                            <point x="0.420233" y="0.421875" />
+                            <point x="0.579767" y="0.421875" />
+                            <point x="0.821012" y="0.5" />
+                            <point x="0.832685" y="0.832031" />
+                            <point x="0.498054" y="1" />
+                            <point x="0.167315" y="0.832031" />
+                            <point x="0.178988" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kotak_quiz" sid="487760715816812">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="902237559699987" speed="0">
+                    <frame duration="1" hotspotX="0.501945" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\kotak_ilmu\Default\000.png">
+                        <collision-poly>
+                            <point x="0.420233" y="0.421875" />
+                            <point x="0.579767" y="0.421875" />
+                            <point x="0.821012" y="0.5" />
+                            <point x="0.832685" y="0.832031" />
+                            <point x="0.498054" y="1" />
+                            <point x="0.167315" y="0.832031" />
+                            <point x="0.178988" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bonus_med" sid="970016792497162">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="926834821388099">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="453896950372099">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="414575883365221" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\Meds\Default\000.png">
+                        <collision-poly>
+                            <point x="0.211538" y="0.152778" />
+                            <point x="0.5" y="0" />
+                            <point x="0.788462" y="0.152778" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pilih_a" sid="822518144668701">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="350372493566014" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\A\Default\000.png">
+                        <collision-poly>
+                            <point x="0.0733333" y="0.104762" />
+                            <point x="0.5" y="0.0380952" />
+                            <point x="0.926667" y="0.104762" />
+                            <point x="0.946667" y="0.495238" />
+                            <point x="0.886667" y="0.838095" />
+                            <point x="0.5" y="0.857143" />
+                            <point x="0.113333" y="0.838095" />
+                            <point x="0.06" y="0.495238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pilih_b" sid="492433367142691">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="313498279532058" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\A\Default\001.png">
+                        <collision-poly>
+                            <point x="0.0733333" y="0.104762" />
+                            <point x="0.5" y="0.0380952" />
+                            <point x="0.926667" y="0.104762" />
+                            <point x="0.946667" y="0.495238" />
+                            <point x="0.886667" y="0.838095" />
+                            <point x="0.5" y="0.857143" />
+                            <point x="0.113333" y="0.838095" />
+                            <point x="0.06" y="0.495238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pilih_c" sid="769744496719160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="931448815658256" speed="0">
+                    <frame duration="1" hotspotX="0.503356" hotspotY="0.504762" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\A\Default\002.png">
+                        <collision-poly>
+                            <point x="0.0738255" y="0.104762" />
+                            <point x="0.496644" y="0.0380952" />
+                            <point x="0.932886" y="0.0952381" />
+                            <point x="0.946309" y="0.495238" />
+                            <point x="0.885906" y="0.838095" />
+                            <point x="0.496644" y="0.857143" />
+                            <point x="0.114094" y="0.838095" />
+                            <point x="0.0536913" y="0.495238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pilih_d" sid="967057888732014">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="825254030863319" speed="5">
+                    <frame duration="1" hotspotX="0.503356" hotspotY="0.504762" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\A\Default\003.png">
+                        <collision-poly>
+                            <point x="0.0738255" y="0.104762" />
+                            <point x="0.496644" y="0.0380952" />
+                            <point x="0.926175" y="0.104762" />
+                            <point x="0.946309" y="0.495238" />
+                            <point x="0.885906" y="0.838095" />
+                            <point x="0.496644" y="0.857143" />
+                            <point x="0.114094" y="0.838095" />
+                            <point x="0.0536913" y="0.495238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="benar" sid="604088380057133">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="356385642139926">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="349934141284457">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831804413507110" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\benar.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.435417" />
+                            <point x="0.90625" y="0.09375" />
+                            <point x="0.572917" y="0.5" />
+                            <point x="0.5" y="0.610417" />
+                            <point x="0.2125" y="0.7875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="salah" sid="774524223544121">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="134436467529636">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="272127780183034">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234066160831990" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\salah.png">
+                        <collision-poly>
+                            <point x="0.118333" y="0.119932" />
+                            <point x="0.5" y="0.209459" />
+                            <point x="0.655" y="0.349662" />
+                            <point x="0.546667" y="0.5" />
+                            <point x="0.855" y="0.853041" />
+                            <point x="0.5" y="0.785473" />
+                            <point x="0" y="1" />
+                            <point x="0.213333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

@@ -11,10 +11,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">layout_intro</layout>
-        <layout active="1" order="2">mat_mudah</layout>
-        <layout order="4">mat_sedang</layout>
+        <layout order="2">mat_mudah</layout>
+        <layout order="5">mat_mode</layout>
         <event-sheet order="1">event_intro</event-sheet>
-        <event-sheet order="3">event_mat_mudah</event-sheet>
+        <event-sheet active="1" order="3">event_mat_mudah</event-sheet>
+        <event-sheet order="4">event_mat_mode</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -77,7 +78,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
-        <folder expanded="1" path="animation-folder/bemco/" />
         <folder expanded="1" path="animation-folder/Sprite13/" />
         <folder expanded="1" path="animation-folder/Sprite14/" />
         <folder expanded="1" path="animation-folder/Sprite15/" />
@@ -128,7 +128,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Life/" />
         <folder expanded="1" path="animation-folder/Coin2/" />
         <folder expanded="1" path="animation-folder/image/" />
-        <folder expanded="1" path="animation-folder/21x/" />
+        <folder expanded="1" path="animation-folder/kotak_ilmu/" />
         <folder expanded="1" path="animation-folder/level/" />
         <folder expanded="1" path="animation-folder/springlandscapewithmountainshouses_/" />
         <folder expanded="1" path="animation-folder/button_back/" />
@@ -155,7 +155,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/buttonBoard/" />
         <folder expanded="1" path="animation-folder/buttonInfo/" />
         <folder expanded="1" path="animation-folder/buttonHome/" />
-        <folder expanded="1" path="animation-folder/bemco_idle/" />
+        <folder expanded="1" path="animation-folder/bemco/" />
         <folder expanded="1" path="animation-folder/challenge_/" />
         <folder expanded="1" path="animation-folder/QUIZBOARD/" />
         <folder expanded="1" path="animation-folder/MISSIONBOARD/" />
@@ -184,5 +184,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite40/" />
         <folder expanded="1" path="animation-folder/Sprite41/" />
         <folder expanded="1" path="animation-folder/Sprite42/" />
+        <folder expanded="1" path="animation-folder/icon_nyawa/" />
+        <folder expanded="1" path="animation-folder/peluru/" />
+        <folder expanded="1" path="animation-folder/bonus/" />
+        <folder expanded="1" path="animation-folder/ok_mulai/" />
+        <folder expanded="1" path="animation-folder/i_nyawa/" />
+        <folder expanded="1" path="animation-folder/ok_kotak/" />
+        <folder expanded="1" path="animation-folder/end_board/" />
+        <folder expanded="1" path="animation-folder/tombol_ulang/" />
+        <folder expanded="1" path="animation-folder/kotak_ilmu2/" />
+        <folder expanded="1" path="animation-folder/kotak_ilmu3/" />
+        <folder expanded="1" path="animation-folder/kotak_quiz/" />
+        <folder expanded="1" path="animation-folder/bonus_med/" />
+        <folder expanded="1" path="animation-folder/pilih_a/" />
+        <folder expanded="1" path="animation-folder/pilih_b/" />
+        <folder expanded="1" path="animation-folder/pilih_c/" />
+        <folder expanded="1" path="animation-folder/pilih_d/" />
+        <folder expanded="1" path="animation-folder/benar/" />
+        <folder expanded="1" path="animation-folder/salah/" />
     </folders-expanded>
 </c2uistate>

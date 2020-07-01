@@ -3,9 +3,74 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_mat_mudah</name>
     <events>
+        <variable constant="0" name="meds" sid="680723406269913" static="0" type="number">0</variable>
         <variable constant="0" name="item" sid="366908815277734" static="0" type="number">0</variable>
         <variable constant="0" name="coin" sid="985368868190058" static="0" type="number">0</variable>
         <variable constant="0" name="buttonclicked" sid="804122276109058" static="0" type="number">0</variable>
+        <event-group description="" sid="825750403757064" title="PopUp Misi">
+            <sub-events>
+                <event-block sid="673648724574007">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="568528439467724" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="275835074546144" type="System">
+                            <param id="0" name="Layer">&quot;mission info&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="901958433809935" type="System">
+                            <param id="0" name="Layer">&quot;game&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="963412370319614" type="System">
+                            <param id="0" name="Layer">&quot;HUD&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="903769433196087" type="System">
+                            <param id="0" name="Layer">&quot;button&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="899048583582279" type="System">
+                            <param id="0" name="Layer">&quot;pp : edu box&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="493433502721603" type="System">
+                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="361216247364449" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="190166574641906">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="752258045666986" type="Touch">
+                            <param id="0" name="Object">ok_mulai</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="943854930515393" type="System">
+                            <param id="0" name="Layer">&quot;mission info&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="131359215140596" type="System">
+                            <param id="0" name="Layer">&quot;game&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="104939772697709" type="System">
+                            <param id="0" name="Layer">&quot;HUD&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="158245890412013" type="System">
+                            <param id="0" name="Layer">&quot;button&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block sid="255492826945124">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="107947420668577" type="System">
@@ -72,324 +137,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="503866900050798">
-            <conditions>
-                <condition id="2" inverted="1" name="Is playing" sid="107113383534685" type="bemco_idle">
-                    <param id="0" name="Animation">&quot;Dead&quot;</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="649575468542683">
-                    <conditions>
-                        <condition behavior="Platform" id="0" name="Is moving" sid="760067219646901" type="bemco_idle" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="445283983722846" type="bemco_idle">
-                            <param id="0" name="Animation">&quot;Walk&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="426734919443561">
-                    <conditions>
-                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="522403173576144" type="bemco_idle" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="942009504735539" type="bemco_idle">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="564991333183825">
-                    <conditions>
-                        <condition behavior="Platform" id="9" name="On landed" sid="761839598634838" type="bemco_idle" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="512915308399934" type="bemco_idle">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="881446218941022">
-                    <conditions>
-                        <condition behavior="Platform" id="3" name="Is jumping" sid="692329241802604" type="bemco_idle" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="310455351593490" type="bemco_idle">
-                            <param id="0" name="Animation">&quot;Jump&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="964685448085284">
-                    <conditions>
-                        <condition behavior="Platform" id="4" name="Is falling" sid="490795529843806" type="bemco_idle" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="540696325509115" type="bemco_idle">
-                            <param id="0" name="Animation">&quot;Fall&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="660439777335183">
-                    <conditions>
-                        <condition id="0" name="On key pressed" sid="421008389402627" type="Keyboard">
-                            <param id="0" name="Key">39</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="7" name="Set mirrored" sid="973087085717255" type="bemco_idle">
-                            <param id="0" name="State">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="408710680348764">
-                    <conditions>
-                        <condition id="0" name="On key pressed" sid="475373368136700" type="Keyboard">
-                            <param id="0" name="Key">37</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="7" name="Set mirrored" sid="965925139224936" type="bemco_idle">
-                            <param id="0" name="State">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="430576013002721">
-            <conditions>
-                <condition id="-3" name="Is on-screen" sid="825865811754159" type="Virus_" />
-            </conditions>
-            <actions>
-                <action behavior="Sine" id="0" name="Set active" sid="766191714527093" type="Virus_">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action behavior="Sine2" id="0" name="Set active" sid="300562099034090" type="Virus_">
-                    <param id="0" name="State">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="553773962149623">
-            <conditions>
-                <condition id="-3" name="Is on-screen" sid="668860469542756" type="Virus_2" />
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="120696166412627">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="248205520361950" type="Virus_2">
-                            <param id="0" name="Instance variable">move</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">&quot;right&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="517168655093998" type="Virus_2">
-                            <param id="0" name="Control">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="764153696014760">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="714865700654124" type="Virus_2">
-                            <param id="0" name="Instance variable">move</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">&quot;left&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="706178062502969" type="Virus_2">
-                            <param id="0" name="Control">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="463174653506818">
-                    <conditions>
-                        <condition behavior="Platform" id="10" name="Is by wall" sid="938204036575638" type="Virus_2">
-                            <param id="0" name="Side">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" sid="752185730204626" type="Virus_2">
-                            <param id="0" name="Instance variable">move</param>
-                            <param id="1" name="Value">&quot;left&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="391916930931871">
-                    <conditions>
-                        <condition behavior="Platform" id="10" name="Is by wall" sid="864103244573387" type="Virus_2">
-                            <param id="0" name="Side">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" sid="390682038970981" type="Virus_2">
-                            <param id="0" name="Instance variable">move</param>
-                            <param id="1" name="Value">&quot;right&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="191331110690642">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="677964638043024" type="bemco_idle">
-                    <param id="0" name="Object">Coin</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="978466391727868" type="Coin" />
-                <action id="-10" name="Add to" sid="170942056593634" type="System">
-                    <param id="0" name="Variable">coin</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="193273468513411">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="477217681426810" type="bemco_idle">
-                    <param id="0" name="Object">Food_</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="811717347709470" type="Food_" />
-                <action id="-10" name="Add to" sid="643112919181742" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="419345855490720">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="580038423794747" type="bemco_idle">
-                    <param id="0" name="Object">Food_10</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="935092935483656" type="Food_10" />
-                <action id="-10" name="Add to" sid="288188349273851" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="572681741278685">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="888900692421138" type="bemco_idle">
-                    <param id="0" name="Object">Food_2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="405966588831466" type="Food_2" />
-                <action id="-10" name="Add to" sid="238831810858305" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="755523596897013">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="240509209131872" type="bemco_idle">
-                    <param id="0" name="Object">Food_3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="734294447274991" type="Food_3" />
-                <action id="-10" name="Add to" sid="113757264307418" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="317343770809173">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="593168269248013" type="bemco_idle">
-                    <param id="0" name="Object">Food_4</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="606660169910267" type="Food_4" />
-                <action id="-10" name="Add to" sid="453149941886388" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="377398445274776">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="829026747572577" type="bemco_idle">
-                    <param id="0" name="Object">Food_5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="950435626821342" type="Food_5" />
-                <action id="-10" name="Add to" sid="870595771958003" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="647271040576690">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="497658270258912" type="bemco_idle">
-                    <param id="0" name="Object">Food_6</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="714586960458883" type="Food_6" />
-                <action id="-10" name="Add to" sid="308037774228561" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="927223103328583">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="356371653311488" type="bemco_idle">
-                    <param id="0" name="Object">Food_7</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="251281165413175" type="Food_7" />
-                <action id="-10" name="Add to" sid="435483357208615" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="171818308156681">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="718384273561755" type="bemco_idle">
-                    <param id="0" name="Object">Food_8</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="354966720732038" type="Food_8" />
-                <action id="-10" name="Add to" sid="981447166302833" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="549409065292777">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="630464128973078" type="bemco_idle">
-                    <param id="0" name="Object">Food_9</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="183633716352713" type="Food_9" />
-                <action id="-10" name="Add to" sid="831806614637676" type="System">
-                    <param id="0" name="Variable">item</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="748179356633241">
             <conditions>
                 <condition id="-1" name="Every tick" sid="183393727795359" type="System" />
@@ -424,6 +171,756 @@
                 <action id="0" name="Set text" sid="586898542633108" type="SpriteFont">
                     <param id="0" name="Text">item</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="442042754641746">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="303288061907394" type="SpriteFont">
+                    <param id="0" name="Instance variable">type</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;meds&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="243744022237405" type="SpriteFont">
+                    <param id="0" name="Text">meds</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="796534888903215" title="Character Moving">
+            <sub-events>
+                <event-block sid="503866900050798">
+                    <conditions>
+                        <condition id="2" inverted="1" name="Is playing" sid="107113383534685" type="bemco">
+                            <param id="0" name="Animation">&quot;Dead&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="649575468542683">
+                            <conditions>
+                                <condition behavior="Platform" id="0" name="Is moving" sid="760067219646901" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="445283983722846" type="bemco">
+                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="426734919443561">
+                            <conditions>
+                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="522403173576144" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="942009504735539" type="bemco">
+                                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="564991333183825">
+                            <conditions>
+                                <condition behavior="Platform" id="9" name="On landed" sid="761839598634838" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="512915308399934" type="bemco">
+                                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="881446218941022">
+                            <conditions>
+                                <condition behavior="Platform" id="3" name="Is jumping" sid="692329241802604" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="310455351593490" type="bemco">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="964685448085284">
+                            <conditions>
+                                <condition behavior="Platform" id="4" name="Is falling" sid="490795529843806" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="540696325509115" type="bemco">
+                                    <param id="0" name="Animation">&quot;Fall&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="660439777335183">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="421008389402627" type="Keyboard">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="973087085717255" type="bemco">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="408710680348764">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="475373368136700" type="Keyboard">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="965925139224936" type="bemco">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="430576013002721">
+                    <conditions>
+                        <condition id="-3" name="Is on-screen" sid="825865811754159" type="Virus_" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Sine" id="0" name="Set active" sid="766191714527093" type="Virus_">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Sine2" id="0" name="Set active" sid="300562099034090" type="Virus_">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="553773962149623">
+                    <conditions>
+                        <condition id="-3" name="Is on-screen" sid="668860469542756" type="Virus_2" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="120696166412627">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="248205520361950" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="517168655093998" type="Virus_2">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="764153696014760">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="714865700654124" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="706178062502969" type="Virus_2">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="463174653506818">
+                            <conditions>
+                                <condition behavior="Platform" id="10" name="Is by wall" sid="938204036575638" type="Virus_2">
+                                    <param id="0" name="Side">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="752185730204626" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Value">&quot;left&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="391916930931871">
+                            <conditions>
+                                <condition behavior="Platform" id="10" name="Is by wall" sid="864103244573387" type="Virus_2">
+                                    <param id="0" name="Side">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="390682038970981" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Value">&quot;right&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="218511251022965" title="Bemco Collision Food">
+            <sub-events>
+                <event-block sid="191331110690642">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="677964638043024" type="bemco">
+                            <param id="0" name="Object">Coin</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="978466391727868" type="Coin" />
+                        <action id="-10" name="Add to" sid="170942056593634" type="System">
+                            <param id="0" name="Variable">coin</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="193273468513411">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="477217681426810" type="bemco">
+                            <param id="0" name="Object">Food_</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="811717347709470" type="Food_" />
+                        <action id="-10" name="Add to" sid="643112919181742" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="419345855490720">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="580038423794747" type="bemco">
+                            <param id="0" name="Object">Food_10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="935092935483656" type="Food_10" />
+                        <action id="-10" name="Add to" sid="288188349273851" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="572681741278685">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="888900692421138" type="bemco">
+                            <param id="0" name="Object">Food_2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="405966588831466" type="Food_2" />
+                        <action id="-10" name="Add to" sid="238831810858305" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="755523596897013">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="240509209131872" type="bemco">
+                            <param id="0" name="Object">Food_3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="734294447274991" type="Food_3" />
+                        <action id="-10" name="Add to" sid="113757264307418" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="317343770809173">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="593168269248013" type="bemco">
+                            <param id="0" name="Object">Food_4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="606660169910267" type="Food_4" />
+                        <action id="-10" name="Add to" sid="453149941886388" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="377398445274776">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="829026747572577" type="bemco">
+                            <param id="0" name="Object">Food_5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="950435626821342" type="Food_5" />
+                        <action id="-10" name="Add to" sid="870595771958003" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="647271040576690">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="497658270258912" type="bemco">
+                            <param id="0" name="Object">Food_6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="714586960458883" type="Food_6" />
+                        <action id="-10" name="Add to" sid="308037774228561" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="927223103328583">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="356371653311488" type="bemco">
+                            <param id="0" name="Object">Food_7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="251281165413175" type="Food_7" />
+                        <action id="-10" name="Add to" sid="435483357208615" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="171818308156681">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="718384273561755" type="bemco">
+                            <param id="0" name="Object">Food_8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="354966720732038" type="Food_8" />
+                        <action id="-10" name="Add to" sid="981447166302833" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="549409065292777">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="630464128973078" type="bemco">
+                            <param id="0" name="Object">Food_9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="183633716352713" type="Food_9" />
+                        <action id="-10" name="Add to" sid="831806614637676" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="206855641180884">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="914662281795829" type="bemco">
+                    <param id="0" name="Object">Virus_</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="321513705778389" type="bemco">
+                    <param id="0" name="&apos;On&apos; time">0.2</param>
+                    <param id="1" name="&apos;Off&apos; time">0.2</param>
+                    <param id="2" name="Duration">2.0</param>
+                </action>
+                <action id="-12" name="Subtract from" sid="230019205383551" type="bemco">
+                    <param id="0" name="Instance variable">nyawa</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="564503381407321" type="i_nyawa">
+                    <param id="0" name="Frame number">bemco.nyawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="152712502599166">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="715454574359444" type="bemco">
+                    <param id="0" name="Object">Virus_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="326797561931939" type="bemco">
+                    <param id="0" name="&apos;On&apos; time">0.2</param>
+                    <param id="1" name="&apos;Off&apos; time">0.2</param>
+                    <param id="2" name="Duration">2.0</param>
+                </action>
+                <action id="-12" name="Subtract from" sid="773260813552655" type="bemco">
+                    <param id="0" name="Instance variable">nyawa</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="104011618480562" type="i_nyawa">
+                    <param id="0" name="Frame number">bemco.nyawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="138008289215231">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="246252850166205" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+                <condition id="7" inverted="1" name="Is mirrored" sid="555292733950262" type="bemco" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="519500669940822" type="bemco">
+                    <param id="0" name="Object">peluru</param>
+                    <param id="1" name="Layer">&quot;game&quot;</param>
+                    <param id="2" name="Image point">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="686828259589600">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="799866120741601" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+                <condition id="7" name="Is mirrored" sid="243856552868990" type="bemco" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="854575633980850" type="bemco">
+                    <param id="0" name="Object">peluru</param>
+                    <param id="1" name="Layer">&quot;game&quot;</param>
+                    <param id="2" name="Image point">2</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="326654579314823" type="peluru">
+                    <param id="0" name="Angle">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="255501830335856">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="152771293116544" type="peluru" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="665889978051485" type="peluru" />
+            </actions>
+        </event-block>
+        <event-block sid="412624266340187">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="959316904377989" type="peluru">
+                    <param id="0" name="Object">Virus_</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="447997426769920" type="Virus_">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Sine2" id="0" name="Set active" sid="563785723676520" type="Virus_">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="671511078577762" type="Virus_" />
+                <action id="0" name="Spawn another object" sid="993353945564190" type="Virus_">
+                    <param id="0" name="Object">bonus</param>
+                    <param id="1" name="Layer">&quot;game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="668080829057948" type="System">
+                    <param id="0" name="Variable">coin</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Destroy" sid="569137903318340" type="peluru" />
+            </actions>
+        </event-block>
+        <event-block sid="186133175095775">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="896162536868376" type="peluru">
+                    <param id="0" name="Object">Virus_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="1" name="Start fade" sid="353370160445653" type="Virus_2" />
+                <action behavior="Platform" id="11" name="Set enabled" sid="123610390055910" type="Virus_2">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="706581141557016" type="Virus_2">
+                    <param id="0" name="Object">bonus</param>
+                    <param id="1" name="Layer">&quot;game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="705638276436981" type="System">
+                    <param id="0" name="Variable">coin</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Destroy" sid="600072587566091" type="peluru" />
+            </actions>
+        </event-block>
+        <event-block sid="148609408207827">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="114216190650093" type="bemco">
+                    <param id="0" name="Object">batas_bawah</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="842550885762394" type="bemco">
+                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="289432240610446" type="batas_bawah" />
+                <action behavior="Platform" id="0" name="Set ignoring input" sid="718935309791812" type="bemco">
+                    <param id="0" name="Input">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="102496004898051" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-10" name="Set value" sid="650022897753289" type="bemco">
+                    <param id="0" name="Instance variable">nyawa</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="121631614759077" type="i_nyawa">
+                    <param id="0" name="Frame number">bemco.nyawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="413864362831864">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="704001562528875" type="bemco">
+                    <param id="0" name="Instance variable">nyawa</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="582646778445349" type="bemco">
+                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="728707376548937" type="bemco">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="503677216223148" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="863911650933528" type="System">
+                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="497044207196008">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="429795896894238" type="Touch">
+                            <param id="0" name="Object">tombol_ulang</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="157557999408751" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="576597003006105" type="System" />
+                        <action id="-9" name="Set value" sid="732160107128443" type="System">
+                            <param id="0" name="Variable">coin</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="195857995725588" type="System">
+                            <param id="0" name="Variable">meds</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="982695202859554" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="567754586810853">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="871717988619102" type="i_nyawa">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="248331905405468" type="i_nyawa">
+                    <param id="0" name="Frame number">bemco.nyawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="622323641503579" title="Kotak Ilmu">
+            <sub-events>
+                <event-block sid="427537964598844">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="176542314726516" type="bemco">
+                            <param id="0" name="Object">kotak_ilmu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="585148921560693" type="System">
+                            <param id="0" name="Layer">&quot;pp : edu box&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="319633684222880" type="bemco">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="988090213090944" type="kotak_ilmu">
+                            <param id="0" name="Object">bonus_med</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="654847519216952" type="System">
+                            <param id="0" name="Variable">meds</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="687408709593933">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="309959131373089" type="Touch">
+                            <param id="0" name="Object">ok_kotak</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="632792009694820" type="System">
+                            <param id="0" name="Layer">&quot;pp : edu box&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="828622796244158" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="637775003701552" type="kotak_ilmu" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="343053920938494" title="Kotak Quiz">
+            <sub-events>
+                <event-block sid="402366394978761">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="449177827647093" type="bemco">
+                            <param id="0" name="Object">kotak_quiz</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="174830995653103" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="684396017147235" type="bemco">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="372302695323767">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="235576946484184" type="Touch">
+                            <param id="0" name="Object">pilih_a</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="878495554167623" type="bemco">
+                            <param id="0" name="Object">salah</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="650598921223137" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="928018154622762" type="kotak_quiz" />
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="206797972200563" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="503940963442937">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="436906712172107" type="Touch">
+                            <param id="0" name="Object">pilih_b</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="493851288635705" type="bemco">
+                            <param id="0" name="Object">salah</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="888994713878951" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="958369445519896" type="kotak_quiz" />
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="230846133713781" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="519816226684000">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="878437124633965" type="Touch">
+                            <param id="0" name="Object">pilih_c</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="620907179603448" type="bemco">
+                            <param id="0" name="Object">benar</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="759102523171113" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="529125753993642" type="kotak_quiz" />
+                        <action id="-10" name="Add to" sid="813755853872942" type="System">
+                            <param id="0" name="Variable">meds</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="556930084790704" type="bemco">
+                            <param id="0" name="Object">bonus_med</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="340621545839852" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="580066967655524" type="System">
+                            <param id="0" name="Layer">&quot;reward&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="286244150598112">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="758163728396807" type="Touch">
+                            <param id="0" name="Object">pilih_d</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="171577714218938" type="bemco">
+                            <param id="0" name="Object">salah</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="684893488586538" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="771300866317963" type="kotak_quiz" />
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="682554037216562" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="862532285902199">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="993051874175916" type="bemco">
+                    <param id="0" name="Object">challenge_</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="225686057581977" type="bemco">
+                    <param id="0" name="Object">bonus</param>
+                    <param id="1" name="Layer">&quot;game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="624435456573387" type="System">
+                    <param id="0" name="Variable">coin</param>
+                    <param id="1" name="Value">50</param>
+                </action>
+                <action id="-9" name="Destroy" sid="692727215726193" type="challenge_" />
             </actions>
         </event-block>
     </events>

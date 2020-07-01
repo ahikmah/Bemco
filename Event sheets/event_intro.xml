@@ -345,20 +345,6 @@
                         <condition id="-2" name="On start of layout" sid="442047293989304" type="System" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="546139012263413" type="bemco">
-                            <param id="0" name="Animation">&quot;walk&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="574177275410833" type="bemco">
-                            <param id="0" name="Target is">0</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">700</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="128871294876674" type="bemco">
-                            <param id="0" name="Target is">1</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">Self.Y</param>
-                        </action>
                         <action id="-4" name="Set layer visible" sid="107305633631199" type="System">
                             <param id="0" name="Layer">4</param>
                             <param id="1" name="Visibility">0</param>
@@ -372,13 +358,7 @@
                             <param id="1" name="Time (seconds)">3</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="2" name="Stop" sid="614229544556355" type="bemco" />
-                        <action id="4" name="Set animation" sid="424718664974608" type="bemco">
-                            <param id="0" name="Animation">&quot;idle&quot;</param>
-                            <param id="1" name="From">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block bookmark="1" sid="433292201302764">
                     <conditions>
