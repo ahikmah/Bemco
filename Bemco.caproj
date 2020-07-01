@@ -988,227 +988,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="tileYellow_" sid="748726222887176">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117637256440493" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_16.png">
-                        <collision-poly>
-                            <point x="0.0625" y="0.0625" />
-                            <point x="0.5" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0.5" y="0.890625" />
-                            <point x="0.3125" y="0.6875" />
-                            <point x="0.25" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_2" sid="413423591721139">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917565649610742" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_17.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.5" y="0" />
-                            <point x="0.9375" y="0.0625" />
-                            <point x="0.75" y="0.5" />
-                            <point x="0.6875" y="0.6875" />
-                            <point x="0.5" y="0.875" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_4" sid="615050730995791">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="965647618357988" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_04.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_14" sid="662027862112985">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="148415769281732" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_06.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_16" sid="227573436950163">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="897721771686774" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_10.png">
-                        <collision-poly>
-                            <point x="1" y="0.5" />
-                            <point x="1" y="1" />
-                            <point x="0.5" y="1" />
-                            <point x="0.5" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_17" sid="199984012222823">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113016946391965" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_19.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_18" sid="113095631891771">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171498230856585" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_05.png">
-                        <collision-poly>
-                            <point x="0.0625" y="0.0625" />
-                            <point x="0.5" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_19" sid="138283351331745">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154843876701643" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_07.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.5" y="0" />
-                            <point x="0.9375" y="0.0625" />
-                            <point x="1" y="0.5" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_20" sid="175162463870771">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812739495002788" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_11.png">
-                        <collision-poly>
-                            <point x="0.5" y="0.515625" />
-                            <point x="0.5" y="0.5" />
-                            <point x="0.5" y="0.5" />
-                            <point x="0.5" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_21" sid="786736554474004">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911962577150214" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_20.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_9" sid="307252213670368">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="800669319880997" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_08.png">
-                        <collision-poly>
-                            <point x="0.0625" y="0.0625" />
-                            <point x="0.5" y="0" />
-                            <point x="0.9375" y="0.0625" />
-                            <point x="1" y="0.5" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_10" sid="526475607787671">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616279691121707" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_06.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_11" sid="470494079033677">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Jumpthru" sid="573553705144538">
-                    <behavior id="jumpthru" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700333544178228" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_27.png">
-                        <collision-poly>
-                            <point x="0.0625" y="0.0754717" />
-                            <point x="0.5" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0.490566" />
-                            <point x="0.90625" y="0.886792" />
-                            <point x="0.5" y="0.867925" />
-                            <point x="0.09375" y="0.886792" />
-                            <point x="0" y="0.490566" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_12" sid="673983747683850">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="125472357589408" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_01.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0.490566" />
-                            <point x="0.90625" y="0.886792" />
-                            <point x="0.5" y="0.867925" />
-                            <point x="0.09375" y="0.886792" />
-                            <point x="0" y="0.490566" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="tileYellow_13" sid="753369495458088">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686415944137419" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_02.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.5" y="0" />
-                            <point x="0.9375" y="0.0754717" />
-                            <point x="1" y="0.490566" />
-                            <point x="0.90625" y="0.886792" />
-                            <point x="0.5" y="0.867925" />
-                            <point x="0.09375" y="0.886792" />
-                            <point x="0" y="0.490566" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="kota" sid="540507342165859">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1491,8 +1270,8 @@
                 <instance-variable name="move" sid="160885635292267" type="string" />
             </instance-variables>
             <behaviors>
-                <behavior-type name="Platform" sid="383619557986402">
-                    <behavior id="Platform" />
+                <behavior-type name="Bullet" sid="167245814084647">
+                    <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -2046,6 +1825,7 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="nyawa" sid="530728111286504" type="number" />
+                <instance-variable name="bintang" sid="636275576059421" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="850824393133683">
@@ -2632,10 +2412,6 @@
             <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="gass_postman" sid="587216115408541">
-            <plugin id="TiledBg" />
-            <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\asset\Level 1 - Kebun\png\BG\BG.png" />
-        </object-type>
         <object-type name="icon_nyawa" sid="463190580835608">
             <plugin id="Sprite" />
             <animation-folder>
@@ -3012,6 +2788,47 @@
                             <point x="0.213333" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tombol_lanjutkan" sid="308204986572143">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699541921708520" speed="0">
+                    <frame duration="1" hotspotX="0.500832" hotspotY="0.504348" />
+                    <frame duration="1" hotspotX="0.500832" hotspotY="0.504348" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\LANJUTKAN\Default\000.png">
+                        <collision-poly>
+                            <point x="0.0249584" y="0.130435" />
+                            <point x="0.499168" y="0.13913" />
+                            <point x="0.950083" y="0.26087" />
+                            <point x="0.948419" y="0.730435" />
+                            <point x="0.499168" y="0.756522" />
+                            <point x="0.0499168" y="0.73913" />
+                            <point x="0.0216306" y="0.495652" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bintang" sid="438511377108791">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769755812952397" speed="0">
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\bintang.png" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\bintang.png">
+                        <collision-poly>
+                            <point x="0.104822" y="0.231481" />
+                            <point x="0.498952" y="0" />
+                            <point x="0.897275" y="0.226852" />
+                            <point x="0.943396" y="0.5" />
+                            <point x="0.903564" y="0.787037" />
+                            <point x="0.498952" y="0.773148" />
+                            <point x="0.0964361" y="0.787037" />
+                            <point x="0.0503145" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\bintang.png" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\bintang.png" />
                 </animation>
             </animation-folder>
         </object-type>

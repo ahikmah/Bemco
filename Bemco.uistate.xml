@@ -12,10 +12,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">layout_intro</layout>
         <layout order="2">mat_mudah</layout>
-        <layout order="5">mat_mode</layout>
         <event-sheet order="1">event_intro</event-sheet>
         <event-sheet active="1" order="3">event_mat_mudah</event-sheet>
-        <event-sheet order="4">event_mat_mode</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,10 +28,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/buttons/" />
         <folder expanded="1" path="object-folder/txt/" />
         <folder expanded="1" path="object-folder/popup/" />
-        <folder expanded="0" path="object-folder/background/" />
+        <folder expanded="1" path="object-folder/background/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/matematika/" />
-        <folder expanded="0" path="layout-folder/ipa/" />
+        <folder expanded="1" path="layout-folder/ipa/" />
         <folder expanded="0" path="layout-folder/bahasa/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/matematika/" />
@@ -95,21 +93,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />
         <folder expanded="1" path="animation-folder/desa/" />
-        <folder expanded="1" path="animation-folder/tileYellow_/" />
-        <folder expanded="1" path="animation-folder/tileYellow_2/" />
-        <folder expanded="1" path="animation-folder/tileYellow_4/" />
-        <folder expanded="1" path="animation-folder/tileYellow_14/" />
-        <folder expanded="1" path="animation-folder/tileYellow_16/" />
-        <folder expanded="1" path="animation-folder/tileYellow_17/" />
-        <folder expanded="1" path="animation-folder/tileYellow_18/" />
-        <folder expanded="1" path="animation-folder/tileYellow_19/" />
-        <folder expanded="1" path="animation-folder/tileYellow_20/" />
-        <folder expanded="1" path="animation-folder/tileYellow_21/" />
-        <folder expanded="1" path="animation-folder/tileYellow_9/" />
-        <folder expanded="1" path="animation-folder/tileYellow_10/" />
-        <folder expanded="1" path="animation-folder/tileYellow_11/" />
-        <folder expanded="1" path="animation-folder/tileYellow_12/" />
-        <folder expanded="1" path="animation-folder/tileYellow_13/" />
         <folder expanded="1" path="animation-folder/kota/" />
         <folder expanded="1" path="animation-folder/Coin/" />
         <folder expanded="1" path="animation-folder/Virus_/" />
@@ -202,5 +185,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/pilih_d/" />
         <folder expanded="1" path="animation-folder/benar/" />
         <folder expanded="1" path="animation-folder/salah/" />
+        <folder expanded="1" path="animation-folder/tombol_lanjutkan/" />
+        <folder expanded="1" path="animation-folder/bintang/" />
     </folders-expanded>
 </c2uistate>

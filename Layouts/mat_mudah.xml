@@ -5996,18 +5996,14 @@
                         <move>right</move>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Platform">
+                        <behavior-instance type="Bullet">
                             <properties>
-                                <max-speed>80</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
-                                <jump-strength>650</jump-strength>
-                                <gravity>1500</gravity>
-                                <max-fall-speed>1000</max-fall-speed>
-                                <double-jump>Disabled</double-jump>
-                                <jump-sustain>0</jump-sustain>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
+                                <speed>400</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -7796,7 +7792,7 @@
                                 <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
-                                <fade-out-time>0</fade-out-time>
+                                <fade-out-time>1</fade-out-time>
                                 <destroy>After fade out</destroy>
                             </properties>
                         </behavior-instance>
@@ -8005,6 +8001,7 @@
                     </properties>
                     <instance-variables>
                         <nyawa>3</nyawa>
+                        <bintang>0</bintang>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -8807,13 +8804,57 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>950</x>
-                        <y>920</y>
+                        <x>694</x>
+                        <y>925</y>
                         <z>0</z>
-                        <width>377</width>
-                        <height>118</height>
+                        <width>265.961334229</width>
+                        <height>83.245185852</height>
                         <depth>0</depth>
                         <hotspotX>0.501326263</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tombol_lanjutkan" uid="329">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1126</x>
+                        <y>925</y>
+                        <z>0</z>
+                        <width>399.485931396</width>
+                        <height>76.440734863</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500831962</hotspotX>
+                        <hotspotY>0.504347801</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="bintang" uid="330">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>942</x>
+                        <y>387</y>
+                        <z>0</z>
+                        <width>616.793334961</width>
+                        <height>279.302642822</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501048207</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
