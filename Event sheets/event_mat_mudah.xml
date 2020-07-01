@@ -1049,6 +1049,11 @@
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">2</param>
                         </condition>
+                        <condition id="-7" name="Compare instance variable" sid="407088302315795" type="bemco">
+                            <param id="0" name="Instance variable">nyawa</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                         <condition id="-9" name="Layer is visible" sid="601514383805910" type="System">
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
                         </condition>
@@ -1100,6 +1105,11 @@
                             <param id="0" name="Variable">item</param>
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">9</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="386712355001178" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="703845833992927" type="System">
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
