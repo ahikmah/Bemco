@@ -2439,7 +2439,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551108553563906" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
+                    <frame duration="1" hotspotX="-0.0172414" hotspotY="-0.293103" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
                         <collision-poly>
                             <point x="0.181034" y="0.181034" />
                             <point x="0.5" y="0.0517241" />
