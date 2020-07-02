@@ -1170,7 +1170,7 @@
                         <condition id="-14" name="Compare variable" sid="662292323935138" type="System">
                             <param id="0" name="Variable">meds</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">5</param>
+                            <param id="2" name="Value">15</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="316457494089050" type="System">
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -1196,7 +1196,7 @@
                         <condition id="-14" name="Compare variable" sid="361749420417033" type="System">
                             <param id="0" name="Variable">coin</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">50</param>
+                            <param id="2" name="Value">150</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="628922953147421" type="System">
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
