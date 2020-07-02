@@ -23,17 +23,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="game" />
+    <active-layer name="pp : end" />
     <layers>
         <layer locked="1" name="background" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="mission info" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="reward" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="game" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="game" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="hidden button" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="button" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : edu box" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="pp : quiz" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="HUD" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="pp : end" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="pp : end" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>
