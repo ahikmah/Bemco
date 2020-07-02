@@ -7606,7 +7606,7 @@
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
+                                <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7614,14 +7614,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>115</x>
-                        <y>-273</y>
+                        <x>82</x>
+                        <y>-294</y>
                         <z>0</z>
                         <width>52.763622284</width>
                         <height>52.763622284</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>-0.258620679</hotspotY>
+                        <hotspotX>-0.00862069</hotspotX>
+                        <hotspotY>-0.318965524</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

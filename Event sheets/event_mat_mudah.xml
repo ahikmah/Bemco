@@ -587,7 +587,7 @@
                         <action id="0" name="Spawn another object" sid="519500669940822" type="bemco">
                             <param id="0" name="Object">peluru</param>
                             <param id="1" name="Layer">&quot;game&quot;</param>
-                            <param id="2" name="Image point">2</param>
+                            <param id="2" name="Image point">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -602,10 +602,13 @@
                         <action id="0" name="Spawn another object" sid="854575633980850" type="bemco">
                             <param id="0" name="Object">peluru</param>
                             <param id="1" name="Layer">&quot;game&quot;</param>
-                            <param id="2" name="Image point">2</param>
+                            <param id="2" name="Image point">0</param>
                         </action>
                         <action behavior="Bullet" id="3" name="Set angle of motion" sid="326654579314823" type="peluru">
                             <param id="0" name="Angle">180</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="259265362664612" type="peluru">
+                            <param id="0" name="State">0</param>
                         </action>
                     </actions>
                 </event-block>
