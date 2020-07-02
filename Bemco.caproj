@@ -2832,6 +2832,77 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bonus_edu" sid="965243875349947">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="868118224544720">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="369251207134452">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187692003434737" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505263" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\challenge_1.png">
+                        <collision-poly>
+                            <point x="0.0882353" y="0.0947368" />
+                            <point x="0.5" y="0" />
+                            <point x="0.911765" y="0.0947368" />
+                            <point x="0.72549" y="0.494737" />
+                            <point x="0.617647" y="0.589474" />
+                            <point x="0.5" y="1" />
+                            <point x="0.382353" y="0.589474" />
+                            <point x="0.254902" y="0.494737" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="coin_edu" sid="475974936320506">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579355925899130" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505263" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\challenge_1.png">
+                        <collision-poly>
+                            <point x="0.0882353" y="0.0947368" />
+                            <point x="0.5" y="0" />
+                            <point x="0.911765" y="0.0947368" />
+                            <point x="0.72549" y="0.494737" />
+                            <point x="0.617647" y="0.589474" />
+                            <point x="0.5" y="1" />
+                            <point x="0.382353" y="0.589474" />
+                            <point x="0.254902" y="0.494737" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buttonHome2" sid="818071997774804">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="204151117089564">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768510133568376" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" />
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button home.png">
+                        <collision-poly>
+                            <point x="0.155963" y="0.168317" />
+                            <point x="0.495413" y="0" />
+                            <point x="0.844037" y="0.168317" />
+                            <point x="0.954128" y="0.49505" />
+                            <point x="0.844037" y="0.831683" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.155963" y="0.831683" />
+                            <point x="0.0366972" y="0.49505" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

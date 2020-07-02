@@ -2426,7 +2426,7 @@
                                 <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
-                                <fade-out-time>0</fade-out-time>
+                                <fade-out-time>1</fade-out-time>
                                 <destroy>After fade out</destroy>
                             </properties>
                         </behavior-instance>
@@ -5059,8 +5059,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6898</x>
-                        <y>637</y>
+                        <x>6893</x>
+                        <y>753</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5088,8 +5088,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>7018</x>
-                        <y>637</y>
+                        <x>7013</x>
+                        <y>753</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -7822,8 +7822,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5593</x>
-                        <y>671</y>
+                        <x>6992</x>
+                        <y>621</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -8045,6 +8045,49 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="bonus_edu" uid="337">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>200</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>Yes</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>1</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-257.5</x>
+                        <y>-35.13684082</y>
+                        <z>0</z>
+                        <width>73</width>
+                        <height>69</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.505262971</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -8534,7 +8577,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>749</x>
+                        <x>763</x>
                         <y>57</y>
                         <z>0</z>
                         <width>154</width>
@@ -8556,8 +8599,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>670</x>
-                        <y>57</y>
+                        <x>687</x>
+                        <y>54</y>
                         <z>0</z>
                         <width>72</width>
                         <height>72</height>
@@ -8622,7 +8665,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>714</x>
+                        <x>728</x>
                         <y>27</y>
                         <z>0</z>
                         <width>160</width>
@@ -8648,28 +8691,6 @@
                         <y>57</y>
                         <z>0</z>
                         <width>72</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Meds" uid="235">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>474</x>
-                        <y>57</y>
-                        <z>0</z>
-                        <width>52</width>
                         <height>72</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -8721,14 +8742,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>502</x>
-                        <y>33</y>
+                        <x>515</x>
+                        <y>30</y>
                         <z>0</z>
                         <width>160</width>
                         <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="coin_edu" uid="338">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>481</x>
+                        <y>54</y>
+                        <z>0</z>
+                        <width>66</width>
+                        <height>61</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.505262971</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -8790,50 +8833,6 @@
                         <depth>0</depth>
                         <hotspotX>0.500758708</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tombol_ulang" uid="321">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>694</x>
-                        <y>925</y>
-                        <z>0</z>
-                        <width>265.961334229</width>
-                        <height>83.245185852</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501326263</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tombol_lanjutkan" uid="329">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1126</x>
-                        <y>925</y>
-                        <z>0</z>
-                        <width>399.485931396</width>
-                        <height>76.440734863</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500831962</hotspotX>
-                        <hotspotY>0.504347801</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -8970,28 +8969,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Meds" uid="335">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>871</x>
-                        <y>734</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="SpriteFont" uid="336">
                     <properties>
                         <character-width>55</character-width>
@@ -9013,7 +8990,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>899</x>
+                        <x>911</x>
                         <y>710</y>
                         <z>0</z>
                         <width>160</width>
@@ -9021,6 +8998,78 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="buttonRestart" uid="235">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>862</x>
+                        <y>880</y>
+                        <z>0</z>
+                        <width>109</width>
+                        <height>101</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504587173</hotspotX>
+                        <hotspotY>0.504950523</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="buttonHome2" uid="321">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>979</x>
+                        <y>879</y>
+                        <z>0</z>
+                        <width>109</width>
+                        <height>101</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504587173</hotspotX>
+                        <hotspotY>0.504950523</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="coin_edu" uid="339">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>882</x>
+                        <y>735</y>
+                        <z>0</z>
+                        <width>66</width>
+                        <height>61</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.505262971</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

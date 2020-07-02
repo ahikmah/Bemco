@@ -677,7 +677,7 @@
                             <param id="0" name="Input">1</param>
                         </action>
                         <action id="0" name="Spawn another object" sid="988090213090944" type="kotak_ilmu">
-                            <param id="0" name="Object">bonus_med</param>
+                            <param id="0" name="Object">bonus_edu</param>
                             <param id="1" name="Layer">&quot;game&quot;</param>
                             <param id="2" name="Image point">0</param>
                         </action>
@@ -798,7 +798,7 @@
                             <param id="1" name="Value">10</param>
                         </action>
                         <action id="0" name="Spawn another object" sid="556930084790704" type="bemco">
-                            <param id="0" name="Object">bonus_med</param>
+                            <param id="0" name="Object">bonus_edu</param>
                             <param id="1" name="Layer">&quot;game&quot;</param>
                             <param id="2" name="Image point">0</param>
                         </action>
@@ -921,7 +921,7 @@
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="621759511522945" type="tombol_lanjutkan">
+                        <action id="5" name="Set frame" sid="621759511522945" type="buttonHome2">
                             <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>
@@ -929,7 +929,7 @@
                         <event-block sid="497044207196008">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="429795896894238" type="Touch">
-                                    <param id="0" name="Object">tombol_ulang</param>
+                                    <param id="0" name="Object">buttonRestart</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -980,7 +980,7 @@
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="854267889902132" type="tombol_lanjutkan">
+                        <action id="5" name="Set frame" sid="854267889902132" type="buttonHome2">
                             <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
@@ -988,7 +988,7 @@
                         <event-block sid="332322586621333">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="344990633504382" type="Touch">
-                                    <param id="0" name="Object">tombol_ulang</param>
+                                    <param id="0" name="Object">buttonRestart</param>
                                 </condition>
                             </conditions>
                             <actions>
