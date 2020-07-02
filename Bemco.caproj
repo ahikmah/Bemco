@@ -2803,7 +2803,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769755812952397" speed="0">
-                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\bintang.png" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\dead.png">
+                        <collision-poly>
+                            <point x="0.320755" y="0.708333" />
+                            <point x="0.498952" y="0.143519" />
+                            <point x="0.681342" y="0.703704" />
+                            <point x="0.645702" y="0.5" />
+                            <point x="0.69392" y="0.324074" />
+                            <point x="0.498952" y="0.87963" />
+                            <point x="0.341719" y="0.24537" />
+                            <point x="0.36478" y="0.5" />
+                        </collision-poly>
+                    </frame>
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\bintang.png">
                         <collision-poly>
                             <point x="0.104822" y="0.231481" />
@@ -2896,7 +2907,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="401249193789034" speed="5">
-                    <frame duration="1" hotspotX="0.50087" hotspotY="0.621622" original-source="C:\Users\USER\Pictures\tg aset\misi_gagal.png">
+                    <frame duration="1" hotspotX="0.50087" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\misi_gagal.png">
                         <collision-poly>
                             <point x="0.013913" y="0.162162" />
                             <point x="0.50087" y="0.0675675" />
