@@ -190,5 +190,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bonus_edu/" />
         <folder expanded="1" path="animation-folder/coin_edu/" />
         <folder expanded="1" path="animation-folder/buttonHome2/" />
+        <folder expanded="1" path="animation-folder/mission_status/" />
+        <folder expanded="1" path="animation-folder/misi/" />
+        <folder expanded="1" path="animation-folder/edu/" />
+        <folder expanded="1" path="animation-folder/quis/" />
+        <folder expanded="1" path="animation-folder/1_a/" />
+        <folder expanded="1" path="animation-folder/1_b/" />
+        <folder expanded="1" path="animation-folder/1_c/" />
+        <folder expanded="1" path="animation-folder/i_d/" />
     </folders-expanded>
 </c2uistate>

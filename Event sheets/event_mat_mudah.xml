@@ -927,6 +927,9 @@
                         <action id="5" name="Set frame" sid="621759511522945" type="buttonHome2">
                             <param id="0" name="Frame number">0</param>
                         </action>
+                        <action id="5" name="Set frame" sid="111622154645467" type="mission_status">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="497044207196008">
@@ -984,6 +987,9 @@
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action id="5" name="Set frame" sid="854267889902132" type="buttonHome2">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="804424802368833" type="mission_status">
                             <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
