@@ -2907,18 +2907,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="401249193789034" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\misi_gagal.png">
+                    <frame duration="1" hotspotX="0.50087" hotspotY="0.621622" original-source="C:\Users\USER\Pictures\tg aset\misi_gagal.png">
                         <collision-poly>
-                            <point x="0.0918367" y="0.324742" />
-                            <point x="0.5" y="0.28866" />
-                            <point x="0.868805" y="0.463918" />
-                            <point x="0.868805" y="0.5" />
-                            <point x="0.892128" y="0.618557" />
-                            <point x="0.106414" y="0.623711" />
-                            <point x="0.0860058" y="0.5" />
+                            <point x="0.013913" y="0.162162" />
+                            <point x="0.50087" y="0.0675675" />
+                            <point x="0.94087" y="0.527027" />
+                            <point x="0.94087" y="0.621622" />
+                            <point x="0.968696" y="0.932432" />
+                            <point x="0.0313043" y="0.945946" />
+                            <point x="0.00695652" y="0.621622" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502591" original-source="C:\Users\USER\Pictures\tg aset\misi_berhasil.png" />
+                    <frame duration="1" hotspotX="0.500668" hotspotY="0.605263" original-source="C:\Users\USER\Pictures\tg aset\misi_berhasil.png" />
                 </animation>
             </animation-folder>
         </object-type>

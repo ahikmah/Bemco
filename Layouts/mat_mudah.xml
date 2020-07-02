@@ -5084,8 +5084,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6893</x>
-                        <y>753</y>
+                        <x>6847</x>
+                        <y>847</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -5113,8 +5113,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>7013</x>
-                        <y>753</y>
+                        <x>6967</x>
+                        <y>847</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -7847,8 +7847,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6992</x>
-                        <y>621</y>
+                        <x>6946</x>
+                        <y>715</y>
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
@@ -9241,14 +9241,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>927</x>
+                        <x>923</x>
                         <y>148</y>
                         <z>0</z>
-                        <width>428</width>
-                        <height>119</height>
+                        <width>319</width>
+                        <height>39</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500869572</hotspotX>
+                        <hotspotY>0.621621609</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
