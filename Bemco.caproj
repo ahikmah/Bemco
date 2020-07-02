@@ -2903,6 +2903,155 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="mission_status" sid="243913852993615">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="401249193789034" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\misi_gagal.png">
+                        <collision-poly>
+                            <point x="0.0918367" y="0.324742" />
+                            <point x="0.5" y="0.28866" />
+                            <point x="0.868805" y="0.463918" />
+                            <point x="0.868805" y="0.5" />
+                            <point x="0.892128" y="0.618557" />
+                            <point x="0.106414" y="0.623711" />
+                            <point x="0.0860058" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502591" original-source="C:\Users\USER\Pictures\tg aset\misi_berhasil.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="misi" sid="174880913425190">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="114966240577904">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="997726301331419" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500935" original-source="C:\Users\USER\Pictures\tg aset\misi1.png">
+                        <collision-poly>
+                            <point x="0.0742754" y="0.0766355" />
+                            <point x="0.5" y="0.0485981" />
+                            <point x="0.922101" y="0.0803738" />
+                            <point x="0.769928" y="0.762617" />
+                            <point x="0.5" y="0.930841" />
+                            <point x="0.230072" y="0.762617" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="edu" sid="103904772230296">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349703835601002" speed="5">
+                    <frame duration="1" hotspotX="0.500904" hotspotY="0.500935" original-source="C:\Users\USER\Pictures\tg aset\edu1.png">
+                        <collision-poly>
+                            <point x="0.0542495" y="0.0560748" />
+                            <point x="0.499096" y="0.0803738" />
+                            <point x="0.943942" y="0.0579439" />
+                            <point x="0.813743" y="0.499065" />
+                            <point x="0.851718" y="0.846729" />
+                            <point x="0.15009" y="0.84486" />
+                            <point x="0.177215" y="0.499065" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quis" sid="157833329177466">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113103939955856" speed="5">
+                    <frame duration="1" hotspotX="0.500898" hotspotY="0.501618" original-source="C:\Users\USER\Pictures\tg aset\quis 1.png">
+                        <collision-poly>
+                            <point x="0.330341" y="0.595469" />
+                            <point x="0.499102" y="0.158576" />
+                            <point x="0.639138" y="0.650485" />
+                            <point x="0.81149" y="0.660194" />
+                            <point x="0.499102" y="0.695793" />
+                            <point x="0.21544" y="0.61165" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1_a" sid="642720081478570">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328047033145391" speed="5">
+                    <frame duration="1" hotspotX="0.528302" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\1_a.png">
+                        <collision-poly>
+                            <point x="0.264151" y="0.0877193" />
+                            <point x="0.528302" y="0.157895" />
+                            <point x="0.830189" y="0.0526316" />
+                            <point x="0.811321" y="0.614035" />
+                            <point x="0.415094" y="0.789474" />
+                            <point x="0.528302" y="0.315789" />
+                            <point x="0.64151" y="0.789474" />
+                            <point x="0.226415" y="0.614035" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1_b" sid="162217106890415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606048542373013" speed="5">
+                    <frame duration="1" hotspotX="0.487805" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\1_b.png">
+                        <collision-poly>
+                            <point x="0.219512" y="0.0526316" />
+                            <point x="0.487805" y="0.0701754" />
+                            <point x="0.731707" y="0.0701754" />
+                            <point x="0.756097" y="0.614035" />
+                            <point x="0.317073" y="0.859649" />
+                            <point x="0.487805" y="0.859649" />
+                            <point x="0.0487805" y="0.614035" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1_c" sid="807937829061965">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878307682440526" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.631579" original-source="C:\Users\USER\Pictures\tg aset\1_c.png">
+                        <collision-poly>
+                            <point x="0.354839" y="0.105263" />
+                            <point x="0.483871" y="0.0526316" />
+                            <point x="0.709677" y="0.0701755" />
+                            <point x="0.677419" y="0.631579" />
+                            <point x="0.483871" y="0.842105" />
+                            <point x="0.354839" y="0.631579" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="i_d" sid="442427300867449">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868030760981828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\i_d.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.0701754" />
+                            <point x="0.475" y="0.0526316" />
+                            <point x="0.675" y="0.105263" />
+                            <point x="0.425" y="0.614035" />
+                            <point x="0.275" y="0.842105" />
+                            <point x="0.475" y="0.842105" />
+                            <point x="0.725" y="0.824561" />
+                            <point x="0.15" y="0.614035" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
