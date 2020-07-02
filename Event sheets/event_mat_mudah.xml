@@ -46,6 +46,14 @@
                             <param id="0" name="Layer">&quot;reward&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
+                        <action id="-4" name="Set layer visible" sid="507209784363560" type="System">
+                            <param id="0" name="Layer">&quot;Layer 0&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="852959368401174" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="190166574641906">
@@ -921,7 +929,7 @@
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="621759511522945" type="buttonHome2">
+                        <action id="5" name="Set frame" sid="621759511522945" type="button_next">
                             <param id="0" name="Frame number">0</param>
                         </action>
                         <action id="5" name="Set frame" sid="111622154645467" type="mission_status">
@@ -966,13 +974,6 @@
                         <action behavior="Bullet" id="5" name="Set enabled" sid="406359621217449" type="postman">
                             <param id="0" name="State">1</param>
                         </action>
-                    </actions>
-                </event-block>
-                <event-block sid="251140786774081">
-                    <conditions>
-                        <condition id="-4" name="Is outside layout" sid="387316349534243" type="postman" />
-                    </conditions>
-                    <actions>
                         <action behavior="Platform" id="11" name="Set enabled" sid="238687810665831" type="bemco">
                             <param id="0" name="State">0</param>
                         </action>
@@ -983,40 +984,65 @@
                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="854267889902132" type="buttonHome2">
+                        <action id="5" name="Set frame" sid="632673080067357" type="button_next">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="949753996417399" type="mission_status">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="251140786774081">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="387316349534243" type="System">
+                            <param id="0" name="Variable">coin</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">150</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="657082321977146" type="System">
+                            <param id="0" name="Variable">meds</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="702606262839150" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="854267889902132" type="button_next">
                             <param id="0" name="Frame number">1</param>
                         </action>
                         <action id="5" name="Set frame" sid="804424802368833" type="mission_status">
                             <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block sid="332322586621333">
-                            <conditions>
-                                <condition id="17" name="On tap object" sid="344990633504382" type="Touch">
-                                    <param id="0" name="Object">buttonRestart</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-16" name="Wait" sid="157235299662805" type="System">
-                                    <param id="0" name="Seconds">0.5</param>
-                                </action>
-                                <action id="-26" name="Restart layout" sid="771091754709638" type="System" />
-                                <action id="-9" name="Set value" sid="306146765698770" type="System">
-                                    <param id="0" name="Variable">coin</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="316685575971764" type="System">
-                                    <param id="0" name="Variable">meds</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="728094144361872" type="System">
-                                    <param id="0" name="Variable">item</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
+                </event-block>
+                <event-block sid="873153729453470">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="639017214976056" type="Touch">
+                            <param id="0" name="Object">buttonRestart</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="860316109543071" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="932461885833275" type="System" />
+                        <action id="-9" name="Set value" sid="200961639678977" type="System">
+                            <param id="0" name="Variable">coin</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="938147892030032" type="System">
+                            <param id="0" name="Variable">meds</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="893987912816387" type="System">
+                            <param id="0" name="Variable">item</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
@@ -1183,6 +1209,204 @@
                                 <action id="-11" name="Add to" sid="646550200981689" type="bemco">
                                     <param id="0" name="Instance variable">bintang</param>
                                     <param id="1" name="Value">0.5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="321090227404377" title="Mute &amp; Unmute music3">
+            <sub-events>
+                <event-block sid="175569396945880">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="814413087020684" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="974262325704948">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Is tag playing" sid="349590315134865" type="Audio">
+                                    <param id="0" name="Tag">&quot;music&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="469543887118242" type="Audio">
+                                    <param id="0" name="Audio file">intro_music</param>
+                                    <param id="2" name="Loop">1</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="367235782638556">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="889087756594768">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="613045847054147" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="830042990419593" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="737195273247755" type="button_mute">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="157259394868997">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="494230266494475" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="904843868951661" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="718811633077271" type="button_mute">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="471396992787470" title="Fullscreen option3">
+            <sub-events>
+                <event-block sid="150121307450717">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="919248838077417" type="System">
+                            <param id="0" name="Variable">fullscreen</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Request fullscreen" sid="697481683477579" type="Browser">
+                            <param id="0" name="Mode">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="640508399652680">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="384535793151212" type="System">
+                            <param id="0" name="Variable">fullscreen</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Cancel fullscreen" sid="118180753285371" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="120731047227856" title="Hidden Button">
+            <sub-events>
+                <event-block sid="149041561472854">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="318872697744827" type="Touch">
+                            <param id="0" name="Object">buttonHome</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="547432437849617" type="System">
+                            <param id="0" name="Layout">mat_mode</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="144212126998829">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="632563232218283" type="Touch">
+                            <param id="0" name="Object">buttonInfo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="735090940303380" type="System">
+                            <param id="0" name="Layer">&quot;mission info&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="646795143073908">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="650429327832936" type="Touch">
+                            <param id="0" name="Object">button_mute</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="825730606606247">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="788325094051599" type="System">
+                                    <param id="0" name="Variable">music</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="610915356896778" type="System">
+                                    <param id="0" name="Variable">music</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="365267112977899">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="779657538232255" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="509985977221467" type="System">
+                                    <param id="0" name="Variable">music</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="723571680886432">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="399977083459548" type="Touch">
+                            <param id="0" name="Object">button_fullscreen</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="578314804076210">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="206529945948242" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="991548190838133" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="152854325464153">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="323896381360629" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="229536815080187" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>

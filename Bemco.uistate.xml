@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="1">layout_intro</layout>
-        <layout active="1" order="3">mat_mudah</layout>
+        <layout order="3">mat_mudah</layout>
         <event-sheet order="2">event_intro</event-sheet>
-        <event-sheet order="4">event_mat_mudah</event-sheet>
+        <event-sheet active="1" order="4">event_mat_mudah</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -198,5 +198,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/1_b/" />
         <folder expanded="1" path="animation-folder/1_c/" />
         <folder expanded="1" path="animation-folder/i_d/" />
+        <folder expanded="1" path="animation-folder/misi_1/" />
+        <folder expanded="1" path="animation-folder/button_next/" />
     </folders-expanded>
 </c2uistate>
