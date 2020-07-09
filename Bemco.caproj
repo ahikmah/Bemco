@@ -1459,8 +1459,13 @@
         </object-type>
         <object-type name="LEVEL2" sid="975837134134621">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="112104647973406">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="116854635128288" speed="5">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="116854635128288" speed="0">
                     <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Aam\Pictures\level 2.png">
                         <collision-poly>
                             <point x="0.0611664" y="0.0611664" />
@@ -1473,14 +1478,21 @@
                             <point x="0.0142248" y="0.499289" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\LEVEL1\Default\000.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="LEVEL3" sid="217286475827161">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="991647198129288">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610670491613878" speed="5">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610670491613878" speed="0">
                     <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Aam\Pictures\level 3.jpg" />
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\LEVEL1\Default\000.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1824,8 +1836,9 @@
         <object-type name="bemco" sid="162496240615376">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="nyawa" sid="530728111286504" type="number" />
-                <instance-variable name="bintang" sid="636275576059421" type="number" />
+                <instance-variable name="meds" sid="912337028697376" type="number" />
+                <instance-variable name="item" sid="808187761386512" type="number" />
+                <instance-variable name="coin" sid="628109720492320" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="850824393133683">
@@ -2803,18 +2816,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769755812952397" speed="0">
-                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\dead.png">
-                        <collision-poly>
-                            <point x="0.320755" y="0.708333" />
-                            <point x="0.498952" y="0.143519" />
-                            <point x="0.681342" y="0.703704" />
-                            <point x="0.645702" y="0.5" />
-                            <point x="0.69392" y="0.324074" />
-                            <point x="0.498952" y="0.87963" />
-                            <point x="0.341719" y="0.24537" />
-                            <point x="0.36478" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\dead.png" />
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Pictures\bintang.png">
                         <collision-poly>
                             <point x="0.104822" y="0.231481" />
@@ -3094,6 +3096,29 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bintang_mat_level_1" sid="607828613266041">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="151344439484613">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542237746730633" speed="5">
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                        <collision-poly>
+                            <point x="0.104822" y="0.231481" />
+                            <point x="0.29979" y="0.5" />
+                            <point x="0.0964361" y="0.787037" />
+                            <point x="0.0503145" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
                 </animation>
             </animation-folder>
         </object-type>

@@ -7907,8 +7907,9 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <nyawa>3</nyawa>
-                        <bintang>0</bintang>
+                        <meds>0</meds>
+                        <item>0</item>
+                        <coin>0</coin>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -9232,7 +9233,7 @@
                         <height>39</height>
                         <depth>0</depth>
                         <hotspotX>0.500869572</hotspotX>
-                        <hotspotY>0.621621609</hotspotY>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

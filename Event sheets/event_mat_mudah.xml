@@ -3,9 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_mat_mudah</name>
     <events>
-        <variable constant="0" name="meds" sid="680723406269913" static="0" type="number">0</variable>
-        <variable constant="0" name="item" sid="366908815277734" static="0" type="number">0</variable>
-        <variable constant="0" name="coin" sid="985368868190058" static="0" type="number">0</variable>
+        <variable constant="0" name="bintang_level_1_mat" sid="949215504337874" static="0" type="number">0</variable>
+        <variable constant="0" name="nyawa_mat" sid="307866091829596" static="0" type="number">3</variable>
         <variable constant="0" name="buttonclicked" sid="804122276109058" static="0" type="number">0</variable>
         <event-group description="" sid="825750403757064" title="PopUp Misi">
             <sub-events>
@@ -155,10 +154,10 @@
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="893347040335336" type="i_nyawa">
-                    <param id="0" name="Frame number">bemco.nyawa</param>
+                    <param id="0" name="Frame number">nyawa_mat</param>
                 </action>
                 <action id="5" name="Set frame" sid="998245634961685" type="bintang">
-                    <param id="0" name="Frame number">bemco.bintang</param>
+                    <param id="0" name="Frame number">bintang_level_1_mat</param>
                 </action>
             </actions>
             <sub-events>
@@ -172,7 +171,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="688846396044657" type="SpriteFont">
-                            <param id="0" name="Text">coin</param>
+                            <param id="0" name="Text">bemco.coin</param>
                         </action>
                     </actions>
                 </event-block>
@@ -186,7 +185,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="586898542633108" type="SpriteFont">
-                            <param id="0" name="Text">item</param>
+                            <param id="0" name="Text">bemco.item</param>
                         </action>
                     </actions>
                 </event-block>
@@ -200,7 +199,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="243744022237405" type="SpriteFont">
-                            <param id="0" name="Text">meds</param>
+                            <param id="0" name="Text">bemco.meds</param>
                         </action>
                     </actions>
                 </event-block>
@@ -384,8 +383,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="978466391727868" type="Coin" />
-                        <action id="-10" name="Add to" sid="170942056593634" type="System">
-                            <param id="0" name="Variable">coin</param>
+                        <action id="-11" name="Add to" sid="170942056593634" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -398,8 +397,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="811717347709470" type="Food_" />
-                        <action id="-10" name="Add to" sid="643112919181742" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="466847618269242" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -412,8 +411,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="935092935483656" type="Food_10" />
-                        <action id="-10" name="Add to" sid="288188349273851" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="261939746325275" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -426,8 +425,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="405966588831466" type="Food_2" />
-                        <action id="-10" name="Add to" sid="238831810858305" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="557053468040973" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -440,8 +439,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="734294447274991" type="Food_3" />
-                        <action id="-10" name="Add to" sid="113757264307418" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="236476000711174" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -454,8 +453,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="606660169910267" type="Food_4" />
-                        <action id="-10" name="Add to" sid="453149941886388" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="804328356736016" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -468,8 +467,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="950435626821342" type="Food_5" />
-                        <action id="-10" name="Add to" sid="870595771958003" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="139218356129688" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -482,8 +481,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="714586960458883" type="Food_6" />
-                        <action id="-10" name="Add to" sid="308037774228561" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="243572797315067" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -496,8 +495,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="251281165413175" type="Food_7" />
-                        <action id="-10" name="Add to" sid="435483357208615" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="458104627765828" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -510,8 +509,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="354966720732038" type="Food_8" />
-                        <action id="-10" name="Add to" sid="981447166302833" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="938833331958616" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -524,8 +523,8 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="183633716352713" type="Food_9" />
-                        <action id="-10" name="Add to" sid="831806614637676" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <action id="-11" name="Add to" sid="441396363456143" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -546,12 +545,12 @@
                             <param id="1" name="&apos;Off&apos; time">0.2</param>
                             <param id="2" name="Duration">2.0</param>
                         </action>
-                        <action id="-12" name="Subtract from" sid="230019205383551" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <action id="-11" name="Subtract from" sid="230019205383551" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="5" name="Set frame" sid="564503381407321" type="i_nyawa">
-                            <param id="0" name="Frame number">bemco.nyawa</param>
+                            <param id="0" name="Frame number">nyawa_mat</param>
                         </action>
                     </actions>
                 </event-block>
@@ -567,12 +566,12 @@
                             <param id="1" name="&apos;Off&apos; time">0.2</param>
                             <param id="2" name="Duration">2.0</param>
                         </action>
-                        <action id="-12" name="Subtract from" sid="773260813552655" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <action id="-11" name="Subtract from" sid="117725314799824" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="104011618480562" type="i_nyawa">
-                            <param id="0" name="Frame number">bemco.nyawa</param>
+                        <action id="5" name="Set frame" sid="298957045657718" type="i_nyawa">
+                            <param id="0" name="Frame number">nyawa_mat</param>
                         </action>
                     </actions>
                 </event-block>
@@ -639,8 +638,8 @@
                             <param id="1" name="Layer">&quot;game&quot;</param>
                             <param id="2" name="Image point">0</param>
                         </action>
-                        <action id="-10" name="Add to" sid="668080829057948" type="System">
-                            <param id="0" name="Variable">coin</param>
+                        <action id="-11" name="Add to" sid="668080829057948" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
                             <param id="1" name="Value">10</param>
                         </action>
                         <action id="-9" name="Destroy" sid="569137903318340" type="peluru" />
@@ -662,8 +661,8 @@
                             <param id="1" name="Layer">&quot;game&quot;</param>
                             <param id="2" name="Image point">0</param>
                         </action>
-                        <action id="-10" name="Add to" sid="705638276436981" type="System">
-                            <param id="0" name="Variable">coin</param>
+                        <action id="-11" name="Add to" sid="152044114257111" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
                             <param id="1" name="Value">10</param>
                         </action>
                         <action id="-9" name="Destroy" sid="600072587566091" type="peluru" />
@@ -692,8 +691,8 @@
                             <param id="1" name="Layer">&quot;game&quot;</param>
                             <param id="2" name="Image point">0</param>
                         </action>
-                        <action id="-10" name="Add to" sid="654847519216952" type="System">
-                            <param id="0" name="Variable">meds</param>
+                        <action id="-11" name="Add to" sid="346264642837785" type="bemco">
+                            <param id="0" name="Instance variable">meds</param>
                             <param id="1" name="Value">5</param>
                         </action>
                     </actions>
@@ -755,8 +754,8 @@
                         <action behavior="Platform" id="0" name="Set ignoring input" sid="206797972200563" type="bemco">
                             <param id="0" name="Input">0</param>
                         </action>
-                        <action id="-12" name="Subtract from" sid="764457651859119" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <action id="-11" name="Subtract from" sid="764457651859119" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -781,8 +780,8 @@
                         <action behavior="Platform" id="0" name="Set ignoring input" sid="230846133713781" type="bemco">
                             <param id="0" name="Input">0</param>
                         </action>
-                        <action id="-12" name="Subtract from" sid="212685092928349" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <action id="-11" name="Subtract from" sid="952055974084674" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -804,8 +803,8 @@
                             <param id="1" name="Visibility">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="529125753993642" type="kotak_quiz" />
-                        <action id="-10" name="Add to" sid="813755853872942" type="System">
-                            <param id="0" name="Variable">meds</param>
+                        <action id="-11" name="Add to" sid="813755853872942" type="bemco">
+                            <param id="0" name="Instance variable">meds</param>
                             <param id="1" name="Value">10</param>
                         </action>
                         <action id="0" name="Spawn another object" sid="556930084790704" type="bemco">
@@ -842,8 +841,8 @@
                         <action behavior="Platform" id="0" name="Set ignoring input" sid="682554037216562" type="bemco">
                             <param id="0" name="Input">0</param>
                         </action>
-                        <action id="-12" name="Subtract from" sid="901156773810286" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <action id="-11" name="Subtract from" sid="132084432039551" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -869,8 +868,8 @@
                                     <param id="1" name="Layer">&quot;game&quot;</param>
                                     <param id="2" name="Image point">0</param>
                                 </action>
-                                <action id="-10" name="Add to" sid="624435456573387" type="System">
-                                    <param id="0" name="Variable">coin</param>
+                                <action id="-11" name="Add to" sid="624435456573387" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
                                     <param id="1" name="Value">50</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="692727215726193" type="challenge_" />
@@ -900,19 +899,19 @@
                         <action id="-16" name="Wait" sid="102496004898051" type="System">
                             <param id="0" name="Seconds">0.5</param>
                         </action>
-                        <action id="-10" name="Set value" sid="650022897753289" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <action id="-9" name="Set value" sid="650022897753289" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Value">0</param>
                         </action>
                         <action id="5" name="Set frame" sid="121631614759077" type="i_nyawa">
-                            <param id="0" name="Frame number">bemco.nyawa</param>
+                            <param id="0" name="Frame number">nyawa_mat</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="413864362831864">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="704001562528875" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <condition id="-14" name="Compare variable" sid="704001562528875" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">0</param>
                         </condition>
@@ -951,17 +950,25 @@
                                     <param id="0" name="Seconds">0.5</param>
                                 </action>
                                 <action id="-26" name="Restart layout" sid="576597003006105" type="System" />
-                                <action id="-9" name="Set value" sid="732160107128443" type="System">
-                                    <param id="0" name="Variable">coin</param>
+                                <action id="-10" name="Set value" sid="732160107128443" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="195857995725588" type="System">
-                                    <param id="0" name="Variable">meds</param>
+                                <action id="-10" name="Set value" sid="697840807676874" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="982695202859554" type="System">
-                                    <param id="0" name="Variable">item</param>
+                                <action id="-10" name="Set value" sid="632778194775165" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
                                     <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="160481576329873" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="130861867999069" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">3</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -993,24 +1000,18 @@
                         <action id="5" name="Set frame" sid="949753996417399" type="mission_status">
                             <param id="0" name="Frame number">0</param>
                         </action>
+                        <action id="-10" name="Add to" sid="710254192697042" type="System">
+                            <param id="0" name="Variable">level_mat</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="251140786774081">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="387316349534243" type="System">
-                            <param id="0" name="Variable">coin</param>
+                        <condition id="-14" name="Compare variable" sid="616455932947828" type="System">
+                            <param id="0" name="Variable">bintang_level_1_mat</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">150</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="657082321977146" type="System">
-                            <param id="0" name="Variable">meds</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">15</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="702606262839150" type="System">
-                            <param id="0" name="Variable">item</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">10</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -1033,17 +1034,37 @@
                                     <param id="0" name="Seconds">0.5</param>
                                 </action>
                                 <action id="-26" name="Restart layout" sid="932461885833275" type="System" />
-                                <action id="-9" name="Set value" sid="200961639678977" type="System">
-                                    <param id="0" name="Variable">coin</param>
+                                <action id="-10" name="Set value" sid="459617635462104" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="938147892030032" type="System">
-                                    <param id="0" name="Variable">meds</param>
+                                <action id="-10" name="Set value" sid="238346578616768" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="893987912816387" type="System">
-                                    <param id="0" name="Variable">item</param>
+                                <action id="-10" name="Set value" sid="893768913888271" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
                                     <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="793550237856401" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="254750523926194" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="933443769691989">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="331844508120337" type="Touch">
+                                    <param id="0" name="Object">button_next</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="823842626327347" type="System">
+                                    <param id="0" name="Layout">mat_mode</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1055,8 +1076,8 @@
             <sub-events>
                 <event-block sid="815302684572059">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="703709955859892" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <condition id="-14" name="Compare variable" sid="703709955859892" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
@@ -1071,8 +1092,8 @@
                                 <condition id="-4" name="Trigger once while true" sid="297235148731955" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="892441682781412" type="bemco">
-                                    <param id="0" name="Instance variable">bintang</param>
+                                <action id="-10" name="Add to" sid="892441682781412" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
@@ -1081,13 +1102,13 @@
                 </event-block>
                 <event-block sid="304269434875641">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="995135639650616" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <condition id="-14" name="Compare variable" sid="995135639650616" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="407088302315795" type="bemco">
-                            <param id="0" name="Instance variable">nyawa</param>
+                        <condition id="-14" name="Compare variable" sid="407088302315795" type="System">
+                            <param id="0" name="Variable">nyawa_mat</param>
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Value">0</param>
                         </condition>
@@ -1102,8 +1123,8 @@
                                 <condition id="-4" name="Trigger once while true" sid="532555651978972" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="287720022360366" type="bemco">
-                                    <param id="0" name="Instance variable">bintang</param>
+                                <action id="-10" name="Add to" sid="654982631688809" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
                                     <param id="1" name="Value">0.5</param>
                                 </action>
                             </actions>
@@ -1112,8 +1133,8 @@
                 </event-block>
                 <event-block sid="507898628093034">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="990185097016275" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <condition id="-7" name="Compare instance variable" sid="990185097016275" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">10</param>
                         </condition>
@@ -1128,8 +1149,8 @@
                                 <condition id="-4" name="Trigger once while true" sid="824734717380555" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="761582161187512" type="bemco">
-                                    <param id="0" name="Instance variable">bintang</param>
+                                <action id="-10" name="Add to" sid="997965822760104" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
@@ -1138,13 +1159,13 @@
                 </event-block>
                 <event-block sid="845434695477908">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="725649837252917" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <condition id="-7" name="Compare instance variable" sid="725649837252917" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">9</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="386712355001178" type="System">
-                            <param id="0" name="Variable">item</param>
+                        <condition id="-7" name="Compare instance variable" sid="386712355001178" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Value">0</param>
                         </condition>
@@ -1159,8 +1180,8 @@
                                 <condition id="-4" name="Trigger once while true" sid="806495370659951" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="645047347201442" type="bemco">
-                                    <param id="0" name="Instance variable">bintang</param>
+                                <action id="-10" name="Add to" sid="287744373408526" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
                                     <param id="1" name="Value">0.5</param>
                                 </action>
                             </actions>
@@ -1169,8 +1190,8 @@
                 </event-block>
                 <event-block sid="802651859391459">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="662292323935138" type="System">
-                            <param id="0" name="Variable">meds</param>
+                        <condition id="-7" name="Compare instance variable" sid="662292323935138" type="bemco">
+                            <param id="0" name="Instance variable">meds</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">15</param>
                         </condition>
@@ -1185,8 +1206,8 @@
                                 <condition id="-4" name="Trigger once while true" sid="370346224516152" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="407516769990165" type="bemco">
-                                    <param id="0" name="Instance variable">bintang</param>
+                                <action id="-10" name="Add to" sid="391019843742518" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
                                     <param id="1" name="Value">0.5</param>
                                 </action>
                             </actions>
@@ -1195,8 +1216,8 @@
                 </event-block>
                 <event-block sid="779277892646316">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="361749420417033" type="System">
-                            <param id="0" name="Variable">coin</param>
+                        <condition id="-7" name="Compare instance variable" sid="361749420417033" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">150</param>
                         </condition>
@@ -1211,8 +1232,8 @@
                                 <condition id="-4" name="Trigger once while true" sid="260901041503926" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="646550200981689" type="bemco">
-                                    <param id="0" name="Instance variable">bintang</param>
+                                <action id="-10" name="Add to" sid="232143562684258" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
                                     <param id="1" name="Value">0.5</param>
                                 </action>
                             </actions>

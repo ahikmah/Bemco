@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_mat_mode</name>
     <events>
+        <variable constant="0" name="level_mat" sid="235823273240814" static="0" type="number">1</variable>
         <event-block sid="471857543761211">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="290254333142501" type="System" />
@@ -40,6 +41,102 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="864972726988328" type="System">
                     <param id="0" name="Layout">home</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="506301021714865">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="331099368883703" type="System">
+                    <param id="0" name="Variable">level_mat</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="458538996511142" type="System">
+                    <param id="0" name="Variable">level_mat</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="391551249730124" type="LEVEL2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="579170727614914" type="LEVEL2">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="614761863397833">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="725678950106754" type="Touch">
+                            <param id="0" name="Object">LEVEL2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="365026994763839" type="System">
+                            <param id="0" name="Layout">mat_sedang</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="147944692037036">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="765411256540070" type="System">
+                    <param id="0" name="Variable">level_mat</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="112828886256967" type="System">
+                    <param id="0" name="Variable">level_mat</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="122095619729765" type="LEVEL3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="978865472008760" type="LEVEL3">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="892763324763470">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="861442307116845" type="Touch">
+                            <param id="0" name="Object">LEVEL3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="131033482889559" type="System">
+                            <param id="0" name="Layout">mat_sulit</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="744471344647638">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="375630684736627" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="784307337969833" type="bintang_mat_level_1">
+                    <param id="0" name="Frame number">bintang_level_1_mat</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="970804263471039">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="552073541728047" type="System">
+                    <param id="0" name="Variable">bintang_level_1_mat</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="845969032679735" type="bintang_mat_level_1">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
