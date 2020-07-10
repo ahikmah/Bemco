@@ -1,0 +1,2631 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>event_level_1</name>
+    <events>
+        <variable constant="0" name="bintang_level_1_indo" sid="514093883330103" static="0" type="number">0</variable>
+        <variable constant="0" name="bintang_level_1_ipa" sid="528406666016217" static="0" type="number">0</variable>
+        <variable constant="0" name="bintang_level_1_mat" sid="949215504337874" static="0" type="number">0</variable>
+        <variable constant="0" name="nyawa_indo" sid="530694323723551" static="0" type="number">3</variable>
+        <variable constant="0" name="nyawa_ipa" sid="412739775584758" static="0" type="number">3</variable>
+        <variable constant="0" name="nyawa_mat" sid="307866091829596" static="0" type="number">3</variable>
+        <variable constant="0" name="buttonclicked" sid="804122276109058" static="0" type="number">0</variable>
+        <event-group description="" sid="825750403757064" title="PopUp Misi">
+            <sub-events>
+                <event-block sid="673648724574007">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="568528439467724" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="275835074546144" type="System">
+                            <param id="0" name="Layer">&quot;mission info&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="901958433809935" type="System">
+                            <param id="0" name="Layer">&quot;game&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="963412370319614" type="System">
+                            <param id="0" name="Layer">&quot;HUD&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="903769433196087" type="System">
+                            <param id="0" name="Layer">&quot;button&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="899048583582279" type="System">
+                            <param id="0" name="Layer">&quot;pp : edu box&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="493433502721603" type="System">
+                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="361216247364449" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="523668342011955" type="System">
+                            <param id="0" name="Layer">&quot;reward&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="852959368401174" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="190166574641906">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="752258045666986" type="Touch">
+                            <param id="0" name="Object">ok_mulai</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="943854930515393" type="System">
+                            <param id="0" name="Layer">&quot;mission info&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="131359215140596" type="System">
+                            <param id="0" name="Layer">&quot;game&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="104939772697709" type="System">
+                            <param id="0" name="Layer">&quot;HUD&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="158245890412013" type="System">
+                            <param id="0" name="Layer">&quot;button&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="255492826945124">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="107947420668577" type="System">
+                    <param id="0" name="Variable">buttonclicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="719915534262184" type="System">
+                    <param id="0" name="Layer">&quot;hidden button&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="928677711897915">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="855275728904521" type="System">
+                    <param id="0" name="Variable">buttonclicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="385335972418484" type="System">
+                    <param id="0" name="Layer">&quot;hidden button&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="212878201068251">
+            <conditions>
+                <condition id="17" name="On tap object" sid="320321948781317" type="Touch">
+                    <param id="0" name="Object">button_menu</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="670623399068407">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="361789477317054" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="327818194518324" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="505277708802666">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="366456944478608" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="900417630442997" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="748179356633241">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="183393727795359" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="769924672520332">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="220017199578930" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mat&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="893347040335336" type="i_nyawa">
+                            <param id="0" name="Frame number">nyawa_mat</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="998245634961685" type="bintang">
+                            <param id="0" name="Frame number">bintang_level_1_mat</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="589010529584360">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="210486898045693" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="811098169055963" type="i_nyawa">
+                            <param id="0" name="Frame number">nyawa_ipa</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="328781083354513" type="bintang">
+                            <param id="0" name="Frame number">bintang_level_1_ipa</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="880789543818470">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="940219985377774" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;indo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="990255515377949" type="i_nyawa">
+                            <param id="0" name="Frame number">nyawa_indo</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="219296212791664" type="bintang">
+                            <param id="0" name="Frame number">bintang_level_1_indo</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="728046923892936">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="826605875378392" type="SpriteFont">
+                            <param id="0" name="Instance variable">type</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;coin&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="688846396044657" type="SpriteFont">
+                            <param id="0" name="Text">bemco.coin</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="783433165822155">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="970290456707503" type="SpriteFont">
+                            <param id="0" name="Instance variable">type</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;item&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="586898542633108" type="SpriteFont">
+                            <param id="0" name="Text">bemco.item</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="442042754641746">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="303288061907394" type="SpriteFont">
+                            <param id="0" name="Instance variable">type</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;meds&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="243744022237405" type="SpriteFont">
+                            <param id="0" name="Text">bemco.meds</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="796534888903215" title="Character Moving">
+            <sub-events>
+                <event-block sid="503866900050798">
+                    <conditions>
+                        <condition id="2" inverted="1" name="Is playing" sid="107113383534685" type="bemco">
+                            <param id="0" name="Animation">&quot;Dead&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="649575468542683">
+                            <conditions>
+                                <condition behavior="Platform" id="0" name="Is moving" sid="760067219646901" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="445283983722846" type="bemco">
+                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="426734919443561">
+                            <conditions>
+                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="522403173576144" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="942009504735539" type="bemco">
+                                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="564991333183825">
+                            <conditions>
+                                <condition behavior="Platform" id="9" name="On landed" sid="761839598634838" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="512915308399934" type="bemco">
+                                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="881446218941022">
+                            <conditions>
+                                <condition behavior="Platform" id="3" name="Is jumping" sid="692329241802604" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="310455351593490" type="bemco">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="964685448085284">
+                            <conditions>
+                                <condition behavior="Platform" id="4" name="Is falling" sid="490795529843806" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="540696325509115" type="bemco">
+                                    <param id="0" name="Animation">&quot;Fall&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="660439777335183">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="421008389402627" type="Keyboard">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="973087085717255" type="bemco">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="408710680348764">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="475373368136700" type="Keyboard">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="965925139224936" type="bemco">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="430576013002721">
+                    <conditions>
+                        <condition id="-3" name="Is on-screen" sid="825865811754159" type="Virus_" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Sine" id="0" name="Set active" sid="766191714527093" type="Virus_">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Sine2" id="0" name="Set active" sid="300562099034090" type="Virus_">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="553773962149623">
+                    <conditions>
+                        <condition id="-3" name="Is on-screen" sid="668860469542756" type="Virus_2" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="120696166412627">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="248205520361950" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="517168655093998" type="Virus_2">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="764153696014760">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="714865700654124" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="706178062502969" type="Virus_2">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="463174653506818">
+                            <conditions>
+                                <condition behavior="Platform" id="10" name="Is by wall" sid="938204036575638" type="Virus_2">
+                                    <param id="0" name="Side">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="752185730204626" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Value">&quot;left&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="391916930931871">
+                            <conditions>
+                                <condition behavior="Platform" id="10" name="Is by wall" sid="864103244573387" type="Virus_2">
+                                    <param id="0" name="Side">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="390682038970981" type="Virus_2">
+                                    <param id="0" name="Instance variable">move</param>
+                                    <param id="1" name="Value">&quot;right&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="218511251022965" title="Bemco Collision Food">
+            <sub-events>
+                <event-block sid="191331110690642">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="677964638043024" type="bemco">
+                            <param id="0" name="Object">Coin</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="978466391727868" type="Coin" />
+                        <action id="-11" name="Add to" sid="170942056593634" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="193273468513411">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="477217681426810" type="bemco">
+                            <param id="0" name="Object">Food_</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="811717347709470" type="Food_" />
+                        <action id="-11" name="Add to" sid="466847618269242" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="419345855490720">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="580038423794747" type="bemco">
+                            <param id="0" name="Object">Food_10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="935092935483656" type="Food_10" />
+                        <action id="-11" name="Add to" sid="261939746325275" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="572681741278685">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="888900692421138" type="bemco">
+                            <param id="0" name="Object">Food_2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="405966588831466" type="Food_2" />
+                        <action id="-11" name="Add to" sid="557053468040973" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="755523596897013">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="240509209131872" type="bemco">
+                            <param id="0" name="Object">Food_3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="734294447274991" type="Food_3" />
+                        <action id="-11" name="Add to" sid="236476000711174" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="317343770809173">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="593168269248013" type="bemco">
+                            <param id="0" name="Object">Food_4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="606660169910267" type="Food_4" />
+                        <action id="-11" name="Add to" sid="804328356736016" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="377398445274776">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="829026747572577" type="bemco">
+                            <param id="0" name="Object">Food_5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="950435626821342" type="Food_5" />
+                        <action id="-11" name="Add to" sid="139218356129688" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="647271040576690">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="497658270258912" type="bemco">
+                            <param id="0" name="Object">Food_6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="714586960458883" type="Food_6" />
+                        <action id="-11" name="Add to" sid="243572797315067" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="927223103328583">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="356371653311488" type="bemco">
+                            <param id="0" name="Object">Food_7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="251281165413175" type="Food_7" />
+                        <action id="-11" name="Add to" sid="458104627765828" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="171818308156681">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="718384273561755" type="bemco">
+                            <param id="0" name="Object">Food_8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="354966720732038" type="Food_8" />
+                        <action id="-11" name="Add to" sid="938833331958616" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="549409065292777">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="630464128973078" type="bemco">
+                            <param id="0" name="Object">Food_9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="183633716352713" type="Food_9" />
+                        <action id="-11" name="Add to" sid="441396363456143" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="370383505828484" title="Bemco Collision Enemy">
+            <sub-events>
+                <event-block sid="206855641180884">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="914662281795829" type="bemco">
+                            <param id="0" name="Object">Virus_</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="321513705778389" type="bemco">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">2.0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="618405501584536">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="457558750449429" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="230019205383551" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="564503381407321" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_mat</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="370163470844095">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="966417710612788" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="377426651642584" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="925794697893722" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_ipa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="377501943703348">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="534963389425326" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="530409563355786" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="699932077059987" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_indo</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="152712502599166">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="715454574359444" type="bemco">
+                            <param id="0" name="Object">Virus_2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="326797561931939" type="bemco">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">2.0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="750468242753816">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="749435951181186" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="799108666967898" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="863170856311198" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_mat</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="623155414574569">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="468234478357393" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="817343602228099" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="208384517688612" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_ipa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="771002984670746">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="409494922155099" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="315592100727005" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="535155804094407" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_indo</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="138008289215231">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="246252850166205" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Is mirrored" sid="555292733950262" type="bemco" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="519500669940822" type="bemco">
+                            <param id="0" name="Object">peluru</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="686828259589600">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="799866120741601" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                        <condition id="7" name="Is mirrored" sid="243856552868990" type="bemco" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="854575633980850" type="bemco">
+                            <param id="0" name="Object">peluru</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="326654579314823" type="peluru">
+                            <param id="0" name="Angle">180</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="259265362664612" type="peluru">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="255501830335856">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="152771293116544" type="peluru" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="665889978051485" type="peluru" />
+                    </actions>
+                </event-block>
+                <event-block sid="412624266340187">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="959316904377989" type="peluru">
+                            <param id="0" name="Object">Virus_</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Sine" id="0" name="Set active" sid="447997426769920" type="Virus_">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Sine2" id="0" name="Set active" sid="563785723676520" type="Virus_">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="671511078577762" type="Virus_" />
+                        <action id="0" name="Spawn another object" sid="993353945564190" type="Virus_">
+                            <param id="0" name="Object">bonus</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="668080829057948" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="569137903318340" type="peluru" />
+                    </actions>
+                </event-block>
+                <event-block sid="186133175095775">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="896162536868376" type="peluru">
+                            <param id="0" name="Object">Virus_2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade" id="1" name="Start fade" sid="353370160445653" type="Virus_2" />
+                        <action behavior="Platform" id="11" name="Set enabled" sid="123610390055910" type="Virus_2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="706581141557016" type="Virus_2">
+                            <param id="0" name="Object">bonus</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="152044114257111" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="600072587566091" type="peluru" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="622323641503579" title="Kotak Ilmu">
+            <sub-events>
+                <event-block sid="427537964598844">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="176542314726516" type="bemco">
+                            <param id="0" name="Object">kotak_ilmu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="585148921560693" type="System">
+                            <param id="0" name="Layer">&quot;pp : edu box&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="319633684222880" type="bemco">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="988090213090944" type="kotak_ilmu">
+                            <param id="0" name="Object">bonus_edu</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="346264642837785" type="bemco">
+                            <param id="0" name="Instance variable">meds</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="335393738235301">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="657089207566134" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="439645186690766" type="edu">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="120229325576996">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="719603771005539" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="766990396557646" type="edu">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="221002602757628">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="193951574849966" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="920750556479673" type="edu">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="687408709593933">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="309959131373089" type="Touch">
+                            <param id="0" name="Object">ok_kotak</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="632792009694820" type="System">
+                            <param id="0" name="Layer">&quot;pp : edu box&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="828622796244158" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="637775003701552" type="kotak_ilmu" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="343053920938494" title="Kotak Quiz">
+            <sub-events>
+                <event-block sid="402366394978761">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="449177827647093" type="bemco">
+                            <param id="0" name="Object">kotak_quiz</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="174830995653103" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="684396017147235" type="bemco">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="344462044348658">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="145001608384520" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="828633379072426" type="quis">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="976344704280831" type="1_a">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="817846133835026" type="1_b">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="527526824941461" type="1_c">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="340102396712529" type="i_d">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="310984306422526">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="682929876446484" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="803107561753864" type="quis">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="142716023968150" type="1_a">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="474711158101133" type="1_b">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="825799539777237" type="1_c">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="128088898785721" type="i_d">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="971882911815421">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="619440313373605" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="537262030324766" type="quis">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="342083100807091" type="1_a">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="671307938647423" type="1_b">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="295733740935218" type="1_c">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="308608769894427" type="i_d">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="372302695323767">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="235576946484184" type="Touch">
+                            <param id="0" name="Object">pilih_a</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="878495554167623" type="bemco">
+                            <param id="0" name="Object">salah</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="650598921223137" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="928018154622762" type="kotak_quiz" />
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="206797972200563" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="152522618573697">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="763243818554020" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="764457651859119" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="612565366937906">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="851712360631464" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="359536702642524" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="870354690149621">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="640279806287535" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="966098276190849" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="503940963442937">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="436906712172107" type="Touch">
+                            <param id="0" name="Object">pilih_b</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="493851288635705" type="bemco">
+                            <param id="0" name="Object">salah</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="888994713878951" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="958369445519896" type="kotak_quiz" />
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="230846133713781" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="111823271686158">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="925542176943152" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="862900404400539" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="694607730940751">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="115322107054506" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="712646621471653" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="102522971227946">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="615670186266155" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="287988925290152" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="519816226684000">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="878437124633965" type="Touch">
+                            <param id="0" name="Object">pilih_c</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="620907179603448" type="bemco">
+                            <param id="0" name="Object">benar</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="759102523171113" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="529125753993642" type="kotak_quiz" />
+                        <action id="-11" name="Add to" sid="813755853872942" type="bemco">
+                            <param id="0" name="Instance variable">meds</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="556930084790704" type="bemco">
+                            <param id="0" name="Object">bonus_edu</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="340621545839852" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="580066967655524" type="System">
+                            <param id="0" name="Layer">&quot;reward&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="286244150598112">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="758163728396807" type="Touch">
+                            <param id="0" name="Object">pilih_d</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="171577714218938" type="bemco">
+                            <param id="0" name="Object">salah</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="684893488586538" type="System">
+                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="771300866317963" type="kotak_quiz" />
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="682554037216562" type="bemco">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="673160686643693">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="589876194763255" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="906237567818105" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="416138653953895">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="245023895020395" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="931655740116427" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="666068212503689">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="527215873570950" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="118240833647337" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="401822502443470">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="993051874175916" type="bemco">
+                            <param id="0" name="Object">challenge_</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="575015631892917" type="System">
+                            <param id="0" name="Layer">&quot;reward&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="982696274538480">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="404880929014411" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="225686057581977" type="bemco">
+                                    <param id="0" name="Object">bonus</param>
+                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="624435456573387" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="692727215726193" type="challenge_" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="997075523382726" title="End Game">
+            <sub-events>
+                <event-block sid="148609408207827">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="114216190650093" type="bemco">
+                            <param id="0" name="Object">batas_bawah</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="842550885762394" type="bemco">
+                            <param id="0" name="Animation">&quot;Dead&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="289432240610446" type="batas_bawah" />
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="718935309791812" type="bemco">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="102496004898051" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="154309386755360">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="995822081226902" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="650022897753289" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="121631614759077" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_mat</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="596287670771456">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="485572997501009" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="287136477618200" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="382354105857205" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_ipa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="736215674607724">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="544954936694001" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="868029408680226" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="542548753026127" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_indo</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="518869636320153">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="849550680747772" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mat&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="413864362831864">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="704001562528875" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="582646778445349" type="bemco">
+                                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action behavior="Platform" id="11" name="Set enabled" sid="728707376548937" type="bemco">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="503677216223148" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="863911650933528" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="621759511522945" type="button_next">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="111622154645467" type="mission_status">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="497044207196008">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="429795896894238" type="Touch">
+                                            <param id="0" name="Object">buttonRestart</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="157557999408751" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="576597003006105" type="System" />
+                                        <action id="-10" name="Set value" sid="732160107128443" type="bemco">
+                                            <param id="0" name="Instance variable">coin</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="697840807676874" type="bemco">
+                                            <param id="0" name="Instance variable">meds</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="632778194775165" type="bemco">
+                                            <param id="0" name="Instance variable">item</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="160481576329873" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="130861867999069" type="System">
+                                            <param id="0" name="Variable">nyawa_mat</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="188634966978912">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="578035740294050" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="373692290894555">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="101636061125311" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="718407517489724" type="bemco">
+                                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action behavior="Platform" id="11" name="Set enabled" sid="862936024778865" type="bemco">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="496744209008269" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="908817235772520" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="163102953608295" type="button_next">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="902029084018604" type="mission_status">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="622474497964210">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="538104838769452" type="Touch">
+                                            <param id="0" name="Object">buttonRestart</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="859633525603529" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="496569864568885" type="System" />
+                                        <action id="-10" name="Set value" sid="691678521860163" type="bemco">
+                                            <param id="0" name="Instance variable">coin</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="839758141159139" type="bemco">
+                                            <param id="0" name="Instance variable">meds</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="866237374076422" type="bemco">
+                                            <param id="0" name="Instance variable">item</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="345998526109286" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="697742419123646" type="System">
+                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="865519718698033">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="178043649735655" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;indo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="820468082055099">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="576522029124355" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="574847368280536" type="bemco">
+                                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action behavior="Platform" id="11" name="Set enabled" sid="422520068294941" type="bemco">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="542153437562971" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="441420014428402" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="612748097944291" type="button_next">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="932456735048008" type="mission_status">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="199525811639007">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="676164735346576" type="Touch">
+                                            <param id="0" name="Object">buttonRestart</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="128287118386540" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="305573733836234" type="System" />
+                                        <action id="-10" name="Set value" sid="617906537871676" type="bemco">
+                                            <param id="0" name="Instance variable">coin</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="222481131720900" type="bemco">
+                                            <param id="0" name="Instance variable">meds</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="958239629955795" type="bemco">
+                                            <param id="0" name="Instance variable">item</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="284849373335975" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="538540141855777" type="System">
+                                            <param id="0" name="Variable">nyawa_indo</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="635769603436695">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="915192526394326" type="bemco">
+                            <param id="0" name="Object">postman</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="406359621217449" type="postman">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Platform" id="11" name="Set enabled" sid="238687810665831" type="bemco">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="472715356403309" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="332760184552121" type="System">
+                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="632673080067357" type="button_next">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="949753996417399" type="mission_status">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="136481452253885">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="101783732967071" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="710254192697042" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="298540450242210">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="303983938902638" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="851458132760812" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="868833814459003">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="926650202852576" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="736294363782888" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="207663316954640">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="561507352548451" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mat&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="251140786774081">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="616455932947828" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="854267889902132" type="button_next">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="804424802368833" type="mission_status">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="873153729453470">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="639017214976056" type="Touch">
+                                            <param id="0" name="Object">buttonRestart</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="860316109543071" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="932461885833275" type="System" />
+                                        <action id="-10" name="Set value" sid="459617635462104" type="bemco">
+                                            <param id="0" name="Instance variable">coin</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="238346578616768" type="bemco">
+                                            <param id="0" name="Instance variable">meds</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="893768913888271" type="bemco">
+                                            <param id="0" name="Instance variable">item</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="793550237856401" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="254750523926194" type="System">
+                                            <param id="0" name="Variable">nyawa_mat</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="933443769691989">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="331844508120337" type="Touch">
+                                            <param id="0" name="Object">button_next</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="823842626327347" type="System">
+                                            <param id="0" name="Layout">select_level</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="383810115279009">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="370408387934744" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="201711053081698">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="938180629691278" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="858678774084303" type="button_next">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="829043566016771" type="mission_status">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="422793725465665">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="998833520433221" type="Touch">
+                                            <param id="0" name="Object">buttonRestart</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="204442969465319" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="902947586416370" type="System" />
+                                        <action id="-10" name="Set value" sid="766268276712115" type="bemco">
+                                            <param id="0" name="Instance variable">coin</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="706196969176165" type="bemco">
+                                            <param id="0" name="Instance variable">meds</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="458396932107143" type="bemco">
+                                            <param id="0" name="Instance variable">item</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="217214156892471" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="299521823209770" type="System">
+                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="360786243918637">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="408922176728058" type="Touch">
+                                            <param id="0" name="Object">button_next</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="853439021916373" type="System">
+                                            <param id="0" name="Layout">select_level</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="919582285086271">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="862128834063983" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;indo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="559671500658995">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="987779899375254" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_indo</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="638168101271349" type="button_next">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="214558489464376" type="mission_status">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="986946135646075">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="364583874072191" type="Touch">
+                                            <param id="0" name="Object">buttonRestart</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="321801713827942" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="842507201875864" type="System" />
+                                        <action id="-10" name="Set value" sid="146828821947727" type="bemco">
+                                            <param id="0" name="Instance variable">coin</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="366888821451578" type="bemco">
+                                            <param id="0" name="Instance variable">meds</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="956403892311362" type="bemco">
+                                            <param id="0" name="Instance variable">item</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="993154633767658" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="267334633870381" type="System">
+                                            <param id="0" name="Variable">nyawa_indo</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="615474663810455">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="421694329936990" type="Touch">
+                                            <param id="0" name="Object">button_next</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="314975597665785" type="System">
+                                            <param id="0" name="Layout">select_level</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="667464179553863" title="Bintang">
+            <sub-events>
+                <event-block sid="791658244182701">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="683894274200956" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mat&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="815302684572059">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="703709955859892" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="767737903910321" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="974163757199352">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="297235148731955" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="892441682781412" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="304269434875641">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="995135639650616" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="407088302315795" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="601514383805910" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="389870424556630">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="532555651978972" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="654982631688809" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="507898628093034">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="990185097016275" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="775370005740538" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="684424177905675">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="824734717380555" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="997965822760104" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="845434695477908">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="725649837252917" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="386712355001178" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="703845833992927" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="654571866931651">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="806495370659951" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="287744373408526" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="802651859391459">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="662292323935138" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="316457494089050" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="233567700669645">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="370346224516152" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="391019843742518" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="779277892646316">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="361749420417033" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="628922953147421" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="451119233243642">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="260901041503926" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="232143562684258" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="835493110921726">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="972066215642679" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="408504235121596">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="720800374370403" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="357155801425766" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="730957324454840">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="975867473028824" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="356740214055075" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="751421612226724">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="863326859875358" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="863275765893986" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="863354104137050" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="176954818370323">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="903422740212931" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="854121858320243" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="384090586660603">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="786784623029871" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="329743956618637" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="466853577837767">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="726999608426963" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="599208040113124" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="819593057690441">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="935128763819184" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="483767887129454" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="771325969038132" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="619829030722347">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="172173030048077" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="903575809178908" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="606360809862614">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="793852334374279" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="553951301048332" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="664759685667532">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="302620601995365" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="240819890438268" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="424744906076939">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="236021873116650" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="567272563305218" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="250610842355226">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="627536888275494" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="550689050829910" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="975898018300157">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="567628102646189" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;indo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="692274550552372">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="191168638105815" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="140611296073128" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="767040897114976">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="267658180979338" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="260614537264418" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="387605726454548">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="588080554200730" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="699441323979420" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="840801745741428" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="104784529655001">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="644247845066638" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="581009896961497" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="847210417828832">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="253528359918291" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="381947211621417" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="518950837528665">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="905627518226272" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="739802469715429" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="859089178351535">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="137605856456199" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="398616520649992" type="bemco">
+                                    <param id="0" name="Instance variable">item</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="731368758534843" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="198575973965171">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="951517828873952" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="772385862352827" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="833309084151165">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="215368357843107" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="936937638320424" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="588439962279497">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="707111679829644" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="522927443468552" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="506571783488643">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="745532042564948" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="478955002167022" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="969616844588960">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="262028498958223" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="220309041551467" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="321090227404377" title="Mute &amp; Unmute music3">
+            <sub-events>
+                <event-block sid="175569396945880">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="814413087020684" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="974262325704948">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Is tag playing" sid="349590315134865" type="Audio">
+                                    <param id="0" name="Tag">&quot;music&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="469543887118242" type="Audio">
+                                    <param id="0" name="Audio file">intro_music</param>
+                                    <param id="2" name="Loop">1</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="367235782638556">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="889087756594768">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="613045847054147" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="830042990419593" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="737195273247755" type="button_mute">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="157259394868997">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="494230266494475" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="904843868951661" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="718811633077271" type="button_mute">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="471396992787470" title="Fullscreen option3">
+            <sub-events>
+                <event-block sid="150121307450717">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="919248838077417" type="System">
+                            <param id="0" name="Variable">fullscreen</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Request fullscreen" sid="697481683477579" type="Browser">
+                            <param id="0" name="Mode">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="640508399652680">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="384535793151212" type="System">
+                            <param id="0" name="Variable">fullscreen</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Cancel fullscreen" sid="118180753285371" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="120731047227856" title="Hidden Button">
+            <sub-events>
+                <event-block sid="149041561472854">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="318872697744827" type="Touch">
+                            <param id="0" name="Object">buttonHome</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="547432437849617" type="System">
+                            <param id="0" name="Layout">select_level</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="144212126998829">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="632563232218283" type="Touch">
+                            <param id="0" name="Object">buttonInfo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="735090940303380" type="System">
+                            <param id="0" name="Layer">&quot;mission info&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="646795143073908">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="650429327832936" type="Touch">
+                            <param id="0" name="Object">button_mute</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="825730606606247">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="788325094051599" type="System">
+                                    <param id="0" name="Variable">music</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="610915356896778" type="System">
+                                    <param id="0" name="Variable">music</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="365267112977899">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="779657538232255" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="509985977221467" type="System">
+                                    <param id="0" name="Variable">music</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="723571680886432">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="399977083459548" type="Touch">
+                            <param id="0" name="Object">button_fullscreen</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="578314804076210">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="206529945948242" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="991548190838133" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="152854325464153">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="323896381360629" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="229536815080187" type="System">
+                                    <param id="0" name="Variable">fullscreen</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

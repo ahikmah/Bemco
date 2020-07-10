@@ -10,10 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">mat_mudah</layout>
-        <layout active="1" order="2">mat_mode</layout>
-        <event-sheet order="1">event_mat_mudah</event-sheet>
-        <event-sheet order="3">event_mat_mode</event-sheet>
+        <layout order="0">layout_level_1</layout>
+        <layout order="2">select_level</layout>
+        <layout order="4">layout_intro</layout>
+        <event-sheet order="1">event_level_1</event-sheet>
+        <event-sheet active="1" order="3">event_select_level</event-sheet>
+        <event-sheet order="5">event_intro</event-sheet>
+        <event-sheet order="6">event_home</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,13 +33,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/matematika/" />
-        <folder expanded="1" path="layout-folder/ipa/" />
-        <folder expanded="0" path="layout-folder/bahasa/" />
+        <folder expanded="1" path="layout-folder/Level/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/matematika/" />
-        <folder expanded="0" path="event-folder/ipa/" />
-        <folder expanded="0" path="event-folder/bahasa/" />
+        <folder expanded="1" path="event-folder/Level/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -201,5 +200,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/misi_1/" />
         <folder expanded="1" path="animation-folder/button_next/" />
         <folder expanded="1" path="animation-folder/bintang_mat_level_1/" />
+        <folder expanded="1" path="animation-folder/bintang_mat_level_2/" />
+        <folder expanded="1" path="animation-folder/bintang_ipa_level_1/" />
+        <folder expanded="1" path="animation-folder/bintang_indo_level_1/" />
     </folders-expanded>
 </c2uistate>

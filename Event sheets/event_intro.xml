@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_intro</name>
     <events>
+        <variable constant="0" name="mapel" sid="484849600640352" static="0" type="text"></variable>
         <variable constant="0" name="fullscreen" sid="439882208775283" static="0" type="number">1</variable>
         <variable constant="0" name="music" sid="715759750174225" static="0" type="number">1</variable>
         <event-group description="" sid="209104804547706" title="Mute &amp; Unmute music">
@@ -521,8 +522,12 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="848205428127468" type="System">
-                            <param id="0" name="Layout">&quot;mat_mode&quot;</param>
+                        <action id="-2" name="Go to layout" sid="848205428127468" type="System">
+                            <param id="0" name="Layout">select_level</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="288758536121511" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Value">&quot;mat&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -533,8 +538,12 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="422500557160150" type="System">
-                            <param id="0" name="Layout">&quot;ipa_mode&quot;</param>
+                        <action id="-2" name="Go to layout" sid="422500557160150" type="System">
+                            <param id="0" name="Layout">select_level</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="614658746189500" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Value">&quot;ipa&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -545,8 +554,12 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="579516635169155" type="System">
-                            <param id="0" name="Layout">&quot;bhs_mode&quot;</param>
+                        <action id="-2" name="Go to layout" sid="579516635169155" type="System">
+                            <param id="0" name="Layout">select_level</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="795429101555113" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Value">&quot;indo&quot;</param>
                         </action>
                     </actions>
                 </event-block>

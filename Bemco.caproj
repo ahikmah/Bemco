@@ -2949,7 +2949,7 @@
         <object-type name="edu" sid="103904772230296">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349703835601002" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349703835601002" speed="0">
                     <frame duration="1" hotspotX="0.501961" hotspotY="0.506224" original-source="C:\Users\USER\Pictures\tg aset\edu1.png">
                         <collision-poly>
                             <point x="0.017647" y="0.0124482" />
@@ -2961,13 +2961,15 @@
                             <point x="0.15098" y="0.504149" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="quis" sid="157833329177466">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113103939955856" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113103939955856" speed="0">
                     <frame duration="1" hotspotX="0.500898" hotspotY="0.501618" original-source="C:\Users\USER\Pictures\tg aset\quis 1.png">
                         <collision-poly>
                             <point x="0.330341" y="0.595469" />
@@ -2978,13 +2980,15 @@
                             <point x="0.21544" y="0.61165" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.500898" hotspotY="0.501618" />
+                    <frame duration="1" hotspotX="0.500898" hotspotY="0.501618" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="1_a" sid="642720081478570">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328047033145391" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328047033145391" speed="0">
                     <frame duration="1" hotspotX="0.528302" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\1_a.png">
                         <collision-poly>
                             <point x="0.264151" y="0.0877193" />
@@ -2997,13 +3001,15 @@
                             <point x="0.226415" y="0.614035" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.509434" hotspotY="0.508772" />
+                    <frame duration="1" hotspotX="0.509434" hotspotY="0.508772" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="1_b" sid="162217106890415">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606048542373013" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606048542373013" speed="0">
                     <frame duration="1" hotspotX="0.487805" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\1_b.png">
                         <collision-poly>
                             <point x="0.219512" y="0.0526316" />
@@ -3015,13 +3021,15 @@
                             <point x="0.0487805" y="0.614035" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.508772" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.508772" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="1_c" sid="807937829061965">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878307682440526" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878307682440526" speed="0">
                     <frame duration="1" hotspotX="0.516129" hotspotY="0.631579" original-source="C:\Users\USER\Pictures\tg aset\1_c.png">
                         <collision-poly>
                             <point x="0.354839" y="0.105263" />
@@ -3032,13 +3040,15 @@
                             <point x="0.354839" y="0.631579" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.508772" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.508772" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="i_d" sid="442427300867449">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868030760981828" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868030760981828" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\i_d.png">
                         <collision-poly>
                             <point x="0.25" y="0.0701754" />
@@ -3051,6 +3061,8 @@
                             <point x="0.15" y="0.614035" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508772" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508772" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -3122,51 +3134,96 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bintang_mat_level_2" sid="988083009444814">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="198523313943886">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142062995345471" speed="5">
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                        <collision-poly>
+                            <point x="0.104822" y="0.231481" />
+                            <point x="0.29979" y="0.5" />
+                            <point x="0.0964361" y="0.787037" />
+                            <point x="0.0503145" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bintang_ipa_level_1" sid="734786226931027">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="160986949424405">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="896112316171386" speed="5">
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                        <collision-poly>
+                            <point x="0.104822" y="0.231481" />
+                            <point x="0.29979" y="0.5" />
+                            <point x="0.0964361" y="0.787037" />
+                            <point x="0.0503145" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bintang_indo_level_1" sid="458299104668714">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="544366192301580">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="882793667108450" speed="5">
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                        <collision-poly>
+                            <point x="0.104822" y="0.231481" />
+                            <point x="0.29979" y="0.5" />
+                            <point x="0.0964361" y="0.787037" />
+                            <point x="0.0503145" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                    <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout-folder name="matematika">
-            <layout>mat_mode.xml</layout>
-            <layout>mat_mudah.xml</layout>
-            <layout>mat_sedang.xml</layout>
-            <layout>mat_sulit.xml</layout>
+        <layout-folder name="Level">
+            <layout>layout_level_1.xml</layout>
+            <layout>layout_level_2.xml</layout>
+            <layout>layout_level_3.xml</layout>
         </layout-folder>
-        <layout-folder name="ipa">
-            <layout>ipa_mode.xml</layout>
-            <layout>ipa_mudah.xml</layout>
-            <layout>ipa_sedang.xml</layout>
-            <layout>ipa_sulit.xml</layout>
-        </layout-folder>
-        <layout-folder name="bahasa">
-            <layout>bhs_mode.xml</layout>
-            <layout>bhs_mudah.xml</layout>
-            <layout>bhs_sedang.xml</layout>
-            <layout>bhs_sulit.xml</layout>
-        </layout-folder>
+        <layout>select_level.xml</layout>
         <layout>layout_intro.xml</layout>
         <layout>home.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-folder name="matematika">
-            <event-sheet>event_mat_mode.xml</event-sheet>
-            <event-sheet>event_mat_mudah.xml</event-sheet>
-            <event-sheet>event_mat_sedang.xml</event-sheet>
-            <event-sheet>event_mat_sulit.xml</event-sheet>
-        </event-folder>
-        <event-folder name="ipa">
-            <event-sheet>event_ipa_mode.xml</event-sheet>
-            <event-sheet>event_ipa_mudah.xml</event-sheet>
-            <event-sheet>event_ipa_sedang.xml</event-sheet>
-            <event-sheet>event_ipa_sulit.xml</event-sheet>
-        </event-folder>
-        <event-folder name="bahasa">
-            <event-sheet>event_bhs_mode.xml</event-sheet>
-            <event-sheet>event_bhs_mudah.xml</event-sheet>
-            <event-sheet>event_bhs_sedang.xml</event-sheet>
-            <event-sheet>event_bhs_sulit.xml</event-sheet>
+        <event-folder name="Level">
+            <event-sheet>event_level_1.xml</event-sheet>
+            <event-sheet>event_level_2.xml</event-sheet>
+            <event-sheet>event_level_3.xml</event-sheet>
         </event-folder>
         <event-sheet>event_intro.xml</event-sheet>
         <event-sheet>event_home.xml</event-sheet>
+        <event-sheet>event_select_level.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="5">

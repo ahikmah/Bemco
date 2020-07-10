@@ -453,39 +453,51 @@
         </event-block>
         <event-group description="" sid="874843435731220" title="Change Layout2">
             <sub-events>
-                <event-block sid="855455636619124">
+                <event-block sid="708217653958198">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="188096149191558" type="Touch">
+                        <condition id="17" name="On tap object" sid="631306077304661" type="Touch">
                             <param id="0" name="Object">txt_math</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="379850574380395" type="System">
-                            <param id="0" name="Layout">&quot;mat_mode&quot;</param>
+                        <action id="-2" name="Go to layout" sid="451776285361129" type="System">
+                            <param id="0" name="Layout">select_level</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="454879539020802" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Value">&quot;mat&quot;</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="522228418357888">
+                <event-block sid="778355452003311">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="479333950217678" type="Touch">
+                        <condition id="17" name="On tap object" sid="950105882925756" type="Touch">
                             <param id="0" name="Object">txt_ipa</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="751729019212239" type="System">
-                            <param id="0" name="Layout">&quot;ipa_mode&quot;</param>
+                        <action id="-2" name="Go to layout" sid="356777180849868" type="System">
+                            <param id="0" name="Layout">select_level</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="379918804956252" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Value">&quot;ipa&quot;</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="371508265348778">
+                <event-block sid="811877182808726">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="500358032327012" type="Touch">
+                        <condition id="17" name="On tap object" sid="101186275877627" type="Touch">
                             <param id="0" name="Object">txt_ind</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="979417240393499" type="System">
-                            <param id="0" name="Layout">&quot;bhs_mode&quot;</param>
+                        <action id="-2" name="Go to layout" sid="546256871307338" type="System">
+                            <param id="0" name="Layout">select_level</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="716595213957884" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Value">&quot;indo&quot;</param>
                         </action>
                     </actions>
                 </event-block>
