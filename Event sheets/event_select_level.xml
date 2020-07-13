@@ -5,7 +5,7 @@
     <events>
         <variable constant="0" name="level_indo" sid="462708889538979" static="0" type="number">1</variable>
         <variable constant="0" name="level_ipa" sid="567886569670578" static="0" type="number">1</variable>
-        <variable constant="0" name="level_mat" sid="235823273240814" static="0" type="number">2</variable>
+        <variable constant="0" name="level_mat" sid="235823273240814" static="0" type="number">1</variable>
         <event-block sid="471857543761211">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="290254333142501" type="System" />
