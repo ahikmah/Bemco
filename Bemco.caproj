@@ -2538,25 +2538,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="item_peluru" sid="388251327173208">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751673736973989" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
-                            <collision-poly>
-                                <point x="0.181034" y="0.181034" />
-                                <point x="0.5" y="0.0517241" />
-                                <point x="0.818965" y="0.181034" />
-                                <point x="0.974138" y="0.5" />
-                                <point x="0.801724" y="0.801724" />
-                                <point x="0.5" y="0.922414" />
-                                <point x="0.181034" y="0.818965" />
-                                <point x="0.163793" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="item_14" sid="814863781424587">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -3119,6 +3100,25 @@
                                 <point x="0.5" y="0.994595" />
                                 <point x="0.16055" y="0.873874" />
                                 <point x="0.199541" y="0.499099" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="item_peluru" sid="388251327173208">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751673736973989" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
+                            <collision-poly>
+                                <point x="0.181034" y="0.181034" />
+                                <point x="0.5" y="0.0517241" />
+                                <point x="0.818965" y="0.181034" />
+                                <point x="0.974138" y="0.5" />
+                                <point x="0.801724" y="0.801724" />
+                                <point x="0.5" y="0.922414" />
+                                <point x="0.181034" y="0.818965" />
+                                <point x="0.163793" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>

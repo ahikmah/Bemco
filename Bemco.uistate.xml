@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="1">layout_level_1</layout>
-        <layout order="2">layout_level_2</layout>
+        <layout active="1" order="2">layout_level_2</layout>
         <layout order="4">select_level</layout>
-        <layout active="1" order="6">layout_intro</layout>
+        <layout order="6">layout_intro</layout>
         <event-sheet order="3">event_level_1</event-sheet>
         <event-sheet order="5">event_select_level</event-sheet>
         <event-sheet order="7">event_intro</event-sheet>
@@ -37,8 +37,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/background/" />
         <folder expanded="0" path="object-folder/tilesets/" />
         <folder expanded="0" path="object-folder/items/" />
-        <folder expanded="0" path="object-folder/characters/" />
-        <folder expanded="0" path="object-folder/HUD/" />
+        <folder expanded="1" path="object-folder/characters/" />
+        <folder expanded="1" path="object-folder/HUD/" />
         <folder expanded="0" path="object-folder/others/" />
         <folder expanded="0" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Level/" />
@@ -187,7 +187,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Food_8/" />
         <folder expanded="1" path="animation-folder/Food_9/" />
         <folder expanded="1" path="animation-folder/Coin/" />
-        <folder expanded="1" path="animation-folder/item_peluru/" />
         <folder expanded="1" path="animation-folder/item_14/" />
         <folder expanded="1" path="animation-folder/kotak_ilmu/" />
         <folder expanded="1" path="animation-folder/kotak_ilmu2/" />
@@ -210,6 +209,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Meds/" />
         <folder expanded="1" path="animation-folder/image2/" />
         <folder expanded="1" path="animation-folder/icon_nyawa/" />
+        <folder expanded="1" path="animation-folder/item_peluru/" />
         <folder expanded="1" path="animation-folder/bintang_indo_level_1/" />
         <folder expanded="1" path="animation-folder/bintang_ipa_level_1/" />
         <folder expanded="1" path="animation-folder/bintang_mat_level_1/" />
