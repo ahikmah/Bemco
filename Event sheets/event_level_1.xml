@@ -1737,6 +1737,29 @@
                         <action id="-9" name="Destroy" sid="600072587566091" type="peluru" />
                     </actions>
                 </event-block>
+                <event-block sid="575046117251897">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="439643122959205" type="peluru">
+                            <param id="0" name="Object">Virus_3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade" id="1" name="Start fade" sid="105896436052585" type="Virus_3" />
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="583824803377474" type="Virus_3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="354197027413531" type="Virus_3">
+                            <param id="0" name="Object">bonus</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="123484013059770" type="bemco">
+                            <param id="0" name="Instance variable">coin</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="608121166785416" type="peluru" />
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="622323641503579" title="Kotak Ilmu">
@@ -3568,53 +3591,6 @@
                             <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block sid="136481452253885">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="101783732967071" type="System">
-                                    <param id="0" name="Variable">mapel</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;mat&quot;</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Add to" sid="710254192697042" type="System">
-                                    <param id="0" name="Variable">level_mat</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="298540450242210">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="303983938902638" type="System">
-                                    <param id="0" name="Variable">mapel</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;ipa&quot;</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Add to" sid="851458132760812" type="System">
-                                    <param id="0" name="Variable">level_ipa</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="868833814459003">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="926650202852576" type="System">
-                                    <param id="0" name="Variable">mapel</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;indo&quot;</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Add to" sid="736294363782888" type="System">
-                                    <param id="0" name="Variable">level_indo</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <event-block sid="207663316954640">
                     <conditions>
@@ -3687,6 +3663,53 @@
                                             <param id="0" name="Layout">select_level</param>
                                         </action>
                                     </actions>
+                                    <sub-events>
+                                        <event-block sid="136481452253885">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="101783732967071" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-10" name="Add to" sid="710254192697042" type="System">
+                                                    <param id="0" name="Variable">level_mat</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="298540450242210">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="303983938902638" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-10" name="Add to" sid="851458132760812" type="System">
+                                                    <param id="0" name="Variable">level_ipa</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="868833814459003">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="926650202852576" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-10" name="Add to" sid="736294363782888" type="System">
+                                                    <param id="0" name="Variable">level_indo</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -3858,6 +3881,16 @@
                     </conditions>
                     <actions />
                     <sub-events>
+                        <event-block sid="244393810949191">
+                            <conditions>
+                                <condition id="-41" name="Is between angles" sid="156290189852936" type="System">
+                                    <param id="0" name="Angle">0</param>
+                                    <param id="1" name="First angle">0</param>
+                                    <param id="2" name="Second angle">45</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
                         <event-block sid="815302684572059">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="703709955859892" type="System">
@@ -3868,6 +3901,11 @@
                                 <condition id="-9" name="Layer is visible" sid="767737903910321" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="801743529192098" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
@@ -3875,70 +3913,74 @@
                                     <conditions>
                                         <condition id="-4" name="Trigger once while true" sid="297235148731955" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="300364315438157">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="801743529192098" type="System">
-                                                    <param id="0" name="Variable">level_mat</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">1</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="892441682781412" type="System">
-                                                    <param id="0" name="Variable">bintang_level_1_mat</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="892441682781412" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="136610239308079">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="943574038257989">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="686788327970375" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="156111945976693" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="858526299162878" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="680957644340267">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="660779034594125" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="460856975367156" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="333748517154848">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="324357287735577" type="System">
-                                                    <param id="0" name="Variable">level_mat</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">2</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="829883621341359" type="System">
-                                                    <param id="0" name="Variable">bintang_level_2_mat</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="634794222228207" type="System">
+                                            <param id="0" name="Variable">bintang_level_2_mat</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="368832107596841">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="870121005489165">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="384524490018800" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="356289808565423" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="639726482266815" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="710372130717848">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="789436615035920" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="482779816623875" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="502339782719687">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="156188830208658" type="System">
-                                                    <param id="0" name="Variable">level_mat</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">3</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="480772966935587" type="System">
-                                                    <param id="0" name="Variable">bintang_level_3_mat</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="636220086346531" type="System">
+                                            <param id="0" name="Variable">bintang_level_3_mat</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -3957,6 +3999,11 @@
                                 <condition id="-9" name="Layer is visible" sid="601514383805910" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="916635797439633" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
@@ -3964,70 +4011,84 @@
                                     <conditions>
                                         <condition id="-4" name="Trigger once while true" sid="532555651978972" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="277583097392222">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="916635797439633" type="System">
-                                                    <param id="0" name="Variable">level_mat</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">1</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="654982631688809" type="System">
-                                                    <param id="0" name="Variable">bintang_level_1_mat</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="654982631688809" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_mat</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="696366798604975">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="398970569456389">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="551028273639976" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="651423211681621" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="630928098048845" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="202960293375353" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="263073128495276">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="904176392832129" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="190964080887051" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="129827088510628">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="555088880618808" type="System">
-                                                    <param id="0" name="Variable">level_mat</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">2</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="828818278014236" type="System">
-                                                    <param id="0" name="Variable">bintang_level_2_mat</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="528947852854775" type="System">
+                                            <param id="0" name="Variable">bintang_level_2_mat</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="486169724411708">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="114242993542160">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="975418324320824" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="634813317082597" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="520534897212295" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="759298665481994" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="130075613982406">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="500884358001902" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="750526566865166" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="532032114121751">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="100629398662000" type="System">
-                                                    <param id="0" name="Variable">level_mat</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">3</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="501508868852164" type="System">
-                                                    <param id="0" name="Variable">bintang_level_3_mat</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="669012949427904" type="System">
+                                            <param id="0" name="Variable">bintang_level_3_mat</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -4242,22 +4303,17 @@
                                 <condition id="-9" name="Layer is visible" sid="316457494089050" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block sid="537510145561896">
-                            <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="260567135533011" type="System" />
+                                <condition id="-14" name="Compare variable" sid="473528027589697" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="256641381474247">
+                                <event-block sid="537510145561896">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="473528027589697" type="System">
-                                            <param id="0" name="Variable">level_mat</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="260567135533011" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="188646756178322" type="System">
@@ -4268,22 +4324,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="392718713311729">
+                        <event-block sid="113635546628804">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="755191471966491" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="234036341276668" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="771508519555356" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="749185173971193" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="134956086512630">
+                                <event-block sid="474102981910131">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="277830937047359" type="System">
-                                            <param id="0" name="Variable">level_mat</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="198286716385772" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="362467347785173" type="System">
+                                        <action id="-10" name="Add to" sid="340483537354089" type="System">
                                             <param id="0" name="Variable">bintang_level_2_mat</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4291,22 +4355,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="121793426777351">
+                        <event-block sid="527870250163079">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="696720910709203" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="368264236725112" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="735792852236246" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="979624137163345" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="202769347009615">
+                                <event-block sid="800880648163409">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="109480956194910" type="System">
-                                            <param id="0" name="Variable">level_mat</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="870146683442931" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="717597785196231" type="System">
+                                        <action id="-10" name="Add to" sid="227882405198094" type="System">
                                             <param id="0" name="Variable">bintang_level_3_mat</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4324,22 +4396,17 @@
                                 <condition id="-9" name="Layer is visible" sid="628922953147421" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block sid="357958284681771">
-                            <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="583025635681464" type="System" />
+                                <condition id="-14" name="Compare variable" sid="927812578122504" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="363139257598539">
+                                <event-block sid="357958284681771">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="927812578122504" type="System">
-                                            <param id="0" name="Variable">level_mat</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="583025635681464" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="928397417067700" type="System">
@@ -4350,22 +4417,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="503175602522040">
+                        <event-block sid="910087624549682">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="882946267022869" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="638169501959995" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="136148295104030" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="393730780961779" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="555502729822419">
+                                <event-block sid="306537776416755">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="592411071484190" type="System">
-                                            <param id="0" name="Variable">level_mat</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="575977339395241" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="699654211961330" type="System">
+                                        <action id="-10" name="Add to" sid="268961632624803" type="System">
                                             <param id="0" name="Variable">bintang_level_2_mat</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4373,22 +4448,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="436060547828208">
+                        <event-block sid="682755658799235">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="445567610188477" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="779902277368341" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="417940547388944" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="791199864998044" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="217354459312073">
+                                <event-block sid="824936697613129">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="808569748373183" type="System">
-                                            <param id="0" name="Variable">level_mat</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="784154780385509" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="412449635779104" type="System">
+                                        <action id="-10" name="Add to" sid="953375429967240" type="System">
                                             <param id="0" name="Variable">bintang_level_3_mat</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4418,6 +4501,11 @@
                                 <condition id="-9" name="Layer is visible" sid="543465244905336" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="234833129374348" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
@@ -4425,70 +4513,74 @@
                                     <conditions>
                                         <condition id="-4" name="Trigger once while true" sid="424748221064520" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="571088744104509">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="234833129374348" type="System">
-                                                    <param id="0" name="Variable">level_ipa</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">1</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="540855767649979" type="System">
-                                                    <param id="0" name="Variable">bintang_level_1_ipa</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="540855767649979" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="561924966023693">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="218620953181204">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="647280595853667" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="238169957849954" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="813270643212539" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="560094415092003">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="371780144252211" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="426705215180314" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="201545550253844">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="911851218845812" type="System">
-                                                    <param id="0" name="Variable">level_ipa</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">2</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="305676059951997" type="System">
-                                                    <param id="0" name="Variable">bintang_level_2_ipa</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="327632983969608" type="System">
+                                            <param id="0" name="Variable">bintang_level_2_ipa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="746948504647280">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="807174434242688">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="566828980151459" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="930578898226150" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="101423559625393" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="878986595028774">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="583411882096124" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="523516886263843" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="112005157731783">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="511491112905482" type="System">
-                                                    <param id="0" name="Variable">level_ipa</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">3</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="310668901576914" type="System">
-                                                    <param id="0" name="Variable">bintang_level_3_ipa</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="196960639072878" type="System">
+                                            <param id="0" name="Variable">bintang_level_3_ipa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -4507,6 +4599,11 @@
                                 <condition id="-9" name="Layer is visible" sid="977566222560036" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="904395194518963" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
@@ -4514,70 +4611,84 @@
                                     <conditions>
                                         <condition id="-4" name="Trigger once while true" sid="557506732679710" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="203772345239105">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="904395194518963" type="System">
-                                                    <param id="0" name="Variable">level_ipa</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">1</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="316248876929135" type="System">
-                                                    <param id="0" name="Variable">bintang_level_1_ipa</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="316248876929135" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="573665955507612">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="282147033604364">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="444120695297868" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="714589540963583" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="261568628725863" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="239498958812413" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="218979467848242">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="293760570701220" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="752566871961700" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="877912603520198">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="816460355500643" type="System">
-                                                    <param id="0" name="Variable">level_ipa</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">2</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="859951296424829" type="System">
-                                                    <param id="0" name="Variable">bintang_level_2_ipa</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="794971705845098" type="System">
+                                            <param id="0" name="Variable">bintang_level_2_ipa</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="383459653876761">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="774630994437800">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="532185354474550" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="956256972691801" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="512961837815164" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="183782843919169" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="710204931773148">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="571088732509581" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="798687253541242" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="679781950206734">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="109129908767656" type="System">
-                                                    <param id="0" name="Variable">level_ipa</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">3</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="418310288483338" type="System">
-                                                    <param id="0" name="Variable">bintang_level_3_ipa</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="974556957451671" type="System">
+                                            <param id="0" name="Variable">bintang_level_3_ipa</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -4792,22 +4903,17 @@
                                 <condition id="-9" name="Layer is visible" sid="513621391634482" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block sid="555392068397149">
-                            <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="348237741262289" type="System" />
+                                <condition id="-14" name="Compare variable" sid="893983031577792" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="264112077669601">
+                                <event-block sid="555392068397149">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="893983031577792" type="System">
-                                            <param id="0" name="Variable">level_ipa</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="348237741262289" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="834671105582216" type="System">
@@ -4818,22 +4924,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="700197311369340">
+                        <event-block sid="387750126190359">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="859174203639985" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="550251676386334" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="752389553542528" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="156063749719586" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="594794553231615">
+                                <event-block sid="769546997910476">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="900984300665413" type="System">
-                                            <param id="0" name="Variable">level_ipa</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="545198902860495" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="780145492681587" type="System">
+                                        <action id="-10" name="Add to" sid="871603861308766" type="System">
                                             <param id="0" name="Variable">bintang_level_2_ipa</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4841,22 +4955,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="991449792747667">
+                        <event-block sid="334927252116614">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="463242043327064" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="391892903110616" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="601481739344105" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="824735998156430" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="896245011489124">
+                                <event-block sid="760526193898779">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="244274450715736" type="System">
-                                            <param id="0" name="Variable">level_ipa</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="143078498066541" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="464931495161893" type="System">
+                                        <action id="-10" name="Add to" sid="226417917164651" type="System">
                                             <param id="0" name="Variable">bintang_level_3_ipa</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4874,22 +4996,17 @@
                                 <condition id="-9" name="Layer is visible" sid="612508249013762" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block sid="350955285067867">
-                            <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="882401794857361" type="System" />
+                                <condition id="-14" name="Compare variable" sid="698952888683574" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="776379373617890">
+                                <event-block sid="350955285067867">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="698952888683574" type="System">
-                                            <param id="0" name="Variable">level_ipa</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="882401794857361" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="631664656238736" type="System">
@@ -4900,22 +5017,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="976902837284209">
+                        <event-block sid="153768496726240">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="738710309635786" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="607864158370658" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="216124556476802" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="698228510792318" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="268093017127585">
+                                <event-block sid="455202960362594">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="497381718734476" type="System">
-                                            <param id="0" name="Variable">level_ipa</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="840025883454272" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="538946371056882" type="System">
+                                        <action id="-10" name="Add to" sid="231236367059397" type="System">
                                             <param id="0" name="Variable">bintang_level_2_ipa</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4923,22 +5048,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="942816483537160">
+                        <event-block sid="283606612185601">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="432509464005834" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="960382584761621" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="497194700095836" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="194410754853240" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="411244356150723">
+                                <event-block sid="785162346763517">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="134842440323208" type="System">
-                                            <param id="0" name="Variable">level_ipa</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="904073225721065" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="344879736199038" type="System">
+                                        <action id="-10" name="Add to" sid="250488241026353" type="System">
                                             <param id="0" name="Variable">bintang_level_3_ipa</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -4968,6 +5101,11 @@
                                 <condition id="-9" name="Layer is visible" sid="261279374601056" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="324345810446337" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
@@ -4975,70 +5113,74 @@
                                     <conditions>
                                         <condition id="-4" name="Trigger once while true" sid="759701376609955" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="231074531049721">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="324345810446337" type="System">
-                                                    <param id="0" name="Variable">level_indo</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">1</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="704986648345513" type="System">
-                                                    <param id="0" name="Variable">bintang_level_1_indo</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="704986648345513" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="855749574117965">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="712286873761478">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="761339445238263" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="696858576434386" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="324331570004282" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="244100903917069">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="871485953626884" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="751962745591094" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="402193073129685">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="661692441410374" type="System">
-                                                    <param id="0" name="Variable">level_indo</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">2</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="908153899642670" type="System">
-                                                    <param id="0" name="Variable">bintang_level_2_indo</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="869235794430186" type="System">
+                                            <param id="0" name="Variable">bintang_level_2_indo</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="248441580368795">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="844984642604096">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="972089609132741" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="275538835397285" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="719205355024823" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="683358943125305">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="861940878184172" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="401551771641440" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="674659493807383">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="795311296766798" type="System">
-                                                    <param id="0" name="Variable">level_indo</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">3</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="271235468274777" type="System">
-                                                    <param id="0" name="Variable">bintang_level_3_indo</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="576535769860374" type="System">
+                                            <param id="0" name="Variable">bintang_level_3_indo</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -5057,6 +5199,11 @@
                                 <condition id="-9" name="Layer is visible" sid="524430234691057" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="131516431409812" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
@@ -5064,70 +5211,84 @@
                                     <conditions>
                                         <condition id="-4" name="Trigger once while true" sid="642676320539352" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="563237362803549">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="131516431409812" type="System">
-                                                    <param id="0" name="Variable">level_indo</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">1</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="123608079632435" type="System">
-                                                    <param id="0" name="Variable">bintang_level_1_indo</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="123608079632435" type="System">
+                                            <param id="0" name="Variable">bintang_level_1_indo</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="265788748564274">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="965274446489398">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="764082874665661" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="900908689166626" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="243074405415777" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="253902167460736" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="982318297745044">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="129117975091841" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="370525608104928" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="117989413612407">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="583075568696280" type="System">
-                                                    <param id="0" name="Variable">level_indo</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">2</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="483400783532678" type="System">
-                                                    <param id="0" name="Variable">bintang_level_2_indo</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="594214117713019" type="System">
+                                            <param id="0" name="Variable">bintang_level_2_indo</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
-                                <event-block sid="958230692580322">
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="895635581971035">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="853340903356016" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="160901419186408" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="543035387501968" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="934099843460859" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="164345902003718">
                                     <conditions>
-                                        <condition id="-4" name="Trigger once while true" sid="137747617076495" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="648358778582845" type="System" />
                                     </conditions>
-                                    <actions />
-                                    <sub-events>
-                                        <event-block sid="551675155537256">
-                                            <conditions>
-                                                <condition id="-14" name="Compare variable" sid="659813114060330" type="System">
-                                                    <param id="0" name="Variable">level_indo</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">3</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-10" name="Add to" sid="852109165052752" type="System">
-                                                    <param id="0" name="Variable">bintang_level_3_indo</param>
-                                                    <param id="1" name="Value">0.5</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="549580612849785" type="System">
+                                            <param id="0" name="Variable">bintang_level_3_indo</param>
+                                            <param id="1" name="Value">0.5</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -5342,22 +5503,17 @@
                                 <condition id="-9" name="Layer is visible" sid="158157897652415" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block sid="810857220588322">
-                            <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="870623213731721" type="System" />
+                                <condition id="-14" name="Compare variable" sid="552435661015174" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="718128227201808">
+                                <event-block sid="810857220588322">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="552435661015174" type="System">
-                                            <param id="0" name="Variable">level_indo</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="870623213731721" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="248411780977337" type="System">
@@ -5368,22 +5524,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="726463908883660">
+                        <event-block sid="659420824656498">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="934444227059961" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="163645529561545" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="779466347334730" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="711775021080725" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="568055781775865">
+                                <event-block sid="656082173036965">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="867417862443835" type="System">
-                                            <param id="0" name="Variable">level_indo</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="139414091514647" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="421431271513964" type="System">
+                                        <action id="-10" name="Add to" sid="968327068943895" type="System">
                                             <param id="0" name="Variable">bintang_level_2_indo</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -5391,22 +5555,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="864515718363867">
+                        <event-block sid="870497591007634">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="483750307603163" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="294760781517254" type="bemco">
+                                    <param id="0" name="Instance variable">meds</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="190024253814883" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="246170251228625" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="966362895060568">
+                                <event-block sid="636855852368237">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="129599290388950" type="System">
-                                            <param id="0" name="Variable">level_indo</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="345366726151412" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="791805951856682" type="System">
+                                        <action id="-10" name="Add to" sid="738129620649962" type="System">
                                             <param id="0" name="Variable">bintang_level_3_indo</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -5424,22 +5596,17 @@
                                 <condition id="-9" name="Layer is visible" sid="968572748882335" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block sid="879032229594446">
-                            <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="399563774078318" type="System" />
+                                <condition id="-14" name="Compare variable" sid="578720186340587" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="161877874867581">
+                                <event-block sid="879032229594446">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="578720186340587" type="System">
-                                            <param id="0" name="Variable">level_indo</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="399563774078318" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="566113264956360" type="System">
@@ -5450,22 +5617,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="987160664459697">
+                        <event-block sid="683479727173276">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="426169213757390" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="649630133684888" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="324807562169132" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="806276573236727" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="690998472000885">
+                                <event-block sid="187391797887499">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="493174082631775" type="System">
-                                            <param id="0" name="Variable">level_indo</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="350047066706378" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="538872625838234" type="System">
+                                        <action id="-10" name="Add to" sid="428267125695749" type="System">
                                             <param id="0" name="Variable">bintang_level_2_indo</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -5473,22 +5648,30 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="954880097859278">
+                        <event-block sid="553708602707756">
                             <conditions>
-                                <condition id="-4" name="Trigger once while true" sid="443566261912159" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="839738889794771" type="bemco">
+                                    <param id="0" name="Instance variable">coin</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">150</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="468162747635097" type="System">
+                                    <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="607305901221311" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="287070095196878">
+                                <event-block sid="645819948395799">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="108762258579949" type="System">
-                                            <param id="0" name="Variable">level_indo</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="535329236974100" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Add to" sid="733009422776778" type="System">
+                                        <action id="-10" name="Add to" sid="984466217412672" type="System">
                                             <param id="0" name="Variable">bintang_level_3_indo</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
@@ -5698,81 +5881,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="796261840316846">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="993649413499312" type="System">
-                    <param id="0" name="Variable">level_mat</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="123091544570785">
-                    <conditions>
-                        <condition id="-4" name="Trigger once while true" sid="996641372015553" type="System" />
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="601344001299273">
-                            <conditions>
-                                <condition id="0" name="On key pressed" sid="785448995316379" type="Keyboard">
-                                    <param id="0" name="Key">32</param>
-                                </condition>
-                                <condition id="7" inverted="1" name="Is mirrored" sid="339067041534198" type="bemco" />
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Spawn another object" sid="895075583582523" type="bemco">
-                                    <param id="0" name="Object">peluru</param>
-                                    <param id="1" name="Layer">&quot;game&quot;</param>
-                                    <param id="2" name="Image point">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="833610031771215">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="639576488070548" type="System">
-                    <param id="0" name="Variable">level_mat</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="374817288950735">
-                    <conditions>
-                        <condition id="-4" name="Trigger once while true" sid="212481389228196" type="System" />
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="103895767497899">
-                            <conditions>
-                                <condition id="0" name="On key pressed" sid="490900228307136" type="Keyboard">
-                                    <param id="0" name="Key">32</param>
-                                </condition>
-                                <condition id="7" name="Is mirrored" sid="402061701510250" type="bemco" />
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Spawn another object" sid="471703657621464" type="bemco">
-                                    <param id="0" name="Object">peluru</param>
-                                    <param id="1" name="Layer">&quot;game&quot;</param>
-                                    <param id="2" name="Image point">0</param>
-                                </action>
-                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="771279826105709" type="peluru">
-                                    <param id="0" name="Angle">180</param>
-                                </action>
-                                <action id="7" name="Set mirrored" sid="671059075793831" type="peluru">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-block>
     </events>
 </c2eventsheet>

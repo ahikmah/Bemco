@@ -2339,9 +2339,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <range>0</range>
+                                <rate-of-fire>0</rate-of-fire>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -2411,9 +2411,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <range>0</range>
+                                <rate-of-fire>0</rate-of-fire>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -6022,9 +6022,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
+                                <range>0</range>
                                 <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -6094,9 +6094,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
+                                <range>0</range>
                                 <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -6166,9 +6166,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <range>0</range>
+                                <rate-of-fire>0</rate-of-fire>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -6520,9 +6520,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <range>0</range>
+                                <rate-of-fire>0</rate-of-fire>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -6592,9 +6592,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <range>0</range>
+                                <rate-of-fire>0</rate-of-fire>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -6664,9 +6664,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <range>0</range>
+                                <rate-of-fire>0</rate-of-fire>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
@@ -6736,9 +6736,9 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
+                                <range>0</range>
+                                <rate-of-fire>0</rate-of-fire>
+                                <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>

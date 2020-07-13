@@ -2897,6 +2897,9 @@
                     <behavior-type name="Bullet" sid="917522506441326">
                         <behavior id="Bullet" />
                     </behavior-type>
+                    <behavior-type name="Fade" sid="414586026556131">
+                        <behavior id="Fade" />
+                    </behavior-type>
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="596198492360610" speed="5">
@@ -3440,19 +3443,30 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="116854635128288" speed="0">
-                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Aam\Pictures\level 2.png">
+                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\lock_level2.png">
                             <collision-poly>
-                                <point x="0.0611664" y="0.0611664" />
-                                <point x="0.499289" y="0.0142248" />
-                                <point x="0.940256" y="0.059744" />
-                                <point x="0.987198" y="0.499289" />
-                                <point x="0.940256" y="0.940256" />
-                                <point x="0.499289" y="0.987198" />
-                                <point x="0.059744" y="0.940256" />
-                                <point x="0.0142248" y="0.499289" />
+                                <point x="0.0727612" y="0.0727612" />
+                                <point x="0.5" y="0.0186567" />
+                                <point x="0.934702" y="0.0652985" />
+                                <point x="0.981343" y="0.5" />
+                                <point x="0.925373" y="0.925373" />
+                                <point x="0.5" y="0.964552" />
+                                <point x="0.0820896" y="0.91791" />
+                                <point x="0.0335821" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.500711" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\LEVEL1\Default\000.png" />
+                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\unlock_level2.png">
+                            <collision-poly>
+                                <point x="0.0728972" y="0.0727612" />
+                                <point x="0.499065" y="0.0186567" />
+                                <point x="0.934579" y="0.0652985" />
+                                <point x="0.981308" y="0.5" />
+                                <point x="0.925234" y="0.925373" />
+                                <point x="0.499065" y="0.964552" />
+                                <point x="0.082243" y="0.91791" />
+                                <point x="0.0336449" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3465,8 +3479,30 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610670491613878" speed="0">
-                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Aam\Pictures\level 3.jpg" />
-                        <frame duration="1" hotspotX="0.500711" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\LEVEL1\Default\000.png" />
+                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\lock_level3.png">
+                            <collision-poly>
+                                <point x="0.0728972" y="0.0727612" />
+                                <point x="0.499065" y="0.0186567" />
+                                <point x="0.934579" y="0.0652985" />
+                                <point x="0.981308" y="0.5" />
+                                <point x="0.925234" y="0.925373" />
+                                <point x="0.499065" y="0.964552" />
+                                <point x="0.0803738" y="0.919776" />
+                                <point x="0.0336449" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500711" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\unlock_level3.png">
+                            <collision-poly>
+                                <point x="0.0728972" y="0.0727612" />
+                                <point x="0.499065" y="0.0186567" />
+                                <point x="0.934579" y="0.0652985" />
+                                <point x="0.981308" y="0.5" />
+                                <point x="0.925234" y="0.925373" />
+                                <point x="0.499065" y="0.964552" />
+                                <point x="0.0803738" y="0.919776" />
+                                <point x="0.0336449" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
