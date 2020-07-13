@@ -27,6 +27,7 @@
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -1027,6 +1028,9 @@
                 <behavior-type name="Fade" sid="357522936156468">
                     <behavior id="Fade" />
                 </behavior-type>
+                <behavior-type name="Turret" sid="546341473868251">
+                    <behavior id="Turret" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133418778421671" speed="5">
@@ -1839,6 +1843,7 @@
                 <instance-variable name="meds" sid="912337028697376" type="number" />
                 <instance-variable name="item" sid="808187761386512" type="number" />
                 <instance-variable name="coin" sid="628109720492320" type="number" />
+                <instance-variable name="peluru" sid="626683513026847" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="850824393133683">
@@ -3074,7 +3079,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523023860519094" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523023860519094" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\misi1.png">
                         <collision-poly>
                             <point x="0.119718" y="0.122478" />
@@ -3087,6 +3093,7 @@
                             <point x="0.119718" y="0.5" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -3119,7 +3126,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542237746730633" speed="5">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542237746730633" speed="0">
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
                         <collision-poly>
@@ -3165,7 +3172,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="896112316171386" speed="5">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="896112316171386" speed="0">
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
                         <collision-poly>
@@ -3188,7 +3195,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="882793667108450" speed="5">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="882793667108450" speed="0">
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
                         <collision-poly>
@@ -3200,6 +3207,366 @@
                     </frame>
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
                     <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_1" sid="222476534482866">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579002820825160" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\APD.png">
+                        <collision-poly>
+                            <point x="0.305556" y="0.171875" />
+                            <point x="0.5" y="0" />
+                            <point x="0.694444" y="0.171875" />
+                            <point x="0.930556" y="0.5" />
+                            <point x="0.777778" y="0.875" />
+                            <point x="0.5" y="0.5625" />
+                            <point x="0.236111" y="0.867188" />
+                            <point x="0.0694444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_2" sid="301685886190320">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="456113973124211" speed="5">
+                    <frame duration="1" hotspotX="0.505618" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\gloves.png">
+                        <collision-poly>
+                            <point x="0.280899" y="0.219298" />
+                            <point x="0.494382" y="0.0263158" />
+                            <point x="0.842697" y="0.122807" />
+                            <point x="0.910112" y="0.5" />
+                            <point x="0.719101" y="0.780702" />
+                            <point x="0.494382" y="0.982456" />
+                            <point x="0.191011" y="0.850877" />
+                            <point x="0.0898876" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_4" sid="934560075092872">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="435712852045949" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Handsanitizer_1.png">
+                        <collision-poly>
+                            <point x="0.346939" y="0.197674" />
+                            <point x="0.489796" y="0" />
+                            <point x="0.653061" y="0.197674" />
+                            <point x="0.979592" y="0.5" />
+                            <point x="0.857143" y="0.918605" />
+                            <point x="0.489796" y="1" />
+                            <point x="0.142857" y="0.918605" />
+                            <point x="0.0204082" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_5" sid="725004026322472">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568345560111441" speed="5">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Handsanitizer_2.png">
+                        <collision-poly>
+                            <point x="0.0508475" y="0.0263158" />
+                            <point x="0.491525" y="0" />
+                            <point x="0.966102" y="0.5" />
+                            <point x="0.847458" y="0.921053" />
+                            <point x="0.491525" y="1" />
+                            <point x="0.169492" y="0.912281" />
+                            <point x="0.0508475" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_3" sid="526027207655662">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="383708226280082" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Mask.png">
+                        <collision-poly>
+                            <point x="0.125" y="0.209302" />
+                            <point x="0.5" y="0" />
+                            <point x="0.875" y="0.209302" />
+                            <point x="0.986111" y="0.5" />
+                            <point x="0.819444" y="0.697674" />
+                            <point x="0.5" y="0.988372" />
+                            <point x="0.180556" y="0.697674" />
+                            <point x="0.00694444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_6" sid="371515319687257">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="628757434748148" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Thermo.png">
+                        <collision-poly>
+                            <point x="0.0897436" y="0.0614035" />
+                            <point x="0.5" y="0.00877193" />
+                            <point x="0.961538" y="0.0263158" />
+                            <point x="0.576923" y="0.5" />
+                            <point x="0.487179" y="0.649123" />
+                            <point x="0.5" y="0.587719" />
+                            <point x="0.0384615" y="0.973684" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_7" sid="419144443831673">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978174677748001" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Meds.png">
+                        <collision-poly>
+                            <point x="0.211538" y="0.152778" />
+                            <point x="0.5" y="0" />
+                            <point x="0.788462" y="0.152778" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tambah_nyawa" sid="260512911599228">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904674923386021" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\BEMCO\1,1idle-fix.png">
+                        <collision-poly>
+                            <point x="0.229642" y="0.25" />
+                            <point x="0.5" y="0.0301418" />
+                            <point x="0.662866" y="0.367021" />
+                            <point x="0.609121" y="0.5" />
+                            <point x="0.599349" y="0.56383" />
+                            <point x="0.5" y="0.992908" />
+                            <point x="0.252443" y="0.725177" />
+                            <point x="0.177524" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_8" sid="150348803844480">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379965770299140" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Handsanitizer_1.png">
+                        <collision-poly>
+                            <point x="0.346939" y="0.197674" />
+                            <point x="0.489796" y="0" />
+                            <point x="0.653061" y="0.197674" />
+                            <point x="0.979592" y="0.5" />
+                            <point x="0.857143" y="0.918605" />
+                            <point x="0.489796" y="1" />
+                            <point x="0.142857" y="0.918605" />
+                            <point x="0.0204082" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_9" sid="836885326378189">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="690201211450861" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Mask.png">
+                        <collision-poly>
+                            <point x="0.125" y="0.209302" />
+                            <point x="0.5" y="0" />
+                            <point x="0.875" y="0.209302" />
+                            <point x="0.986111" y="0.5" />
+                            <point x="0.819444" y="0.697674" />
+                            <point x="0.5" y="0.988372" />
+                            <point x="0.180556" y="0.697674" />
+                            <point x="0.00694444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_10" sid="764321143736910">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653744231098313" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\APD.png">
+                        <collision-poly>
+                            <point x="0.305556" y="0.171875" />
+                            <point x="0.5" y="0" />
+                            <point x="0.694444" y="0.171875" />
+                            <point x="0.930556" y="0.5" />
+                            <point x="0.777778" y="0.875" />
+                            <point x="0.5" y="0.5625" />
+                            <point x="0.236111" y="0.867188" />
+                            <point x="0.0694444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_11" sid="921507943592915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906218376804321" speed="5">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Handsanitizer_2.png">
+                        <collision-poly>
+                            <point x="0.0508475" y="0.0263158" />
+                            <point x="0.491525" y="0" />
+                            <point x="0.966102" y="0.5" />
+                            <point x="0.847458" y="0.921053" />
+                            <point x="0.491525" y="1" />
+                            <point x="0.169492" y="0.912281" />
+                            <point x="0.0508475" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_12" sid="975675305825858">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="151771449562159" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Thermo.png">
+                        <collision-poly>
+                            <point x="0.0897436" y="0.0614035" />
+                            <point x="0.5" y="0.00877193" />
+                            <point x="0.961538" y="0.0263158" />
+                            <point x="0.576923" y="0.5" />
+                            <point x="0.487179" y="0.649123" />
+                            <point x="0.5" y="0.587719" />
+                            <point x="0.0384615" y="0.973684" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_13" sid="592250172274858">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="207762341011482" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Meds.png">
+                        <collision-poly>
+                            <point x="0.211538" y="0.152778" />
+                            <point x="0.5" y="0" />
+                            <point x="0.788462" y="0.152778" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="item_14" sid="814863781424587">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262250522615774" speed="5">
+                    <frame duration="1" hotspotX="0.505618" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\gloves.png">
+                        <collision-poly>
+                            <point x="0.280899" y="0.219298" />
+                            <point x="0.494382" y="0.0263158" />
+                            <point x="0.842697" y="0.122807" />
+                            <point x="0.910112" y="0.5" />
+                            <point x="0.719101" y="0.780702" />
+                            <point x="0.494382" y="0.982456" />
+                            <point x="0.191011" y="0.850877" />
+                            <point x="0.0898876" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_15" sid="149914589820110">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501760485559266" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\Handsanitizer_1.png">
+                        <collision-poly>
+                            <point x="0.346939" y="0.197674" />
+                            <point x="0.489796" y="0" />
+                            <point x="0.653061" y="0.197674" />
+                            <point x="0.979592" y="0.5" />
+                            <point x="0.857143" y="0.918605" />
+                            <point x="0.489796" y="1" />
+                            <point x="0.142857" y="0.918605" />
+                            <point x="0.0204082" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Virus_3" sid="365198602229465">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="917522506441326">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="596198492360610" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\virus\Virus_3.png">
+                        <collision-poly>
+                            <point x="0.152778" y="0.183333" />
+                            <point x="0.5" y="0.0333333" />
+                            <point x="0.791667" y="0.25" />
+                            <point x="0.986111" y="0.5" />
+                            <point x="0.791667" y="0.75" />
+                            <point x="0.5" y="0.883333" />
+                            <point x="0.152778" y="0.816667" />
+                            <point x="0.111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alat_14" sid="279231545328061">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="235725697050552" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Assets PNG\items\APD.png">
+                        <collision-poly>
+                            <point x="0.305556" y="0.171875" />
+                            <point x="0.5" y="0" />
+                            <point x="0.694444" y="0.171875" />
+                            <point x="0.930556" y="0.5" />
+                            <point x="0.777778" y="0.875" />
+                            <point x="0.5" y="0.5625" />
+                            <point x="0.236111" y="0.867188" />
+                            <point x="0.0694444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="item_peluru" sid="388251327173208">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751673736973989" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
+                        <collision-poly>
+                            <point x="0.181034" y="0.181034" />
+                            <point x="0.5" y="0.0517241" />
+                            <point x="0.818965" y="0.181034" />
+                            <point x="0.974138" y="0.5" />
+                            <point x="0.801724" y="0.801724" />
+                            <point x="0.5" y="0.922414" />
+                            <point x="0.181034" y="0.818965" />
+                            <point x="0.163793" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

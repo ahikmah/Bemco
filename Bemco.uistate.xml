@@ -11,12 +11,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">layout_level_1</layout>
-        <layout order="2">select_level</layout>
-        <layout order="4">layout_intro</layout>
-        <event-sheet order="1">event_level_1</event-sheet>
-        <event-sheet active="1" order="3">event_select_level</event-sheet>
-        <event-sheet order="5">event_intro</event-sheet>
-        <event-sheet order="6">event_home</event-sheet>
+        <layout order="3">select_level</layout>
+        <layout order="5">layout_intro</layout>
+        <layout order="1">layout_level_2</layout>
+        <event-sheet active="1" order="2">event_level_1</event-sheet>
+        <event-sheet order="4">event_select_level</event-sheet>
+        <event-sheet order="6">event_intro</event-sheet>
+        <event-sheet order="7">event_home</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -203,5 +204,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bintang_mat_level_2/" />
         <folder expanded="1" path="animation-folder/bintang_ipa_level_1/" />
         <folder expanded="1" path="animation-folder/bintang_indo_level_1/" />
+        <folder expanded="1" path="animation-folder/alat_1/" />
+        <folder expanded="1" path="animation-folder/alat_2/" />
+        <folder expanded="1" path="animation-folder/alat_4/" />
+        <folder expanded="1" path="animation-folder/alat_5/" />
+        <folder expanded="1" path="animation-folder/alat_3/" />
+        <folder expanded="1" path="animation-folder/alat_6/" />
+        <folder expanded="1" path="animation-folder/alat_7/" />
+        <folder expanded="1" path="animation-folder/tambah_nyawa/" />
+        <folder expanded="1" path="animation-folder/alat_8/" />
+        <folder expanded="1" path="animation-folder/alat_9/" />
+        <folder expanded="1" path="animation-folder/alat_10/" />
+        <folder expanded="1" path="animation-folder/alat_11/" />
+        <folder expanded="1" path="animation-folder/alat_12/" />
+        <folder expanded="1" path="animation-folder/alat_13/" />
+        <folder expanded="1" path="animation-folder/item_14/" />
+        <folder expanded="1" path="animation-folder/alat_15/" />
+        <folder expanded="1" path="animation-folder/Virus_3/" />
+        <folder expanded="1" path="animation-folder/alat_14/" />
+        <folder expanded="1" path="animation-folder/item_peluru/" />
     </folders-expanded>
 </c2uistate>

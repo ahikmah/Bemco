@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_intro</name>
     <events>
-        <variable constant="0" name="mapel" sid="484849600640352" static="0" type="text"></variable>
+        <variable constant="0" name="mapel" sid="484849600640352" static="0" type="text">mat</variable>
         <variable constant="0" name="fullscreen" sid="439882208775283" static="0" type="number">1</variable>
         <variable constant="0" name="music" sid="715759750174225" static="0" type="number">1</variable>
         <event-group description="" sid="209104804547706" title="Mute &amp; Unmute music">

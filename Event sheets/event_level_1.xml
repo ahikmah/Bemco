@@ -53,6 +53,10 @@
                             <param id="0" name="Variable">buttonclicked</param>
                             <param id="1" name="Value">0</param>
                         </action>
+                        <action id="-4" name="Set layer visible" sid="265575431778974" type="System">
+                            <param id="0" name="Layer">&quot;HUD Hidden&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="190166574641906">
@@ -79,75 +83,126 @@
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="259469589648612">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="988593997499132" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="970193661141419" type="System">
+                                    <param id="0" name="Layer">&quot;HUD Hidden&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="452947575811454">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="254920707756888" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="125741507143815" type="System">
+                                    <param id="0" name="Layer">&quot;HUD Hidden&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="342634995728162">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="651816968515231" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="663768272596800" type="System">
+                                    <param id="0" name="Layer">&quot;HUD Hidden&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="255492826945124">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="107947420668577" type="System">
-                    <param id="0" name="Variable">buttonclicked</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="719915534262184" type="System">
-                    <param id="0" name="Layer">&quot;hidden button&quot;</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="928677711897915">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="855275728904521" type="System">
-                    <param id="0" name="Variable">buttonclicked</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="385335972418484" type="System">
-                    <param id="0" name="Layer">&quot;hidden button&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="212878201068251">
-            <conditions>
-                <condition id="17" name="On tap object" sid="320321948781317" type="Touch">
-                    <param id="0" name="Object">button_menu</param>
-                </condition>
-            </conditions>
-            <actions />
+        <event-group description="" sid="164489422004514" title="Menu">
             <sub-events>
-                <event-block sid="670623399068407">
+                <event-block sid="255492826945124">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="361789477317054" type="System">
+                        <condition id="-14" name="Compare variable" sid="107947420668577" type="System">
                             <param id="0" name="Variable">buttonclicked</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="327818194518324" type="System">
-                            <param id="0" name="Variable">buttonclicked</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="-4" name="Set layer visible" sid="719915534262184" type="System">
+                            <param id="0" name="Layer">&quot;hidden button&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="505277708802666">
+                <event-block sid="928677711897915">
                     <conditions>
-                        <condition id="-22" name="Else" sid="366456944478608" type="System" />
+                        <condition id="-14" name="Compare variable" sid="855275728904521" type="System">
+                            <param id="0" name="Variable">buttonclicked</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="900417630442997" type="System">
-                            <param id="0" name="Variable">buttonclicked</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="-4" name="Set layer visible" sid="385335972418484" type="System">
+                            <param id="0" name="Layer">&quot;hidden button&quot;</param>
+                            <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="212878201068251">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="320321948781317" type="Touch">
+                            <param id="0" name="Object">button_menu</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="670623399068407">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="361789477317054" type="System">
+                                    <param id="0" name="Variable">buttonclicked</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="327818194518324" type="System">
+                                    <param id="0" name="Variable">buttonclicked</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="505277708802666">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="366456944478608" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="900417630442997" type="System">
+                                    <param id="0" name="Variable">buttonclicked</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
-        </event-block>
+        </event-group>
         <event-block sid="748179356633241">
             <conditions>
                 <condition id="-1" name="Every tick" sid="183393727795359" type="System" />
@@ -169,6 +224,9 @@
                         <action id="5" name="Set frame" sid="998245634961685" type="bintang">
                             <param id="0" name="Frame number">bintang_level_1_mat</param>
                         </action>
+                        <action id="5" name="Set frame" sid="218880444777716" type="misi_1">
+                            <param id="0" name="Frame number">level_mat</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="589010529584360">
@@ -186,6 +244,9 @@
                         <action id="5" name="Set frame" sid="328781083354513" type="bintang">
                             <param id="0" name="Frame number">bintang_level_1_ipa</param>
                         </action>
+                        <action id="5" name="Set frame" sid="135063264719072" type="misi_1">
+                            <param id="0" name="Frame number">level_ipa</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="880789543818470">
@@ -202,6 +263,9 @@
                         </action>
                         <action id="5" name="Set frame" sid="219296212791664" type="bintang">
                             <param id="0" name="Frame number">bintang_level_1_indo</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="376067015805108" type="misi_1">
+                            <param id="0" name="Frame number">level_indo</param>
                         </action>
                     </actions>
                 </event-block>
@@ -244,6 +308,20 @@
                     <actions>
                         <action id="0" name="Set text" sid="243744022237405" type="SpriteFont">
                             <param id="0" name="Text">bemco.meds</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="601205059317966">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="614573267209866" type="SpriteFont">
+                            <param id="0" name="Instance variable">type</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;peluru&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="715883584172815" type="SpriteFont">
+                            <param id="0" name="Text">bemco.peluru</param>
                         </action>
                     </actions>
                 </event-block>
@@ -352,6 +430,101 @@
                             <param id="0" name="State">1</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="235025660874034">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="710740214567951" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Turret" id="1" name="Add object to target" sid="244136635783913" type="Virus_">
+                                    <param id="0" name="Target">bemco</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="445759230454717">
+                                    <conditions>
+                                        <condition behavior="Turret" id="1" name="On shoot" sid="277740184385668" type="Virus_" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="897362857940744" type="Virus_">
+                                            <param id="0" name="Object">Virus_3</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="559038226090324" type="Virus_3">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="412609297514063">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="810507005511215" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Turret" id="1" name="Add object to target" sid="777389490666848" type="Virus_">
+                                    <param id="0" name="Target">bemco</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="133351541755729">
+                                    <conditions>
+                                        <condition behavior="Turret" id="1" name="On shoot" sid="165665599256483" type="Virus_" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="866299419103778" type="Virus_">
+                                            <param id="0" name="Object">Virus_3</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="341809103338635" type="Virus_3">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="830130051125419">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="384653836717704" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Turret" id="1" name="Add object to target" sid="854291810043003" type="Virus_">
+                                    <param id="0" name="Target">bemco</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="146333687023502">
+                                    <conditions>
+                                        <condition behavior="Turret" id="1" name="On shoot" sid="788755665929632" type="Virus_" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="977470907516704" type="Virus_">
+                                            <param id="0" name="Object">Virus_3</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="251549651966149" type="Virus_3">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="553773962149623">
                     <conditions>
@@ -417,7 +590,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="218511251022965" title="Bemco Collision Food">
+        <event-group description="" sid="218511251022965" title="Bemco Collision Item">
             <sub-events>
                 <event-block sid="191331110690642">
                     <conditions>
@@ -573,6 +746,216 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="395186080653923">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="202129657021368" type="bemco">
+                            <param id="0" name="Object">alat_1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="143391878238426" type="alat_1" />
+                        <action id="-11" name="Add to" sid="154887479986841" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="182461262483630">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="435306659346637" type="bemco">
+                            <param id="0" name="Object">alat_2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="248938774866629" type="alat_2" />
+                        <action id="-11" name="Add to" sid="624166516765949" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="958545980963292">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="268466530587758" type="bemco">
+                            <param id="0" name="Object">alat_3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="587374646571920" type="alat_3" />
+                        <action id="-11" name="Add to" sid="500158922458079" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="683839248244209">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="814498531343669" type="bemco">
+                            <param id="0" name="Object">alat_4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="357641687561336" type="alat_4" />
+                        <action id="-11" name="Add to" sid="411217573224502" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="996861942060554">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="490439287665396" type="bemco">
+                            <param id="0" name="Object">alat_5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="673065907007624" type="alat_5" />
+                        <action id="-11" name="Add to" sid="936946529226737" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="958797453823200">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="105760159178117" type="bemco">
+                            <param id="0" name="Object">alat_6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="490670525263153" type="alat_6" />
+                        <action id="-11" name="Add to" sid="844754044836413" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="950063065211566">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="521106542127501" type="bemco">
+                            <param id="0" name="Object">alat_7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="138780969224917" type="alat_7" />
+                        <action id="-11" name="Add to" sid="947607568987077" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="974480164761685">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="555714887081826" type="bemco">
+                            <param id="0" name="Object">alat_8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="266577290723777" type="alat_8" />
+                        <action id="-11" name="Add to" sid="525550710115607" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="818058637024381">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="177415257010358" type="bemco">
+                            <param id="0" name="Object">alat_9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="181849008412392" type="alat_9" />
+                        <action id="-11" name="Add to" sid="951985343848053" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="180155835679367">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="837169071676324" type="bemco">
+                            <param id="0" name="Object">alat_10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="588457870250539" type="alat_10" />
+                        <action id="-11" name="Add to" sid="148365339992064" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="495068627056397">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="278066669289579" type="bemco">
+                            <param id="0" name="Object">alat_11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="951127541286476" type="alat_11" />
+                        <action id="-11" name="Add to" sid="533898229670962" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="582804018583222">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="426012652866393" type="bemco">
+                            <param id="0" name="Object">alat_12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="929618007675922" type="alat_12" />
+                        <action id="-11" name="Add to" sid="116248694881705" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="757378326655316">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="392869484609295" type="bemco">
+                            <param id="0" name="Object">alat_13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="724004967202239" type="alat_13" />
+                        <action id="-11" name="Add to" sid="261749274029887" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="970660037296433">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="349263216679991" type="bemco">
+                            <param id="0" name="Object">alat_14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="260211560315096" type="alat_14" />
+                        <action id="-11" name="Add to" sid="983360483221608" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="640805508150951">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="369907149626167" type="bemco">
+                            <param id="0" name="Object">alat_15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="436412102174589" type="alat_15" />
+                        <action id="-11" name="Add to" sid="123968595282093" type="bemco">
+                            <param id="0" name="Instance variable">item</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="370383505828484" title="Bemco Collision Enemy">
@@ -717,41 +1100,579 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block sid="138008289215231">
+                <event-block sid="134985868349193">
                     <conditions>
-                        <condition id="0" name="On key pressed" sid="246252850166205" type="Keyboard">
-                            <param id="0" name="Key">32</param>
+                        <condition id="0" name="On collision with another object" sid="963362959508387" type="bemco">
+                            <param id="0" name="Object">Virus_3</param>
                         </condition>
-                        <condition id="7" inverted="1" name="Is mirrored" sid="555292733950262" type="bemco" />
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="519500669940822" type="bemco">
-                            <param id="0" name="Object">peluru</param>
-                            <param id="1" name="Layer">&quot;game&quot;</param>
-                            <param id="2" name="Image point">0</param>
+                        <action behavior="Flash" id="0" name="Flash" sid="281899034743763" type="bemco">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">2.0</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="831586580881246">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="179992656066903" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="244830703431459" type="System">
+                                    <param id="0" name="Variable">nyawa_mat</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="847474021379971" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_mat</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="696298758077695">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="569552171870510" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="689757702960061" type="System">
+                                    <param id="0" name="Variable">nyawa_ipa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="317670126707578" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_ipa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="414783026418063">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="399033915496399" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="363576738041776" type="System">
+                                    <param id="0" name="Variable">nyawa_indo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="596320905501067" type="i_nyawa">
+                                    <param id="0" name="Frame number">nyawa_indo</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
-                <event-block sid="686828259589600">
+                <event-block sid="572279990967173">
                     <conditions>
-                        <condition id="0" name="On key pressed" sid="799866120741601" type="Keyboard">
-                            <param id="0" name="Key">32</param>
+                        <condition id="-14" name="Compare variable" sid="126979158507292" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mat&quot;</param>
                         </condition>
-                        <condition id="7" name="Is mirrored" sid="243856552868990" type="bemco" />
                     </conditions>
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="854575633980850" type="bemco">
-                            <param id="0" name="Object">peluru</param>
-                            <param id="1" name="Layer">&quot;game&quot;</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="326654579314823" type="peluru">
-                            <param id="0" name="Angle">180</param>
-                        </action>
-                        <action id="7" name="Set mirrored" sid="259265362664612" type="peluru">
-                            <param id="0" name="State">0</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="345486024998834">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="927938979316267" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="375642602178371">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="260225542922142" type="Keyboard">
+                                            <param id="0" name="Key">32</param>
+                                        </condition>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="895392212290347" type="bemco" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="217421383107826" type="bemco">
+                                            <param id="0" name="Object">peluru</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="789938858244836">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="602392563205395" type="Keyboard">
+                                            <param id="0" name="Key">32</param>
+                                        </condition>
+                                        <condition id="7" name="Is mirrored" sid="186288532846478" type="bemco" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="172166027715032" type="bemco">
+                                            <param id="0" name="Object">peluru</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="394184200495947" type="peluru">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="866335127997254" type="peluru">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="421440927405090">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="672756849360537" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="977197443425740">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="183020366331724" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="859916805521352">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="948302975406114" type="Keyboard">
+                                            <param id="0" name="Key">32</param>
+                                        </condition>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="300847230257031" type="bemco" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="737076152339106" type="bemco">
+                                            <param id="0" name="Object">peluru</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="602352566552232">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="792537906354036" type="Keyboard">
+                                            <param id="0" name="Key">32</param>
+                                        </condition>
+                                        <condition id="7" name="Is mirrored" sid="300699623412975" type="bemco" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="901631576053183" type="bemco">
+                                            <param id="0" name="Object">peluru</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="259276235470704" type="peluru">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="364555728104076" type="peluru">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="257916573012098">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="290702221116058" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;indo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="323218225741253">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="775202872172537" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="467600996225261">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="699193025196464" type="Keyboard">
+                                            <param id="0" name="Key">32</param>
+                                        </condition>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="859527999415932" type="bemco" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="674017267562133" type="bemco">
+                                            <param id="0" name="Object">peluru</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="530721986612762">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="910625925058774" type="Keyboard">
+                                            <param id="0" name="Key">32</param>
+                                        </condition>
+                                        <condition id="7" name="Is mirrored" sid="548378395439575" type="bemco" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="178281635784130" type="bemco">
+                                            <param id="0" name="Object">peluru</param>
+                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="914642169166904" type="peluru">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="664577099590909" type="peluru">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="657412093701452">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="355094877263413" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mat&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="350463347912669">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="253512707354708" type="System">
+                                    <param id="0" name="Variable">level_mat</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="390698264763180">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="832342310790600" type="bemco">
+                                            <param id="0" name="Instance variable">peluru</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="138008289215231">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="246252850166205" type="Keyboard">
+                                                    <param id="0" name="Key">32</param>
+                                                </condition>
+                                                <condition id="7" inverted="1" name="Is mirrored" sid="555292733950262" type="bemco" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="519500669940822" type="bemco">
+                                                    <param id="0" name="Object">peluru</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="Image point">1</param>
+                                                </action>
+                                                <action id="-12" name="Subtract from" sid="754719228948830" type="bemco">
+                                                    <param id="0" name="Instance variable">peluru</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="686828259589600">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="799866120741601" type="Keyboard">
+                                                    <param id="0" name="Key">32</param>
+                                                </condition>
+                                                <condition id="7" name="Is mirrored" sid="243856552868990" type="bemco" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="854575633980850" type="bemco">
+                                                    <param id="0" name="Object">peluru</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="Image point">1</param>
+                                                </action>
+                                                <action id="-12" name="Subtract from" sid="325881168791969" type="bemco">
+                                                    <param id="0" name="Instance variable">peluru</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="326654579314823" type="peluru">
+                                                    <param id="0" name="Angle">180</param>
+                                                </action>
+                                                <action id="7" name="Set mirrored" sid="259265362664612" type="peluru">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="409204333870989">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="848274931124402" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="426127125459090">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="912873361912039" type="System">
+                                    <param id="0" name="Variable">level_ipa</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="115801329999912">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="883413477482769" type="bemco">
+                                            <param id="0" name="Instance variable">peluru</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="654846993982372">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="970619824838942" type="Keyboard">
+                                                    <param id="0" name="Key">32</param>
+                                                </condition>
+                                                <condition id="7" inverted="1" name="Is mirrored" sid="749433329924581" type="bemco" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="188497755064049" type="bemco">
+                                                    <param id="0" name="Object">peluru</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="Image point">1</param>
+                                                </action>
+                                                <action id="-12" name="Subtract from" sid="804402924559425" type="bemco">
+                                                    <param id="0" name="Instance variable">peluru</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="844072369767810">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="167594204125556" type="Keyboard">
+                                                    <param id="0" name="Key">32</param>
+                                                </condition>
+                                                <condition id="7" name="Is mirrored" sid="217034888744915" type="bemco" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="635407628775508" type="bemco">
+                                                    <param id="0" name="Object">peluru</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="Image point">1</param>
+                                                </action>
+                                                <action id="-12" name="Subtract from" sid="813701008210066" type="bemco">
+                                                    <param id="0" name="Instance variable">peluru</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="510018631527254" type="peluru">
+                                                    <param id="0" name="Angle">180</param>
+                                                </action>
+                                                <action id="7" name="Set mirrored" sid="580233962036535" type="peluru">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="612224815213446">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="658615422077813" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;indo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="518679286264911">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="596975296064985" type="System">
+                                    <param id="0" name="Variable">level_indo</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="703925080393061">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="169738419500506" type="bemco">
+                                            <param id="0" name="Instance variable">peluru</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="404429835488475">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="412357699089155" type="Keyboard">
+                                                    <param id="0" name="Key">32</param>
+                                                </condition>
+                                                <condition id="7" inverted="1" name="Is mirrored" sid="634985928191204" type="bemco" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="421348592188124" type="bemco">
+                                                    <param id="0" name="Object">peluru</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="Image point">1</param>
+                                                </action>
+                                                <action id="-12" name="Subtract from" sid="425446576201631" type="bemco">
+                                                    <param id="0" name="Instance variable">peluru</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="436839075475942">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="330271660321490" type="Keyboard">
+                                                    <param id="0" name="Key">32</param>
+                                                </condition>
+                                                <condition id="7" name="Is mirrored" sid="667715391612066" type="bemco" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="376264477197969" type="bemco">
+                                                    <param id="0" name="Object">peluru</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="Image point">1</param>
+                                                </action>
+                                                <action id="-12" name="Subtract from" sid="272619227955410" type="bemco">
+                                                    <param id="0" name="Instance variable">peluru</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="666187351563396" type="peluru">
+                                                    <param id="0" name="Angle">180</param>
+                                                </action>
+                                                <action id="7" name="Set mirrored" sid="560938850064775" type="peluru">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="639587228829857">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="649754101835264" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mat&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="187078338534258" type="System">
+                            <param id="0" name="Variable">level_mat</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="956390207717712">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="518007433564191" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="751451138788008" type="bemco">
+                                    <param id="0" name="Instance variable">peluru</param>
+                                    <param id="1" name="Value">20</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="447820211745621">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="976461341064745" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="703864887643956" type="System">
+                            <param id="0" name="Variable">level_ipa</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="498735781862995">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="987107813944078" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="424736595762373" type="bemco">
+                                    <param id="0" name="Instance variable">peluru</param>
+                                    <param id="1" name="Value">20</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="908943892828556">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="921156403553449" type="System">
+                            <param id="0" name="Variable">mapel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;indo&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="927393882632347" type="System">
+                            <param id="0" name="Variable">level_indo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="888560274762015">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="518592767817897" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="727878799405762" type="bemco">
+                                    <param id="0" name="Instance variable">peluru</param>
+                                    <param id="1" name="Value">20</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="255501830335856">
                     <conditions>
@@ -2627,5 +3548,81 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="796261840316846">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="993649413499312" type="System">
+                    <param id="0" name="Variable">level_mat</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="123091544570785">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="996641372015553" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="601344001299273">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="785448995316379" type="Keyboard">
+                                    <param id="0" name="Key">32</param>
+                                </condition>
+                                <condition id="7" inverted="1" name="Is mirrored" sid="339067041534198" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="895075583582523" type="bemco">
+                                    <param id="0" name="Object">peluru</param>
+                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="833610031771215">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="639576488070548" type="System">
+                    <param id="0" name="Variable">level_mat</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="374817288950735">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="212481389228196" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="103895767497899">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="490900228307136" type="Keyboard">
+                                    <param id="0" name="Key">32</param>
+                                </condition>
+                                <condition id="7" name="Is mirrored" sid="402061701510250" type="bemco" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="471703657621464" type="bemco">
+                                    <param id="0" name="Object">peluru</param>
+                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="771279826105709" type="peluru">
+                                    <param id="0" name="Angle">180</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="671059075793831" type="peluru">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>
