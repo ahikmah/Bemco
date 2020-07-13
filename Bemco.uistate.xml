@@ -31,8 +31,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/system/" />
         <folder expanded="0" path="object-folder/buttons/" />
         <folder expanded="0" path="object-folder/txt/" />
+        <folder expanded="1" path="object-folder/txt/quiz/" />
+        <folder expanded="0" path="object-folder/txt/edu/" />
         <folder expanded="0" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
+        <folder expanded="0" path="object-folder/tilesets/" />
+        <folder expanded="0" path="object-folder/items/" />
+        <folder expanded="0" path="object-folder/characters/" />
+        <folder expanded="0" path="object-folder/HUD/" />
+        <folder expanded="0" path="object-folder/others/" />
         <folder expanded="0" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Level/" />
         <folder expanded="0" path="event-folder/" />
@@ -51,6 +58,27 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/ok2/" />
         <folder expanded="1" path="animation-folder/ok3/" />
         <folder expanded="1" path="animation-folder/button_info/" />
+        <folder expanded="1" path="animation-folder/button_back/" />
+        <folder expanded="1" path="animation-folder/button_fullscreen2/" />
+        <folder expanded="1" path="animation-folder/button_menu/" />
+        <folder expanded="1" path="animation-folder/button_next/" />
+        <folder expanded="1" path="animation-folder/button_pause/" />
+        <folder expanded="1" path="animation-folder/buttonHome/" />
+        <folder expanded="1" path="animation-folder/buttonBoard/" />
+        <folder expanded="1" path="animation-folder/buttonInfo/" />
+        <folder expanded="1" path="animation-folder/buttonHome2/" />
+        <folder expanded="1" path="animation-folder/buttonRestart/" />
+        <folder expanded="1" path="animation-folder/ok_kotak/" />
+        <folder expanded="1" path="animation-folder/pilih_a/" />
+        <folder expanded="1" path="animation-folder/pilih_b/" />
+        <folder expanded="1" path="animation-folder/pilih_c/" />
+        <folder expanded="1" path="animation-folder/pilih_d/" />
+        <folder expanded="1" path="animation-folder/ok_mulai/" />
+        <folder expanded="1" path="animation-folder/1_a/" />
+        <folder expanded="1" path="animation-folder/1_b/" />
+        <folder expanded="1" path="animation-folder/1_c/" />
+        <folder expanded="1" path="animation-folder/i_d/" />
+        <folder expanded="1" path="animation-folder/edu/" />
         <folder expanded="1" path="animation-folder/txt_bantuan/" />
         <folder expanded="1" path="animation-folder/txt_ind/" />
         <folder expanded="1" path="animation-folder/txt_ipa/" />
@@ -65,87 +93,49 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/txt_sedang/" />
         <folder expanded="1" path="animation-folder/txt_mudah/" />
         <folder expanded="1" path="animation-folder/story/" />
+        <folder expanded="1" path="animation-folder/JEDA/" />
+        <folder expanded="1" path="animation-folder/quis/" />
+        <folder expanded="1" path="animation-folder/level/" />
+        <folder expanded="1" path="animation-folder/pilihLevel/" />
+        <folder expanded="1" path="animation-folder/mission_status/" />
+        <folder expanded="1" path="animation-folder/keluar/" />
+        <folder expanded="1" path="animation-folder/misi/" />
         <folder expanded="1" path="animation-folder/popupBoard/" />
         <folder expanded="1" path="animation-folder/popupBoard2/" />
         <folder expanded="1" path="animation-folder/sub/" />
         <folder expanded="1" path="animation-folder/popupBoard3/" />
         <folder expanded="1" path="animation-folder/storyBoard/" />
         <folder expanded="1" path="animation-folder/storyBoard2/" />
+        <folder expanded="1" path="animation-folder/EDUBOARD/" />
+        <folder expanded="1" path="animation-folder/end_board/" />
+        <folder expanded="1" path="animation-folder/MISSIONBOARD/" />
+        <folder expanded="1" path="animation-folder/QUIZBOARD/" />
+        <folder expanded="1" path="animation-folder/jedaBoard/" />
         <folder expanded="1" path="animation-folder/intro/" />
         <folder expanded="1" path="animation-folder/lab_/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
-        <folder expanded="1" path="animation-folder/Sprite13/" />
-        <folder expanded="1" path="animation-folder/Sprite14/" />
-        <folder expanded="1" path="animation-folder/Sprite15/" />
-        <folder expanded="1" path="animation-folder/Sprite16/" />
-        <folder expanded="1" path="animation-folder/Sprite19/" />
-        <folder expanded="1" path="animation-folder/Sprite8/" />
-        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/BG/" />
+        <folder expanded="1" path="animation-folder/BG2/" />
+        <folder expanded="1" path="animation-folder/BG3/" />
+        <folder expanded="1" path="animation-folder/desa/" />
+        <folder expanded="1" path="animation-folder/springlandscapewithmountainshouses_/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/kota/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
         <folder expanded="1" path="animation-folder/Sprite11/" />
         <folder expanded="1" path="animation-folder/Sprite12/" />
-        <folder expanded="1" path="animation-folder/Sprite20/" />
-        <folder expanded="1" path="animation-folder/Sprite21/" />
-        <folder expanded="1" path="animation-folder/BG/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
-        <folder expanded="1" path="animation-folder/BG2/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
-        <folder expanded="1" path="animation-folder/Sprite6/" />
-        <folder expanded="1" path="animation-folder/desa/" />
-        <folder expanded="1" path="animation-folder/kota/" />
-        <folder expanded="1" path="animation-folder/Coin/" />
-        <folder expanded="1" path="animation-folder/Virus_/" />
-        <folder expanded="1" path="animation-folder/Virus_2/" />
-        <folder expanded="1" path="animation-folder/Food_/" />
-        <folder expanded="1" path="animation-folder/Food_2/" />
-        <folder expanded="1" path="animation-folder/Food_3/" />
-        <folder expanded="1" path="animation-folder/Food_4/" />
-        <folder expanded="1" path="animation-folder/Food_5/" />
-        <folder expanded="1" path="animation-folder/Food_6/" />
-        <folder expanded="1" path="animation-folder/Food_7/" />
-        <folder expanded="1" path="animation-folder/Food_8/" />
-        <folder expanded="1" path="animation-folder/Food_9/" />
-        <folder expanded="1" path="animation-folder/Food_10/" />
-        <folder expanded="1" path="animation-folder/postman/" />
-        <folder expanded="1" path="animation-folder/Life/" />
-        <folder expanded="1" path="animation-folder/Coin2/" />
-        <folder expanded="1" path="animation-folder/image/" />
-        <folder expanded="1" path="animation-folder/kotak_ilmu/" />
-        <folder expanded="1" path="animation-folder/level/" />
-        <folder expanded="1" path="animation-folder/springlandscapewithmountainshouses_/" />
-        <folder expanded="1" path="animation-folder/button_back/" />
-        <folder expanded="1" path="animation-folder/Sprite7/" />
-        <folder expanded="1" path="animation-folder/LEVEL1/" />
-        <folder expanded="1" path="animation-folder/LEVEL2/" />
-        <folder expanded="1" path="animation-folder/LEVEL3/" />
-        <folder expanded="1" path="animation-folder/pilihLevel/" />
-        <folder expanded="1" path="animation-folder/button_menu/" />
-        <folder expanded="1" path="animation-folder/button_pause/" />
-        <folder expanded="1" path="animation-folder/bemco_run/" />
-        <folder expanded="1" path="animation-folder/coinBoard/" />
-        <folder expanded="1" path="animation-folder/Meds/" />
-        <folder expanded="1" path="animation-folder/vegetable/" />
-        <folder expanded="1" path="animation-folder/image2/" />
-        <folder expanded="1" path="animation-folder/JEDA/" />
-        <folder expanded="1" path="animation-folder/jedaBoard/" />
-        <folder expanded="1" path="animation-folder/LANJUTKAN/" />
-        <folder expanded="1" path="animation-folder/ULANGI/" />
-        <folder expanded="1" path="animation-folder/keluar/" />
-        <folder expanded="1" path="animation-folder/EDUBOARD/" />
-        <folder expanded="1" path="animation-folder/buttonRestart/" />
-        <folder expanded="1" path="animation-folder/button_fullscreen2/" />
-        <folder expanded="1" path="animation-folder/buttonBoard/" />
-        <folder expanded="1" path="animation-folder/buttonInfo/" />
-        <folder expanded="1" path="animation-folder/buttonHome/" />
-        <folder expanded="1" path="animation-folder/bemco/" />
-        <folder expanded="1" path="animation-folder/challenge_/" />
-        <folder expanded="1" path="animation-folder/QUIZBOARD/" />
-        <folder expanded="1" path="animation-folder/MISSIONBOARD/" />
-        <folder expanded="1" path="animation-folder/BG3/" />
-        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/Sprite14/" />
+        <folder expanded="1" path="animation-folder/Sprite16/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
         <folder expanded="1" path="animation-folder/Sprite17/" />
         <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/Sprite19/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
+        <folder expanded="1" path="animation-folder/Sprite21/" />
         <folder expanded="1" path="animation-folder/Sprite22/" />
         <folder expanded="1" path="animation-folder/Sprite23/" />
         <folder expanded="1" path="animation-folder/Sprite24/" />
@@ -154,6 +144,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite27/" />
         <folder expanded="1" path="animation-folder/Sprite28/" />
         <folder expanded="1" path="animation-folder/Sprite29/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite30/" />
         <folder expanded="1" path="animation-folder/Sprite31/" />
         <folder expanded="1" path="animation-folder/Sprite32/" />
@@ -167,61 +158,72 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite40/" />
         <folder expanded="1" path="animation-folder/Sprite41/" />
         <folder expanded="1" path="animation-folder/Sprite42/" />
-        <folder expanded="1" path="animation-folder/icon_nyawa/" />
-        <folder expanded="1" path="animation-folder/peluru/" />
-        <folder expanded="1" path="animation-folder/bonus/" />
-        <folder expanded="1" path="animation-folder/ok_mulai/" />
-        <folder expanded="1" path="animation-folder/i_nyawa/" />
-        <folder expanded="1" path="animation-folder/ok_kotak/" />
-        <folder expanded="1" path="animation-folder/end_board/" />
-        <folder expanded="1" path="animation-folder/tombol_ulang/" />
-        <folder expanded="1" path="animation-folder/kotak_ilmu2/" />
-        <folder expanded="1" path="animation-folder/kotak_ilmu3/" />
-        <folder expanded="1" path="animation-folder/kotak_quiz/" />
-        <folder expanded="1" path="animation-folder/bonus_med/" />
-        <folder expanded="1" path="animation-folder/pilih_a/" />
-        <folder expanded="1" path="animation-folder/pilih_b/" />
-        <folder expanded="1" path="animation-folder/pilih_c/" />
-        <folder expanded="1" path="animation-folder/pilih_d/" />
-        <folder expanded="1" path="animation-folder/benar/" />
-        <folder expanded="1" path="animation-folder/salah/" />
-        <folder expanded="1" path="animation-folder/tombol_lanjutkan/" />
-        <folder expanded="1" path="animation-folder/bintang/" />
-        <folder expanded="1" path="animation-folder/bonus_edu/" />
-        <folder expanded="1" path="animation-folder/coin_edu/" />
-        <folder expanded="1" path="animation-folder/buttonHome2/" />
-        <folder expanded="1" path="animation-folder/mission_status/" />
-        <folder expanded="1" path="animation-folder/misi/" />
-        <folder expanded="1" path="animation-folder/edu/" />
-        <folder expanded="1" path="animation-folder/quis/" />
-        <folder expanded="1" path="animation-folder/1_a/" />
-        <folder expanded="1" path="animation-folder/1_b/" />
-        <folder expanded="1" path="animation-folder/1_c/" />
-        <folder expanded="1" path="animation-folder/i_d/" />
-        <folder expanded="1" path="animation-folder/misi_1/" />
-        <folder expanded="1" path="animation-folder/button_next/" />
-        <folder expanded="1" path="animation-folder/bintang_mat_level_1/" />
-        <folder expanded="1" path="animation-folder/bintang_mat_level_2/" />
-        <folder expanded="1" path="animation-folder/bintang_ipa_level_1/" />
-        <folder expanded="1" path="animation-folder/bintang_indo_level_1/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/alat_1/" />
-        <folder expanded="1" path="animation-folder/alat_2/" />
-        <folder expanded="1" path="animation-folder/alat_4/" />
-        <folder expanded="1" path="animation-folder/alat_5/" />
-        <folder expanded="1" path="animation-folder/alat_3/" />
-        <folder expanded="1" path="animation-folder/alat_6/" />
-        <folder expanded="1" path="animation-folder/alat_7/" />
-        <folder expanded="1" path="animation-folder/tambah_nyawa/" />
-        <folder expanded="1" path="animation-folder/alat_8/" />
-        <folder expanded="1" path="animation-folder/alat_9/" />
         <folder expanded="1" path="animation-folder/alat_10/" />
         <folder expanded="1" path="animation-folder/alat_11/" />
         <folder expanded="1" path="animation-folder/alat_12/" />
         <folder expanded="1" path="animation-folder/alat_13/" />
-        <folder expanded="1" path="animation-folder/item_14/" />
-        <folder expanded="1" path="animation-folder/alat_15/" />
-        <folder expanded="1" path="animation-folder/Virus_3/" />
         <folder expanded="1" path="animation-folder/alat_14/" />
+        <folder expanded="1" path="animation-folder/alat_15/" />
+        <folder expanded="1" path="animation-folder/alat_2/" />
+        <folder expanded="1" path="animation-folder/alat_3/" />
+        <folder expanded="1" path="animation-folder/alat_4/" />
+        <folder expanded="1" path="animation-folder/alat_5/" />
+        <folder expanded="1" path="animation-folder/alat_6/" />
+        <folder expanded="1" path="animation-folder/alat_7/" />
+        <folder expanded="1" path="animation-folder/alat_8/" />
+        <folder expanded="1" path="animation-folder/alat_9/" />
+        <folder expanded="1" path="animation-folder/Food_/" />
+        <folder expanded="1" path="animation-folder/Food_10/" />
+        <folder expanded="1" path="animation-folder/Food_2/" />
+        <folder expanded="1" path="animation-folder/Food_3/" />
+        <folder expanded="1" path="animation-folder/Food_4/" />
+        <folder expanded="1" path="animation-folder/Food_5/" />
+        <folder expanded="1" path="animation-folder/Food_6/" />
+        <folder expanded="1" path="animation-folder/Food_7/" />
+        <folder expanded="1" path="animation-folder/Food_8/" />
+        <folder expanded="1" path="animation-folder/Food_9/" />
+        <folder expanded="1" path="animation-folder/Coin/" />
         <folder expanded="1" path="animation-folder/item_peluru/" />
+        <folder expanded="1" path="animation-folder/item_14/" />
+        <folder expanded="1" path="animation-folder/kotak_ilmu/" />
+        <folder expanded="1" path="animation-folder/kotak_ilmu2/" />
+        <folder expanded="1" path="animation-folder/kotak_ilmu3/" />
+        <folder expanded="1" path="animation-folder/kotak_quiz/" />
+        <folder expanded="1" path="animation-folder/tambah_nyawa/" />
+        <folder expanded="1" path="animation-folder/i_nyawa/" />
+        <folder expanded="1" path="animation-folder/bemco/" />
+        <folder expanded="1" path="animation-folder/bemco_run/" />
+        <folder expanded="1" path="animation-folder/Virus_/" />
+        <folder expanded="1" path="animation-folder/Virus_2/" />
+        <folder expanded="1" path="animation-folder/postman/" />
+        <folder expanded="1" path="animation-folder/Virus_3/" />
+        <folder expanded="1" path="animation-folder/peluru/" />
+        <folder expanded="1" path="animation-folder/coin_edu/" />
+        <folder expanded="1" path="animation-folder/image/" />
+        <folder expanded="1" path="animation-folder/Coin2/" />
+        <folder expanded="1" path="animation-folder/vegetable/" />
+        <folder expanded="1" path="animation-folder/coinBoard/" />
+        <folder expanded="1" path="animation-folder/Meds/" />
+        <folder expanded="1" path="animation-folder/image2/" />
+        <folder expanded="1" path="animation-folder/icon_nyawa/" />
+        <folder expanded="1" path="animation-folder/bintang_indo_level_1/" />
+        <folder expanded="1" path="animation-folder/bintang_ipa_level_1/" />
+        <folder expanded="1" path="animation-folder/bintang_mat_level_1/" />
+        <folder expanded="1" path="animation-folder/bintang_mat_level_2/" />
+        <folder expanded="1" path="animation-folder/benar/" />
+        <folder expanded="1" path="animation-folder/salah/" />
+        <folder expanded="1" path="animation-folder/bonus_edu/" />
+        <folder expanded="1" path="animation-folder/bonus_med/" />
+        <folder expanded="1" path="animation-folder/bonus/" />
+        <folder expanded="1" path="animation-folder/challenge_/" />
+        <folder expanded="1" path="animation-folder/bintang/" />
+        <folder expanded="1" path="animation-folder/LEVEL1/" />
+        <folder expanded="1" path="animation-folder/LEVEL2/" />
+        <folder expanded="1" path="animation-folder/LEVEL3/" />
+        <folder expanded="1" path="animation-folder/misi_1/" />
     </folders-expanded>
 </c2uistate>
