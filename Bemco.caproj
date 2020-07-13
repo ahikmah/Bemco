@@ -2914,18 +2914,8 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="401249193789034" speed="5">
-                    <frame duration="1" hotspotX="0.50087" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\misi_gagal.png">
-                        <collision-poly>
-                            <point x="0.013913" y="0.162162" />
-                            <point x="0.50087" y="0.0675675" />
-                            <point x="0.94087" y="0.527027" />
-                            <point x="0.94087" y="0.621622" />
-                            <point x="0.968696" y="0.932432" />
-                            <point x="0.0313043" y="0.945946" />
-                            <point x="0.00695652" y="0.621622" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.500668" hotspotY="0.605263" original-source="C:\Users\USER\Pictures\tg aset\misi_berhasil.png" />
+                    <frame duration="1" hotspotX="0.503521" hotspotY="0.597015" original-source="C:\Users\USER\Pictures\tg aset\gameover.png" />
+                    <frame duration="1" hotspotX="0.502256" hotspotY="0.627119" original-source="C:\Users\USER\Pictures\tg aset\congrats.png" />
                 </animation>
             </animation-folder>
         </object-type>

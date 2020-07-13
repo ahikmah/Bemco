@@ -7411,11 +7411,11 @@
                         <x>948</x>
                         <y>201</y>
                         <z>0</z>
-                        <width>319</width>
-                        <height>39</height>
+                        <width>315.116546631</width>
+                        <height>35.310810089</height>
                         <depth>0</depth>
-                        <hotspotX>0.500869572</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.503521144</hotspotX>
+                        <hotspotY>0.597014904</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
