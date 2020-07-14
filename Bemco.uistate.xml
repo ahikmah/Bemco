@@ -12,8 +12,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">layout_level_1</layout>
         <layout order="1">layout_level_2</layout>
-        <layout active="1" order="3">select_level</layout>
+        <layout order="3">select_level</layout>
         <layout order="5">layout_intro</layout>
+        <layout active="1" order="8">layout_level_3</layout>
         <event-sheet order="2">event_level_1</event-sheet>
         <event-sheet order="4">event_select_level</event-sheet>
         <event-sheet order="6">event_intro</event-sheet>
@@ -30,18 +31,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/system/" />
         <folder expanded="0" path="object-folder/buttons/" />
-        <folder expanded="0" path="object-folder/txt/" />
+        <folder expanded="1" path="object-folder/txt/" />
         <folder expanded="1" path="object-folder/txt/quiz/" />
         <folder expanded="0" path="object-folder/txt/edu/" />
         <folder expanded="0" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
-        <folder expanded="0" path="object-folder/tilesets/" />
-        <folder expanded="0" path="object-folder/items/" />
+        <folder expanded="1" path="object-folder/tilesets/" />
+        <folder expanded="1" path="object-folder/items/" />
         <folder expanded="1" path="object-folder/characters/" />
         <folder expanded="1" path="object-folder/HUD/" />
         <folder expanded="0" path="object-folder/others/" />
-        <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Level/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/Level/" />
         <folder expanded="0" path="event-folder/" />
         <folder expanded="1" path="event-folder/Level/" />
         <folder expanded="0" path="file-folder/" />
@@ -161,6 +162,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />
         <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/Tile10/" />
+        <folder expanded="1" path="animation-folder/Tile/" />
+        <folder expanded="1" path="animation-folder/Tile11/" />
+        <folder expanded="1" path="animation-folder/Tile12/" />
+        <folder expanded="1" path="animation-folder/Tile13/" />
+        <folder expanded="1" path="animation-folder/Tile14/" />
+        <folder expanded="1" path="animation-folder/Tile2/" />
+        <folder expanded="1" path="animation-folder/Tile3/" />
+        <folder expanded="1" path="animation-folder/Tile4/" />
+        <folder expanded="1" path="animation-folder/Tile5/" />
+        <folder expanded="1" path="animation-folder/Tile6/" />
+        <folder expanded="1" path="animation-folder/Tile7/" />
+        <folder expanded="1" path="animation-folder/Tile8/" />
+        <folder expanded="1" path="animation-folder/Tile9/" />
         <folder expanded="1" path="animation-folder/alat_1/" />
         <folder expanded="1" path="animation-folder/alat_10/" />
         <folder expanded="1" path="animation-folder/alat_11/" />
@@ -192,8 +207,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/kotak_ilmu2/" />
         <folder expanded="1" path="animation-folder/kotak_ilmu3/" />
         <folder expanded="1" path="animation-folder/kotak_quiz/" />
-        <folder expanded="1" path="animation-folder/tambah_nyawa/" />
         <folder expanded="1" path="animation-folder/i_nyawa/" />
+        <folder expanded="1" path="animation-folder/isi_peluru/" />
         <folder expanded="1" path="animation-folder/bemco/" />
         <folder expanded="1" path="animation-folder/bemco_run/" />
         <folder expanded="1" path="animation-folder/Virus_/" />

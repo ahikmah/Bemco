@@ -5231,28 +5231,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tambah_nyawa" uid="379">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5370</x>
-                        <y>515</y>
-                        <z>0</z>
-                        <width>127.78805542</width>
-                        <height>117.381858826</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="alat_8" uid="380">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -5517,11 +5495,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1545</x>
-                        <y>534</y>
+                        <x>1526.967529297</x>
+                        <y>551.399291992</y>
                         <z>0</z>
-                        <width>107.443008423</width>
-                        <height>107.443008423</height>
+                        <width>72</width>
+                        <height>72</height>
                         <depth>0</depth>
                         <hotspotX>0.508771956</hotspotX>
                         <hotspotY>0.5090909</hotspotY>
@@ -5567,11 +5545,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2747</x>
-                        <y>371</y>
+                        <x>2725.308105469</x>
+                        <y>391.930206299</y>
                         <z>0</z>
-                        <width>107.443008423</width>
-                        <height>107.443008423</height>
+                        <width>64.807403564</width>
+                        <height>64.807403564</height>
                         <depth>0</depth>
                         <hotspotX>0.508771956</hotspotX>
                         <hotspotY>0.5090909</hotspotY>
@@ -6368,6 +6346,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="button" sid="479564514584072">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0</x>
+                <y>0</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
                 <instance type="button_menu" uid="581">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -6391,24 +6388,6 @@
                     </world>
                 </instance>
             </instances>
-            <effects />
-        </layer>
-        <layer name="button" sid="479564514584072">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>0</x>
-                <y>0</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances />
             <effects />
         </layer>
         <layer name="HUD" sid="150190079754870">
