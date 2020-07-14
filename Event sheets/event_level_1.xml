@@ -4453,7 +4453,7 @@
                                 <condition id="-7" name="Compare instance variable" sid="779902277368341" type="bemco">
                                     <param id="0" name="Instance variable">coin</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">150</param>
+                                    <param id="2" name="Value">200</param>
                                 </condition>
                                 <condition id="-9" name="Layer is visible" sid="417940547388944" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -5053,7 +5053,7 @@
                                 <condition id="-7" name="Compare instance variable" sid="960382584761621" type="bemco">
                                     <param id="0" name="Instance variable">coin</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">150</param>
+                                    <param id="2" name="Value">200</param>
                                 </condition>
                                 <condition id="-9" name="Layer is visible" sid="497194700095836" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -5653,7 +5653,7 @@
                                 <condition id="-7" name="Compare instance variable" sid="839738889794771" type="bemco">
                                     <param id="0" name="Instance variable">coin</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">150</param>
+                                    <param id="2" name="Value">200</param>
                                 </condition>
                                 <condition id="-9" name="Layer is visible" sid="468162747635097" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>

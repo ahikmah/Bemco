@@ -2049,6 +2049,246 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Tile10" sid="691705342683974">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="988393082484869">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637691068929014" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (2).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile" sid="556419366747121">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="628601957975679">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879680855991667" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (1).png">
+                            <collision-poly>
+                                <point x="0.0234375" y="0.0234375" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile11" sid="857644549692241">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211921308569414" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (3).png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.976563" y="0.0234375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile12" sid="284381301311934">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="806848447652084">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689877738311457" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (6).png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.984375" y="0.5" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile13" sid="179439109533563">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="538121720154099">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382543774302791" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (7).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile14" sid="258802654604743">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="751323958794130">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848565757605366" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (8).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile2" sid="325655205409126">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="228616358534920">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="691112790722003" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (3).png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.976563" y="0.0234375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile3" sid="862951269690664">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Jumpthru" sid="203617177791059">
+                        <behavior id="jumpthru" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="915810528517236" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (14).png">
+                            <collision-poly>
+                                <point x="0.0234375" y="0.0234375" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.5" />
+                                <point x="0.6875" y="0.6875" />
+                                <point x="0.445313" y="0.554688" />
+                                <point x="0.40625" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile4" sid="544750683551277">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Jumpthru" sid="769729859762979">
+                        <behavior id="jumpthru" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100813800760178" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (16).png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.976563" y="0.0234375" />
+                                <point x="0.59375" y="0.5" />
+                                <point x="0.554688" y="0.554688" />
+                                <point x="0.3125" y="0.6875" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile5" sid="909365790951954">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="371603872378120">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587550286224467" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (4).png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0.015625" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile6" sid="756051841120613">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="838606204311676">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="439841184922014" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (6).png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.984375" y="0.5" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile7" sid="352550157314699">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="434982257911445">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="988808156891649" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (10).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile8" sid="336802998236633">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="683128012345397">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299268572539982" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (5).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tile9" sid="753975266557364">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="694818493485668">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798620498761242" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\Level 3 - Kota\Tiles\Tile (11).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="items">
             <object-type name="alat_1" sid="222476534482866">
@@ -2629,25 +2869,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="tambah_nyawa" sid="260512911599228">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904674923386021" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\#nguli ah\s1\semes6\Teknologi Game\FP\TEKNOLOGI GAME\BEMCO\1,1idle-fix.png">
-                            <collision-poly>
-                                <point x="0.229642" y="0.25" />
-                                <point x="0.5" y="0.0301418" />
-                                <point x="0.662866" y="0.367021" />
-                                <point x="0.609121" y="0.5" />
-                                <point x="0.599349" y="0.56383" />
-                                <point x="0.5" y="0.992908" />
-                                <point x="0.252443" y="0.725177" />
-                                <point x="0.177524" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="i_nyawa" sid="534435633033266">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -2664,6 +2885,25 @@
                                 <point x="1" y="1" />
                                 <point x="0.5" y="1" />
                                 <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="isi_peluru" sid="772439779929869">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444470639079994" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
+                            <collision-poly>
+                                <point x="0.181034" y="0.181034" />
+                                <point x="0.5" y="0.0517241" />
+                                <point x="0.818965" y="0.181034" />
+                                <point x="0.974138" y="0.5" />
+                                <point x="0.801724" y="0.801724" />
+                                <point x="0.5" y="0.922414" />
+                                <point x="0.181034" y="0.818965" />
+                                <point x="0.163793" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
