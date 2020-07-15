@@ -6270,28 +6270,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="vegetable" uid="823">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>682</x>
-                        <y>49</y>
-                        <z>0</z>
-                        <width>72</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="SpriteFont" uid="824">
                     <properties>
                         <character-width>55</character-width>
@@ -6435,7 +6413,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="coin_edu" uid="829">
+                <instance type="reward" uid="585">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6445,14 +6423,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>476</x>
-                        <y>49</y>
+                        <x>485</x>
+                        <y>54</y>
                         <z>0</z>
-                        <width>66</width>
-                        <height>61</height>
+                        <width>85</width>
+                        <height>74</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50526315</hotspotY>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="heart" uid="591">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>689</x>
+                        <y>48</y>
+                        <z>0</z>
+                        <width>75</width>
+                        <height>70</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -7302,7 +7302,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="item_peluru" uid="832">
+                <instance type="peluru2" uid="823">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7312,14 +7312,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>879</x>
-                        <y>59</y>
+                        <x>894</x>
+                        <y>50</y>
                         <z>0</z>
-                        <width>63.796550751</width>
-                        <height>63.796550751</height>
+                        <width>64</width>
+                        <height>78</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.504587173</hotspotX>
+                        <hotspotY>0.504587173</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

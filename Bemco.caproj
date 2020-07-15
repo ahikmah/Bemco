@@ -3780,6 +3780,63 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="reward" sid="292798140706076">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245312922526344" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Downloads\reward.png">
+                        <collision-poly>
+                            <point x="0.189453" y="0.189453" />
+                            <point x="0.5" y="0" />
+                            <point x="0.810547" y="0.189453" />
+                            <point x="0.814453" y="0.5" />
+                            <point x="0.898438" y="0.898438" />
+                            <point x="0.5" y="0.699219" />
+                            <point x="0.101563" y="0.898438" />
+                            <point x="0.183594" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="heart" sid="904556670777454">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="617005284270602" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Downloads\heart.png">
+                        <collision-poly>
+                            <point x="0.113281" y="0.113281" />
+                            <point x="0.5" y="0.130859" />
+                            <point x="0.886719" y="0.113281" />
+                            <point x="0.953125" y="0.5" />
+                            <point x="0.732422" y="0.732422" />
+                            <point x="0.5" y="0.951172" />
+                            <point x="0.267578" y="0.732422" />
+                            <point x="0.0488281" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="peluru2" sid="972061718596016">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577264078254910" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="C:\Users\USER\Pictures\tg aset\peluru.png">
+                        <collision-poly>
+                            <point x="0.155963" y="0.155963" />
+                            <point x="0.495413" y="0.0550459" />
+                            <point x="0.87156" y="0.12844" />
+                            <point x="0.990826" y="0.495413" />
+                            <point x="0.880734" y="0.880734" />
+                            <point x="0.495413" y="0.981651" />
+                            <point x="0.266055" y="0.733945" />
+                            <point x="0.174312" y="0.495413" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
