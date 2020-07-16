@@ -109,7 +109,7 @@
                                         </action>
                                         <action id="-9" name="Set value" sid="956142828870073" type="System">
                                             <param id="0" name="Variable">nyawa_mat</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_1_mat</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -157,9 +157,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">3</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="299986012848203" type="System">
+                                        <action id="-9" name="Set value" sid="933743525816300" type="System">
                                             <param id="0" name="Variable">nyawa_mat</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_2_mat</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -177,9 +177,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="795035405332807" type="System">
+                                        <action id="-9" name="Set value" sid="320030685925684" type="System">
                                             <param id="0" name="Variable">nyawa_mat</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_1_mat</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -315,9 +315,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="316278767891286" type="System">
+                                        <action id="-9" name="Set value" sid="545846758522936" type="System">
                                             <param id="0" name="Variable">nyawa_ipa</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_1_ipa</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -365,9 +365,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">3</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="259759496650743" type="System">
+                                        <action id="-9" name="Set value" sid="973845892169934" type="System">
                                             <param id="0" name="Variable">nyawa_ipa</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_2_ipa</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -385,9 +385,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="134732975711309" type="System">
+                                        <action id="-9" name="Set value" sid="187577079309945" type="System">
                                             <param id="0" name="Variable">nyawa_ipa</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_1_ipa</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -523,9 +523,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="792747660613285" type="System">
+                                        <action id="-9" name="Set value" sid="592516858047553" type="System">
                                             <param id="0" name="Variable">nyawa_indo</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_1_indo</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -573,9 +573,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">3</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="658795112268540" type="System">
+                                        <action id="-9" name="Set value" sid="515825110058563" type="System">
                                             <param id="0" name="Variable">nyawa_indo</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_2_indo</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -593,9 +593,9 @@
                                             <param id="0" name="Variable">layout_level</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="-9" name="Set value" sid="541361651682348" type="System">
+                                        <action id="-9" name="Set value" sid="157203962933584" type="System">
                                             <param id="0" name="Variable">nyawa_indo</param>
-                                            <param id="1" name="Value">sisa_nyawa_level_1_indo</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
