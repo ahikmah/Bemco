@@ -4412,7 +4412,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1531</x>
+                        <x>1978</x>
                         <y>906</y>
                         <z>0</z>
                         <width>70</width>
@@ -6163,6 +6163,50 @@
                         <z>0</z>
                         <width>120</width>
                         <height>120</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501945496</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="kotak_quiz2" uid="615">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5105</x>
+                        <y>770</y>
+                        <z>0</z>
+                        <width>120</width>
+                        <height>120</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501945019</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="kotak_ilmu2" uid="617">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1505</x>
+                        <y>882</y>
+                        <z>0</z>
+                        <width>152</width>
+                        <height>139</height>
                         <depth>0</depth>
                         <hotspotX>0.501945496</hotspotX>
                         <hotspotY>0.5</hotspotY>

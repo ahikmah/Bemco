@@ -1939,7 +1939,7 @@
                         </action>
                         <action id="-11" name="Add to" sid="346264642837785" type="bemco">
                             <param id="0" name="Instance variable">meds</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">3</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2107,6 +2107,195 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <event-block sid="719386240304447">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="483495230790177" type="bemco">
+                            <param id="0" name="Object">kotak_ilmu2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="354894775095955" type="System">
+                            <param id="0" name="Layer">&quot;pp : edu box&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="303497964529022" type="bemco">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="719416392705705" type="kotak_ilmu">
+                            <param id="0" name="Object">bonus_edu</param>
+                            <param id="1" name="Layer">&quot;game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="117602252648101" type="bemco">
+                            <param id="0" name="Instance variable">meds</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="885802722998955">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="645306219580146" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="976744391474804">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="897842449518381" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="145556546220560" type="edu">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="492130572612992">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="179235169648474" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="333058387475170" type="edu">
+                                            <param id="0" name="Frame number">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="353233122494506">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="198366840456353" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="175629133097613" type="edu">
+                                            <param id="0" name="Frame number">6</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="532421762594206">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="485657175870291" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="945856791693148">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="247765002236463" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="631191122346686" type="edu">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="474097295420577">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="258770049986568" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="787091238624958" type="edu">
+                                            <param id="0" name="Frame number">4</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="252519222366018">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="813922069824885" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="954061539666714" type="edu">
+                                            <param id="0" name="Frame number">7</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="394896803252759">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="793936632130933" type="System">
+                                    <param id="0" name="Variable">mapel</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="882561501200782">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="460611065935425" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="403730758215374" type="edu">
+                                            <param id="0" name="Frame number">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="503934512049186">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="701378943662370" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="995852670599286" type="edu">
+                                            <param id="0" name="Frame number">5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="324790666352661">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="489603683810848" type="System">
+                                            <param id="0" name="Variable">layout_level</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="650910087671182" type="edu">
+                                            <param id="0" name="Frame number">8</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
                 <event-block sid="687408709593933">
                     <conditions>
                         <condition id="17" name="On tap object" sid="309959131373089" type="Touch">
@@ -2124,7 +2313,7 @@
                         <action behavior="Platform" id="0" name="Set ignoring input" sid="828622796244158" type="bemco">
                             <param id="0" name="Input">0</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="637775003701552" type="kotak_ilmu" />
+                        <action id="-9" name="Destroy" sid="637775003701552" type="kotak_ilmu2" />
                     </actions>
                 </event-block>
             </sub-events>
@@ -2559,7 +2748,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="239174683353442" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="600374251225032" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -2661,7 +2850,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="595404435292968" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="803945913158994" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -2748,7 +2937,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="863139895258661" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="992116903407315" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -2848,15 +3037,25 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action id="-11" name="Subtract from" sid="386453680533937" type="System">
-                                                            <param id="0" name="Variable">nyawa_ipa</param>
-                                                            <param id="1" name="Value">1</param>
+                                                        <action id="-11" name="Add to" sid="873951452286296" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
-                                                        <action id="0" name="Spawn another object" sid="675591534380988" type="bemco">
-                                                            <param id="0" name="Object">salah</param>
+                                                        <action id="0" name="Spawn another object" sid="566244867746412" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-4" name="Set layer visible" sid="590981199877633" type="System">
+                                                            <param id="0" name="Layer">&quot;reward&quot;</param>
+                                                            <param id="1" name="Visibility">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="583527866625326" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="708516299097040" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -2882,7 +3081,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="296242155209599" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="367367615807163" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -2989,7 +3188,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="813755853872942" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="556930084790704" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -3089,25 +3288,15 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
-                                                        <action id="-11" name="Add to" sid="173751433248391" type="bemco">
-                                                            <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                        <action id="-11" name="Subtract from" sid="637662546876283" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
                                                         </action>
-                                                        <action id="0" name="Spawn another object" sid="514404185901792" type="bemco">
-                                                            <param id="0" name="Object">bonus_edu</param>
+                                                        <action id="0" name="Spawn another object" sid="997226533857723" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
-                                                        <action id="-4" name="Set layer visible" sid="684468196736291" type="System">
-                                                            <param id="0" name="Layer">&quot;reward&quot;</param>
-                                                            <param id="1" name="Visibility">1</param>
-                                                        </action>
-                                                        <action id="0" name="Spawn another object" sid="978939028505276" type="bemco">
-                                                            <param id="0" name="Object">benar</param>
-                                                            <param id="1" name="Layer">&quot;game&quot;</param>
-                                                            <param id="2" name="Image point">0</param>
-                                                        </action>
-                                                        <action id="-9" name="Destroy" sid="417677060688943" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="268278679378688">
@@ -3173,7 +3362,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="295180710851062" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="327304559354060" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -3300,7 +3489,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="847528105929325" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="975934843866579" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -3342,7 +3531,7 @@
                                                     <actions>
                                                         <action id="-11" name="Add to" sid="124491837307166" type="bemco">
                                                             <param id="0" name="Instance variable">meds</param>
-                                                            <param id="1" name="Value">10</param>
+                                                            <param id="1" name="Value">5</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="580836617266062" type="bemco">
                                                             <param id="0" name="Object">bonus_edu</param>
@@ -3511,6 +3700,1324 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="132573151451948" title="Kotak Quiz2">
+            <sub-events>
+                <event-group description="" sid="164602143531186" title="Soal &amp; Pilihan2">
+                    <sub-events>
+                        <event-block sid="992011666437033">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="237231944305678" type="bemco">
+                                    <param id="0" name="Object">kotak_quiz2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="162391553107075" type="System">
+                                    <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="181271125716408" type="bemco">
+                                    <param id="0" name="Input">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="379247751423162">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="994175254917117" type="System">
+                                            <param id="0" name="Variable">mapel</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;mat&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="114455989814349">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="164982436797408" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="380090804120976" type="quis">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="877943382249377" type="1_a">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="297300705997925" type="1_b">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="343262071142726" type="1_c">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="425487217381985" type="i_d">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="263928780454543">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="237579697976432" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="938201543136474" type="quis">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="643698716225970" type="1_a">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="680355671188234" type="1_b">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="632195855837956" type="1_c">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="221770431968453" type="i_d">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="727879888273452">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="673931825775470" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="894311394231785" type="quis">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="810551763766253" type="1_a">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="458670266650187" type="1_b">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="223384668574613" type="1_c">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="572690770669145" type="i_d">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="579553107767943">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="486164745948594" type="System">
+                                            <param id="0" name="Variable">mapel</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;ipa&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="490535873395665">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="512513346157298" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="343920204526186" type="quis">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="602035433770137" type="1_a">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="653420905863068" type="1_b">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="608577271508583" type="1_c">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="868936509202292" type="i_d">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="621799533752298">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="628118705956798" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="362582142222043" type="quis">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="619586503757013" type="1_a">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="266144087147958" type="1_b">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="525670582217692" type="1_c">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="231193443674369" type="i_d">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="288088273123488">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="824334210984759" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="412576721948723" type="quis">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="156043204263657" type="1_a">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="924549967063326" type="1_b">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="752024790374183" type="1_c">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="806865896712897" type="i_d">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="102890092537428">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="831636406305236" type="System">
+                                            <param id="0" name="Variable">mapel</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;indo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="134324629825754">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="157141560495498" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="133142288625618" type="quis">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="478467234136374" type="1_a">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="986547725891282" type="1_b">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="421998223839850" type="1_c">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="740275723176171" type="i_d">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="831286294452449">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="291422517340122" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="664121823668447" type="quis">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="593516849552871" type="1_a">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="568792019200867" type="1_b">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="256338214580421" type="1_c">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="424750177396794" type="i_d">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="322462495075815">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="616244857583614" type="System">
+                                                    <param id="0" name="Variable">layout_level</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="614719526818362" type="quis">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="438095182017355" type="1_a">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="131658544601189" type="1_b">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="445170096441104" type="1_c">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="368247348243217" type="i_d">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="384852669557563" title="Jawaban2">
+                    <sub-events>
+                        <event-group description="" sid="158064812001507" title="A2">
+                            <sub-events>
+                                <event-block sid="103647496093460">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="387815907116685" type="Touch">
+                                            <param id="0" name="Object">pilih_a</param>
+                                        </condition>
+                                        <condition id="-9" name="Layer is visible" sid="542501683805564" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-4" name="Set layer visible" sid="400212103387196" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                            <param id="1" name="Visibility">0</param>
+                                        </action>
+                                        <action behavior="Platform" id="0" name="Set ignoring input" sid="553381291311595" type="bemco">
+                                            <param id="0" name="Input">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="398907732608239">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="945775595164167" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="965072202095972">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="514144048135560" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="549574406681905" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="585232430430214" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="734413146691388">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="988203156072186" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="239341723791934" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="412887400959723" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="206159432496839">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="840233982594285" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="636103658244959" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="474349781955725" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="612190836157316">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="187157243758226" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="673642701556778">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="968506748121887" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="437121094388634" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="111148691433449" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="944110096799188">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="541981725706302" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="434805950529757" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="261798786052372" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="619232235722719">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="629500489735385" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="936687998051143" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="386176321739218" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="315028828252744">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="924564291620599" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="949290792613623">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="581267335653906" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="600392634889419" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="697596836903654" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="424120323166967">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="483710883219419" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="347964926493739" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="177544780133688" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="182549933559210">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="222474840214180" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="532350561875465" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="359022097525393" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="632291125713042" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="558118658246577" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="319968061320769" title="B2">
+                            <sub-events>
+                                <event-block sid="486562417990635">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="329377001657651" type="Touch">
+                                            <param id="0" name="Object">pilih_b</param>
+                                        </condition>
+                                        <condition id="-9" name="Layer is visible" sid="951119148327410" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-4" name="Set layer visible" sid="690122348279006" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                            <param id="1" name="Visibility">0</param>
+                                        </action>
+                                        <action behavior="Platform" id="0" name="Set ignoring input" sid="329814821199654" type="bemco">
+                                            <param id="0" name="Input">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="193037045501986">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="437118049566915" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="697684321050732">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="494597824548529" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="966027631122245" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="966165236868024" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="912903913909404" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="777698358261656" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="827844673816780">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="483860201297304" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="630875706249498" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="762564306979218" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="700657348471256" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="874818145877596" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="211526640255017">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="852401783946067" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="731968121865564" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="434919153507734" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="901644285682097">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="109773203374171" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="360664262800002">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="446714670096198" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="481362406958268" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="393098312089856" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="300821693616638">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="441826280156531" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="876523162915604" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="774053869032172" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="829191020200922" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="840125842774040" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="977035898495429">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="661143061791000" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="341921217570676" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="402225071114482" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="789581249358874">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="993774707689340" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="113909950536229">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="253727945387764" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="990670382115466" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="182849999018695" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="352476408910194">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="430834708657684" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="940139756423092" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="295706417975861" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="971668335798924">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="990740418832258" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="270751048322543" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="238436771478156" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="703146532255181" title="C2">
+                            <sub-events>
+                                <event-block sid="116434756354635">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="612636755337050" type="Touch">
+                                            <param id="0" name="Object">pilih_c</param>
+                                        </condition>
+                                        <condition id="-9" name="Layer is visible" sid="570111079558823" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-4" name="Set layer visible" sid="394915737937994" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                            <param id="1" name="Visibility">0</param>
+                                        </action>
+                                        <action behavior="Platform" id="0" name="Set ignoring input" sid="476355708517190" type="bemco">
+                                            <param id="0" name="Input">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="627172736749067">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="679170279954168" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="192520993684349">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="411866913001679" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="306067930905335" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="362344723675989" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="194230767554772">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="720448618638822" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="916275218066518" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="794587077940813" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="369309571227927">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="437812236036443" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="579240593632758" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="159818831695627" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="844083218130814" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="590226530894555" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="503948429420655">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="593184245493380" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="856369680143775">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="841754853600468" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="592884939207116" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="693898596939437" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="323028271397357">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="142406927872093" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="336173601989724" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="401616919984462" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="611826967349087">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="747421211196335" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="268672026393251" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="693898202449955" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="867338931915885" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="190256954578790" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="461690231698477">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="248119579646175" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="464837241514386">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="188507640319690" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="140309298737964" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="314985227264003" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="944678202185147" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="444100593634845" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="484647142384189">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="153363168397337" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="476332000108550" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="779079447224762" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="832704200759541">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="647913216230865" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="397992210445403" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="115379493205646" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="686850574420565" title="D2">
+                            <sub-events>
+                                <event-block sid="829417679080446">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="392985140479298" type="Touch">
+                                            <param id="0" name="Object">pilih_d</param>
+                                        </condition>
+                                        <condition id="-9" name="Layer is visible" sid="515816714729046" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-4" name="Set layer visible" sid="557402238155083" type="System">
+                                            <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
+                                            <param id="1" name="Visibility">0</param>
+                                        </action>
+                                        <action behavior="Platform" id="0" name="Set ignoring input" sid="406334500461695" type="bemco">
+                                            <param id="0" name="Input">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="761774726731737">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="121283528347176" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;mat&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="810506708928397">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="856368139143851" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="617890104050111" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="760937942697811" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="921391722583317">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="195778849490595" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="798011752868865" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="675921428500224" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="618100883584608">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="491620437362175" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="706763504673258" type="System">
+                                                            <param id="0" name="Variable">nyawa_mat</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="736571349360764" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="456178492739653">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="856605397341820" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;ipa&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="231682937612247">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="295650452858065" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="211833466361885" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="582007742998887" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="499074393854784" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="378571531709287" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="851183050501876">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="710320208986058" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="106158828987647" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="314064675691678" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="765831181415810">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="509206452932079" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="173436002161227" type="System">
+                                                            <param id="0" name="Variable">nyawa_ipa</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="502127578215834" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="805711433758932">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="476218993535815" type="System">
+                                                    <param id="0" name="Variable">mapel</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;indo&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="999988031465021">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="800098653798925" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="828867694079373" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="882243239905006" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="665039450402591">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="804927299483529" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">2</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Add to" sid="528687610676544" type="bemco">
+                                                            <param id="0" name="Instance variable">meds</param>
+                                                            <param id="1" name="Value">4</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="874188060760604" type="bemco">
+                                                            <param id="0" name="Object">bonus_edu</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="605340355232441" type="bemco">
+                                                            <param id="0" name="Object">benar</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="640399465495657" type="kotak_quiz2" />
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="219991465576947">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="324089156704828" type="System">
+                                                            <param id="0" name="Variable">layout_level</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-11" name="Subtract from" sid="207312738071390" type="System">
+                                                            <param id="0" name="Variable">nyawa_indo</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="543129913303063" type="bemco">
+                                                            <param id="0" name="Object">salah</param>
+                                                            <param id="1" name="Layer">&quot;game&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
         <event-group description="" sid="997075523382726" title="End Game">

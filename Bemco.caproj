@@ -2929,6 +2929,24 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="kotak_quiz2" sid="828331072122864">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="876579536805589" speed="0">
+                        <frame duration="1" hotspotX="0.501945" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\kotak_ilmu\Default\000.png">
+                            <collision-poly>
+                                <point x="0.420233" y="0.421875" />
+                                <point x="0.579767" y="0.421875" />
+                                <point x="0.821012" y="0.5" />
+                                <point x="0.832685" y="0.832031" />
+                                <point x="0.498054" y="1" />
+                                <point x="0.167315" y="0.832031" />
+                                <point x="0.178988" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="characters">
             <object-type name="bemco" sid="162496240615376">
