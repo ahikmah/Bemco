@@ -2441,7 +2441,6 @@
                                             <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
                                             <param id="1" name="Visibility">0</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="928018154622762" type="kotak_quiz" />
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="206797972200563" type="bemco">
                                             <param id="0" name="Input">0</param>
                                         </action>
@@ -2576,6 +2575,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="928018154622762" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="264912219060296">
@@ -2677,6 +2677,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="124181912224544" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -2701,7 +2702,6 @@
                                             <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
                                             <param id="1" name="Visibility">0</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="958369445519896" type="kotak_quiz" />
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="230846133713781" type="bemco">
                                             <param id="0" name="Input">0</param>
                                         </action>
@@ -2764,6 +2764,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="958369445519896" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="728224859993579">
@@ -2897,6 +2898,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="720899940263785" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="323082460843364">
@@ -2961,7 +2963,6 @@
                                             <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
                                             <param id="1" name="Visibility">0</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="529125753993642" type="kotak_quiz" />
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="340621545839852" type="bemco">
                                             <param id="0" name="Input">0</param>
                                         </action>
@@ -3004,6 +3005,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="529125753993642" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="907442169951782">
@@ -3105,6 +3107,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="417677060688943" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="268278679378688">
@@ -3186,6 +3189,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="243361072903462" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="735531494519174">
@@ -3230,7 +3234,6 @@
                                             <param id="0" name="Layer">&quot;pp : quiz&quot;</param>
                                             <param id="1" name="Visibility">0</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="771300866317963" type="kotak_quiz" />
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="682554037216562" type="bemco">
                                             <param id="0" name="Input">0</param>
                                         </action>
@@ -3313,6 +3316,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="771300866317963" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -3354,6 +3358,7 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="-9" name="Destroy" sid="312215258896306" type="kotak_quiz" />
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="691792161636749">
