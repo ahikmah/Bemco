@@ -3746,6 +3746,121 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="bintang_mat_level_3" sid="277171957777160">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="309206512770134">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="631656006811755" speed="5">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                            <collision-poly>
+                                <point x="0.104822" y="0.231481" />
+                                <point x="0.29979" y="0.5" />
+                                <point x="0.0964361" y="0.787037" />
+                                <point x="0.0503145" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="bintang_indo_level_2" sid="918630259499711">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="283386392314348">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="936505507391533" speed="0">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                            <collision-poly>
+                                <point x="0.104822" y="0.231481" />
+                                <point x="0.29979" y="0.5" />
+                                <point x="0.0964361" y="0.787037" />
+                                <point x="0.0503145" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="bintang_indo_level_3" sid="611708780612803">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="104352325540726">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833475187512809" speed="0">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                            <collision-poly>
+                                <point x="0.104822" y="0.231481" />
+                                <point x="0.29979" y="0.5" />
+                                <point x="0.0964361" y="0.787037" />
+                                <point x="0.0503145" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="bintang_ipa_level_2" sid="528240862309055">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="102290231089330">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117856722089090" speed="0">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                            <collision-poly>
+                                <point x="0.104822" y="0.231481" />
+                                <point x="0.29979" y="0.5" />
+                                <point x="0.0964361" y="0.787037" />
+                                <point x="0.0503145" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="bintang_ipa_level_3" sid="409075827187210">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="451481894740663">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444407950483908" speed="0">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\001.png">
+                            <collision-poly>
+                                <point x="0.104822" y="0.231481" />
+                                <point x="0.29979" y="0.5" />
+                                <point x="0.0964361" y="0.787037" />
+                                <point x="0.0503145" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\002.png" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\bintang\Default\003.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="SpriteFont" sid="259606691129476">
             <plugin id="Spritefont2" />

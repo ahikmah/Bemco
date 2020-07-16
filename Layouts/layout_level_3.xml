@@ -2,7 +2,7 @@
 <c2layout>
     <name>layout_level_3</name>
     <sid>194508399541324</sid>
-    <event-sheet>event_level_3</event-sheet>
+    <event-sheet>event_level_1</event-sheet>
     <size>
         <width>7700</width>
         <height>1080</height>
@@ -3827,8 +3827,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>116</x>
-                        <y>801</y>
+                        <x>157</x>
+                        <y>878</y>
                         <z>0</z>
                         <width>179</width>
                         <height>162</height>

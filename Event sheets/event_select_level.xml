@@ -112,6 +112,12 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="5" name="Set frame" sid="747508851300736" type="LEVEL2">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="520615018655585" type="LEVEL2">
+                                    <param id="0" name="State">1</param>
+                                </action>
                                 <action id="5" name="Set frame" sid="122095619729765" type="LEVEL3">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
@@ -132,6 +138,18 @@
                                         </action>
                                     </actions>
                                 </event-block>
+                                <event-block sid="234258238511276">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="406061768293552" type="Touch">
+                                            <param id="0" name="Object">LEVEL2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="139543457480041" type="System">
+                                            <param id="0" name="Layout">layout_level_2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
                             </sub-events>
                         </event-block>
                         <event-block sid="744471344647638">
@@ -141,6 +159,12 @@
                             <actions>
                                 <action id="5" name="Set frame" sid="784307337969833" type="bintang_mat_level_1">
                                     <param id="0" name="Frame number">bintang_level_1_mat</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="239305047949548" type="bintang_mat_level_2">
+                                    <param id="0" name="Frame number">bintang_level_2_mat</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="152241543967701" type="bintang_mat_level_3">
+                                    <param id="0" name="Frame number">bintang_level_3_mat</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -154,6 +178,34 @@
                             </conditions>
                             <actions>
                                 <action behavior="Sine" id="0" name="Set active" sid="845969032679735" type="bintang_mat_level_1">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="278823818538391">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="143205330782638" type="System">
+                                    <param id="0" name="Variable">bintang_level_2_mat</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="630493508621688" type="bintang_mat_level_2">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="304065511645411">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="359366090792152" type="System">
+                                    <param id="0" name="Variable">bintang_level_3_mat</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="978316592675507" type="bintang_mat_level_3">
                                     <param id="0" name="State">1</param>
                                 </action>
                             </actions>
@@ -242,6 +294,12 @@
                                 <action behavior="Sine" id="0" name="Set active" sid="380908011329828" type="LEVEL3">
                                     <param id="0" name="State">1</param>
                                 </action>
+                                <action id="5" name="Set frame" sid="540469449284409" type="LEVEL2">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="772488198693740" type="LEVEL2">
+                                    <param id="0" name="State">1</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="749558148920908">
@@ -256,6 +314,18 @@
                                         </action>
                                     </actions>
                                 </event-block>
+                                <event-block sid="851754842372146">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="453956706206877" type="Touch">
+                                            <param id="0" name="Object">LEVEL2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="748798252001660" type="System">
+                                            <param id="0" name="Layout">layout_level_2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
                             </sub-events>
                         </event-block>
                         <event-block sid="115135081113190">
@@ -265,6 +335,12 @@
                             <actions>
                                 <action id="5" name="Set frame" sid="592786825393862" type="bintang_ipa_level_1">
                                     <param id="0" name="Frame number">bintang_level_1_ipa</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="166182024736337" type="bintang_ipa_level_2">
+                                    <param id="0" name="Frame number">bintang_level_2_ipa</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="344404491607292" type="bintang_ipa_level_3">
+                                    <param id="0" name="Frame number">bintang_level_3_ipa</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -278,6 +354,34 @@
                             </conditions>
                             <actions>
                                 <action behavior="Sine" id="0" name="Set active" sid="198746883563145" type="bintang_ipa_level_1">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="182813593211284">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="324248452297202" type="System">
+                                    <param id="0" name="Variable">bintang_level_2_ipa</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="265804734494981" type="bintang_ipa_level_2">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="109430712822987">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="874880738925695" type="System">
+                                    <param id="0" name="Variable">bintang_level_3_ipa</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="612395779474049" type="bintang_ipa_level_3">
                                     <param id="0" name="State">1</param>
                                 </action>
                             </actions>
@@ -366,6 +470,12 @@
                                 <action behavior="Sine" id="0" name="Set active" sid="427799995561989" type="LEVEL3">
                                     <param id="0" name="State">1</param>
                                 </action>
+                                <action id="5" name="Set frame" sid="387224908058946" type="LEVEL2">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="443607590711356" type="LEVEL2">
+                                    <param id="0" name="State">1</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="598265135511251">
@@ -380,6 +490,18 @@
                                         </action>
                                     </actions>
                                 </event-block>
+                                <event-block sid="547660424107986">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="576076024304803" type="Touch">
+                                            <param id="0" name="Object">LEVEL2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="848713518938196" type="System">
+                                            <param id="0" name="Layout">layout_level_2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
                             </sub-events>
                         </event-block>
                         <event-block sid="710260201820218">
@@ -389,6 +511,12 @@
                             <actions>
                                 <action id="5" name="Set frame" sid="159429803289766" type="bintang_indo_level_1">
                                     <param id="0" name="Frame number">bintang_level_1_indo</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="599623176297679" type="bintang_indo_level_2">
+                                    <param id="0" name="Frame number">bintang_level_2_indo</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="787462202538456" type="bintang_indo_level_3">
+                                    <param id="0" name="Frame number">bintang_level_3_indo</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -402,6 +530,34 @@
                             </conditions>
                             <actions>
                                 <action behavior="Sine" id="0" name="Set active" sid="919860310521296" type="bintang_indo_level_1">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="706570099587079">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="716366331046637" type="System">
+                                    <param id="0" name="Variable">bintang_level_2_indo</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="431473460118048" type="bintang_indo_level_2">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="604641737033255">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="640412917430391" type="System">
+                                    <param id="0" name="Variable">bintang_level_3_indo</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="112461664647969" type="bintang_indo_level_3">
                                     <param id="0" name="State">1</param>
                                 </action>
                             </actions>
