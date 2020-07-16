@@ -4016,8 +4016,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>3</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4031,83 +4031,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>940</x>
-                        <y>480</y>
+                        <x>967</x>
+                        <y>340</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Virus_" uid="761">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine2">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>2</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>100</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Fade">
-                            <properties>
-                                <active-at-start>No</active-at-start>
-                                <fade-in-time>0</fade-in-time>
-                                <wait-time>0</wait-time>
-                                <fade-out-time>1</fade-out-time>
-                                <destroy>After fade out</destroy>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Turret">
-                            <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
-                                <rotate>No</rotate>
-                                <rotate-speed>180</rotate-speed>
-                                <target-mode>First in range</target-mode>
-                                <predictive-aim>No</predictive-aim>
-                                <projectile-speed>500</projectile-speed>
-                                <initial-state>Enabled</initial-state>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1119</x>
-                        <y>639</y>
-                        <z>0</z>
-                        <width>70</width>
-                        <height>70</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4145,7 +4073,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
+                                <magnitude>200</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -4160,8 +4088,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>4</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4175,8 +4103,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1410</x>
-                        <y>513</y>
+                        <x>1456</x>
+                        <y>559</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -4204,7 +4132,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
+                                <magnitude>200</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -4232,8 +4160,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>3</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4252,78 +4180,6 @@
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Virus_" uid="764">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>100</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine2">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>2</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Fade">
-                            <properties>
-                                <active-at-start>No</active-at-start>
-                                <fade-in-time>0</fade-in-time>
-                                <wait-time>0</wait-time>
-                                <fade-out-time>1</fade-out-time>
-                                <destroy>After fade out</destroy>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Turret">
-                            <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
-                                <rotate>No</rotate>
-                                <rotate-speed>180</rotate-speed>
-                                <target-mode>First in range</target-mode>
-                                <predictive-aim>No</predictive-aim>
-                                <projectile-speed>500</projectile-speed>
-                                <initial-state>Enabled</initial-state>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2118</x>
-                        <y>846</y>
-                        <z>0</z>
-                        <width>90</width>
-                        <height>90</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4376,8 +4232,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>3</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4448,8 +4304,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>3</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4468,150 +4324,6 @@
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Virus_" uid="770">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>100</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine2">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>2</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Fade">
-                            <properties>
-                                <active-at-start>No</active-at-start>
-                                <fade-in-time>0</fade-in-time>
-                                <wait-time>0</wait-time>
-                                <fade-out-time>1</fade-out-time>
-                                <destroy>After fade out</destroy>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Turret">
-                            <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
-                                <rotate>No</rotate>
-                                <rotate-speed>180</rotate-speed>
-                                <target-mode>First in range</target-mode>
-                                <predictive-aim>No</predictive-aim>
-                                <projectile-speed>500</projectile-speed>
-                                <initial-state>Enabled</initial-state>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3081</x>
-                        <y>191</y>
-                        <z>0</z>
-                        <width>90</width>
-                        <height>90</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Virus_" uid="771">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine2">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>2</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>100</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Fade">
-                            <properties>
-                                <active-at-start>No</active-at-start>
-                                <fade-in-time>0</fade-in-time>
-                                <wait-time>0</wait-time>
-                                <fade-out-time>1</fade-out-time>
-                                <destroy>After fade out</destroy>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Turret">
-                            <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
-                                <rotate>No</rotate>
-                                <rotate-speed>180</rotate-speed>
-                                <target-mode>First in range</target-mode>
-                                <predictive-aim>No</predictive-aim>
-                                <projectile-speed>500</projectile-speed>
-                                <initial-state>Enabled</initial-state>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3345</x>
-                        <y>839</y>
-                        <z>0</z>
-                        <width>70</width>
-                        <height>70</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4649,7 +4361,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
+                                <magnitude>150</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -4664,8 +4376,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>3</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4708,7 +4420,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -4736,8 +4448,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>4</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4751,80 +4463,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4099</x>
-                        <y>272</y>
-                        <z>0</z>
-                        <width>70</width>
-                        <height>70</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Virus_" uid="774">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine2">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>2</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>100</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Fade">
-                            <properties>
-                                <active-at-start>No</active-at-start>
-                                <fade-in-time>0</fade-in-time>
-                                <wait-time>0</wait-time>
-                                <fade-out-time>1</fade-out-time>
-                                <destroy>After fade out</destroy>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Turret">
-                            <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
-                                <rotate>No</rotate>
-                                <rotate-speed>180</rotate-speed>
-                                <target-mode>First in range</target-mode>
-                                <predictive-aim>No</predictive-aim>
-                                <projectile-speed>500</projectile-speed>
-                                <initial-state>Enabled</initial-state>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4830</x>
-                        <y>522</y>
+                        <x>4111</x>
+                        <y>163</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -4880,8 +4520,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>4</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -4895,8 +4535,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5079</x>
-                        <y>665</y>
+                        <x>5161</x>
+                        <y>457</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -4952,8 +4592,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>2</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -5024,8 +4664,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>5</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -5039,8 +4679,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6219</x>
-                        <y>203</y>
+                        <x>6475</x>
+                        <y>201</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -5096,8 +4736,8 @@
                         </behavior-instance>
                         <behavior-instance type="Turret">
                             <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
+                                <range>5000</range>
+                                <rate-of-fire>3</rate-of-fire>
                                 <rotate>No</rotate>
                                 <rotate-speed>180</rotate-speed>
                                 <target-mode>First in range</target-mode>
@@ -5111,80 +4751,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6271</x>
-                        <y>845</y>
-                        <z>0</z>
-                        <width>70</width>
-                        <height>70</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Virus_" uid="776">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine2">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>2</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>100</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Fade">
-                            <properties>
-                                <active-at-start>No</active-at-start>
-                                <fade-in-time>0</fade-in-time>
-                                <wait-time>0</wait-time>
-                                <fade-out-time>1</fade-out-time>
-                                <destroy>After fade out</destroy>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Turret">
-                            <properties>
-                                <range>0</range>
-                                <rate-of-fire>0</rate-of-fire>
-                                <rotate>No</rotate>
-                                <rotate-speed>180</rotate-speed>
-                                <target-mode>First in range</target-mode>
-                                <predictive-aim>No</predictive-aim>
-                                <projectile-speed>500</projectile-speed>
-                                <initial-state>Enabled</initial-state>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6653</x>
-                        <y>425</y>
+                        <x>6595</x>
+                        <y>770</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -5964,6 +5532,43 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="postman" uid="869">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <move>right</move>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>400</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>7565</x>
+                        <y>429</y>
+                        <z>0</z>
+                        <width>229</width>
+                        <height>226</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
