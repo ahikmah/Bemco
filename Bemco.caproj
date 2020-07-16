@@ -719,7 +719,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349703835601002" speed="0">
-                            <frame duration="1" hotspotX="0.501961" hotspotY="0.506224" original-source="C:\Users\USER\Pictures\tg aset\edu1.png">
+                            <frame duration="1" hotspotX="0.502513" hotspotY="0.506559" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_1.png">
                                 <collision-poly>
                                     <point x="0.017647" y="0.0124482" />
                                     <point x="0.5" y="0.0394191" />
@@ -730,8 +730,28 @@
                                     <point x="0.15098" y="0.504149" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_2.png">
+                                <collision-poly>
+                                    <point x="0.109296" y="0.0877901" />
+                                    <point x="0.5" y="0.123108" />
+                                    <point x="0.845477" y="0.124117" />
+                                    <point x="0.193467" y="0.499495" />
+                                    <point x="0.795226" y="0.83552" />
+                                    <point x="0.5" y="0.968718" />
+                                    <point x="0.11809" y="0.905146" />
+                                    <point x="0.0590452" y="0.499495" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_3.png">
+                                <collision-poly>
+                                    <point x="0.1067" y="0.0868687" />
+                                    <point x="0.734491" y="0.216162" />
+                                    <point x="0.903226" y="0.5" />
+                                    <point x="0.584367" y="0.661616" />
+                                    <point x="0.413151" y="0.663636" />
+                                    <point x="0.0272953" y="0.5" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -2894,16 +2914,16 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444470639079994" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru2\Default\000.png">
                             <collision-poly>
-                                <point x="0.181034" y="0.181034" />
-                                <point x="0.5" y="0.0517241" />
-                                <point x="0.818965" y="0.181034" />
-                                <point x="0.974138" y="0.5" />
-                                <point x="0.801724" y="0.801724" />
-                                <point x="0.5" y="0.922414" />
-                                <point x="0.181034" y="0.818965" />
-                                <point x="0.163793" y="0.5" />
+                                <point x="0.155963" y="0.155963" />
+                                <point x="0.495413" y="0.0550459" />
+                                <point x="0.87156" y="0.12844" />
+                                <point x="0.990826" y="0.495413" />
+                                <point x="0.880734" y="0.880734" />
+                                <point x="0.495413" y="0.981651" />
+                                <point x="0.266055" y="0.733945" />
+                                <point x="0.174312" y="0.495413" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -3167,16 +3187,16 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551108553563906" speed="5">
-                        <frame duration="1" hotspotX="-0.00862069" hotspotY="-0.318966" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru\Default\000.png">
+                        <frame duration="1" hotspotX="0.0366972" hotspotY="-0.440367" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\peluru2\Default\000.png">
                             <collision-poly>
-                                <point x="0.181034" y="0.181034" />
-                                <point x="0.5" y="0.0517241" />
-                                <point x="0.818965" y="0.181034" />
-                                <point x="0.974138" y="0.5" />
-                                <point x="0.801724" y="0.801724" />
-                                <point x="0.5" y="0.922414" />
-                                <point x="0.181034" y="0.818965" />
-                                <point x="0.163793" y="0.5" />
+                                <point x="0.155963" y="0.155963" />
+                                <point x="0.495413" y="0.0550459" />
+                                <point x="0.87156" y="0.12844" />
+                                <point x="0.990826" y="0.495413" />
+                                <point x="0.880734" y="0.880734" />
+                                <point x="0.495413" y="0.981651" />
+                                <point x="0.266055" y="0.733945" />
+                                <point x="0.174312" y="0.495413" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -3877,9 +3897,9 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523023860519094" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\misi1.png">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523023860519094" speed="5">
+                    <frame duration="1" hotspotX="0.500713" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\misi_1.png">
                         <collision-poly>
                             <point x="0.119718" y="0.122478" />
                             <point x="0.5" y="0.0489914" />
@@ -3891,7 +3911,30 @@
                             <point x="0.119718" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500713" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\misi_2.png">
+                        <collision-poly>
+                            <point x="0.0313837" y="0.0276382" />
+                            <point x="0.499287" y="0.133166" />
+                            <point x="0.905849" y="0.0829146" />
+                            <point x="0.870185" y="0.5" />
+                            <point x="0.543509" y="0.59799" />
+                            <point x="0.499287" y="0.850502" />
+                            <point x="0.165478" y="0.854271" />
+                            <point x="0.0955777" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500713" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\misi_3.png">
+                        <collision-poly>
+                            <point x="0.0313837" y="0.0276382" />
+                            <point x="0.499287" y="0.133166" />
+                            <point x="0.905849" y="0.0829146" />
+                            <point x="0.89729" y="0.5" />
+                            <point x="0.60913" y="0.655779" />
+                            <point x="0.499287" y="0.850502" />
+                            <point x="0.165478" y="0.854271" />
+                            <point x="0.0699001" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -3965,14 +4008,10 @@
         <layout>home.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-folder name="Level">
-            <event-sheet>event_level_1.xml</event-sheet>
-            <event-sheet>event_level_2.xml</event-sheet>
-            <event-sheet>event_level_3.xml</event-sheet>
-        </event-folder>
         <event-sheet>event_intro.xml</event-sheet>
         <event-sheet>event_home.xml</event-sheet>
         <event-sheet>event_select_level.xml</event-sheet>
+        <event-sheet>event_level.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="5">
