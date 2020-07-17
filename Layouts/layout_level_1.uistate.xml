@@ -6,7 +6,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
         <position-x>951.169</position-x>
         <position-y>534.623</position-y>
-        <position-z>129.397</position-z>
+        <position-z>258.794</position-z>
         <lookat-x>951.169</lookat-x>
         <lookat-y>534.623</lookat-y>
         <lookat-z>0</lookat-z>
@@ -29,7 +29,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="1" name="reward" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="game" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="hidden button" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="button" parallax-in-editor="0" visible="0" />
+        <layer locked="1" name="button" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="HUD" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : edu box" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : quiz" parallax-in-editor="0" visible="0" />

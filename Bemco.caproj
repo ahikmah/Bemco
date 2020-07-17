@@ -4591,6 +4591,7 @@
         <event-sheet>event_home.xml</event-sheet>
         <event-sheet>event_select_level.xml</event-sheet>
         <event-sheet>event_level.xml</event-sheet>
+        <event-sheet>event_pause.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="5">

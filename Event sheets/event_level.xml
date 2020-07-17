@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_level</name>
     <events>
+        <include>event_pause</include>
         <variable constant="0" name="bintang_level_3_indo" sid="310220431691843" static="0" type="number">0</variable>
         <variable constant="0" name="bintang_level_3_ipa" sid="288219612024459" static="0" type="number">0</variable>
         <variable constant="0" name="bintang_level_3_mat" sid="531479807371116" static="0" type="number">0</variable>
