@@ -2378,23 +2378,7 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="828633379072426" type="quis">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="976344704280831" type="1_a">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="817846133835026" type="1_b">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="527526824941461" type="1_c">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="340102396712529" type="i_d">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="248883822446412">
                                             <conditions>
@@ -2404,23 +2388,7 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="922497874833806" type="quis">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="115862438379594" type="1_a">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="754586549377539" type="1_b">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="254488063706909" type="1_c">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="714434114569796" type="i_d">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="953159945742205">
                                             <conditions>
@@ -2430,23 +2398,7 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="160876649875766" type="quis">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="683698593501987" type="1_a">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="595528192334580" type="1_b">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="894897501480324" type="1_c">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="186579772104757" type="i_d">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -2468,23 +2420,7 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="803107561753864" type="quis">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="142716023968150" type="1_a">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="474711158101133" type="1_b">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="825799539777237" type="1_c">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="128088898785721" type="i_d">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="892214779813564">
                                             <conditions>
@@ -2494,23 +2430,7 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="368021590123166" type="quis">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="501436099307162" type="1_a">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="992636241198629" type="1_b">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="120447053418413" type="1_c">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="181537380006501" type="i_d">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="483642889923066">
                                             <conditions>
@@ -2520,23 +2440,7 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="715886125721477" type="quis">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="806128442474573" type="1_a">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="728015313147742" type="1_b">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="280330350085304" type="1_c">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="703959321376258" type="i_d">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -2558,23 +2462,7 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="537262030324766" type="quis">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="342083100807091" type="1_a">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="671307938647423" type="1_b">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="295733740935218" type="1_c">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="308608769894427" type="i_d">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="474306957520872">
                                             <conditions>
@@ -2584,23 +2472,7 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="167795888350262" type="quis">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="647511324567014" type="1_a">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="125636462099659" type="1_b">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="512484542295023" type="1_c">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="901251693524982" type="i_d">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="206217182785623">
                                             <conditions>
@@ -2610,23 +2482,7 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="827629690805246" type="quis">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="823527625653463" type="1_a">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="894801552098483" type="1_b">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="790802532723837" type="1_c">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="331656262307533" type="i_d">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -3762,23 +3618,7 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="380090804120976" type="quis">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="877943382249377" type="1_a">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="297300705997925" type="1_b">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="343262071142726" type="1_c">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="425487217381985" type="i_d">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="263928780454543">
                                             <conditions>
@@ -3788,23 +3628,7 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="938201543136474" type="quis">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="643698716225970" type="1_a">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="680355671188234" type="1_b">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="632195855837956" type="1_c">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="221770431968453" type="i_d">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="727879888273452">
                                             <conditions>
@@ -3814,23 +3638,7 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="894311394231785" type="quis">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="810551763766253" type="1_a">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="458670266650187" type="1_b">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="223384668574613" type="1_c">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="572690770669145" type="i_d">
-                                                    <param id="0" name="Frame number">0</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -3852,23 +3660,7 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="343920204526186" type="quis">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="602035433770137" type="1_a">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="653420905863068" type="1_b">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="608577271508583" type="1_c">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="868936509202292" type="i_d">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="621799533752298">
                                             <conditions>
@@ -3878,23 +3670,7 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="362582142222043" type="quis">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="619586503757013" type="1_a">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="266144087147958" type="1_b">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="525670582217692" type="1_c">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="231193443674369" type="i_d">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="288088273123488">
                                             <conditions>
@@ -3904,23 +3680,7 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="412576721948723" type="quis">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="156043204263657" type="1_a">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="924549967063326" type="1_b">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="752024790374183" type="1_c">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="806865896712897" type="i_d">
-                                                    <param id="0" name="Frame number">1</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -3942,23 +3702,7 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="133142288625618" type="quis">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="478467234136374" type="1_a">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="986547725891282" type="1_b">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="421998223839850" type="1_c">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="740275723176171" type="i_d">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="831286294452449">
                                             <conditions>
@@ -3968,23 +3712,7 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="664121823668447" type="quis">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="593516849552871" type="1_a">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="568792019200867" type="1_b">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="256338214580421" type="1_c">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="424750177396794" type="i_d">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                         <event-block sid="322462495075815">
                                             <conditions>
@@ -3994,23 +3722,7 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions>
-                                                <action id="5" name="Set frame" sid="614719526818362" type="quis">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="438095182017355" type="1_a">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="131658544601189" type="1_b">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="445170096441104" type="1_c">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                                <action id="5" name="Set frame" sid="368247348243217" type="i_d">
-                                                    <param id="0" name="Frame number">2</param>
-                                                </action>
-                                            </actions>
+                                            <actions />
                                         </event-block>
                                     </sub-events>
                                 </event-block>

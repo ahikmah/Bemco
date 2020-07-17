@@ -632,84 +632,346 @@
         </object-folder>
         <object-folder name="txt">
             <object-folder name="quiz">
-                <object-type name="1_a" sid="642720081478570">
+                <object-type name="mat_" sid="372171971372822">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328047033145391" speed="0">
-                            <frame duration="1" hotspotX="0.528302" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\1_a.png">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935866339529373" speed="5">
+                            <frame duration="1" hotspotX="0.503886" hotspotY="1.12903" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_1.png">
                                 <collision-poly>
-                                    <point x="0.264151" y="0.0877193" />
-                                    <point x="0.528302" y="0.157895" />
-                                    <point x="0.830189" y="0.0526316" />
-                                    <point x="0.811321" y="0.614035" />
-                                    <point x="0.415094" y="0.789474" />
-                                    <point x="0.528302" y="0.315789" />
-                                    <point x="0.64151" y="0.789474" />
-                                    <point x="0.226415" y="0.614035" />
+                                    <point x="0.00129534" y="0.16129" />
+                                    <point x="0.962435" y="0.967742" />
+                                    <point x="0.0466321" y="0.935484" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.509434" hotspotY="0.508772" />
-                            <frame duration="1" hotspotX="0.509434" hotspotY="0.508772" />
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="1_b" sid="162217106890415">
+                <object-type name="mat_1_a_kunci" sid="155788382318180">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606048542373013" speed="0">
-                            <frame duration="1" hotspotX="0.487805" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\1_b.png">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="472096487032163" speed="5">
+                            <frame duration="1" hotspotX="0.522727" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_1_a_kunci.png">
                                 <collision-poly>
-                                    <point x="0.219512" y="0.0526316" />
-                                    <point x="0.487805" y="0.0701754" />
-                                    <point x="0.731707" y="0.0701754" />
-                                    <point x="0.756097" y="0.614035" />
-                                    <point x="0.317073" y="0.859649" />
-                                    <point x="0.487805" y="0.859649" />
-                                    <point x="0.0487805" y="0.614035" />
+                                    <point x="0.0454545" y="0.137931" />
+                                    <point x="0.818182" y="0.37931" />
+                                    <point x="0.977273" y="0.689655" />
+                                    <point x="0.772727" y="0.965517" />
+                                    <point x="0.25" y="0.965517" />
+                                    <point x="0.136364" y="0.689655" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.512195" hotspotY="0.508772" />
-                            <frame duration="1" hotspotX="0.512195" hotspotY="0.508772" />
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="1_c" sid="807937829061965">
+                <object-type name="mat_1_b" sid="304342250821766">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878307682440526" speed="0">
-                            <frame duration="1" hotspotX="0.516129" hotspotY="0.631579" original-source="C:\Users\USER\Pictures\tg aset\1_c.png">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="672628189791717" speed="5">
+                            <frame duration="1" hotspotX="0.511628" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_1_b.png">
                                 <collision-poly>
-                                    <point x="0.354839" y="0.105263" />
-                                    <point x="0.483871" y="0.0526316" />
-                                    <point x="0.709677" y="0.0701755" />
-                                    <point x="0.677419" y="0.631579" />
-                                    <point x="0.483871" y="0.842105" />
-                                    <point x="0.354839" y="0.631579" />
+                                    <point x="0.0465116" y="0.172414" />
+                                    <point x="0.813953" y="0.37931" />
+                                    <point x="0.976744" y="0.689655" />
+                                    <point x="0.790698" y="0.965517" />
+                                    <point x="0.209302" y="0.965517" />
+                                    <point x="0.325581" y="0.689655" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.516129" hotspotY="0.508772" />
-                            <frame duration="1" hotspotX="0.516129" hotspotY="0.508772" />
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="i_d" sid="442427300867449">
+                <object-type name="mat_1_c" sid="883962457041489">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868030760981828" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.614035" original-source="C:\Users\USER\Pictures\tg aset\i_d.png">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699350182032859" speed="5">
+                            <frame duration="1" hotspotX="0.533333" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_1_c.png">
                                 <collision-poly>
-                                    <point x="0.25" y="0.0701754" />
-                                    <point x="0.475" y="0.0526316" />
-                                    <point x="0.675" y="0.105263" />
-                                    <point x="0.425" y="0.614035" />
-                                    <point x="0.275" y="0.842105" />
-                                    <point x="0.475" y="0.842105" />
-                                    <point x="0.725" y="0.824561" />
-                                    <point x="0.15" y="0.614035" />
+                                    <point x="0.155556" y="0.275862" />
+                                    <point x="0.822222" y="0.37931" />
+                                    <point x="0.977778" y="0.689655" />
+                                    <point x="0.777778" y="0.965517" />
+                                    <point x="0.311111" y="0.896552" />
+                                    <point x="0.0222222" y="0.689655" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.508772" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.508772" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_1_d" sid="820006669520637">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318161535444030" speed="5">
+                            <frame duration="1" hotspotX="0.511628" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_1_d.png">
+                                <collision-poly>
+                                    <point x="0.0465116" y="0.172414" />
+                                    <point x="0.813953" y="0.37931" />
+                                    <point x="0.976744" y="0.689655" />
+                                    <point x="0.790698" y="0.965517" />
+                                    <point x="0.209302" y="0.965517" />
+                                    <point x="0.302326" y="0.689655" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_3" sid="144556285517949">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513074068982186" speed="5">
+                            <frame duration="1" hotspotX="0.511494" hotspotY="0.521739" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3.png">
+                                <collision-poly>
+                                    <point x="0.00143678" y="0.26087" />
+                                    <point x="0.989943" y="0.565217" />
+                                    <point x="0.866379" y="0.507246" />
+                                    <point x="0.510057" y="0.492754" />
+                                    <point x="0.0100575" y="0.681159" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_3_a" sid="656619728890388">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="557717655587950" speed="5">
+                            <frame duration="1" hotspotX="0.48913" hotspotY="0.709677" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_a.png">
+                                <collision-poly>
+                                    <point x="0.0217391" y="0.225807" />
+                                    <point x="0.934783" y="0.258065" />
+                                    <point x="0.978261" y="0.709677" />
+                                    <point x="0.815217" y="0.806452" />
+                                    <point x="0.0978261" y="0.967742" />
+                                    <point x="0.0869565" y="0.709677" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_3_b" sid="675955350655985">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327834415531915" speed="5">
+                            <frame duration="1" hotspotX="0.48913" hotspotY="0.741935" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_b.png">
+                                <collision-poly>
+                                    <point x="0.0217391" y="0.225807" />
+                                    <point x="0.934783" y="0.258065" />
+                                    <point x="0.978261" y="0.709677" />
+                                    <point x="0.804348" y="0.806452" />
+                                    <point x="0.108696" y="0.967742" />
+                                    <point x="0.0869565" y="0.709677" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_3_c" sid="510365180844704">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606550525958652" speed="5">
+                            <frame duration="1" hotspotX="0.48913" hotspotY="0.709677" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_c.png">
+                                <collision-poly>
+                                    <point x="0.0217391" y="0.225807" />
+                                    <point x="0.934783" y="0.258065" />
+                                    <point x="0.978261" y="0.709677" />
+                                    <point x="0.815217" y="0.806452" />
+                                    <point x="0.0978261" y="0.967742" />
+                                    <point x="0.0869565" y="0.709677" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_3_d_kunci" sid="623147750492309">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593584328681894" speed="5">
+                            <frame duration="1" hotspotX="0.48913" hotspotY="0.709677" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_d_kunci.png">
+                                <collision-poly>
+                                    <point x="0.0217391" y="0.225807" />
+                                    <point x="0.934783" y="0.258065" />
+                                    <point x="0.978261" y="0.709677" />
+                                    <point x="0.815217" y="0.806452" />
+                                    <point x="0.0978261" y="0.967742" />
+                                    <point x="0.0869565" y="0.709677" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_5" sid="673202469169707">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669355905170405" speed="5">
+                            <frame duration="1" hotspotX="0.514599" hotspotY="0.543396" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_5.png">
+                                <collision-poly>
+                                    <point x="0.00121655" y="0.0226415" />
+                                    <point x="0.514599" y="0.0377358" />
+                                    <point x="0.998783" y="0.113208" />
+                                    <point x="0.761557" y="0.539623" />
+                                    <point x="0.942822" y="0.796226" />
+                                    <point x="0.514599" y="0.116981" />
+                                    <point x="0.0863747" y="0.796226" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_5_a_kunci" sid="302806208101809">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="712643134277166" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_5_a_kunci.png">
+                                <collision-poly>
+                                    <point x="0.030303" y="0.172414" />
+                                    <point x="0.5" y="0.0344828" />
+                                    <point x="0.969697" y="0.172414" />
+                                    <point x="0.984848" y="0.689655" />
+                                    <point x="0.848485" y="0.965517" />
+                                    <point x="0.151515" y="0.965517" />
+                                    <point x="0.19697" y="0.689655" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_5_b" sid="500853291641270">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722605304618847" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_5_b.png">
+                                <collision-poly>
+                                    <point x="0.030303" y="0.172414" />
+                                    <point x="0.5" y="0.0344828" />
+                                    <point x="0.969697" y="0.172414" />
+                                    <point x="0.984848" y="0.689655" />
+                                    <point x="0.863636" y="0.965517" />
+                                    <point x="0.136364" y="0.965517" />
+                                    <point x="0.19697" y="0.689655" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_5_c" sid="491829254558146">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="668592139865294" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_5_c.png">
+                                <collision-poly>
+                                    <point x="0.0588235" y="0.206897" />
+                                    <point x="0.5" y="0.0344828" />
+                                    <point x="0.955882" y="0.172414" />
+                                    <point x="0.970588" y="0.689655" />
+                                    <point x="0.838235" y="0.965517" />
+                                    <point x="0.161765" y="0.965517" />
+                                    <point x="0.0147059" y="0.689655" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_5_d" sid="444638644545473">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="479042885328725" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_5_d.png">
+                                <collision-poly>
+                                    <point x="0.0588235" y="0.206897" />
+                                    <point x="0.5" y="0.0344828" />
+                                    <point x="0.955882" y="0.172414" />
+                                    <point x="0.970588" y="0.689655" />
+                                    <point x="0.838235" y="0.965517" />
+                                    <point x="0.161765" y="0.965517" />
+                                    <point x="0.0147059" y="0.689655" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_6" sid="786135168604903">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="263806074419560" speed="5">
+                            <frame duration="1" hotspotX="0.513245" hotspotY="0.511188" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_6.png">
+                                <collision-poly>
+                                    <point x="0.162252" y="0.259897" />
+                                    <point x="0.513245" y="0.020654" />
+                                    <point x="0.853201" y="0.277108" />
+                                    <point x="0.960265" y="0.91222" />
+                                    <point x="0.513245" y="0.996558" />
+                                    <point x="0.0684327" y="0.908778" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_6_a" sid="650261570427326">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236253846334036" speed="5">
+                            <frame duration="1" hotspotX="0.498542" hotspotY="0.589744" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_6_a.png">
+                                <collision-poly>
+                                    <point x="0.00291545" y="0.153846" />
+                                    <point x="0.982507" y="0.230769" />
+                                    <point x="0.976676" y="0.564103" />
+                                    <point x="0.985423" y="0.948718" />
+                                    <point x="0.0699708" y="0.410256" />
+                                    <point x="0.00291545" y="0.564103" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_6_b" sid="383811085240845">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707578619747034" speed="5">
+                            <frame duration="1" hotspotX="0.567568" hotspotY="0.589744" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_6_b.png">
+                                <collision-poly>
+                                    <point x="0.00337838" y="0.179487" />
+                                    <point x="0.567568" y="0.025641" />
+                                    <point x="0.972973" y="0.564103" />
+                                    <point x="0.567568" y="0.769231" />
+                                    <point x="0.0304054" y="0.769231" />
+                                    <point x="0.00337838" y="0.564103" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_6_c" sid="468025588546113">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="547608859567608" speed="5">
+                            <frame duration="1" hotspotX="0.516908" hotspotY="0.589744" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_6_c.png">
+                                <collision-poly>
+                                    <point x="0.00483092" y="0.102564" />
+                                    <point x="0.512077" y="0.230769" />
+                                    <point x="0.990338" y="0.282051" />
+                                    <point x="0.990338" y="0.564103" />
+                                    <point x="0.951691" y="0.666667" />
+                                    <point x="0.512077" y="0.769231" />
+                                    <point x="0.057971" y="0.769231" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mat_6_d_kunci" sid="247739007918338">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="103037579021993" speed="5">
+                            <frame duration="1" hotspotX="0.518644" hotspotY="0.589744" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_6_d_kunci.png">
+                                <collision-poly>
+                                    <point x="0.00338983" y="0.128205" />
+                                    <point x="0.518644" y="0.230769" />
+                                    <point x="0.969492" y="0.615385" />
+                                    <point x="0.969492" y="0.564103" />
+                                    <point x="0.99661" y="0.74359" />
+                                    <point x="0.0372881" y="0.769231" />
+                                    <point x="0.00338983" y="0.564103" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -750,6 +1012,54 @@
                                     <point x="0.584367" y="0.661616" />
                                     <point x="0.413151" y="0.663636" />
                                     <point x="0.0272953" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="00mat_" sid="313614665590105">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327761486138214" speed="5">
+                            <frame duration="1" hotspotX="0.507363" hotspotY="1.02581" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_2.png">
+                                <collision-poly>
+                                    <point x="0.00267738" y="0.00860215" />
+                                    <point x="0.998661" y="0.0301075" />
+                                    <point x="0.27577" y="0.860215" />
+                                    <point x="0.507363" y="0.991398" />
+                                    <point x="0.681392" y="0.952688" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="00mat_2" sid="130325253293595">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669894692594820" speed="5">
+                            <frame duration="1" hotspotX="0.575428" hotspotY="1.31579" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_9.png">
+                                <collision-poly>
+                                    <point x="0.00622084" y="0.0193906" />
+                                    <point x="0.575428" y="0.218837" />
+                                    <point x="0.622084" y="0.950139" />
+                                    <point x="0.116641" y="0.781163" />
+                                    <point x="0.575428" y="0.811634" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="00mat_3" sid="672701106535367">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="629031691176200" speed="5">
+                            <frame duration="1" hotspotX="0.513032" hotspotY="0.65884" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_7.png">
+                                <collision-poly>
+                                    <point x="0.090535" y="0.0939227" />
+                                    <point x="0.513032" y="0.00138122" />
+                                    <point x="0.844993" y="0.185083" />
+                                    <point x="0.513032" y="0.98895" />
+                                    <point x="0.327846" y="0.984807" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -1018,25 +1328,6 @@
                                 <point x="0.0588235" y="0.5" />
                             </collision-poly>
                         </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="quis" sid="157833329177466">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113103939955856" speed="0">
-                        <frame duration="1" hotspotX="0.500898" hotspotY="0.501618" original-source="C:\Users\USER\Pictures\tg aset\quis 1.png">
-                            <collision-poly>
-                                <point x="0.330341" y="0.595469" />
-                                <point x="0.499102" y="0.158576" />
-                                <point x="0.639138" y="0.650485" />
-                                <point x="0.81149" y="0.660194" />
-                                <point x="0.499102" y="0.695793" />
-                                <point x="0.21544" y="0.61165" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.500898" hotspotY="0.501618" />
-                        <frame duration="1" hotspotX="0.500898" hotspotY="0.501618" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -4008,6 +4299,221 @@
                             <point x="0.495413" y="0.981651" />
                             <point x="0.266055" y="0.733945" />
                             <point x="0.174312" y="0.495413" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="00mat_4" sid="466260219596479">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352162408999679" speed="5">
+                    <frame duration="1" hotspotX="0.496542" hotspotY="0.75" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_10.png">
+                        <collision-poly>
+                            <point x="0.0995851" y="0.167722" />
+                            <point x="0.495159" y="0.0174051" />
+                            <point x="0.892116" y="0.167722" />
+                            <point x="0.998617" y="0.748418" />
+                            <point x="0.600277" y="0.996835" />
+                            <point x="0.391425" y="0.996835" />
+                            <point x="0.00138313" y="0.748418" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="00mat_5" sid="962276379755827">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213962252805562" speed="5">
+                    <frame duration="1" hotspotX="0.491459" hotspotY="0.942116" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_11.png">
+                        <collision-poly>
+                            <point x="0.0880421" y="0.167665" />
+                            <point x="0.893561" y="0.167665" />
+                            <point x="0.998686" y="0.942116" />
+                            <point x="0.420499" y="0.998004" />
+                            <point x="0.561104" y="0.998004" />
+                            <point x="0.00262812" y="0.942116" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_2" sid="432661698926083">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="965411559244698" speed="5">
+                    <frame duration="1" hotspotX="0.504037" hotspotY="0.513228" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10.png">
+                        <collision-poly>
+                            <point x="0.0426759" y="0.312169" />
+                            <point x="0.502883" y="0.0476191" />
+                            <point x="0.957324" y="0.343915" />
+                            <point x="0.958477" y="0.687831" />
+                            <point x="0.0530565" y="0.666667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_10_c_kunci" sid="233408490322853">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613378781825164" speed="5">
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_c_kunci.png">
+                        <collision-poly>
+                            <point x="0.00884954" y="0.103448" />
+                            <point x="0.495575" y="0.0344828" />
+                            <point x="0.920354" y="0.37931" />
+                            <point x="0.982301" y="0.689655" />
+                            <point x="0.902655" y="0.965517" />
+                            <point x="0.495575" y="0.965517" />
+                            <point x="0.0619469" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_10_d" sid="194234103085149">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="993036917993694" speed="5">
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_d.png">
+                        <collision-poly>
+                            <point x="0.0265487" y="0.172414" />
+                            <point x="0.495575" y="0.0344828" />
+                            <point x="0.920354" y="0.37931" />
+                            <point x="0.99115" y="0.689655" />
+                            <point x="0.911504" y="0.965517" />
+                            <point x="0.0884956" y="0.965517" />
+                            <point x="0.0176991" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_10_a" sid="150408450736989">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654217242477685" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_a.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.172414" />
+                            <point x="0.5" y="0.0344828" />
+                            <point x="0.928571" y="0.37931" />
+                            <point x="0.991071" y="0.689655" />
+                            <point x="0.910714" y="0.965517" />
+                            <point x="0.0892857" y="0.965517" />
+                            <point x="0.116071" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_10_b" sid="146235591893513">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666339323828613" speed="5">
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_b.png">
+                        <collision-poly>
+                            <point x="0.0353982" y="0.206897" />
+                            <point x="0.504425" y="0.0344828" />
+                            <point x="0.929204" y="0.37931" />
+                            <point x="0.99115" y="0.689655" />
+                            <point x="0.911504" y="0.965517" />
+                            <point x="0.0973451" y="0.965517" />
+                            <point x="0.0176991" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_4" sid="143276250182956">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781687185572122" speed="5">
+                    <frame duration="1" hotspotX="0.51335" hotspotY="0.511416" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7.png">
+                        <collision-poly>
+                            <point x="0.00364078" y="0.0319635" />
+                            <point x="0.51335" y="0.0410959" />
+                            <point x="0.996359" y="0.13242" />
+                            <point x="0.990291" y="0.511416" />
+                            <point x="0.967233" y="0.780822" />
+                            <point x="0.51335" y="0.995434" />
+                            <point x="0.0667476" y="0.753425" />
+                            <point x="0.00121359" y="0.511416" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_7_c_kunci" sid="671419838758522">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288785007091364" speed="5">
+                    <frame duration="1" hotspotX="0.556522" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_c_kunci.png">
+                        <collision-poly>
+                            <point x="0.026087" y="0.172414" />
+                            <point x="0.547826" y="0.103448" />
+                            <point x="0.982609" y="0.551724" />
+                            <point x="0.982609" y="0.689655" />
+                            <point x="0.973913" y="0.793104" />
+                            <point x="0.0869565" y="0.965517" />
+                            <point x="0.121739" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_7_a" sid="595968809463894">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="941166560676327" speed="5">
+                    <frame duration="1" hotspotX="0.491228" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_a.png">
+                        <collision-poly>
+                            <point x="0.00877191" y="0.137931" />
+                            <point x="0.491228" y="0.0344828" />
+                            <point x="0.964912" y="0.172414" />
+                            <point x="0.982456" y="0.689655" />
+                            <point x="0.894737" y="0.965517" />
+                            <point x="0.491228" y="0.862069" />
+                            <point x="0.0614035" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_7_b" sid="694212810419192">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488982538574012" speed="5">
+                    <frame duration="1" hotspotX="0.491228" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_b.png">
+                        <collision-poly>
+                            <point x="0.0175439" y="0.172414" />
+                            <point x="0.491228" y="0.0344828" />
+                            <point x="0.964912" y="0.172414" />
+                            <point x="0.982456" y="0.689655" />
+                            <point x="0.903509" y="0.965517" />
+                            <point x="0.0789474" y="0.965517" />
+                            <point x="0.00877191" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat_7_d" sid="373800374996074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834772824498898" speed="5">
+                    <frame duration="1" hotspotX="0.540146" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_d.png">
+                        <collision-poly>
+                            <point x="0.0145985" y="0.172414" />
+                            <point x="0.532847" y="0.137931" />
+                            <point x="0.992701" y="0.482759" />
+                            <point x="0.985401" y="0.689655" />
+                            <point x="0.970803" y="0.827586" />
+                            <point x="0.532847" y="0.965517" />
+                            <point x="0.0729927" y="0.965517" />
+                            <point x="0.0656934" y="0.689655" />
                         </collision-poly>
                     </frame>
                 </animation>

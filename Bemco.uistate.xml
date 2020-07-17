@@ -11,10 +11,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">layout_level_1</layout>
-        <layout active="1" order="1">layout_level_2</layout>
+        <layout order="1">layout_level_2</layout>
         <layout order="3">select_level</layout>
         <layout order="5">layout_intro</layout>
-        <layout order="8">layout_level_3</layout>
+        <layout active="1" order="8">layout_level_3</layout>
+        <layout order="9">home</layout>
         <event-sheet order="2">event_level</event-sheet>
         <event-sheet order="4">event_select_level</event-sheet>
         <event-sheet order="6">event_intro</event-sheet>
@@ -31,19 +32,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/system/" />
         <folder expanded="0" path="object-folder/buttons/" />
-        <folder expanded="1" path="object-folder/txt/" />
-        <folder expanded="1" path="object-folder/txt/quiz/" />
+        <folder expanded="0" path="object-folder/txt/" />
+        <folder expanded="0" path="object-folder/txt/quiz/" />
         <folder expanded="0" path="object-folder/txt/edu/" />
         <folder expanded="0" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
         <folder expanded="0" path="object-folder/tilesets/" />
-        <folder expanded="1" path="object-folder/items/" />
-        <folder expanded="1" path="object-folder/characters/" />
-        <folder expanded="1" path="object-folder/HUD/" />
-        <folder expanded="1" path="object-folder/others/" />
+        <folder expanded="0" path="object-folder/items/" />
+        <folder expanded="0" path="object-folder/characters/" />
+        <folder expanded="0" path="object-folder/HUD/" />
+        <folder expanded="0" path="object-folder/others/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Level/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
@@ -74,11 +75,30 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/pilih_c/" />
         <folder expanded="1" path="animation-folder/pilih_d/" />
         <folder expanded="1" path="animation-folder/ok_mulai/" />
-        <folder expanded="1" path="animation-folder/1_a/" />
-        <folder expanded="1" path="animation-folder/1_b/" />
-        <folder expanded="1" path="animation-folder/1_c/" />
-        <folder expanded="1" path="animation-folder/i_d/" />
+        <folder expanded="1" path="animation-folder/mat_/" />
+        <folder expanded="1" path="animation-folder/mat_1_a_kunci/" />
+        <folder expanded="1" path="animation-folder/mat_1_b/" />
+        <folder expanded="1" path="animation-folder/mat_1_c/" />
+        <folder expanded="1" path="animation-folder/mat_1_d/" />
+        <folder expanded="1" path="animation-folder/mat_3/" />
+        <folder expanded="1" path="animation-folder/mat_3_a/" />
+        <folder expanded="1" path="animation-folder/mat_3_b/" />
+        <folder expanded="1" path="animation-folder/mat_3_c/" />
+        <folder expanded="1" path="animation-folder/mat_3_d_kunci/" />
+        <folder expanded="1" path="animation-folder/mat_5/" />
+        <folder expanded="1" path="animation-folder/mat_5_a_kunci/" />
+        <folder expanded="1" path="animation-folder/mat_5_b/" />
+        <folder expanded="1" path="animation-folder/mat_5_c/" />
+        <folder expanded="1" path="animation-folder/mat_5_d/" />
+        <folder expanded="1" path="animation-folder/mat_6/" />
+        <folder expanded="1" path="animation-folder/mat_6_a/" />
+        <folder expanded="1" path="animation-folder/mat_6_b/" />
+        <folder expanded="1" path="animation-folder/mat_6_c/" />
+        <folder expanded="1" path="animation-folder/mat_6_d_kunci/" />
         <folder expanded="1" path="animation-folder/edu/" />
+        <folder expanded="1" path="animation-folder/00mat_/" />
+        <folder expanded="1" path="animation-folder/00mat_2/" />
+        <folder expanded="1" path="animation-folder/00mat_3/" />
         <folder expanded="1" path="animation-folder/txt_bantuan/" />
         <folder expanded="1" path="animation-folder/txt_ind/" />
         <folder expanded="1" path="animation-folder/txt_ipa/" />
@@ -94,7 +114,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/txt_mudah/" />
         <folder expanded="1" path="animation-folder/story/" />
         <folder expanded="1" path="animation-folder/JEDA/" />
-        <folder expanded="1" path="animation-folder/quis/" />
         <folder expanded="1" path="animation-folder/level/" />
         <folder expanded="1" path="animation-folder/pilihLevel/" />
         <folder expanded="1" path="animation-folder/mission_status/" />
@@ -248,5 +267,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/reward/" />
         <folder expanded="1" path="animation-folder/heart/" />
         <folder expanded="1" path="animation-folder/peluru2/" />
+        <folder expanded="1" path="animation-folder/00mat_4/" />
+        <folder expanded="1" path="animation-folder/00mat_5/" />
+        <folder expanded="1" path="animation-folder/mat_2/" />
+        <folder expanded="1" path="animation-folder/mat_10_c_kunci/" />
+        <folder expanded="1" path="animation-folder/mat_10_d/" />
+        <folder expanded="1" path="animation-folder/mat_10_a/" />
+        <folder expanded="1" path="animation-folder/mat_10_b/" />
+        <folder expanded="1" path="animation-folder/mat_4/" />
+        <folder expanded="1" path="animation-folder/mat_7_c_kunci/" />
+        <folder expanded="1" path="animation-folder/mat_7_a/" />
+        <folder expanded="1" path="animation-folder/mat_7_b/" />
+        <folder expanded="1" path="animation-folder/mat_7_d/" />
     </folders-expanded>
 </c2uistate>
