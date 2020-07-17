@@ -99,471 +99,137 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="908982417832146" title="Popup-Help">
-            <sub-events>
-                <event-block sid="623223384376148">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="207896110245710" type="System" />
-                    </conditions>
-                    <actions>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="290530215777816" type="ok">
-                            <param id="0" name="Pin to">popupBoard</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="933539476210862" type="tentang">
-                            <param id="0" name="Pin to">popupBoard</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="914579519563108" type="txt_about">
-                            <param id="0" name="Pin to">popupBoard</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action id="-2" name="Set Y" sid="660213440471934" type="popupBoard">
-                            <param id="0" name="Y">-500</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="530831420138295" type="System">
-                            <param id="0" name="Layer">2</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="472194644703221">
-                    <conditions>
-                        <condition id="0" name="On function" sid="722388909176727" type="Function">
-                            <param id="0" name="Name">&quot;pop-in&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="LiteTween" id="10" name="Start" sid="638347557852905" type="popupBoard">
-                            <param id="0" name="Start Mode">0</param>
-                            <param id="1" name="Force use current">0</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="536210558528310" type="popupBoard">
-                            <param id="0" name="Target is">0</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">Self.X</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="291397166163161" type="popupBoard">
-                            <param id="0" name="Target is">1</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">500</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="428151532021489" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="452753978157978">
-                    <conditions>
-                        <condition id="0" name="On function" sid="723100687702511" type="Function">
-                            <param id="0" name="Name">&quot;pop-out&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="LiteTween" id="10" name="Start" sid="179626179124684" type="popupBoard">
-                            <param id="0" name="Start Mode">0</param>
-                            <param id="1" name="Force use current">0</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="485789667456475" type="popupBoard">
-                            <param id="0" name="Target is">0</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">Self.X</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="774701373677648" type="popupBoard">
-                            <param id="0" name="Target is">1</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">-500</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="954632309095376" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="997735274838112">
-                    <conditions>
-                        <condition id="-9" name="Layer is visible" sid="491648684477814" type="System">
-                            <param id="0" name="Layer">2</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="976099939909828">
-                            <conditions>
-                                <condition id="17" name="On tap object" sid="528566010941175" type="Touch">
-                                    <param id="0" name="Object">ok</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Call function" sid="256460966531321" type="Function">
-                                    <param id="0" name="Name">&quot;pop-out&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="958935423148964" type="System">
-                                    <param id="0" name="Seconds">0.5</param>
-                                </action>
-                                <action id="-4" name="Set layer visible" sid="981645600043538" type="System">
-                                    <param id="0" name="Layer">2</param>
-                                    <param id="1" name="Visibility">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="145920675727586" title="Popup-Select-subject">
-            <sub-events>
-                <event-block sid="677465540396863">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="142368524944429" type="System" />
-                    </conditions>
-                    <actions>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="210606073182826" type="txt_mapel">
-                            <param id="0" name="Pin to">popupBoard2</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="386747181053212" type="sub">
-                            <param id="0" name="Pin to">popupBoard2</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="788741655445398" type="txt_math">
-                            <param id="0" name="Pin to">popupBoard2</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="437598152211673" type="txt_ipa">
-                            <param id="0" name="Pin to">popupBoard2</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="294240055972536" type="txt_ind">
-                            <param id="0" name="Pin to">popupBoard2</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="933618139764521" type="ok2">
-                            <param id="0" name="Pin to">popupBoard2</param>
-                            <param id="1" name="Mode">0</param>
-                        </action>
-                        <action id="-2" name="Set Y" sid="693604625444280" type="popupBoard2">
-                            <param id="0" name="Y">-500</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="237976259172561" type="System">
-                            <param id="0" name="Layer">3</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="897939649005749">
-                    <conditions>
-                        <condition id="0" name="On function" sid="876188814374692" type="Function">
-                            <param id="0" name="Name">&quot;pop-in2&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="LiteTween" id="10" name="Start" sid="710798752049657" type="popupBoard2">
-                            <param id="0" name="Start Mode">0</param>
-                            <param id="1" name="Force use current">0</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="638806133637635" type="popupBoard2">
-                            <param id="0" name="Target is">0</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">Self.X</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="808104263273497" type="popupBoard2">
-                            <param id="0" name="Target is">1</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">500</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="848494469637141" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="245459119542471">
-                    <conditions>
-                        <condition id="0" name="On function" sid="147738703043668" type="Function">
-                            <param id="0" name="Name">&quot;pop-out2&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="LiteTween" id="10" name="Start" sid="647773667590899" type="popupBoard2">
-                            <param id="0" name="Start Mode">0</param>
-                            <param id="1" name="Force use current">0</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="915849070238178" type="popupBoard2">
-                            <param id="0" name="Target is">0</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">Self.X</param>
-                        </action>
-                        <action behavior="LiteTween" id="3" name="Set target" sid="179893795068049" type="popupBoard2">
-                            <param id="0" name="Target is">1</param>
-                            <param id="1" name="Relativity">0</param>
-                            <param id="2" name="Value">-500</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="412014820599899" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="109356161929955">
-                    <conditions>
-                        <condition id="-9" name="Layer is visible" sid="308845497719426" type="System">
-                            <param id="0" name="Layer">3</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="820142886033423">
-                            <conditions>
-                                <condition id="17" name="On tap object" sid="662829963458843" type="Touch">
-                                    <param id="0" name="Object">ok2</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Call function" sid="706288549310959" type="Function">
-                                    <param id="0" name="Name">&quot;pop-out2&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="886956265425120" type="System">
-                                    <param id="0" name="Seconds">0.5</param>
-                                </action>
-                                <action id="-4" name="Set layer visible" sid="884229755500041" type="System">
-                                    <param id="0" name="Layer">3</param>
-                                    <param id="1" name="Visibility">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="733827222038080" title="Introduction">
-            <sub-events>
-                <event-block sid="606765489319895">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="442047293989304" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-4" name="Set layer visible" sid="107305633631199" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="874762943435692">
-                    <conditions>
-                        <condition id="-7" name="Compare time" sid="983247362043818" type="System">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Time (seconds)">3</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-                <event-block bookmark="1" sid="433292201302764">
-                    <conditions>
-                        <condition id="-7" name="Compare time" sid="223485272461740" type="System">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Time (seconds)">3.5</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-4" name="Set layer visible" sid="929163130216559" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-block sid="869872294634265">
+        <event-block sid="446675029913417">
             <conditions>
-                <condition id="-9" inverted="1" name="Layer is visible" sid="833471457049684" type="System">
+                <condition id="17" name="On tap object" sid="329366103320926" type="Touch">
+                    <param id="0" name="Object">button_help</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="304226069851998" type="System">
                     <param id="0" name="Layer">2</param>
-                </condition>
-                <condition id="-9" inverted="1" name="Layer is visible" sid="399119336099759" type="System">
-                    <param id="0" name="Layer">3</param>
-                </condition>
-                <condition id="-9" name="Layer is visible" sid="863313412562665" type="System">
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="418894650360204" type="Function">
+                    <param id="0" name="Name">&quot;pop-in&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="296997693977292" type="System">
                     <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="417876158393175">
+            <conditions>
+                <condition id="17" name="On tap object" sid="247748070822842" type="Touch">
+                    <param id="0" name="Object">button_play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="852971255410881" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="639268745273912" type="Function">
+                    <param id="0" name="Name">&quot;pop-in2&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="438679550532642">
+            <conditions>
+                <condition id="17" name="On tap object" sid="668153043570815" type="Touch">
+                    <param id="0" name="Object">button_mute</param>
                 </condition>
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="446675029913417">
+                <event-block sid="383083586586664">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="329366103320926" type="Touch">
-                            <param id="0" name="Object">button_help</param>
+                        <condition id="-14" name="Compare variable" sid="467978958654477" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="304226069851998" type="System">
-                            <param id="0" name="Layer">2</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="418894650360204" type="Function">
-                            <param id="0" name="Name">&quot;pop-in&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="296997693977292" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">0</param>
+                        <action id="-9" name="Set value" sid="997803620999548" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="417876158393175">
+                <event-block sid="281583828374445">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="247748070822842" type="Touch">
-                            <param id="0" name="Object">button_play</param>
-                        </condition>
+                        <condition id="-22" name="Else" sid="416394929854911" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="852971255410881" type="System">
-                            <param id="0" name="Layer">3</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="639268745273912" type="Function">
-                            <param id="0" name="Name">&quot;pop-in2&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
+                        <action id="-9" name="Set value" sid="573587184111635" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
-                </event-block>
-                <event-block sid="438679550532642">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="668153043570815" type="Touch">
-                            <param id="0" name="Object">button_mute</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="383083586586664">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="467978958654477" type="System">
-                                    <param id="0" name="Variable">music</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="997803620999548" type="System">
-                                    <param id="0" name="Variable">music</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="281583828374445">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="416394929854911" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="573587184111635" type="System">
-                                    <param id="0" name="Variable">music</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block sid="544298699191717">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="357993938247369" type="Touch">
-                            <param id="0" name="Object">button_quit</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="1" name="Close" sid="564119895525371" type="Browser" />
-                    </actions>
-                </event-block>
-                <event-block sid="908365041744852">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="845945259226008" type="Touch">
-                            <param id="0" name="Object">button_fullscreen</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="592217959358795">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="283171141090461" type="System">
-                                    <param id="0" name="Variable">fullscreen</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="867547142374041" type="System">
-                                    <param id="0" name="Variable">fullscreen</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="910121380616979">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="464104315925192" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="417273062082863" type="System">
-                                    <param id="0" name="Variable">fullscreen</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
             </sub-events>
         </event-block>
-        <event-group description="" sid="920258641084336" title="Change Layout">
+        <event-block sid="544298699191717">
+            <conditions>
+                <condition id="17" name="On tap object" sid="357993938247369" type="Touch">
+                    <param id="0" name="Object">button_quit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="564119895525371" type="Browser" />
+            </actions>
+        </event-block>
+        <event-block sid="908365041744852">
+            <conditions>
+                <condition id="17" name="On tap object" sid="845945259226008" type="Touch">
+                    <param id="0" name="Object">button_fullscreen</param>
+                </condition>
+            </conditions>
+            <actions />
             <sub-events>
-                <event-block sid="491103903206677">
+                <event-block sid="592217959358795">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="936856175283488" type="Touch">
-                            <param id="0" name="Object">txt_math</param>
+                        <condition id="-14" name="Compare variable" sid="283171141090461" type="System">
+                            <param id="0" name="Variable">fullscreen</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-2" name="Go to layout" sid="848205428127468" type="System">
-                            <param id="0" name="Layout">select_level</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="288758536121511" type="System">
-                            <param id="0" name="Variable">mapel</param>
-                            <param id="1" name="Value">&quot;mat&quot;</param>
+                        <action id="-9" name="Set value" sid="867547142374041" type="System">
+                            <param id="0" name="Variable">fullscreen</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="295336121516205">
+                <event-block sid="910121380616979">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="749457729136208" type="Touch">
-                            <param id="0" name="Object">txt_ipa</param>
-                        </condition>
+                        <condition id="-22" name="Else" sid="464104315925192" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-2" name="Go to layout" sid="422500557160150" type="System">
-                            <param id="0" name="Layout">select_level</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="614658746189500" type="System">
-                            <param id="0" name="Variable">mapel</param>
-                            <param id="1" name="Value">&quot;ipa&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="683875034391749">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="315559628447277" type="Touch">
-                            <param id="0" name="Object">txt_ind</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="579516635169155" type="System">
-                            <param id="0" name="Layout">select_level</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="795429101555113" type="System">
-                            <param id="0" name="Variable">mapel</param>
-                            <param id="1" name="Value">&quot;indo&quot;</param>
+                        <action id="-9" name="Set value" sid="417273062082863" type="System">
+                            <param id="0" name="Variable">fullscreen</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
-        </event-group>
+        </event-block>
+        <event-block sid="569240759501527">
+            <conditions>
+                <condition id="17" name="On tap object" sid="622039077535273" type="Touch">
+                    <param id="0" name="Object">go_button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="778816485488076" type="System">
+                    <param id="0" name="Layout">home</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

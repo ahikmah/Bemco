@@ -1296,19 +1296,10 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="4" loop="1" name="introduction" pingpong="0" repeatcount="1" repeatto="0" sid="321244948191184" speed="0.1">
-                        <frame duration="1" hotspotX="0.500759" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\story 1.png">
-                            <collision-poly>
-                                <point x="0.112291" y="0.321739" />
-                                <point x="0.499241" y="0.0782609" />
-                                <point x="0.880121" y="0.343478" />
-                                <point x="0.880121" y="0.656522" />
-                                <point x="0.499241" y="0.947826" />
-                                <point x="0.110774" y="0.682609" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\story 2.png" />
-                        <frame duration="1" hotspotX="0.500787" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\story 3.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\story 4.png" />
+                        <frame duration="1" hotspotX="0.50052" hotspotY="0.502092" original-source="C:\Users\USER\Pictures\tg aset\nar1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\nar2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\nar3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\nar4.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -4514,6 +4505,70 @@
                             <point x="0.532847" y="0.965517" />
                             <point x="0.0729927" y="0.965517" />
                             <point x="0.0656934" y="0.689655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="intro2" sid="748803869586467">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="774250222754011" speed="5">
+                    <frame duration="1" hotspotX="0.50016" hotspotY="0.50024" original-source="C:\Users\USER\Pictures\tg aset\intro.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="intro3" sid="503353830700277">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352252935083726" speed="5">
+                    <frame duration="1" hotspotX="0.50016" hotspotY="0.50024" original-source="C:\Users\USER\Pictures\tg aset\intro.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite43" sid="750546077723077">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="481004831515832">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953535417622157" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Documents\GitHub\Bemco\Animations\bemco\idle\000.png">
+                        <collision-poly>
+                            <point x="0.229642" y="0.25" />
+                            <point x="0.5" y="0.0301418" />
+                            <point x="0.662866" y="0.367021" />
+                            <point x="0.609121" y="0.5" />
+                            <point x="0.599349" y="0.56383" />
+                            <point x="0.5" y="0.992908" />
+                            <point x="0.252443" y="0.725177" />
+                            <point x="0.177524" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="go_button" sid="337388817957201">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="852004251318025">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846268514844320" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\tg aset\go_button.png">
+                        <collision-poly>
+                            <point x="0.0333333" y="0.0945946" />
+                            <point x="0.5" y="0.027027" />
+                            <point x="0.966667" y="0.0945946" />
+                            <point x="0.97619" y="0.5" />
+                            <point x="0.957143" y="0.878378" />
+                            <point x="0.5" y="0.905405" />
+                            <point x="0.0428571" y="0.878378" />
+                            <point x="0.0238095" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
