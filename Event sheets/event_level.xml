@@ -1267,6 +1267,12 @@
                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                             <param id="2" name="Image point">0</param>
                                         </action>
+                                        <action id="0" name="Play" sid="754611764521909" type="Audio">
+                                            <param id="0" name="Audio file">spray paint</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="789938858244836">
@@ -1287,6 +1293,12 @@
                                         </action>
                                         <action id="7" name="Set mirrored" sid="866335127997254" type="peluru">
                                             <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="608605230356606" type="Audio">
+                                            <param id="0" name="Audio file">spray paint</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -1327,6 +1339,12 @@
                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                             <param id="2" name="Image point">0</param>
                                         </action>
+                                        <action id="0" name="Play" sid="456611568463022" type="Audio">
+                                            <param id="0" name="Audio file">spray paint</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="602352566552232">
@@ -1347,6 +1365,12 @@
                                         </action>
                                         <action id="7" name="Set mirrored" sid="364555728104076" type="peluru">
                                             <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="843626802790576" type="Audio">
+                                            <param id="0" name="Audio file">spray paint</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -1387,6 +1411,12 @@
                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                             <param id="2" name="Image point">0</param>
                                         </action>
+                                        <action id="0" name="Play" sid="346251912673521" type="Audio">
+                                            <param id="0" name="Audio file">spray paint</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="530721986612762">
@@ -1407,6 +1437,12 @@
                                         </action>
                                         <action id="7" name="Set mirrored" sid="664577099590909" type="peluru">
                                             <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="705155207402537" type="Audio">
+                                            <param id="0" name="Audio file">spray paint</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -1461,6 +1497,12 @@
                                                     <param id="0" name="Instance variable">peluru</param>
                                                     <param id="1" name="Value">1</param>
                                                 </action>
+                                                <action id="0" name="Play" sid="435341947206119" type="Audio">
+                                                    <param id="0" name="Audio file">spray paint</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">0</param>
+                                                    <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
+                                                </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="686828259589600">
@@ -1485,6 +1527,12 @@
                                                 </action>
                                                 <action id="7" name="Set mirrored" sid="259265362664612" type="peluru">
                                                     <param id="0" name="State">0</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="837868356450074" type="Audio">
+                                                    <param id="0" name="Audio file">spray paint</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">0</param>
+                                                    <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -1541,6 +1589,12 @@
                                                     <param id="0" name="Instance variable">peluru</param>
                                                     <param id="1" name="Value">1</param>
                                                 </action>
+                                                <action id="0" name="Play" sid="152454237235925" type="Audio">
+                                                    <param id="0" name="Audio file">spray paint</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">0</param>
+                                                    <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
+                                                </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="844072369767810">
@@ -1565,6 +1619,12 @@
                                                 </action>
                                                 <action id="7" name="Set mirrored" sid="580233962036535" type="peluru">
                                                     <param id="0" name="State">0</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="581402575579534" type="Audio">
+                                                    <param id="0" name="Audio file">spray paint</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">0</param>
+                                                    <param id="1" name="Tag (optional)">&quot;spray&quot;</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -2542,6 +2602,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="275353951533840" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="369018894473868">
@@ -2562,6 +2628,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="610976775940581" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="487655037636511">
@@ -2581,6 +2653,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="430179935769487" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -2614,6 +2692,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="405073831734177" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="397770560334631">
@@ -2644,6 +2728,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="928018154622762" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="432970083517034" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="264912219060296">
@@ -2663,6 +2753,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="677587189934199" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -2696,6 +2792,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="541627654459115" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="658002154514917">
@@ -2715,6 +2817,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="436261013303689" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -2746,6 +2854,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="124181912224544" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="125573741851964" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -2803,6 +2917,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="627497280529177" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="891834092529290">
@@ -2833,6 +2953,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="958369445519896" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="408208232802587" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="728224859993579">
@@ -2852,6 +2978,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="254065407759506" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -2885,6 +3017,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="550047474447448" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="482537935442341">
@@ -2904,6 +3042,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="279069868278278" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -2977,6 +3121,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="720899940263785" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="186486481045713" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="323082460843364">
@@ -2997,6 +3147,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="574953876439060" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="443550174998692">
@@ -3016,6 +3172,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="540065038989704" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3084,6 +3246,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="529125753993642" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="815606154448726" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="907442169951782">
@@ -3104,6 +3272,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="370495191260378" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="250731650839741">
@@ -3123,6 +3297,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="226265632083589" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3156,6 +3336,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="265962971459732" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="656953990645616">
@@ -3176,6 +3362,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="798541238573704" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="268278679378688">
@@ -3195,6 +3387,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="663968698668788" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3228,6 +3426,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="355342960994848" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="476095978659927">
@@ -3258,6 +3462,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="243361072903462" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="219646785983238" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="735531494519174">
@@ -3277,6 +3487,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="677290561232523" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3335,6 +3551,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="132201313515776" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="115200303843407">
@@ -3354,6 +3576,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="651671868014027" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3385,6 +3613,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="771300866317963" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="346151056274823" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -3427,6 +3661,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="312215258896306" type="kotak_quiz" />
+                                                        <action id="0" name="Play" sid="637685467150166" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="691792161636749">
@@ -3447,6 +3687,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="625926474178026" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="864577682989665">
@@ -3466,6 +3712,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="335254968735025" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3499,6 +3751,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="198091687384476" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="316865887972027">
@@ -3519,6 +3777,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="126694067952103" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="156900727278905">
@@ -3538,6 +3802,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="759657688810337" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3782,6 +4052,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="439313018835197" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="734413146691388">
@@ -3802,6 +4078,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="930492514186593" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="206159432496839">
@@ -3821,6 +4103,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="808586893268118" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3854,6 +4142,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="173555575689918" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="944110096799188">
@@ -3874,6 +4168,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="548567177693859" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="619232235722719">
@@ -3893,6 +4193,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="299066715962726" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3926,6 +4232,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="612748498719399" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="424120323166967">
@@ -3945,6 +4257,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="526664246577200" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -3972,6 +4290,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="558118658246577" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="673462261603461" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -4035,6 +4359,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="777698358261656" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="977137332883362" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="827844673816780">
@@ -4061,6 +4391,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="874818145877596" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="229734655358813" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="211526640255017">
@@ -4080,6 +4416,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="967582116406298" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4113,6 +4455,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="928284371397596" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="300821693616638">
@@ -4139,6 +4487,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="840125842774040" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="620050087674107" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="977035898495429">
@@ -4158,6 +4512,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="389440537992202" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4191,6 +4551,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="610649275890022" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="352476408910194">
@@ -4211,6 +4577,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="516843105149421" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="971668335798924">
@@ -4230,6 +4602,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="549639679904961" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4288,6 +4666,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="909036239427263" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="194230767554772">
@@ -4307,6 +4691,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="314867805994807" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4334,6 +4724,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="590226530894555" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="733453748893267" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -4366,6 +4762,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="111999111303634" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="323028271397357">
@@ -4385,6 +4787,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="943955847992730" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4412,6 +4820,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="190256954578790" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="415352697939542" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -4450,6 +4864,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="444100593634845" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="924760719498501" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="484647142384189">
@@ -4470,6 +4890,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="143059166298777" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="832704200759541">
@@ -4489,6 +4915,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="581298958455017" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4547,6 +4979,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="137778404006217" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="921391722583317">
@@ -4567,6 +5005,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="230054388122796" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="618100883584608">
@@ -4586,6 +5030,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="289717006273234" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4625,6 +5075,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="378571531709287" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="927918342225401" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="851183050501876">
@@ -4645,6 +5101,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="748425626046689" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="765831181415810">
@@ -4664,6 +5126,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="868402387476085" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4697,6 +5165,12 @@
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
+                                                        <action id="0" name="Play" sid="558571018287824" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="665039450402591">
@@ -4723,6 +5197,12 @@
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="640399465495657" type="kotak_quiz2" />
+                                                        <action id="0" name="Play" sid="896821050159451" type="Audio">
+                                                            <param id="0" name="Audio file">correct</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="219991465576947">
@@ -4742,6 +5222,12 @@
                                                             <param id="0" name="Object">salah</param>
                                                             <param id="1" name="Layer">&quot;game&quot;</param>
                                                             <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="809746008609333" type="Audio">
+                                                            <param id="0" name="Audio file">wrong</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -4871,6 +5357,12 @@
                                 <action id="-4" name="Set layer visible" sid="863911650933528" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                     <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="312607204276907" type="Audio">
+                                    <param id="0" name="Audio file">fail</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;fail&quot;</param>
                                 </action>
                                 <action id="5" name="Set frame" sid="621759511522945" type="button_next">
                                     <param id="0" name="Frame number">0</param>
@@ -5579,6 +6071,12 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="949753996417399" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="0" name="Play" sid="967012249123624" type="Audio">
+                                    <param id="0" name="Audio file">epic win</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;win&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -8134,28 +8632,17 @@
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="814413087020684" type="System" />
                     </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="974262325704948">
-                            <conditions>
-                                <condition id="5" inverted="1" name="Is tag playing" sid="349590315134865" type="Audio">
-                                    <param id="0" name="Tag">&quot;music&quot;</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Play" sid="469543887118242" type="Audio">
-                                    <param id="0" name="Audio file">intro_music</param>
-                                    <param id="2" name="Loop">1</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="367235782638556">
-                            <conditions />
-                            <actions />
-                        </event-block>
-                    </sub-events>
+                    <actions>
+                        <action id="0" name="Play" sid="469543887118242" type="Audio">
+                            <param id="0" name="Audio file">Sneaky Snitch</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;music game&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="888118906687432" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="889087756594768">
                     <conditions>
@@ -8167,7 +8654,7 @@
                     </conditions>
                     <actions>
                         <action id="2" name="Set muted" sid="830042990419593" type="Audio">
-                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="0" name="Tag">&quot;music game&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
                         <action id="5" name="Set frame" sid="737195273247755" type="button_mute">
@@ -8185,7 +8672,7 @@
                     </conditions>
                     <actions>
                         <action id="2" name="Set muted" sid="904843868951661" type="Audio">
-                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="0" name="Tag">&quot;music game&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
                         <action id="5" name="Set frame" sid="718811633077271" type="button_mute">
@@ -8326,5 +8813,20 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="249617675498930">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="637900177367188" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="315443506353022" type="Audio">
+                    <param id="0" name="Audio file">roblok boing</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;jump&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

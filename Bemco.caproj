@@ -4618,9 +4618,18 @@
         </global-instance>
         <global-instance type="Keyboard" uid="274" />
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="spray paint.ogg" />
+        <file name="correct.ogg" />
+        <file name="epic win.ogg" />
+        <file name="fail.ogg" />
+        <file name="roblok boing.ogg" />
+        <file name="wrong.ogg" />
+    </sounds-folder>
     <music-folder>
         <file name="intro_music.ogg" />
+        <file name="Wii Music.ogg" />
+        <file name="Sneaky Snitch.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
