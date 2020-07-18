@@ -668,6 +668,12 @@
                             <param id="0" name="Instance variable">coin</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="437353640301686" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="193273468513411">
@@ -681,6 +687,12 @@
                         <action id="-11" name="Add to" sid="466847618269242" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="368837727882173" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -696,6 +708,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="317536446837790" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="572681741278685">
@@ -709,6 +727,12 @@
                         <action id="-11" name="Add to" sid="557053468040973" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="697667671172358" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -724,6 +748,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="494461050455839" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="317343770809173">
@@ -737,6 +767,12 @@
                         <action id="-11" name="Add to" sid="804328356736016" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="499606071185070" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -752,6 +788,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="402956273478069" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="647271040576690">
@@ -765,6 +807,12 @@
                         <action id="-11" name="Add to" sid="243572797315067" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="535236391166336" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -780,6 +828,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="730870164884712" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="171818308156681">
@@ -793,6 +847,12 @@
                         <action id="-11" name="Add to" sid="938833331958616" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="610256225705783" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -808,6 +868,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="445556362993833" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="395186080653923">
@@ -821,6 +887,12 @@
                         <action id="-11" name="Add to" sid="154887479986841" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="201050930960131" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -836,6 +908,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="163741849065510" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="958545980963292">
@@ -849,6 +927,12 @@
                         <action id="-11" name="Add to" sid="500158922458079" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="922279335290634" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -864,6 +948,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="653715865487400" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="996861942060554">
@@ -877,6 +967,12 @@
                         <action id="-11" name="Add to" sid="936946529226737" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="107324327541681" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -892,6 +988,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="696835416149665" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="950063065211566">
@@ -905,6 +1007,12 @@
                         <action id="-11" name="Add to" sid="947607568987077" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="971411536217019" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -920,6 +1028,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="587600269661189" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="818058637024381">
@@ -933,6 +1047,12 @@
                         <action id="-11" name="Add to" sid="951985343848053" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="360541246247402" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -948,6 +1068,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="977599642357110" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="495068627056397">
@@ -961,6 +1087,12 @@
                         <action id="-11" name="Add to" sid="533898229670962" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="870530535960649" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -976,6 +1108,18 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="255345091930821" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="269936197193158" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="757378326655316">
@@ -989,6 +1133,12 @@
                         <action id="-11" name="Add to" sid="261749274029887" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="876713424188580" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1004,6 +1154,12 @@
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="969821031191552" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="640805508150951">
@@ -1017,6 +1173,12 @@
                         <action id="-11" name="Add to" sid="123968595282093" type="bemco">
                             <param id="0" name="Instance variable">item</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="257596040972635" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -2004,6 +2166,12 @@
                             <param id="0" name="Instance variable">meds</param>
                             <param id="1" name="Value">3</param>
                         </action>
+                        <action id="0" name="Play" sid="958386689680998" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="335393738235301">
@@ -2418,6 +2586,12 @@
                                 </action>
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="684396017147235" type="bemco">
                                     <param id="0" name="Input">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="906417614330790" type="Audio">
+                                    <param id="0" name="Audio file">Pick up Coins</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -3868,6 +4042,12 @@
                                 </action>
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="181271125716408" type="bemco">
                                     <param id="0" name="Input">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="501884003108679" type="Audio">
+                                    <param id="0" name="Audio file">Pick up Coins</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -5357,12 +5537,6 @@
                                 <action id="-4" name="Set layer visible" sid="863911650933528" type="System">
                                     <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                     <param id="1" name="Visibility">1</param>
-                                </action>
-                                <action id="0" name="Play" sid="312607204276907" type="Audio">
-                                    <param id="0" name="Audio file">fail</param>
-                                    <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;fail&quot;</param>
                                 </action>
                                 <action id="5" name="Set frame" sid="621759511522945" type="button_next">
                                     <param id="0" name="Frame number">0</param>
@@ -8825,6 +8999,19 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;jump&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="881139477628520">
+            <conditions>
+                <condition id="14" name="On tap" sid="851547600689335" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="827052510787525" type="Audio">
+                    <param id="0" name="Audio file">Mouse Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;click&quot;</param>
                 </action>
             </actions>
         </event-block>

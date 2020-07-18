@@ -33,7 +33,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="1" name="HUD" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : edu box" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : quiz" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="mission info" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="mission info" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : end" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="pp : quiz2" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : edu box2" parallax-in-editor="0" visible="0" />

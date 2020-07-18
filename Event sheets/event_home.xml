@@ -11,7 +11,14 @@
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="422405705511851" type="System" />
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="6" name="Stop" sid="190489118226012" type="Audio">
+                            <param id="0" name="Tag">&quot;music game&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="256061830082480" type="Audio">
+                            <param id="0" name="Tag">&quot;jump&quot;</param>
+                        </action>
+                    </actions>
                     <sub-events>
                         <event-block sid="175897175721609">
                             <conditions>
@@ -503,5 +510,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="847438226154711">
+            <conditions>
+                <condition id="14" name="On tap" sid="151754650892577" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="715594884605886" type="Audio">
+                    <param id="0" name="Audio file">Mouse Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;click&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

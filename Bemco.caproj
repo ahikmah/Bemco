@@ -4625,6 +4625,8 @@
         <file name="fail.ogg" />
         <file name="roblok boing.ogg" />
         <file name="wrong.ogg" />
+        <file name="Mouse Click.ogg" />
+        <file name="Pick up Coins.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="intro_music.ogg" />
