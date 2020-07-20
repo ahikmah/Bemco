@@ -2172,6 +2172,13 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                         </action>
+                        <action id="-13" name="Set time scale" sid="533800339834765" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="592415368146761" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="335393738235301">
@@ -2356,6 +2363,13 @@
                             <param id="0" name="Input">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="704831258122561" type="kotak_ilmu" />
+                        <action id="-13" name="Set time scale" sid="364163513167199" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="264477509827247" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="719386240304447">
@@ -2380,6 +2394,19 @@
                         <action id="-11" name="Add to" sid="117602252648101" type="bemco">
                             <param id="0" name="Instance variable">meds</param>
                             <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="0" name="Play" sid="930231531648940" type="Audio">
+                            <param id="0" name="Audio file">Pick up Coins</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="751282066666045" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="464624009712014" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2565,6 +2592,13 @@
                             <param id="0" name="Input">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="637775003701552" type="kotak_ilmu2" />
+                        <action id="-13" name="Set time scale" sid="455268580297078" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="374652563068714" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -2592,6 +2626,13 @@
                                     <param id="2" name="Loop">0</param>
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
+                                </action>
+                                <action id="-13" name="Set time scale" sid="778933615423863" type="System">
+                                    <param id="0" name="Time scale">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="790388082060085" type="System">
+                                    <param id="0" name="Variable">pause</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -2745,6 +2786,13 @@
                                         </action>
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="206797972200563" type="bemco">
                                             <param id="0" name="Input">0</param>
+                                        </action>
+                                        <action id="-13" name="Set time scale" sid="215912981886466" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="564889172505513" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
                                         </action>
                                     </actions>
                                     <sub-events>
@@ -3060,6 +3108,13 @@
                                         </action>
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="230846133713781" type="bemco">
                                             <param id="0" name="Input">0</param>
+                                        </action>
+                                        <action id="-13" name="Set time scale" sid="113337803254514" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="165726657694235" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
                                         </action>
                                     </actions>
                                     <sub-events>
@@ -3380,6 +3435,13 @@
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="340621545839852" type="bemco">
                                             <param id="0" name="Input">0</param>
                                         </action>
+                                        <action id="-13" name="Set time scale" sid="230449140488999" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="374847158299282" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
                                     </actions>
                                     <sub-events>
                                         <event-block sid="997528326690022">
@@ -3694,6 +3756,13 @@
                                         </action>
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="682554037216562" type="bemco">
                                             <param id="0" name="Input">0</param>
+                                        </action>
+                                        <action id="-13" name="Set time scale" sid="501383812073345" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="473877741788825" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
                                         </action>
                                     </actions>
                                     <sub-events>
@@ -4049,6 +4118,13 @@
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;coins&quot;</param>
                                 </action>
+                                <action id="-13" name="Set time scale" sid="715190612446136" type="System">
+                                    <param id="0" name="Time scale">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="484901831861346" type="System">
+                                    <param id="0" name="Variable">pause</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="379247751423162">
@@ -4201,6 +4277,13 @@
                                         </action>
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="553381291311595" type="bemco">
                                             <param id="0" name="Input">0</param>
+                                        </action>
+                                        <action id="-13" name="Set time scale" sid="876576606376445" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="150758056577835" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
                                         </action>
                                     </actions>
                                     <sub-events>
@@ -4502,6 +4585,13 @@
                                         </action>
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="329814821199654" type="bemco">
                                             <param id="0" name="Input">0</param>
+                                        </action>
+                                        <action id="-13" name="Set time scale" sid="417511048450080" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="851666898900288" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
                                         </action>
                                     </actions>
                                     <sub-events>
@@ -4816,6 +4906,13 @@
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="476355708517190" type="bemco">
                                             <param id="0" name="Input">0</param>
                                         </action>
+                                        <action id="-13" name="Set time scale" sid="913615018525542" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="495582072814524" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
                                     </actions>
                                     <sub-events>
                                         <event-block sid="627172736749067">
@@ -5128,6 +5225,13 @@
                                         </action>
                                         <action behavior="Platform" id="0" name="Set ignoring input" sid="406334500461695" type="bemco">
                                             <param id="0" name="Input">0</param>
+                                        </action>
+                                        <action id="-13" name="Set time scale" sid="897293617485323" type="System">
+                                            <param id="0" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="156115378924472" type="System">
+                                            <param id="0" name="Variable">pause</param>
+                                            <param id="1" name="Value">0</param>
                                         </action>
                                     </actions>
                                     <sub-events>
@@ -8893,10 +8997,20 @@
                         <condition id="17" name="On tap object" sid="318872697744827" type="Touch">
                             <param id="0" name="Object">buttonHome</param>
                         </condition>
+                        <condition id="-9" name="Layer is visible" sid="269073595783291" type="System">
+                            <param id="0" name="Layer">&quot;hidden button&quot;</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="547432437849617" type="System">
                             <param id="0" name="Layout">select_level</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="518165776411368" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="428870008786895" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>

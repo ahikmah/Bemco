@@ -4574,6 +4574,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TiledBackground2" sid="693569778036041">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground3" sid="233568569013388">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
