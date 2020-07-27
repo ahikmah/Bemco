@@ -2429,7 +2429,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="145556546220560" type="edu">
+                                        <action id="5" name="Set frame" sid="145556546220560" type="edu2">
                                             <param id="0" name="Frame number">0</param>
                                         </action>
                                     </actions>
@@ -2443,7 +2443,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="333058387475170" type="edu">
+                                        <action id="5" name="Set frame" sid="552024180513949" type="edu2">
                                             <param id="0" name="Frame number">3</param>
                                         </action>
                                     </actions>
@@ -2457,7 +2457,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="175629133097613" type="edu">
+                                        <action id="5" name="Set frame" sid="175629133097613" type="edu2">
                                             <param id="0" name="Frame number">6</param>
                                         </action>
                                     </actions>
@@ -2483,7 +2483,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="631191122346686" type="edu">
+                                        <action id="5" name="Set frame" sid="631191122346686" type="edu2">
                                             <param id="0" name="Frame number">1</param>
                                         </action>
                                     </actions>
@@ -2497,7 +2497,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="787091238624958" type="edu">
+                                        <action id="5" name="Set frame" sid="787091238624958" type="edu2">
                                             <param id="0" name="Frame number">4</param>
                                         </action>
                                     </actions>
@@ -2511,7 +2511,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="954061539666714" type="edu">
+                                        <action id="5" name="Set frame" sid="954061539666714" type="edu2">
                                             <param id="0" name="Frame number">7</param>
                                         </action>
                                     </actions>
@@ -2537,7 +2537,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="403730758215374" type="edu">
+                                        <action id="5" name="Set frame" sid="403730758215374" type="edu2">
                                             <param id="0" name="Frame number">2</param>
                                         </action>
                                     </actions>
@@ -2551,7 +2551,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="995852670599286" type="edu">
+                                        <action id="5" name="Set frame" sid="995852670599286" type="edu2">
                                             <param id="0" name="Frame number">5</param>
                                         </action>
                                     </actions>
@@ -2565,7 +2565,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="650910087671182" type="edu">
+                                        <action id="5" name="Set frame" sid="650910087671182" type="edu2">
                                             <param id="0" name="Frame number">8</param>
                                         </action>
                                     </actions>
