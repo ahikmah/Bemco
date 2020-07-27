@@ -997,23 +997,15 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807642849331168" speed="5">
-                            <frame duration="1" hotspotX="0.507363" hotspotY="1.02581" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\0_mat.png">
-                                <collision-poly>
-                                    <point x="0.00267738" y="0.00860215" />
-                                    <point x="0.998661" y="0.0301075" />
-                                    <point x="0.27577" y="0.860215" />
-                                    <point x="0.507363" y="0.991398" />
-                                    <point x="0.681392" y="0.952688" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.514208" hotspotY="0.821306" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\1_ipa.png" />
-                            <frame duration="1" hotspotX="0.514208" hotspotY="0.718797" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\2_bhs.png" />
-                            <frame duration="1" hotspotX="0.575428" hotspotY="1.31579" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\3_mat.png" />
-                            <frame duration="1" hotspotX="0.513141" hotspotY="0.663421" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\4_ipa.png" />
-                            <frame duration="1" hotspotX="0.514502" hotspotY="0.664345" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\5_bhs.png" />
-                            <frame duration="1" hotspotX="0.496542" hotspotY="0.75" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\6_mat.png" />
-                            <frame duration="1" hotspotX="0.513405" hotspotY="0.853571" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\7_ipa.png" />
-                            <frame duration="1" hotspotX="0.514465" hotspotY="0.502033" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\8_bhs.png" />
+                            <frame duration="1" hotspotX="0.507363" hotspotY="1.02581" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\0_mat.png" />
+                            <frame duration="1" hotspotX="0.512469" hotspotY="0.575392" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\1_ipa.png" />
+                            <frame duration="1" hotspotX="0.513109" hotspotY="0.548055" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\2_bhs.png" />
+                            <frame duration="1" hotspotX="0.513032" hotspotY="0.65884" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\3_mat.png" />
+                            <frame duration="1" hotspotX="0.512064" hotspotY="0.565836" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\4_ipa.png" />
+                            <frame duration="1" hotspotX="0.512469" hotspotY="0.55248" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\5_bhs.png" />
+                            <frame duration="1" hotspotX="0.491459" hotspotY="0.942116" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\6_mat.png" />
+                            <frame duration="1" hotspotX="0.512469" hotspotY="0.517354" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\7_ipa.png" />
+                            <frame duration="1" hotspotX="0.52356" hotspotY="0.565632" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\8_bhs.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
