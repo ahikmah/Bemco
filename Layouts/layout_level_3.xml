@@ -6434,28 +6434,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mat_2" uid="888">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>927</x>
-                        <y>462</y>
-                        <z>0</z>
-                        <width>571</width>
-                        <height>138</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504036903</hotspotX>
-                        <hotspotY>0.513227522</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="mat_10_c_kunci" uid="889">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -6540,6 +6518,28 @@
                         <depth>0</depth>
                         <hotspotX>0.504424751</hotspotX>
                         <hotspotY>0.724137902</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="soal" uid="22">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>922</x>
+                        <y>497</y>
+                        <z>0</z>
+                        <width>550</width>
+                        <height>464</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.515086234</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

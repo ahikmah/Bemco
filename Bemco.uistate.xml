@@ -10,17 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">layout_level_1</layout>
-        <layout order="1">layout_level_2</layout>
+        <layout order="0">layout_level_2</layout>
+        <layout order="1">layout_level_3</layout>
         <layout order="3">select_level</layout>
         <layout order="5">layout_intro</layout>
-        <layout active="1" order="8">layout_level_3</layout>
-        <layout order="9">home</layout>
+        <layout order="8">home</layout>
+        <layout active="1" order="9">layout_level_1</layout>
         <event-sheet order="2">event_level</event-sheet>
         <event-sheet order="4">event_select_level</event-sheet>
         <event-sheet order="6">event_intro</event-sheet>
         <event-sheet order="7">event_home</event-sheet>
-        <event-sheet order="10">event_pause</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -43,8 +42,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/characters/" />
         <folder expanded="0" path="object-folder/HUD/" />
         <folder expanded="0" path="object-folder/others/" />
-        <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Level/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/Level/" />
         <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
@@ -76,17 +75,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/pilih_c/" />
         <folder expanded="1" path="animation-folder/pilih_d/" />
         <folder expanded="1" path="animation-folder/ok_mulai/" />
-        <folder expanded="1" path="animation-folder/mat_/" />
-        <folder expanded="1" path="animation-folder/mat_1_a_kunci/" />
-        <folder expanded="1" path="animation-folder/mat_1_b/" />
-        <folder expanded="1" path="animation-folder/mat_1_c/" />
-        <folder expanded="1" path="animation-folder/mat_1_d/" />
+        <folder expanded="1" path="animation-folder/soal/" />
+        <folder expanded="1" path="animation-folder/c/" />
+        <folder expanded="1" path="animation-folder/a/" />
+        <folder expanded="1" path="animation-folder/b/" />
+        <folder expanded="1" path="animation-folder/d/" />
         <folder expanded="1" path="animation-folder/mat_3/" />
         <folder expanded="1" path="animation-folder/mat_3_a/" />
         <folder expanded="1" path="animation-folder/mat_3_b/" />
         <folder expanded="1" path="animation-folder/mat_3_c/" />
         <folder expanded="1" path="animation-folder/mat_3_d_kunci/" />
-        <folder expanded="1" path="animation-folder/mat_5/" />
+        <folder expanded="1" path="animation-folder/soal_lv2/" />
         <folder expanded="1" path="animation-folder/mat_5_a_kunci/" />
         <folder expanded="1" path="animation-folder/mat_5_b/" />
         <folder expanded="1" path="animation-folder/mat_5_c/" />

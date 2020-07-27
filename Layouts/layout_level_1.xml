@@ -8829,8 +8829,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>734</x>
-                        <y>708</y>
+                        <x>687</x>
+                        <y>703</y>
                         <z>0</z>
                         <width>102.225242615</width>
                         <height>71.557670593</height>
@@ -8851,8 +8851,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>735</x>
-                        <y>815</y>
+                        <x>688</x>
+                        <y>825</y>
                         <z>0</z>
                         <width>102.224998474</width>
                         <height>71.557998657</height>
@@ -8873,8 +8873,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1018</x>
-                        <y>701</y>
+                        <x>974</x>
+                        <y>704</y>
                         <z>0</z>
                         <width>102.224998474</width>
                         <height>71.557998657</height>
@@ -8895,8 +8895,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1020</x>
-                        <y>810</y>
+                        <x>972</x>
+                        <y>826</y>
                         <z>0</z>
                         <width>102.224998474</width>
                         <height>71.557998657</height>
@@ -8907,7 +8907,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mat_" uid="341">
+                <instance type="soal" uid="341">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8917,19 +8917,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>922</x>
-                        <y>453</y>
+                        <x>914</x>
+                        <y>426</y>
                         <z>0</z>
                         <width>550</width>
-                        <height>32</height>
+                        <height>464</height>
                         <depth>0</depth>
-                        <hotspotX>0.503885984</hotspotX>
-                        <hotspotY>1.129032254</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.515086234</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mat_1_a_kunci" uid="342">
+                <instance type="c" uid="342">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8939,19 +8939,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1096</x>
-                        <y>704</y>
+                        <x>1112</x>
+                        <y>717</y>
                         <z>0</z>
-                        <width>44</width>
-                        <height>29</height>
+                        <width>162</width>
+                        <height>83</height>
                         <depth>0</depth>
-                        <hotspotX>0.522727251</hotspotX>
-                        <hotspotY>0.724137902</hotspotY>
+                        <hotspotX>0.524691343</hotspotX>
+                        <hotspotY>0.722891569</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mat_1_b" uid="343">
+                <instance type="a" uid="343">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8961,19 +8961,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>812</x>
-                        <y>711</y>
+                        <x>831</x>
+                        <y>715</y>
                         <z>0</z>
-                        <width>43</width>
-                        <height>29</height>
+                        <width>162</width>
+                        <height>83</height>
                         <depth>0</depth>
-                        <hotspotX>0.511627913</hotspotX>
-                        <hotspotY>0.689655185</hotspotY>
+                        <hotspotX>0.512345672</hotspotX>
+                        <hotspotY>0.686747015</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mat_1_c" uid="344">
+                <instance type="b" uid="344">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8983,19 +8983,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>818</x>
-                        <y>818</y>
+                        <x>831</x>
+                        <y>822</y>
                         <z>0</z>
-                        <width>45</width>
-                        <height>29</height>
+                        <width>162</width>
+                        <height>83</height>
                         <depth>0</depth>
-                        <hotspotX>0.533333361</hotspotX>
-                        <hotspotY>0.724137902</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.506024122</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mat_1_d" uid="345">
+                <instance type="d" uid="345">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9005,14 +9005,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1100</x>
-                        <y>812</y>
+                        <x>1114</x>
+                        <y>841</y>
                         <z>0</z>
-                        <width>43</width>
-                        <height>29</height>
+                        <width>162</width>
+                        <height>83</height>
                         <depth>0</depth>
-                        <hotspotX>0.511627913</hotspotX>
-                        <hotspotY>0.689655185</hotspotY>
+                        <hotspotX>0.512345672</hotspotX>
+                        <hotspotY>0.686747015</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

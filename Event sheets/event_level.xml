@@ -2654,7 +2654,23 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="416519575166078" type="soal">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="132650132221241" type="a">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="696241004688680" type="b">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="947420299066398" type="c">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="424806690922478" type="d">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="248883822446412">
                                             <conditions>
@@ -2664,7 +2680,11 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="114473349882014" type="soal">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="953159945742205">
                                             <conditions>
@@ -2674,7 +2694,11 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="436546769840690" type="soal">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -2696,7 +2720,23 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="171991214377817" type="soal">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="362575650182587" type="a">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="439551282699815" type="b">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="671092209334586" type="c">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="275555255380975" type="d">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="892214779813564">
                                             <conditions>
@@ -2706,7 +2746,11 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="306158831753309" type="soal">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="483642889923066">
                                             <conditions>
@@ -2716,7 +2760,11 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="714964162240248" type="soal">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -2738,7 +2786,23 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="187817775508080" type="soal">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="987993259027966" type="a">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="438854306231542" type="b">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="379135383499593" type="c">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="226004703198239" type="d">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="474306957520872">
                                             <conditions>
@@ -2748,7 +2812,11 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="343389775013924" type="soal">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="206217182785623">
                                             <conditions>
@@ -2758,7 +2826,11 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="731552373816907" type="soal">
+                                                    <param id="0" name="Frame number">9</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
