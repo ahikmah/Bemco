@@ -34,6 +34,9 @@
                             <param id="0" name="Layer">&quot;hidden button&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
+                        <action id="-15" name="Set visible" sid="811801713758327" type="pause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="872664167008865">

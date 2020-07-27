@@ -4,10 +4,10 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>1680.34</position-x>
+        <position-x>1050.18</position-x>
         <position-y>534.623</position-y>
         <position-z>258.794</position-z>
-        <lookat-x>1680.34</lookat-x>
+        <lookat-x>1050.18</lookat-x>
         <lookat-y>534.623</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
@@ -23,19 +23,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="hidden button" />
+    <active-layer name="pp : edu box" />
     <layers>
         <layer locked="1" name="background" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="reward" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="game" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="hidden button" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="button" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="hidden button" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="button" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="HUD" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="pp : edu box" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="pp : edu box" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="pp : quiz" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="mission info" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="pp : end" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="pp : end" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="pp : quiz2" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="pp : edu box2" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="pp : edu box2" parallax-in-editor="0" visible="0" />
     </layers>
 </c2uistate>

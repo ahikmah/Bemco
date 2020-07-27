@@ -980,48 +980,24 @@
                 <object-type name="edu" sid="103904772230296">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349703835601002" speed="0">
-                            <frame duration="1" hotspotX="0.502513" hotspotY="0.506559" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_1.png">
-                                <collision-poly>
-                                    <point x="0.017647" y="0.0124482" />
-                                    <point x="0.5" y="0.0394191" />
-                                    <point x="0.982353" y="0.0145228" />
-                                    <point x="0.841176" y="0.504149" />
-                                    <point x="0.882353" y="0.890041" />
-                                    <point x="0.121568" y="0.887967" />
-                                    <point x="0.15098" y="0.504149" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_2.png">
-                                <collision-poly>
-                                    <point x="0.109296" y="0.0877901" />
-                                    <point x="0.5" y="0.123108" />
-                                    <point x="0.845477" y="0.124117" />
-                                    <point x="0.193467" y="0.499495" />
-                                    <point x="0.795226" y="0.83552" />
-                                    <point x="0.5" y="0.968718" />
-                                    <point x="0.11809" y="0.905146" />
-                                    <point x="0.0590452" y="0.499495" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_3.png">
-                                <collision-poly>
-                                    <point x="0.1067" y="0.0868687" />
-                                    <point x="0.734491" y="0.216162" />
-                                    <point x="0.903226" y="0.5" />
-                                    <point x="0.584367" y="0.661616" />
-                                    <point x="0.413151" y="0.663636" />
-                                    <point x="0.0272953" y="0.5" />
-                                </collision-poly>
-                            </frame>
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349703835601002" speed="0">
+                            <frame duration="1" hotspotX="0.514865" hotspotY="0.502629" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\0_mat.png" />
+                            <frame duration="1" hotspotX="0.514208" hotspotY="0.821306" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\1_ipa.png" />
+                            <frame duration="1" hotspotX="0.514208" hotspotY="0.718797" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\2_bhs.png" />
+                            <frame duration="1" hotspotX="0.575428" hotspotY="1.31579" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\3_mat.png" />
+                            <frame duration="1" hotspotX="0.513141" hotspotY="0.663421" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\4_ipa.png" />
+                            <frame duration="1" hotspotX="0.514502" hotspotY="0.664345" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\5_bhs.png" />
+                            <frame duration="1" hotspotX="0.496542" hotspotY="0.75" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\6_mat.png" />
+                            <frame duration="1" hotspotX="0.513405" hotspotY="0.853571" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\7_ipa.png" />
+                            <frame duration="1" hotspotX="0.514465" hotspotY="0.502033" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\8_bhs.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="00mat_" sid="313614665590105">
+                <object-type name="edu2" sid="407440025632478">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327761486138214" speed="5">
-                            <frame duration="1" hotspotX="0.507363" hotspotY="1.02581" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_2.png">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807642849331168" speed="5">
+                            <frame duration="1" hotspotX="0.507363" hotspotY="1.02581" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu2\0_mat.png">
                                 <collision-poly>
                                     <point x="0.00267738" y="0.00860215" />
                                     <point x="0.998661" y="0.0301075" />
@@ -1030,38 +1006,14 @@
                                     <point x="0.681392" y="0.952688" />
                                 </collision-poly>
                             </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
-                <object-type name="00mat_2" sid="130325253293595">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669894692594820" speed="5">
-                            <frame duration="1" hotspotX="0.575428" hotspotY="1.31579" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_9.png">
-                                <collision-poly>
-                                    <point x="0.00622084" y="0.0193906" />
-                                    <point x="0.575428" y="0.218837" />
-                                    <point x="0.622084" y="0.950139" />
-                                    <point x="0.116641" y="0.781163" />
-                                    <point x="0.575428" y="0.811634" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
-                <object-type name="00mat_3" sid="672701106535367">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="629031691176200" speed="5">
-                            <frame duration="1" hotspotX="0.513032" hotspotY="0.65884" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_7.png">
-                                <collision-poly>
-                                    <point x="0.090535" y="0.0939227" />
-                                    <point x="0.513032" y="0.00138122" />
-                                    <point x="0.844993" y="0.185083" />
-                                    <point x="0.513032" y="0.98895" />
-                                    <point x="0.327846" y="0.984807" />
-                                </collision-poly>
-                            </frame>
+                            <frame duration="1" hotspotX="0.514208" hotspotY="0.821306" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\1_ipa.png" />
+                            <frame duration="1" hotspotX="0.514208" hotspotY="0.718797" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\2_bhs.png" />
+                            <frame duration="1" hotspotX="0.575428" hotspotY="1.31579" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\3_mat.png" />
+                            <frame duration="1" hotspotX="0.513141" hotspotY="0.663421" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\4_ipa.png" />
+                            <frame duration="1" hotspotX="0.514502" hotspotY="0.664345" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\5_bhs.png" />
+                            <frame duration="1" hotspotX="0.496542" hotspotY="0.75" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\6_mat.png" />
+                            <frame duration="1" hotspotX="0.513405" hotspotY="0.853571" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\7_ipa.png" />
+                            <frame duration="1" hotspotX="0.514465" hotspotY="0.502033" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\edu1\8_bhs.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1393,6 +1345,23 @@
                                 <point x="0.769928" y="0.762617" />
                                 <point x="0.5" y="0.930841" />
                                 <point x="0.230072" y="0.762617" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="pause" sid="546867457474200">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131554237141005" speed="5">
+                        <frame duration="1" hotspotX="0.503521" hotspotY="0.482143" original-source="C:\Users\USER\Pictures\tg aset\pause.png">
+                            <collision-poly>
+                                <point x="0.0140845" y="0.244048" />
+                                <point x="0.501761" y="0.190476" />
+                                <point x="0.996479" y="0.22619" />
+                                <point x="0.887324" y="0.363095" />
+                                <point x="0.501761" y="0.964286" />
+                                <point x="0.135563" y="0.303571" />
                             </collision-poly>
                         </frame>
                     </animation>

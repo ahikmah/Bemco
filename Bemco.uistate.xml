@@ -10,13 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">layout_level_1</layout>
+        <layout active="1" order="0">layout_level_1</layout>
         <layout order="1">layout_level_2</layout>
         <layout order="3">select_level</layout>
         <layout order="5">layout_intro</layout>
         <layout order="8">layout_level_3</layout>
         <layout order="9">home</layout>
-        <event-sheet active="1" order="2">event_level</event-sheet>
+        <event-sheet order="2">event_level</event-sheet>
         <event-sheet order="4">event_select_level</event-sheet>
         <event-sheet order="6">event_intro</event-sheet>
         <event-sheet order="7">event_home</event-sheet>
@@ -33,9 +33,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/system/" />
         <folder expanded="0" path="object-folder/buttons/" />
-        <folder expanded="0" path="object-folder/txt/" />
-        <folder expanded="0" path="object-folder/txt/quiz/" />
-        <folder expanded="0" path="object-folder/txt/edu/" />
+        <folder expanded="1" path="object-folder/txt/" />
+        <folder expanded="1" path="object-folder/txt/quiz/" />
+        <folder expanded="1" path="object-folder/txt/edu/" />
         <folder expanded="0" path="object-folder/popup/" />
         <folder expanded="0" path="object-folder/background/" />
         <folder expanded="0" path="object-folder/tilesets/" />
@@ -43,11 +43,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/characters/" />
         <folder expanded="0" path="object-folder/HUD/" />
         <folder expanded="0" path="object-folder/others/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Level/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Level/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/button_fullscreen/" />
@@ -97,9 +97,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mat_6_c/" />
         <folder expanded="1" path="animation-folder/mat_6_d_kunci/" />
         <folder expanded="1" path="animation-folder/edu/" />
-        <folder expanded="1" path="animation-folder/00mat_/" />
-        <folder expanded="1" path="animation-folder/00mat_2/" />
-        <folder expanded="1" path="animation-folder/00mat_3/" />
+        <folder expanded="1" path="animation-folder/edu2/" />
         <folder expanded="1" path="animation-folder/txt_bantuan/" />
         <folder expanded="1" path="animation-folder/txt_ind/" />
         <folder expanded="1" path="animation-folder/txt_ipa/" />
@@ -120,6 +118,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mission_status/" />
         <folder expanded="1" path="animation-folder/keluar/" />
         <folder expanded="1" path="animation-folder/misi/" />
+        <folder expanded="1" path="animation-folder/pause/" />
         <folder expanded="1" path="animation-folder/popupBoard/" />
         <folder expanded="1" path="animation-folder/popupBoard2/" />
         <folder expanded="1" path="animation-folder/sub/" />
