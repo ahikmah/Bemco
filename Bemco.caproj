@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Bemco</name>
-    <description></description>
+    <description>Bersatu Melawan Corona</description>
     <version>1.0.0.0</version>
-    <author></author>
+    <author>kelompok7</author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <app-id>com.amikom.if5</app-id>
     <unique-id>3jo232q1gfbxr</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
@@ -52,7 +52,7 @@
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Any</prop>
+        <prop name="Orientations">Landscape</prop>
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
