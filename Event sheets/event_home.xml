@@ -116,7 +116,7 @@
                             <param id="0" name="Pin to">popupBoard</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="870593966084087" type="tentang">
+                        <action behavior="Pin" id="0" name="Pin to object" sid="870593966084087" type="txt_bantuan">
                             <param id="0" name="Pin to">popupBoard</param>
                             <param id="1" name="Mode">0</param>
                         </action>

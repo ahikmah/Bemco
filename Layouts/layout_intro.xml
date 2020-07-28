@@ -133,7 +133,7 @@
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
+                        <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
@@ -145,11 +145,11 @@
                         <x>1734</x>
                         <y>63</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>93</height>
+                        <width>103</width>
+                        <height>95</height>
                         <depth>0</depth>
-                        <hotspotX>0.503067493</hotspotX>
-                        <hotspotY>0.503311276</hotspotY>
+                        <hotspotX>0.501113594</hotspotX>
+                        <hotspotY>0.501199067</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

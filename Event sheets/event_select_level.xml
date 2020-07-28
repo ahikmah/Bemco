@@ -18,6 +18,9 @@
                 <action id="6" name="Stop" sid="729739961364893" type="Audio">
                     <param id="0" name="Tag">&quot;jump&quot;</param>
                 </action>
+                <action id="6" name="Stop" sid="423674089086852" type="Audio">
+                    <param id="0" name="Tag">&quot;win&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="923167587073063">

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Bemco</name>
-    <description></description>
+    <description>Bersatu Melawan Corona</description>
     <version>1.0.0.0</version>
-    <author></author>
+    <author>kelompok7</author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <app-id>com.amikom.if5</app-id>
     <unique-id>3jo232q1gfbxr</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
@@ -43,16 +43,31 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>layout_intro</first-layout>
-    <use-loader-layout>0</use-loader-layout>
+    <first-layout>Loader</first-layout>
+    <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
         <prop name="Downscaling">Medium quality</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
-        <prop name="Loader style">Construct 2 splash</prop>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <prop name="Loader style">Progress bar only</prop>
         <prop name="Orientations">Any</prop>
+=======
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Landscape</prop>
+>>>>>>> fc8d52bc410d60833d52bb5c7aed591c62d6002b
+=======
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Landscape</prop>
+>>>>>>> fc8d52bc410d60833d52bb5c7aed591c62d6002b
+=======
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Landscape</prop>
+>>>>>>> fc8d52bc410d60833d52bb5c7aed591c62d6002b
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
@@ -129,19 +144,8 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718553264725777" speed="5">
-                        <frame duration="1" hotspotX="0.503067" hotspotY="0.503311" />
-                        <frame duration="1" hotspotX="0.503067" hotspotY="0.503311" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\sound_1.png">
-                            <collision-poly>
-                                <point x="0.159509" y="0.172185" />
-                                <point x="0.496933" y="0.00662252" />
-                                <point x="0.840491" y="0.172185" />
-                                <point x="0.96319" y="0.496689" />
-                                <point x="0.846626" y="0.834437" />
-                                <point x="0.496933" y="1" />
-                                <point x="0.153374" y="0.834437" />
-                                <point x="0.0368098" y="0.496689" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.501114" hotspotY="0.501199" original-source="C:\Users\USER\Pictures\tg aset\music (2).png" />
+                        <frame duration="1" hotspotX="0.501114" hotspotY="0.501199" original-source="C:\Users\USER\Pictures\tg aset\music.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -344,19 +348,9 @@
             <object-type name="button_menu" sid="942802892481058">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446033679647467" speed="5">
-                        <frame duration="1" hotspotX="0.504587" hotspotY="0.504951" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\button_menu.png">
-                            <collision-poly>
-                                <point x="0.155963" y="0.168317" />
-                                <point x="0.495413" y="0" />
-                                <point x="0.844037" y="0.168317" />
-                                <point x="0.963303" y="0.49505" />
-                                <point x="0.844037" y="0.831683" />
-                                <point x="0.495413" y="1" />
-                                <point x="0.155963" y="0.831683" />
-                                <point x="0.0366972" y="0.49505" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446033679647467" speed="5">
+                        <frame duration="1" hotspotX="0.501114" hotspotY="0.501199" original-source="C:\Users\USER\Pictures\tg aset\bpause.png" />
+                        <frame duration="1" hotspotX="0.501114" hotspotY="0.501199" original-source="C:\Users\USER\Pictures\tg aset\play.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1916,18 +1910,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963287666731655" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.500703" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\txt_about.png">
-                            <collision-poly>
-                                <point x="0.0230263" y="0.0196906" />
-                                <point x="0.5" y="0.00984529" />
-                                <point x="0.940789" y="0.0506329" />
-                                <point x="0.899671" y="0.499297" />
-                                <point x="0.893092" y="0.908579" />
-                                <point x="0.5" y="0.894515" />
-                                <point x="0.108553" y="0.907173" />
-                                <point x="0.100329" y="0.499297" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.503984" hotspotY="0.501272" original-source="C:\Users\USER\Pictures\tg aset\help.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2147,6 +2130,25 @@
                                 <point x="0.887324" y="0.363095" />
                                 <point x="0.501761" y="0.964286" />
                                 <point x="0.135563" y="0.303571" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JUDUL2" sid="854820184815562">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136721675704651" speed="5">
+                        <frame duration="1" hotspotX="0.500688" hotspotY="0.5" original-source="D:\AMIKOM\kuliah\6\TG\pic\1x\JUDUL.png">
+                            <collision-poly>
+                                <point x="0.0357634" y="0.1" />
+                                <point x="0.499312" y="0.0923077" />
+                                <point x="0.917469" y="0.230769" />
+                                <point x="0.9326" y="0.5" />
+                                <point x="0.899587" y="0.719231" />
+                                <point x="0.499312" y="0.880769" />
+                                <point x="0.090784" y="0.746154" />
+                                <point x="0.0467675" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -5049,221 +5051,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="00mat_4" sid="466260219596479">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352162408999679" speed="5">
-                    <frame duration="1" hotspotX="0.496542" hotspotY="0.75" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_10.png">
-                        <collision-poly>
-                            <point x="0.0995851" y="0.167722" />
-                            <point x="0.495159" y="0.0174051" />
-                            <point x="0.892116" y="0.167722" />
-                            <point x="0.998617" y="0.748418" />
-                            <point x="0.600277" y="0.996835" />
-                            <point x="0.391425" y="0.996835" />
-                            <point x="0.00138313" y="0.748418" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="00mat_5" sid="962276379755827">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213962252805562" speed="5">
-                    <frame duration="1" hotspotX="0.491459" hotspotY="0.942116" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\materi\matematika\00mat_11.png">
-                        <collision-poly>
-                            <point x="0.0880421" y="0.167665" />
-                            <point x="0.893561" y="0.167665" />
-                            <point x="0.998686" y="0.942116" />
-                            <point x="0.420499" y="0.998004" />
-                            <point x="0.561104" y="0.998004" />
-                            <point x="0.00262812" y="0.942116" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_2" sid="432661698926083">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="965411559244698" speed="5">
-                    <frame duration="1" hotspotX="0.504037" hotspotY="0.513228" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10.png">
-                        <collision-poly>
-                            <point x="0.0426759" y="0.312169" />
-                            <point x="0.502883" y="0.0476191" />
-                            <point x="0.957324" y="0.343915" />
-                            <point x="0.958477" y="0.687831" />
-                            <point x="0.0530565" y="0.666667" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_10_c_kunci" sid="233408490322853">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613378781825164" speed="5">
-                    <frame duration="1" hotspotX="0.504425" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_c_kunci.png">
-                        <collision-poly>
-                            <point x="0.00884954" y="0.103448" />
-                            <point x="0.495575" y="0.0344828" />
-                            <point x="0.920354" y="0.37931" />
-                            <point x="0.982301" y="0.689655" />
-                            <point x="0.902655" y="0.965517" />
-                            <point x="0.495575" y="0.965517" />
-                            <point x="0.0619469" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_10_d" sid="194234103085149">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="993036917993694" speed="5">
-                    <frame duration="1" hotspotX="0.504425" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_d.png">
-                        <collision-poly>
-                            <point x="0.0265487" y="0.172414" />
-                            <point x="0.495575" y="0.0344828" />
-                            <point x="0.920354" y="0.37931" />
-                            <point x="0.99115" y="0.689655" />
-                            <point x="0.911504" y="0.965517" />
-                            <point x="0.0884956" y="0.965517" />
-                            <point x="0.0176991" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_10_a" sid="150408450736989">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654217242477685" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_a.png">
-                        <collision-poly>
-                            <point x="0.0178571" y="0.172414" />
-                            <point x="0.5" y="0.0344828" />
-                            <point x="0.928571" y="0.37931" />
-                            <point x="0.991071" y="0.689655" />
-                            <point x="0.910714" y="0.965517" />
-                            <point x="0.0892857" y="0.965517" />
-                            <point x="0.116071" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_10_b" sid="146235591893513">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666339323828613" speed="5">
-                    <frame duration="1" hotspotX="0.504425" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_10_b.png">
-                        <collision-poly>
-                            <point x="0.0353982" y="0.206897" />
-                            <point x="0.504425" y="0.0344828" />
-                            <point x="0.929204" y="0.37931" />
-                            <point x="0.99115" y="0.689655" />
-                            <point x="0.911504" y="0.965517" />
-                            <point x="0.0973451" y="0.965517" />
-                            <point x="0.0176991" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_4" sid="143276250182956">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781687185572122" speed="5">
-                    <frame duration="1" hotspotX="0.51335" hotspotY="0.511416" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7.png">
-                        <collision-poly>
-                            <point x="0.00364078" y="0.0319635" />
-                            <point x="0.51335" y="0.0410959" />
-                            <point x="0.996359" y="0.13242" />
-                            <point x="0.990291" y="0.511416" />
-                            <point x="0.967233" y="0.780822" />
-                            <point x="0.51335" y="0.995434" />
-                            <point x="0.0667476" y="0.753425" />
-                            <point x="0.00121359" y="0.511416" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_7_c_kunci" sid="671419838758522">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288785007091364" speed="5">
-                    <frame duration="1" hotspotX="0.556522" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_c_kunci.png">
-                        <collision-poly>
-                            <point x="0.026087" y="0.172414" />
-                            <point x="0.547826" y="0.103448" />
-                            <point x="0.982609" y="0.551724" />
-                            <point x="0.982609" y="0.689655" />
-                            <point x="0.973913" y="0.793104" />
-                            <point x="0.0869565" y="0.965517" />
-                            <point x="0.121739" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_7_a" sid="595968809463894">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="941166560676327" speed="5">
-                    <frame duration="1" hotspotX="0.491228" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_a.png">
-                        <collision-poly>
-                            <point x="0.00877191" y="0.137931" />
-                            <point x="0.491228" y="0.0344828" />
-                            <point x="0.964912" y="0.172414" />
-                            <point x="0.982456" y="0.689655" />
-                            <point x="0.894737" y="0.965517" />
-                            <point x="0.491228" y="0.862069" />
-                            <point x="0.0614035" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_7_b" sid="694212810419192">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488982538574012" speed="5">
-                    <frame duration="1" hotspotX="0.491228" hotspotY="0.689655" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_b.png">
-                        <collision-poly>
-                            <point x="0.0175439" y="0.172414" />
-                            <point x="0.491228" y="0.0344828" />
-                            <point x="0.964912" y="0.172414" />
-                            <point x="0.982456" y="0.689655" />
-                            <point x="0.903509" y="0.965517" />
-                            <point x="0.0789474" y="0.965517" />
-                            <point x="0.00877191" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mat_7_d" sid="373800374996074">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834772824498898" speed="5">
-                    <frame duration="1" hotspotX="0.540146" hotspotY="0.724138" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_7_d.png">
-                        <collision-poly>
-                            <point x="0.0145985" y="0.172414" />
-                            <point x="0.532847" y="0.137931" />
-                            <point x="0.992701" y="0.482759" />
-                            <point x="0.985401" y="0.689655" />
-                            <point x="0.970803" y="0.827586" />
-                            <point x="0.532847" y="0.965517" />
-                            <point x="0.0729927" y="0.965517" />
-                            <point x="0.0656934" y="0.689655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="intro2" sid="748803869586467">
             <plugin id="Sprite" />
             <animation-folder>
@@ -5336,6 +5123,33 @@
             <plugin id="TiledBg" />
             <texture />
         </object-type>
+        <object-type name="TiledBackground4" sid="893054086853525">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="bgLoader" sid="237952752256234">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408177810667301" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500444" original-source="C:\Users\USER\Pictures\tg aset\bg loader.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont2" sid="607446911488574">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="type" sid="435459675619171" type="string" />
+            </instance-variables>
+            <texture original-source="E:\#nguli ah\s1\semes6\Teknologi Game\Praktikum\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="309186303379058">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="LoadingBar" sid="947690385515224">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -5347,6 +5161,7 @@
         <layout>select_level.xml</layout>
         <layout>layout_intro.xml</layout>
         <layout>home.xml</layout>
+        <layout>Loader.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event_intro.xml</event-sheet>
@@ -5354,6 +5169,7 @@
         <event-sheet>event_select_level.xml</event-sheet>
         <event-sheet>event_level.xml</event-sheet>
         <event-sheet>event_pause.xml</event-sheet>
+        <event-sheet>event_loader.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="5">
