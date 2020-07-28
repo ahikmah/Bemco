@@ -490,8 +490,8 @@
                                 <point x="0.155963" y="0.168317" />
                                 <point x="0.495413" y="0" />
                                 <point x="0.844037" y="0.168317" />
-                                <point x="0.963303" y="0.49505" />
-                                <point x="0.844037" y="0.831683" />
+                                <point x="0.963303" y="0.356436" />
+                                <point x="0.788991" y="0.683168" />
                                 <point x="0.495413" y="1" />
                                 <point x="0.155963" y="0.831683" />
                                 <point x="0.0366972" y="0.49505" />
@@ -595,8 +595,8 @@
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="457590751128046" speed="5">
                         <frame duration="1" hotspotX="0.503067" hotspotY="0.503311" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Animations\ok\Default\000.png">
                             <collision-poly>
-                                <point x="0.153374" y="0.165563" />
-                                <point x="0.496933" y="0" />
+                                <point x="0.312883" y="0.165563" />
+                                <point x="0.539878" y="0.0397351" />
                                 <point x="0.840491" y="0.172185" />
                                 <point x="0.96319" y="0.496689" />
                                 <point x="0.846626" y="0.834437" />

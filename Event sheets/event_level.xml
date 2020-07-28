@@ -76,8 +76,10 @@
                 </event-block>
                 <event-block sid="190166574641906">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="752258045666986" type="Touch">
-                            <param id="0" name="Object">ok_mulai</param>
+                        <condition id="6" name="On object clicked" sid="752258045666986" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">ok_mulai</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="619795084041533" type="System">
                             <param id="0" name="Layer">&quot;mission info&quot;</param>
@@ -5945,12 +5947,18 @@
                                 <action id="5" name="Set frame" sid="111622154645467" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="430956706804787" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_mat</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="497044207196008">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="429795896894238" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="429795896894238" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="632678887305881" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6024,12 +6032,18 @@
                                 <action id="5" name="Set frame" sid="249344382929249" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="781672058824719" type="System">
+                                    <param id="0" name="Variable">bintang_level_2_mat</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="237907304368224">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="916019472543051" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="183885407046173" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="993689062402514" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6103,12 +6117,18 @@
                                 <action id="5" name="Set frame" sid="961144161603427" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="883278304483798" type="System">
+                                    <param id="0" name="Variable">bintang_level_3_mat</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="283819022578411">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="307609443021347" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="560817423790742" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="307732237872169" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6182,12 +6202,18 @@
                                 <action id="5" name="Set frame" sid="902029084018604" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="161698100627440" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_ipa</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="622474497964210">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="538104838769452" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="434373369925892" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="555706037407515" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6261,12 +6287,18 @@
                                 <action id="5" name="Set frame" sid="967320607347472" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="585173108527684" type="System">
+                                    <param id="0" name="Variable">bintang_level_2_ipa</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="232722347353497">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="557730374671332" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="233396880297853" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="646408454259544" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6340,12 +6372,18 @@
                                 <action id="5" name="Set frame" sid="559909753266268" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="389894297594152" type="System">
+                                    <param id="0" name="Variable">bintang_level_3_ipa</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="428265048984515">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="761553516848298" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="172192074442258" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="788227150676385" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6419,12 +6457,18 @@
                                 <action id="5" name="Set frame" sid="932456735048008" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="359296674287471" type="System">
+                                    <param id="0" name="Variable">bintang_level_1_indo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="199525811639007">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="676164735346576" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="513769127696598" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="721624238441576" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6498,12 +6542,18 @@
                                 <action id="5" name="Set frame" sid="355248402093285" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="751571099832923" type="System">
+                                    <param id="0" name="Variable">bintang_level_2_indo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="798073886010078">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="420506028748752" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="882512150853833" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="800991574233998" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6577,12 +6627,18 @@
                                 <action id="5" name="Set frame" sid="600439189048158" type="mission_status">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="262209011346706" type="System">
+                                    <param id="0" name="Variable">bintang_level_3_indo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="550510682703873">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="216486990991576" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="576575708008799" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="278386314844245" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6684,8 +6740,10 @@
                             <sub-events>
                                 <event-block sid="873153729453470">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="639017214976056" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="258515292943610" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="171464205802926" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6720,8 +6778,10 @@
                                 </event-block>
                                 <event-block sid="933443769691989">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="331844508120337" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="331844508120337" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="912998228503507" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6768,8 +6828,10 @@
                             <sub-events>
                                 <event-block sid="582732393639670">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="832193395513492" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="494428338686547" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="663938923482019" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6808,8 +6870,10 @@
                                 </event-block>
                                 <event-block sid="376093431245747">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="887274913361855" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="938522784007273" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="840436258706776" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6856,8 +6920,10 @@
                             <sub-events>
                                 <event-block sid="865896509784379">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="637778259810373" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="486417453267542" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="424429755571544" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6896,8 +6962,10 @@
                                 </event-block>
                                 <event-block sid="770223701564137">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="801555601307130" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="662552403402820" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="664791227296043" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6940,8 +7008,10 @@
                             <sub-events>
                                 <event-block sid="422793725465665">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="998833520433221" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="274065395417485" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="159999529843795" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -6976,8 +7046,10 @@
                                 </event-block>
                                 <event-block sid="360786243918637">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="408922176728058" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="991636702804393" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="612691819768375" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7024,8 +7096,10 @@
                             <sub-events>
                                 <event-block sid="113125101731362">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="830712721231564" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="946841011999246" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="196940656470702" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7064,8 +7138,10 @@
                                 </event-block>
                                 <event-block sid="329532002294760">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="329269223509597" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="695823571603090" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="921288038078485" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7112,8 +7188,10 @@
                             <sub-events>
                                 <event-block sid="695867792055908">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="354497079613168" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="739256047888778" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="324018483015347" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7152,8 +7230,10 @@
                                 </event-block>
                                 <event-block sid="965482108098521">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="900576933907626" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="525047338570469" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="332631714428210" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7196,8 +7276,10 @@
                             <sub-events>
                                 <event-block sid="986946135646075">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="364583874072191" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="157235444653153" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="624873642362490" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7232,8 +7314,10 @@
                                 </event-block>
                                 <event-block sid="615474663810455">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="421694329936990" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="638799872999249" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="631168277675347" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7280,8 +7364,10 @@
                             <sub-events>
                                 <event-block sid="140313059639975">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="336351923977502" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="754780861202929" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="393149329684853" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7316,8 +7402,10 @@
                                 </event-block>
                                 <event-block sid="384301741720883">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="570786945694969" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="308789911296546" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="498103144595165" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7364,8 +7452,10 @@
                             <sub-events>
                                 <event-block sid="995167557956808">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="234863781855844" type="Touch">
-                                            <param id="0" name="Object">buttonRestart</param>
+                                        <condition id="6" name="On object clicked" sid="299499684259261" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">buttonRestart</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="487694488202566" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>
@@ -7400,8 +7490,10 @@
                                 </event-block>
                                 <event-block sid="561525834338442">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="213073813371198" type="Touch">
-                                            <param id="0" name="Object">button_next</param>
+                                        <condition id="6" name="On object clicked" sid="534048747257722" type="Mouse">
+                                            <param id="0" name="Mouse button">0</param>
+                                            <param id="1" name="Click type">0</param>
+                                            <param id="2" name="Object clicked">button_next</param>
                                         </condition>
                                         <condition id="-9" name="Layer is visible" sid="452555453045747" type="System">
                                             <param id="0" name="Layer">&quot;pp : end&quot;</param>

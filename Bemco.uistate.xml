@@ -10,7 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Loader</layout>
+        <layout order="0">Loader</layout>
+        <layout order="2">layout_level_1</layout>
+        <event-sheet active="1" order="1">event_level</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -34,7 +36,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/HUD/" />
         <folder expanded="0" path="object-folder/others/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Level/" />
+        <folder expanded="1" path="layout-folder/Level/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
