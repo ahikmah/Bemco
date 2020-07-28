@@ -51,23 +51,8 @@
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         <prop name="Loader style">Progress bar only</prop>
         <prop name="Orientations">Any</prop>
-=======
-        <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Landscape</prop>
->>>>>>> fc8d52bc410d60833d52bb5c7aed591c62d6002b
-=======
-        <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Landscape</prop>
->>>>>>> fc8d52bc410d60833d52bb5c7aed591c62d6002b
-=======
-        <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Landscape</prop>
->>>>>>> fc8d52bc410d60833d52bb5c7aed591c62d6002b
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
