@@ -79,6 +79,9 @@
                         <condition id="17" name="On tap object" sid="752258045666986" type="Touch">
                             <param id="0" name="Object">ok_mulai</param>
                         </condition>
+                        <condition id="-9" name="Layer is visible" sid="619795084041533" type="System">
+                            <param id="0" name="Layer">&quot;mission info&quot;</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-4" name="Set layer visible" sid="943854930515393" type="System">
@@ -2684,6 +2687,18 @@
                                                 <action id="5" name="Set frame" sid="114473349882014" type="soal">
                                                     <param id="0" name="Frame number">4</param>
                                                 </action>
+                                                <action id="5" name="Set frame" sid="887626009288028" type="a">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="392149642651664" type="b">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="164322830319203" type="c">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="288432796560920" type="d">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="953159945742205">
@@ -2697,6 +2712,18 @@
                                             <actions>
                                                 <action id="5" name="Set frame" sid="436546769840690" type="soal">
                                                     <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="219549213187111" type="a">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="559139769666098" type="b">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="363546226729487" type="c">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="102836985556309" type="d">
+                                                    <param id="0" name="Frame number">6</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -2750,6 +2777,18 @@
                                                 <action id="5" name="Set frame" sid="306158831753309" type="soal">
                                                     <param id="0" name="Frame number">5</param>
                                                 </action>
+                                                <action id="5" name="Set frame" sid="395038920279346" type="a">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="119048263382317" type="b">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="943087242639493" type="c">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="366782331897601" type="d">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="483642889923066">
@@ -2763,6 +2802,18 @@
                                             <actions>
                                                 <action id="5" name="Set frame" sid="714964162240248" type="soal">
                                                     <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="277069578497049" type="a">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="937028079103086" type="b">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="616561425218622" type="c">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="838001596527565" type="d">
+                                                    <param id="0" name="Frame number">7</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -2816,6 +2867,18 @@
                                                 <action id="5" name="Set frame" sid="343389775013924" type="soal">
                                                     <param id="0" name="Frame number">6</param>
                                                 </action>
+                                                <action id="5" name="Set frame" sid="976377086243148" type="a">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="570154622601636" type="b">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="229034250345541" type="c">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="637177012421578" type="d">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="206217182785623">
@@ -2829,6 +2892,18 @@
                                             <actions>
                                                 <action id="5" name="Set frame" sid="731552373816907" type="soal">
                                                     <param id="0" name="Frame number">9</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="144355166495864" type="a">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="454447887928917" type="b">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="806661029491104" type="c">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="353842511567826" type="d">
+                                                    <param id="0" name="Frame number">8</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -4217,7 +4292,23 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="656199080616784" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="592006012870514" type="a_quiz2">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="916369913267560" type="b_quiz2">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="999324669953201" type="c_quiz2">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="517517501274906" type="d_quiz2">
+                                                    <param id="0" name="Frame number">0</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="263928780454543">
                                             <conditions>
@@ -4227,7 +4318,23 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="281861998095010" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="128047620233064" type="a_quiz2">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="638558048625336" type="b_quiz2">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="511332314350599" type="c_quiz2">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="823607358290921" type="d_quiz2">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="727879888273452">
                                             <conditions>
@@ -4237,7 +4344,23 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="101351964436037" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="776613706238464" type="a_quiz2">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="991713732577840" type="b_quiz2">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="428755952181761" type="c_quiz2">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="978753584995349" type="d_quiz2">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -4259,7 +4382,23 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="677635999923947" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="759070980118453" type="a_quiz2">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="351854320411657" type="b_quiz2">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="933010297469929" type="c_quiz2">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="497755893277928" type="d_quiz2">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="621799533752298">
                                             <conditions>
@@ -4269,7 +4408,23 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="681855587243576" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="184491496081379" type="a_quiz2">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="635535290439388" type="b_quiz2">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="581672561473090" type="c_quiz2">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="660281398049059" type="d_quiz2">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="288088273123488">
                                             <conditions>
@@ -4279,7 +4434,23 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="968391700568089" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="888239090558708" type="a_quiz2">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="795311003789351" type="b_quiz2">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="983857981833989" type="c_quiz2">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="771129821655199" type="d_quiz2">
+                                                    <param id="0" name="Frame number">7</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -4301,7 +4472,23 @@
                                                     <param id="2" name="Value">1</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="714662083534949" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">3</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="456426142796551" type="a_quiz2">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="169438278799222" type="b_quiz2">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="539382207501319" type="c_quiz2">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="273425684999125" type="d_quiz2">
+                                                    <param id="0" name="Frame number">2</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="831286294452449">
                                             <conditions>
@@ -4311,7 +4498,23 @@
                                                     <param id="2" name="Value">2</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="525280476467831" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">6</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="225600088180053" type="a_quiz2">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="472691378339466" type="b_quiz2">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="129867881839344" type="c_quiz2">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="324544162796813" type="d_quiz2">
+                                                    <param id="0" name="Frame number">5</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="322462495075815">
                                             <conditions>
@@ -4321,7 +4524,23 @@
                                                     <param id="2" name="Value">3</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="109467295183913" type="soal_quiz2">
+                                                    <param id="0" name="Frame number">9</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="121340796817815" type="a_quiz2">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="631016342294594" type="b_quiz2">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="583853701047818" type="c_quiz2">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="335465299076037" type="d_quiz2">
+                                                    <param id="0" name="Frame number">8</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -6754,6 +6973,9 @@
                                         <condition id="17" name="On tap object" sid="408922176728058" type="Touch">
                                             <param id="0" name="Object">button_next</param>
                                         </condition>
+                                        <condition id="-9" name="Layer is visible" sid="612691819768375" type="System">
+                                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                        </condition>
                                     </conditions>
                                     <actions>
                                         <action id="-2" name="Go to layout" sid="853439021916373" type="System">
@@ -6838,6 +7060,9 @@
                                     <conditions>
                                         <condition id="17" name="On tap object" sid="329269223509597" type="Touch">
                                             <param id="0" name="Object">button_next</param>
+                                        </condition>
+                                        <condition id="-9" name="Layer is visible" sid="921288038078485" type="System">
+                                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
@@ -6924,6 +7149,9 @@
                                         <condition id="17" name="On tap object" sid="900576933907626" type="Touch">
                                             <param id="0" name="Object">button_next</param>
                                         </condition>
+                                        <condition id="-9" name="Layer is visible" sid="332631714428210" type="System">
+                                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                        </condition>
                                     </conditions>
                                     <actions>
                                         <action id="-2" name="Go to layout" sid="981667975362920" type="System">
@@ -7000,6 +7228,9 @@
                                     <conditions>
                                         <condition id="17" name="On tap object" sid="421694329936990" type="Touch">
                                             <param id="0" name="Object">button_next</param>
+                                        </condition>
+                                        <condition id="-9" name="Layer is visible" sid="631168277675347" type="System">
+                                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
@@ -7082,10 +7313,17 @@
                                         <condition id="17" name="On tap object" sid="570786945694969" type="Touch">
                                             <param id="0" name="Object">button_next</param>
                                         </condition>
+                                        <condition id="-9" name="Layer is visible" sid="498103144595165" type="System">
+                                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
+                                        </condition>
                                     </conditions>
                                     <actions>
                                         <action id="-2" name="Go to layout" sid="931516112031890" type="System">
                                             <param id="0" name="Layout">select_level</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="868984698393489" type="System">
+                                            <param id="0" name="Variable">level_indo</param>
+                                            <param id="1" name="Value">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -7158,6 +7396,9 @@
                                     <conditions>
                                         <condition id="17" name="On tap object" sid="213073813371198" type="Touch">
                                             <param id="0" name="Object">button_next</param>
+                                        </condition>
+                                        <condition id="-9" name="Layer is visible" sid="452555453045747" type="System">
+                                            <param id="0" name="Layer">&quot;pp : end&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>

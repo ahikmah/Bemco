@@ -15,8 +15,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">select_level</layout>
         <layout order="5">layout_intro</layout>
         <layout order="8">home</layout>
-        <layout active="1" order="9">layout_level_1</layout>
-        <event-sheet order="2">event_level</event-sheet>
+        <layout order="9">layout_level_1</layout>
+        <event-sheet active="1" order="2">event_level</event-sheet>
         <event-sheet order="4">event_select_level</event-sheet>
         <event-sheet order="6">event_intro</event-sheet>
         <event-sheet order="7">event_home</event-sheet>
@@ -80,11 +80,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/a/" />
         <folder expanded="1" path="animation-folder/b/" />
         <folder expanded="1" path="animation-folder/d/" />
-        <folder expanded="1" path="animation-folder/mat_3/" />
-        <folder expanded="1" path="animation-folder/mat_3_a/" />
-        <folder expanded="1" path="animation-folder/mat_3_b/" />
-        <folder expanded="1" path="animation-folder/mat_3_c/" />
-        <folder expanded="1" path="animation-folder/mat_3_d_kunci/" />
+        <folder expanded="1" path="animation-folder/soal_quiz2/" />
+        <folder expanded="1" path="animation-folder/a_quiz2/" />
+        <folder expanded="1" path="animation-folder/d_quiz2/" />
+        <folder expanded="1" path="animation-folder/c_quiz2/" />
+        <folder expanded="1" path="animation-folder/b_quiz2/" />
         <folder expanded="1" path="animation-folder/soal_lv2/" />
         <folder expanded="1" path="animation-folder/mat_5_a_kunci/" />
         <folder expanded="1" path="animation-folder/mat_5_b/" />

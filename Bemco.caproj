@@ -732,7 +732,7 @@
                 <object-type name="c" sid="155788382318180">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="472096487032163" speed="0">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="472096487032163" speed="0">
                             <frame duration="1" hotspotX="0.524691" hotspotY="0.722892" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 1\mat_1_c_kunci.png">
                                 <collision-poly>
                                     <point x="0.0454545" y="0.137931" />
@@ -760,13 +760,67 @@
                                     <point x="0.135802" y="0.73494" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\mat_5_c.png">
+                                <collision-poly>
+                                    <point x="0.148148" y="0.289157" />
+                                    <point x="0.469136" y="0.493976" />
+                                    <point x="0.216049" y="0.578313" />
+                                    <point x="0.0679012" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\ipa_7_c.png">
+                                <collision-poly>
+                                    <point x="0.148148" y="0.289157" />
+                                    <point x="0.839506" y="0.313253" />
+                                    <point x="0.679012" y="0.373494" />
+                                    <point x="0.320988" y="0.373494" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\bhs_2_c_kunci.png">
+                                <collision-poly>
+                                    <point x="0.141975" y="0.277108" />
+                                    <point x="0.845679" y="0.301205" />
+                                    <point x="0.549383" y="0.493976" />
+                                    <point x="0.728395" y="0.46988" />
+                                    <point x="0.265432" y="0.481928" />
+                                    <point x="0.518519" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\mat_4_c.png">
+                                <collision-poly>
+                                    <point x="0.148148" y="0.289157" />
+                                    <point x="0.475309" y="0.493976" />
+                                    <point x="0.271605" y="0.46988" />
+                                    <point x="0.117284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\ipa_8_c.png">
+                                <collision-poly>
+                                    <point x="0.104938" y="0.204819" />
+                                    <point x="0.895062" y="0.204819" />
+                                    <point x="0.444444" y="0.493976" />
+                                    <point x="0.5" y="0.325301" />
+                                    <point x="0.216049" y="0.578313" />
+                                    <point x="0" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\bhs_5_c.png">
+                                <collision-poly>
+                                    <point x="0.117284" y="0.228916" />
+                                    <point x="0.753086" y="0.481928" />
+                                    <point x="0.765432" y="0.493976" />
+                                    <point x="0.858025" y="0.722892" />
+                                    <point x="0.141975" y="0.722892" />
+                                    <point x="0.740741" y="0.493976" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
                 <object-type name="a" sid="304342250821766">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="672628189791717" speed="0">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="672628189791717" speed="0">
                             <frame duration="1" hotspotX="0.512346" hotspotY="0.686747" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 1\mat_1_a.png">
                                 <collision-poly>
                                     <point x="0.0465116" y="0.172414" />
@@ -798,13 +852,71 @@
                                     <point x="0.0185185" y="0.493976" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\mat_5_a.png">
+                                <collision-poly>
+                                    <point x="0.197531" y="0.385542" />
+                                    <point x="0.444444" y="0.493976" />
+                                    <point x="0.203704" y="0.60241" />
+                                    <point x="0.123457" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\ipa_7_a_kunci.png">
+                                <collision-poly>
+                                    <point x="0.154321" y="0.301205" />
+                                    <point x="0.5" y="0.277108" />
+                                    <point x="0.839506" y="0.313253" />
+                                    <point x="0.5" y="0.421687" />
+                                    <point x="0.333333" y="0.349398" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\bhs_2_a.png">
+                                <collision-poly>
+                                    <point x="0.148148" y="0.289157" />
+                                    <point x="0.5" y="0.313253" />
+                                    <point x="0.851852" y="0.289157" />
+                                    <point x="0.432099" y="0.493976" />
+                                    <point x="0.734568" y="0.481928" />
+                                    <point x="0.290123" y="0.433735" />
+                                    <point x="0.333333" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\mat_4_a.png">
+                                <collision-poly>
+                                    <point x="0.154321" y="0.301205" />
+                                    <point x="0.5" y="0.445783" />
+                                    <point x="0.592593" y="0.493976" />
+                                    <point x="0.5" y="0.554217" />
+                                    <point x="0.265432" y="0.481928" />
+                                    <point x="0.0740741" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\ipa_8_a.png">
+                                <collision-poly>
+                                    <point x="0.104938" y="0.204819" />
+                                    <point x="0.858025" y="0.277108" />
+                                    <point x="1" y="0.493976" />
+                                    <point x="0.753086" y="0.518072" />
+                                    <point x="0.197531" y="0.614458" />
+                                    <point x="0.00617284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\bhs_5_a.png">
+                                <collision-poly>
+                                    <point x="0.0987654" y="0.192771" />
+                                    <point x="0.858025" y="0.277108" />
+                                    <point x="0.746914" y="0.493976" />
+                                    <point x="0.746914" y="0.506024" />
+                                    <point x="0.265432" y="0.481928" />
+                                    <point x="0.635802" y="0.493976" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
                 <object-type name="b" sid="883962457041489">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699350182032859" speed="0">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699350182032859" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 1\mat_1_b.png">
                                 <collision-poly>
                                     <point x="0.155556" y="0.275862" />
@@ -835,13 +947,70 @@
                                     <point x="0" y="0.493976" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\mat_5_b_kunci.png">
+                                <collision-poly>
+                                    <point x="0.148148" y="0.289157" />
+                                    <point x="0.462963" y="0.493976" />
+                                    <point x="0.209877" y="0.590361" />
+                                    <point x="0.141975" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\ipa_7_b.png">
+                                <collision-poly>
+                                    <point x="0.12963" y="0.253012" />
+                                    <point x="0.87037" y="0.253012" />
+                                    <point x="0.666667" y="0.349398" />
+                                    <point x="0.308642" y="0.39759" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\bhs_2_b.png">
+                                <collision-poly>
+                                    <point x="0.12963" y="0.253012" />
+                                    <point x="0.5" y="0.228916" />
+                                    <point x="0.876543" y="0.240964" />
+                                    <point x="0.716049" y="0.493976" />
+                                    <point x="0.716049" y="0.445783" />
+                                    <point x="0.283951" y="0.445783" />
+                                    <point x="0.12963" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\mat_4_b.png">
+                                <collision-poly>
+                                    <point x="0.246914" y="0.481928" />
+                                    <point x="0.462963" y="0.493976" />
+                                    <point x="0.203704" y="0.60241" />
+                                    <point x="0.104938" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\ipa_8_b_kunci.png">
+                                <collision-poly>
+                                    <point x="0.111111" y="0.216867" />
+                                    <point x="0.888889" y="0.216867" />
+                                    <point x="0.932099" y="0.493976" />
+                                    <point x="0.814815" y="0.638554" />
+                                    <point x="0.5" y="0.590361" />
+                                    <point x="0.209877" y="0.590361" />
+                                    <point x="0.00617284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\bhs_5_b_kunci.png">
+                                <collision-poly>
+                                    <point x="0.135802" y="0.26506" />
+                                    <point x="0.5" y="0.180723" />
+                                    <point x="0.709877" y="0.566265" />
+                                    <point x="0.425926" y="0.493976" />
+                                    <point x="0.876543" y="0.759036" />
+                                    <point x="0.12963" y="0.746988" />
+                                    <point x="0.00617284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
                 <object-type name="d" sid="820006669520637">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318161535444030" speed="0">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318161535444030" speed="0">
                             <frame duration="1" hotspotX="0.512346" hotspotY="0.686747" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 1\mat_1_d.png">
                                 <collision-poly>
                                     <point x="0.0465116" y="0.172414" />
@@ -871,14 +1040,69 @@
                                     <point x="0.160494" y="0.686747" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\mat_5_d.png">
+                                <collision-poly>
+                                    <point x="0.12963" y="0.253012" />
+                                    <point x="0.45679" y="0.493976" />
+                                    <point x="0.222222" y="0.566265" />
+                                    <point x="0.0617284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\ipa_7_d.png">
+                                <collision-poly>
+                                    <point x="0.12963" y="0.253012" />
+                                    <point x="0.87037" y="0.253012" />
+                                    <point x="0.666667" y="0.349398" />
+                                    <point x="0.308642" y="0.39759" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 1\bhs_2_d.png">
+                                <collision-poly>
+                                    <point x="0.0802469" y="0.156627" />
+                                    <point x="0.87037" y="0.253012" />
+                                    <point x="0.512346" y="0.493976" />
+                                    <point x="0.722222" y="0.457831" />
+                                    <point x="0.5" y="0.554217" />
+                                    <point x="0.277778" y="0.457831" />
+                                    <point x="0.481481" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\mat_4_d_kunci.png">
+                                <collision-poly>
+                                    <point x="0.216049" y="0.421687" />
+                                    <point x="0.462963" y="0.493976" />
+                                    <point x="0.209877" y="0.590361" />
+                                    <point x="0.111111" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\ipa_8_d.png">
+                                <collision-poly>
+                                    <point x="0.0432099" y="0.0843373" />
+                                    <point x="0.950617" y="0.0963855" />
+                                    <point x="0.345679" y="0.493976" />
+                                    <point x="0.740741" y="0.493976" />
+                                    <point x="0.117284" y="0.771084" />
+                                    <point x="0.327161" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 1\bhs_5_d.png">
+                                <collision-poly>
+                                    <point x="0.0864198" y="0.168675" />
+                                    <point x="0.839506" y="0.313253" />
+                                    <point x="0.722222" y="0.457831" />
+                                    <point x="0.5" y="0.493976" />
+                                    <point x="0.265432" y="0.481928" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="mat_3" sid="144556285517949">
+                <object-type name="soal_quiz2" sid="144556285517949">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513074068982186" speed="5">
-                            <frame duration="1" hotspotX="0.511494" hotspotY="0.521739" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3.png">
+                        <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513074068982186" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.510909" hotspotY="0.521552" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\mat_2.png">
                                 <collision-poly>
                                     <point x="0.00143678" y="0.26087" />
                                     <point x="0.989943" y="0.565217" />
@@ -887,14 +1111,97 @@
                                     <point x="0.0100575" y="0.681159" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\ipa_10.png">
+                                <collision-poly>
+                                    <point x="0.372727" y="0.44181" />
+                                    <point x="0.5" y="0.0840517" />
+                                    <point x="0.605455" y="0.467672" />
+                                    <point x="0.623636" y="0.5" />
+                                    <point x="0.832727" y="0.801724" />
+                                    <point x="0.5" y="0.872845" />
+                                    <point x="0.176364" y="0.790948" />
+                                    <point x="0.534545" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\bhs_8.png">
+                                <collision-poly>
+                                    <point x="0.216364" y="0.256466" />
+                                    <point x="0.778182" y="0.262931" />
+                                    <point x="0.978182" y="0.5" />
+                                    <point x="0.669091" y="0.607759" />
+                                    <point x="0.34" y="0.596983" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\mat_6.png">
+                                <collision-poly>
+                                    <point x="0.08" y="0.0948276" />
+                                    <point x="0.5" y="0.107759" />
+                                    <point x="0.756364" y="0.288793" />
+                                    <point x="0.981818" y="0.5" />
+                                    <point x="0.805455" y="0.769397" />
+                                    <point x="0.5" y="0.836207" />
+                                    <point x="0.194545" y="0.769397" />
+                                    <point x="0.0109091" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\ipa_3.png">
+                                <collision-poly>
+                                    <point x="0.149091" y="0.176724" />
+                                    <point x="0.5" y="0.0775862" />
+                                    <point x="0.850909" y="0.176724" />
+                                    <point x="0.850909" y="0.5" />
+                                    <point x="0.792727" y="0.75431" />
+                                    <point x="0.5" y="0.853448" />
+                                    <point x="0.134545" y="0.840517" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\bhs_3.png">
+                                <collision-poly>
+                                    <point x="0.267273" y="0.31681" />
+                                    <point x="0.734545" y="0.314655" />
+                                    <point x="0.525455" y="0.4375" />
+                                    <point x="0.5" y="0.344828" />
+                                    <point x="0.472727" y="0.439655" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\mat_10.png">
+                                <collision-poly>
+                                    <point x="0.201818" y="0.239224" />
+                                    <point x="0.5" y="0.299569" />
+                                    <point x="0.798182" y="0.239224" />
+                                    <point x="0.550909" y="0.467672" />
+                                    <point x="0.5" y="0.471983" />
+                                    <point x="0.445455" y="0.471983" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\ipa_2.png">
+                                <collision-poly>
+                                    <point x="0.196364" y="0.232759" />
+                                    <point x="0.5" y="0.049569" />
+                                    <point x="0.805455" y="0.230603" />
+                                    <point x="0.805455" y="0.5" />
+                                    <point x="0.870909" y="0.846983" />
+                                    <point x="0.141818" y="0.831897" />
+                                    <point x="0.196364" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\bhs_4.png">
+                                <collision-poly>
+                                    <point x="0.24" y="0.284483" />
+                                    <point x="0.758182" y="0.286638" />
+                                    <point x="0.496364" y="0.403017" />
+                                    <point x="0.503636" y="0.403017" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="mat_3_a" sid="656619728890388">
+                <object-type name="a_quiz2" sid="656619728890388">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="557717655587950" speed="5">
-                            <frame duration="1" hotspotX="0.48913" hotspotY="0.709677" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_a.png">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="557717655587950" speed="0">
+                            <frame duration="1" hotspotX="0.487654" hotspotY="0.710843" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\mat_2_a.png">
                                 <collision-poly>
                                     <point x="0.0217391" y="0.225807" />
                                     <point x="0.934783" y="0.258065" />
@@ -904,14 +1211,85 @@
                                     <point x="0.0869565" y="0.709677" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\ipa_10_a.png">
+                                <collision-poly>
+                                    <point x="0.104938" y="0.204819" />
+                                    <point x="0.901235" y="0.192771" />
+                                    <point x="0.716049" y="0.493976" />
+                                    <point x="0.82716" y="0.662651" />
+                                    <point x="0.179012" y="0.650602" />
+                                    <point x="0.0246914" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\bhs_8_a.png">
+                                <collision-poly>
+                                    <point x="0.104938" y="0.204819" />
+                                    <point x="0.5" y="0.277108" />
+                                    <point x="0.592593" y="0.493976" />
+                                    <point x="0.5" y="0.53012" />
+                                    <point x="0.240741" y="0.53012" />
+                                    <point x="0.0987654" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\mat_6_a.png">
+                                <collision-poly>
+                                    <point x="0.135802" y="0.26506" />
+                                    <point x="0.864198" y="0.26506" />
+                                    <point x="0.660494" y="0.337349" />
+                                    <point x="0.339506" y="0.337349" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\ipa_3_a.png">
+                                <collision-poly>
+                                    <point x="0.12963" y="0.253012" />
+                                    <point x="0.864198" y="0.26506" />
+                                    <point x="0.351852" y="0.313253" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\bhs_3_a.png">
+                                <collision-poly>
+                                    <point x="0.0802469" y="0.156627" />
+                                    <point x="0.5" y="0.240964" />
+                                    <point x="0.5" y="0.46988" />
+                                    <point x="0.265432" y="0.481928" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\mat_10_a.png">
+                                <collision-poly>
+                                    <point x="0.0925926" y="0.180723" />
+                                    <point x="0.5" y="0.180723" />
+                                    <point x="0.691358" y="0.493976" />
+                                    <point x="0.722222" y="0.457831" />
+                                    <point x="0.5" y="0.506024" />
+                                    <point x="0.253086" y="0.506024" />
+                                    <point x="0.0679012" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\ipa_2_a.png">
+                                <collision-poly>
+                                    <point x="0.135802" y="0.26506" />
+                                    <point x="0.5" y="0.168675" />
+                                    <point x="0.87037" y="0.253012" />
+                                    <point x="0.716049" y="0.445783" />
+                                    <point x="0.283951" y="0.445783" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\bhs_4_a_kunci.png">
+                                <collision-poly>
+                                    <point x="0.0987654" y="0.192771" />
+                                    <point x="0.858025" y="0.277108" />
+                                    <point x="0.734568" y="0.481928" />
+                                    <point x="0.271605" y="0.46988" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="mat_3_b" sid="675955350655985">
+                <object-type name="d_quiz2" sid="675955350655985">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327834415531915" speed="5">
-                            <frame duration="1" hotspotX="0.48913" hotspotY="0.741935" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_b.png">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327834415531915" speed="0">
+                            <frame duration="1" hotspotX="0.487654" hotspotY="0.746988" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\mat_2_d.png">
                                 <collision-poly>
                                     <point x="0.0217391" y="0.225807" />
                                     <point x="0.934783" y="0.258065" />
@@ -921,14 +1299,93 @@
                                     <point x="0.0869565" y="0.709677" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\ipa_10_d_kunci.png">
+                                <collision-poly>
+                                    <point x="0.0740741" y="0.144578" />
+                                    <point x="0.5" y="0.13253" />
+                                    <point x="0.895062" y="0.204819" />
+                                    <point x="0.401235" y="0.493976" />
+                                    <point x="0.666667" y="0.349398" />
+                                    <point x="0.5" y="0.349398" />
+                                    <point x="0.160494" y="0.686747" />
+                                    <point x="0.376543" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\bhs_8_d.png">
+                                <collision-poly>
+                                    <point x="0.0864198" y="0.168675" />
+                                    <point x="0.5" y="0.373494" />
+                                    <point x="0.679012" y="0.373494" />
+                                    <point x="0.5" y="0.46988" />
+                                    <point x="0.259259" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\mat_6_d.png">
+                                <collision-poly>
+                                    <point x="0.148148" y="0.289157" />
+                                    <point x="0.5" y="0.313253" />
+                                    <point x="0.87037" y="0.253012" />
+                                    <point x="0.709877" y="0.433735" />
+                                    <point x="0.5" y="0.337349" />
+                                    <point x="0.308642" y="0.39759" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\ipa_3_d.png">
+                                <collision-poly>
+                                    <point x="0.141975" y="0.277108" />
+                                    <point x="0.858025" y="0.277108" />
+                                    <point x="0.345679" y="0.325301" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\bhs_3_d_kunci.png">
+                                <collision-poly>
+                                    <point x="0.0864198" y="0.168675" />
+                                    <point x="0.5" y="0.253012" />
+                                    <point x="0.67284" y="0.361446" />
+                                    <point x="0.5" y="0.481928" />
+                                    <point x="0.259259" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\mat_10_d.png">
+                                <collision-poly>
+                                    <point x="0.123457" y="0.240964" />
+                                    <point x="0.5" y="0.253012" />
+                                    <point x="0.790123" y="0.409639" />
+                                    <point x="0.771605" y="0.493976" />
+                                    <point x="0.753086" y="0.518072" />
+                                    <point x="0.5" y="0.46988" />
+                                    <point x="0.117284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\ipa_2_d.png">
+                                <collision-poly>
+                                    <point x="0.111111" y="0.216867" />
+                                    <point x="0.771605" y="0.445783" />
+                                    <point x="0.771605" y="0.493976" />
+                                    <point x="0.759259" y="0.53012" />
+                                    <point x="0.0987654" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\bhs_4_d.png">
+                                <collision-poly>
+                                    <point x="0.117284" y="0.228916" />
+                                    <point x="0.5" y="0.301205" />
+                                    <point x="0.783951" y="0.421687" />
+                                    <point x="0.783951" y="0.493976" />
+                                    <point x="0.709877" y="0.433735" />
+                                    <point x="0.5" y="0.361446" />
+                                    <point x="0.259259" y="0.493976" />
+                                    <point x="0.111111" y="0.493976" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="mat_3_c" sid="510365180844704">
+                <object-type name="c_quiz2" sid="510365180844704">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606550525958652" speed="5">
-                            <frame duration="1" hotspotX="0.48913" hotspotY="0.709677" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_c.png">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606550525958652" speed="0">
+                            <frame duration="1" hotspotX="0.487654" hotspotY="0.710843" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\mat_2_c.png">
                                 <collision-poly>
                                     <point x="0.0217391" y="0.225807" />
                                     <point x="0.934783" y="0.258065" />
@@ -938,14 +1395,95 @@
                                     <point x="0.0869565" y="0.709677" />
                                 </collision-poly>
                             </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\ipa_10_c.png">
+                                <collision-poly>
+                                    <point x="0.104938" y="0.204819" />
+                                    <point x="0.5" y="0.313253" />
+                                    <point x="0.901235" y="0.192771" />
+                                    <point x="0.987654" y="0.493976" />
+                                    <point x="0.802469" y="0.614458" />
+                                    <point x="0.5" y="0.638554" />
+                                    <point x="0.246914" y="0.518072" />
+                                    <point x="0.0246914" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\bhs_8_c_kunci.png">
+                                <collision-poly>
+                                    <point x="0.111111" y="0.216867" />
+                                    <point x="0.54321" y="0.493976" />
+                                    <point x="0.240741" y="0.53012" />
+                                    <point x="0.0679012" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\mat_6_c.png">
+                                <collision-poly>
+                                    <point x="0.154321" y="0.301205" />
+                                    <point x="0.5" y="0.277108" />
+                                    <point x="0.858025" y="0.277108" />
+                                    <point x="0.364198" y="0.493976" />
+                                    <point x="0.734568" y="0.481928" />
+                                    <point x="0.265432" y="0.481928" />
+                                    <point x="0.339506" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\ipa_3_c.png">
+                                <collision-poly>
+                                    <point x="0.12963" y="0.253012" />
+                                    <point x="0.864198" y="0.26506" />
+                                    <point x="0.358025" y="0.301205" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\bhs_3_c.png">
+                                <collision-poly>
+                                    <point x="0.117284" y="0.228916" />
+                                    <point x="0.864198" y="0.26506" />
+                                    <point x="0.907407" y="0.493976" />
+                                    <point x="0.753086" y="0.518072" />
+                                    <point x="0.271605" y="0.46988" />
+                                    <point x="0.0740741" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\mat_10_c_kunci.png">
+                                <collision-poly>
+                                    <point x="0.0987654" y="0.192771" />
+                                    <point x="0.771605" y="0.445783" />
+                                    <point x="0.746914" y="0.493976" />
+                                    <point x="0.746914" y="0.506024" />
+                                    <point x="0.265432" y="0.481928" />
+                                    <point x="0.111111" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\ipa_2_c_kunci.png">
+                                <collision-poly>
+                                    <point x="0.141975" y="0.277108" />
+                                    <point x="0.851852" y="0.289157" />
+                                    <point x="0.888889" y="0.493976" />
+                                    <point x="0.746914" y="0.506024" />
+                                    <point x="0.5" y="0.542169" />
+                                    <point x="0.234568" y="0.542169" />
+                                    <point x="0.0617284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\bhs_4_c.png">
+                                <collision-poly>
+                                    <point x="0.0987654" y="0.192771" />
+                                    <point x="0.5" y="0.46988" />
+                                    <point x="0.839506" y="0.313253" />
+                                    <point x="0.987654" y="0.493976" />
+                                    <point x="0.654321" y="0.325301" />
+                                    <point x="0.5" y="0.518072" />
+                                    <point x="0.246914" y="0.518072" />
+                                    <point x="0.0185185" y="0.493976" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="mat_3_d_kunci" sid="623147750492309">
+                <object-type name="b_quiz2" sid="623147750492309">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593584328681894" speed="5">
-                            <frame duration="1" hotspotX="0.48913" hotspotY="0.709677" original-source="C:\Users\USER\Documents\GitHub\Bemco\Aset Lain\soal_matematika\mat_3_d_kunci.png">
+                        <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593584328681894" speed="0">
+                            <frame duration="1" hotspotX="0.487654" hotspotY="0.710843" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\mat_2_b_kunci.png">
                                 <collision-poly>
                                     <point x="0.0217391" y="0.225807" />
                                     <point x="0.934783" y="0.258065" />
@@ -953,6 +1491,81 @@
                                     <point x="0.815217" y="0.806452" />
                                     <point x="0.0978261" y="0.967742" />
                                     <point x="0.0869565" y="0.709677" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\ipa_10_b.png">
+                                <collision-poly>
+                                    <point x="0.0679012" y="0.13253" />
+                                    <point x="0.901235" y="0.192771" />
+                                    <point x="0.320988" y="0.493976" />
+                                    <point x="0.654321" y="0.325301" />
+                                    <point x="0.191358" y="0.626506" />
+                                    <point x="0.0185185" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 1\quiz 2\bhs_8_b.png">
+                                <collision-poly>
+                                    <point x="0.0987654" y="0.192771" />
+                                    <point x="0.5" y="0.253012" />
+                                    <point x="0.87037" y="0.253012" />
+                                    <point x="0.876543" y="0.493976" />
+                                    <point x="0.253086" y="0.506024" />
+                                    <point x="0.0493827" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\mat_6_b_kunci.png">
+                                <collision-poly>
+                                    <point x="0.185185" y="0.361446" />
+                                    <point x="0.5" y="0.313253" />
+                                    <point x="0.839506" y="0.313253" />
+                                    <point x="0.660494" y="0.337349" />
+                                    <point x="0.5" y="0.385542" />
+                                    <point x="0.314815" y="0.385542" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\ipa_3_b_kunci.png">
+                                <collision-poly>
+                                    <point x="0.123457" y="0.240964" />
+                                    <point x="0.864198" y="0.26506" />
+                                    <point x="0.345679" y="0.325301" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 2\quiz 2\bhs_3_b.png">
+                                <collision-poly>
+                                    <point x="0.117284" y="0.228916" />
+                                    <point x="0.62963" y="0.277108" />
+                                    <point x="0.259259" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\mat_10_b.png">
+                                <collision-poly>
+                                    <point x="0.117284" y="0.228916" />
+                                    <point x="0.765432" y="0.457831" />
+                                    <point x="0.740741" y="0.493976" />
+                                    <point x="0.740741" y="0.493976" />
+                                    <point x="0.265432" y="0.481928" />
+                                    <point x="0.111111" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\ipa_2_b.png">
+                                <collision-poly>
+                                    <point x="0.111111" y="0.216867" />
+                                    <point x="0.759259" y="0.46988" />
+                                    <point x="0.771605" y="0.493976" />
+                                    <point x="0.753086" y="0.518072" />
+                                    <point x="0.253086" y="0.506024" />
+                                    <point x="0.117284" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\Users\Anash\Documents\GitHub\Bemco\Aset Lain\SOAL LEVEL 3\quiz 2\bhs_4_b.png">
+                                <collision-poly>
+                                    <point x="0.104938" y="0.204819" />
+                                    <point x="0.5" y="0.277108" />
+                                    <point x="0.858025" y="0.277108" />
+                                    <point x="0.888889" y="0.493976" />
+                                    <point x="0.5" y="0.53012" />
+                                    <point x="0.240741" y="0.53012" />
+                                    <point x="0.0740741" y="0.493976" />
                                 </collision-poly>
                             </frame>
                         </animation>
